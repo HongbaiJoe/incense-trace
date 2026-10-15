@@ -1,0 +1,148 @@
+{
+  "figure_standard": {
+    "color_space": "sRGB",
+    "font_embedding": "TrueType Type 42 in PDF",
+    "formats": [
+      "PDF vector with Type 42 fonts",
+      "SVG editable text",
+      "PNG 450 dpi"
+    ],
+    "palette": "Okabe-Ito subset with redundant markers and line styles"
+  },
+  "generated_by": "xiangji.manuscript_assets",
+  "outputs": [
+    {
+      "bytes": 494,
+      "path": "manuscript/tables/table1_corpus_by_source.csv",
+      "sha256": "ec53621de758e86880352a8b1ffe4f7402522a475a4a998aa53565ae7aeaa014"
+    },
+    {
+      "bytes": 378,
+      "path": "manuscript/tables/table2_primary_models.csv",
+      "sha256": "8c684237a4925555592c0b74401be5a63364863595675f942c162b67dbf95e2a"
+    },
+    {
+      "bytes": 1737,
+      "path": "manuscript/tables/table3_source_metrics.csv",
+      "sha256": "ff801691f785f6161f98b1e67c743e0fefa6fc743bcd60f2b1bcc8b814fd9ab8"
+    },
+    {
+      "bytes": 734,
+      "path": "manuscript/tables/table4_context_sensitivity.csv",
+      "sha256": "8a6493525f7ea195288144fc9940a28ac183c31ee6446abf00ecf01424a64b3d"
+    },
+    {
+      "bytes": 187,
+      "path": "manuscript/tables/table5_rarity_recall.csv",
+      "sha256": "cd5b81de1abb11b454bc0aa2f4a29c9c71983e76d28604cde4ef64395c5b485f"
+    },
+    {
+      "bytes": 558,
+      "path": "manuscript/tables/table6_reliability_bins.csv",
+      "sha256": "1c2bdf66815c6ed73e08e45c929b0b0dfb828304f9922f7db551f75a3faa69d3"
+    },
+    {
+      "bytes": 890,
+      "path": "manuscript/tables/table7_hong_confirmation.csv",
+      "sha256": "94f51171ea34cd0e26dd14aea7507957e2f2ab85c0f54974c403008a75862006"
+    },
+    {
+      "bytes": 52690,
+      "path": "figures/fig1_workflow.pdf",
+      "sha256": "124809adde57c4f46c76b88e84619076b09fa4a04c419d4afac452c76a8f051a"
+    },
+    {
+      "bytes": 135161,
+      "path": "figures/fig1_workflow.png",
+      "sha256": "3d74e5101ba26d9ba3c3812193cbd953b7964db5005e9f4004af47f165f17f7b"
+    },
+    {
+      "bytes": 12204,
+      "path": "figures/fig1_workflow.svg",
+      "sha256": "7572649c6777edc31d29c76ba1d0c35bdd303820010bd9e731c91fe4082907fb"
+    },
+    {
+      "bytes": 35358,
+      "path": "figures/fig2_corpus.pdf",
+      "sha256": "f8b1989aa119443fa81e65965b2e4f5ffc3c9f9c07a90b1388910edb3b778f00"
+    },
+    {
+      "bytes": 146830,
+      "path": "figures/fig2_corpus.png",
+      "sha256": "1418669a4df13d9d6c08f17b5550607692ec7b9d69c42230dc934678df00d66c"
+    },
+    {
+      "bytes": 29722,
+      "path": "figures/fig2_corpus.svg",
+      "sha256": "e7b9054547ebd12cfa84b06263de7ca02e8a7418a8b8a28551422fa3b5ef6dcf"
+    },
+    {
+      "bytes": 35318,
+      "path": "figures/fig3_primary_performance.pdf",
+      "sha256": "586a9fb82a5ab5b60321b2bb6bff3b7a9dcf9d5809d6cbdeb9c8f65e178eb5c4"
+    },
+    {
+      "bytes": 152543,
+      "path": "figures/fig3_primary_performance.png",
+      "sha256": "442856a01b21999005a5261d3c7d821ad1fd21b3f022953292c3361b8fff1b54"
+    },
+    {
+      "bytes": 22585,
+      "path": "figures/fig3_primary_performance.svg",
+      "sha256": "eca9e6ff17715c12272e98b168fbd7088f483abe9b53c1444be5c2681e3043f8"
+    },
+    {
+      "bytes": 34465,
+      "path": "figures/fig4_robustness.pdf",
+      "sha256": "d9604be501ad4cf99e8e50a7eb7195a83232e73a12bf2d214aa84f9a3e48b8ec"
+    },
+    {
+      "bytes": 182062,
+      "path": "figures/fig4_robustness.png",
+      "sha256": "e3bbc094a32e747e891695950e1321d03209b72b44f754d2077435bef459da65"
+    },
+    {
+      "bytes": 19292,
+      "path": "figures/fig4_robustness.svg",
+      "sha256": "8fe47a9bb612a56b26bd2349c3d6232bac35ecf9fddde00c94eb37dceb0b3216"
+    },
+    {
+      "bytes": 34612,
+      "path": "figures/fig5_uncertainty_confirmation.pdf",
+      "sha256": "1a1fd66007a31bcfbdcd554331ef8b790116e981caa6d31fa75c3d934534d112"
+    },
+    {
+      "bytes": 169563,
+      "path": "figures/fig5_uncertainty_confirmation.png",
+      "sha256": "75beae37d2e0e666a9e5d988c560dc44f781c60f2268b5a1104051f3f0241544"
+    },
+    {
+      "bytes": 24143,
+      "path": "figures/fig5_uncertainty_confirmation.svg",
+      "sha256": "389e7914279049abda4c2fd7dffa56578ede084976b3933dfc1f77d0d8fa8784"
+    }
+  ],
+  "schema_version": "0.1",
+  "sources": {
+    "hong": {
+      "path": "experiments/cycle4_hong_confirmation.json",
+      "sha256": "5c2edbbf081549ba19f02fea6321298b638ea9f07c9c830bfc638f976ee83adb"
+    },
+    "primary": {
+      "path": "experiments/cycle4_primary_evaluation.json",
+      "sha256": "5d89086151a8d84c43738a9a732fc785355a24db12ec6bd01e622cf21679d211"
+    },
+    "reference": {
+      "path": "data/curated/formula_reference_v0.1.json",
+      "sha256": "476e9078c4fe6b22cd1aa5e367461d68b6c6c99a0ef45e1a5de90e98900d15be"
+    },
+    "robustness": {
+      "path": "experiments/cycle4_robustness.json",
+      "sha256": "24d8a070881ba2674c7b1fa7305a65e42cbd917ed02098c197a99019d99fc61c"
+    },
+    "splits": {
+      "path": "data/curated/source_blocked_splits_v0.1.json",
+      "sha256": "30df7415073ec43acb788c2e6a1038121dbe1940128b90296646a2a91f8cd503"
+    }
+  }
+}

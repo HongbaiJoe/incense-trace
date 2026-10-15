@@ -1,0 +1,60 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{sansmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\usepgfplotslibrary{groupplots}
+\definecolor{cteal}{HTML}{2F5D62}\definecolor{cred}{HTML}{A44A3F}\definecolor{cochre}{HTML}{B08A45}
+\definecolor{cgray}{HTML}{666360}\definecolor{clgray}{HTML}{9A9791}\definecolor{csage}{HTML}{7D9D8C}
+\definecolor{cpurple}{HTML}{7A5B78}\definecolor{cdark}{HTML}{3B3A38}\definecolor{cmid}{HTML}{8E8B85}\definecolor{cpaper}{HTML}{F6F4F0}
+\pgfplotsset{paper/.style={font=\sffamily\sansmath\scriptsize, axis line style={black!65,line width=0.4pt},
+  tick style={black!65,line width=0.4pt}, tick align=outside, major tick length=2pt,
+  axis x line*=bottom, axis y line*=left, grid style={line width=0.3pt,black!10},
+  legend style={draw=none,fill=none,font=\sffamily\sansmath\scriptsize}, legend cell align=left,
+  title style={font=\sffamily\sansmath\scriptsize,at={(0,1)},anchor=south west,yshift=3pt,xshift=-2pt},
+  label style={font=\sffamily\sansmath\scriptsize}, ticklabel style={font=\sffamily\sansmath\scriptsize},
+  yticklabel style={font=\sffamily\sansmath\scriptsize}, xticklabel style={font=\sffamily\sansmath\scriptsize}}}
+
+
+\newcommand{\logit}{\operatorname{logit}}\newcommand{\expit}{\operatorname{expit}}
+\begin{document}
+\begin{tikzpicture}[box/.style={draw=cgray,rounded corners=2pt,fill=cpaper,font=\sffamily\scriptsize,align=center,inner sep=2.5pt,line width=0.5pt},
+  arr/.style={-{Stealth[length=4pt]},cgray,line width=0.5pt}]
+% panel a
+\node[anchor=south west,font=\sffamily\scriptsize] at (0,4.55) {\textbf{a}\enspace\textbf{Partial-formula completion}};
+\node[font=\sffamily\scriptsize,text=cteal] at (1.35,4.2) {observed $O_i$};
+\node[font=\sffamily\scriptsize,text=cgray] at (3.95,4.2) {hidden $H_i$};
+\foreach \x/\t in {0.55/a,1.35/b,2.15/c}{\node[box,fill=cteal!12,draw=cteal,minimum width=0.6cm,minimum height=0.5cm] at (\x,3.65) {\t};}
+\foreach \x in {3.55,4.35}{\node[box,fill=white,draw=clgray,minimum width=0.6cm,minimum height=0.5cm,text=cgray] at (\x,3.65) {?};}
+\node[box,text width=4.6cm] (s) at (2.45,2.45) {1.\ score candidates $p_{ib}$\\2.\ predict size $\widehat K_i$; keep the top $\widehat K_i-|O_i|$};
+\draw[arr] (2.45,3.33) -- (s.north);
+\fill[csage] (0.1,0.95) rectangle (2.75,1.45); \fill[cred] (2.8,0.95) rectangle (4.8,1.45);
+\node[font=\sffamily\tiny,text=white] at (1.42,1.2) {observed mass (fixed)};
+\node[font=\sffamily\tiny,text=white] at (3.8,1.2) {residual $m_i$};
+\draw[arr] (s.south) -- (2.45,1.5);
+\node[font=\sffamily\tiny,text=cgray,align=center] at (2.45,0.5) {3.\ split $m_i$ over the predicted hidden materials\\(the composition sums to one)};
+% panel b
+\begin{scope}[xshift=5.9cm]
+\node[anchor=south west,font=\sffamily\scriptsize] at (0,4.55) {\textbf{b}\enspace\textbf{Nested leave-one-work-out}};
+\node[box,fill=cochre!15,draw=cochre,text width=1.8cm] (t) at (1.0,3.7) {held-out work $d^\star$\\(never seen)};
+\node[box,fill=cteal!12,draw=cteal,text width=2.5cm] (tr) at (3.65,3.7) {5 training works +\\admissible weak pool};
+\node[box,text width=2.7cm] (in) at (3.65,2.55) {inner leave-one-work-out:\\choose hyper-parameters,\\$\eta$ and calibrator};
+\node[box,text width=2.5cm] (rf) at (3.65,1.45) {refit on all 5 works};
+\node[box,text width=3.6cm,font=\sffamily\scriptsize\bfseries] (sc) at (2.3,0.35) {score $d^\star$; repeat for all 6 works};
+\draw[arr] (tr) -- (in); \draw[arr] (in) -- (rf); \draw[arr] (rf.south) -- (sc.north -| rf.south);
+\draw[arr] (t.south) .. controls (0.9,2.0) .. (sc.north -| 1.2,0);
+\end{scope}
+% panel c
+\begin{scope}[xshift=11.3cm]
+\node[anchor=south west,font=\sffamily\scriptsize] at (0,4.55) {\textbf{c}\enspace\textbf{Source-stable conditional lift}};
+\node[box,minimum width=5.6cm] (c1) at (2.9,4.05) {per-work conditional\enspace $\bar\theta_{abd}$};
+\node[box,minimum width=5.6cm] (c2) at (2.9,3.15) {lift\enspace $\ell_{abd}=\operatorname{logit}\bar\theta_{abd}-\operatorname{logit}\pi_{bd}$};
+\node[box,minimum width=5.6cm,fill=cteal!12,draw=cteal] (c3) at (2.9,2.25) {pool over works\enspace $\mu_{ab},\ s_{ab}$};
+\node[box,minimum width=5.6cm,fill=cred!10,draw=cred] (c4) at (2.9,1.35) {robust edge\enspace $\operatorname{expit}(\operatorname{logit}\pi_b+\mu_{ab}-\gamma s_{ab})$};
+\node[box,minimum width=5.6cm] (c5) at (2.9,0.45) {blend with the direct graph (weight $\lambda$)};
+\draw[arr] (c1)--(c2); \draw[arr] (c2)--(c3); \draw[arr] (c3)--(c4); \draw[arr] (c4)--(c5);
+\end{scope}
+\end{tikzpicture}
+\end{document}

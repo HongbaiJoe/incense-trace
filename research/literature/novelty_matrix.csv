@@ -1,0 +1,13 @@
+source_id,title,historical_text,chemistry,name_uncertainty,posterior_output,source_shift
+aleixandre2024_scent_creation,Automatic scent creation by cheminformatics method,0,1,0,0,0
+sisson2025_blends,Deep Learning for Odor Prediction on Aroma-Chemical Blends,0,1,0,0,0
+lee2023_pom,A Principal Odor Map Unifies Diverse Tasks in Olfactory Perception,0,1,0,0,0
+hamel2024_pyrfume,Pyrfume: A Window to the World's Olfactory Data,0,1,0,0,0
+gutierrez2018_semantic,Predicting natural language descriptions of mono-molecular odorants,0,1,0,0,0
+keller2017_dream,Predicting human olfactory perception from chemical features of odor molecules,0,1,0,0,0
+debnath2021_mass_spectra,Odor Character Prediction Using Mass Spectra,0,1,0,0,0
+thomasdanguin2014_mixtures,The perception of odor objects in everyday life: a review on the processing of odor mixtures,0,0,0,0,0
+sorbi2026_historical_ner,Weakly Supervised Named Entity Recognition for Low-Resource Historical Texts,1,0,0,0,1
+goel2024_recipe_ner,Deep Learning Based Named Entity Recognition Models for Recipes,0,0,0,0,0
+tyagi2023_conformal,Multi-label Classification under Uncertainty: A Tree-based Conformal Prediction Approach,0,0,0,1,0
+xiangji_cgir_proposed,Xiangji-CGIR proposed full method,1,1,1,1,1

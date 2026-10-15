@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        73174
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 73174,
+          "SMILES": "C=C1CC[C@@H]2[C@@H]([C@@H]3[C@H]1CCC3=C)OC(=O)C2=C",
+          "ConnectivitySMILES": "C=C1CCC2C(C3C1CCC3=C)OC(=O)C2=C",
+          "InChIKey": "NETSQGRTUNRXEO-XUXIUFHCSA-N"
+        }
+      ]
+    }
+  }
+}

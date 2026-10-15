@@ -1,0 +1,17 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 323,
+        "MolecularFormula": "C9H6O2",
+        "MolecularWeight": "146.14",
+        "XLogP": 1.4,
+        "ExactMass": "146.036779430",
+        "TPSA": 26.3,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 2,
+        "RotatableBondCount": 0
+      }
+    ]
+  }
+}

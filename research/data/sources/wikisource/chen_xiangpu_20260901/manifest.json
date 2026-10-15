@@ -1,0 +1,85 @@
+{
+  "source": "Chinese Wikisource official multistream dump",
+  "collection": "chen_xiangpu",
+  "dump_date": "20260901",
+  "dump_url": "https://dumps.wikimedia.org/zhwikisource/20260901/zhwikisource-20260901-pages-articles-multistream.xml.bz2",
+  "multistream_index_url": "https://dumps.wikimedia.org/zhwikisource/20260901/zhwikisource-20260901-pages-articles-multistream-index.txt.bz2",
+  "multistream_index_sha256": "28bc1f75468f53d25b4eae2de07420f9a2f2005e2e7f4d3f0b645b10aec5d0c5",
+  "multistream_index_size_bytes": 62835312,
+  "byte_range_inclusive": [
+    737161266,
+    737579793
+  ],
+  "compressed_stream_sha256": "6c79dcb299f22961bcb59b03df31be009159bca4d590e7727b03230d5b7558b2",
+  "catalog_note": "Four-volume Siku Quanshu witness attributed to Chen Jing.",
+  "rights": "Underlying historical work is public domain; Wikisource transcription is CC BY-SA 4.0.",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "pages": [
+    {
+      "title": "陳氏香譜 (四庫全書本)",
+      "page_id": 258298,
+      "revision_id": 1775852,
+      "parent_revision_id": 626577,
+      "timestamp": "2020-03-15T06:54:56Z",
+      "wikimedia_sha1": "8w2ikg0p9pfje6jppyntyby4q4jha0x",
+      "path": "data/sources/wikisource/chen_xiangpu_20260901/陳氏香譜_(四庫全書本).wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29?oldid=1775852"
+    },
+    {
+      "title": "陳氏香譜 (四庫全書本)/全覽",
+      "page_id": 258297,
+      "revision_id": 626575,
+      "parent_revision_id": 626574,
+      "timestamp": "2016-10-14T03:22:24Z",
+      "wikimedia_sha1": "ok522ix76lgchw9y1xmpcjlmtk4q2q1",
+      "path": "data/sources/wikisource/chen_xiangpu_20260901/全覽.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%85%A8%E8%A6%BD",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%85%A8%E8%A6%BD?oldid=626575"
+    },
+    {
+      "title": "陳氏香譜 (四庫全書本)/卷1",
+      "page_id": 258281,
+      "revision_id": 794252,
+      "parent_revision_id": 626549,
+      "timestamp": "2016-10-28T06:44:23Z",
+      "wikimedia_sha1": "3md3u9rv468m2yp4b4ez6c1ha5n70m4",
+      "path": "data/sources/wikisource/chen_xiangpu_20260901/卷1.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B71",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B71?oldid=794252"
+    },
+    {
+      "title": "陳氏香譜 (四庫全書本)/卷2",
+      "page_id": 258285,
+      "revision_id": 794254,
+      "parent_revision_id": 626557,
+      "timestamp": "2016-10-28T06:44:42Z",
+      "wikimedia_sha1": "06v3h3voinrwsujnjeek13rzzomiauq",
+      "path": "data/sources/wikisource/chen_xiangpu_20260901/卷2.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B72",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B72?oldid=794254"
+    },
+    {
+      "title": "陳氏香譜 (四庫全書本)/卷3",
+      "page_id": 258289,
+      "revision_id": 794256,
+      "parent_revision_id": 626565,
+      "timestamp": "2016-10-28T06:45:02Z",
+      "wikimedia_sha1": "k0xwlmgphxfnapvpeo0vvguxo9vavu8",
+      "path": "data/sources/wikisource/chen_xiangpu_20260901/卷3.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B73",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B73?oldid=794256"
+    },
+    {
+      "title": "陳氏香譜 (四庫全書本)/卷4",
+      "page_id": 258293,
+      "revision_id": 2073267,
+      "parent_revision_id": 794258,
+      "timestamp": "2021-09-05T20:02:44Z",
+      "wikimedia_sha1": "2vk09n8k4iudzajc9y0td2jxhg7glvc",
+      "path": "data/sources/wikisource/chen_xiangpu_20260901/卷4.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B74",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%99%B3%E6%B0%8F%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B74?oldid=2073267"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+panel,category,series,value
+b,Candidates,Xiangcheng,332
+b,Candidates,Chen Xiangpu,244
+b,Candidates,Hong Xiangpu,16
+b,Ratio-ready,Xiangcheng,168
+b,Ratio-ready,Chen Xiangpu,118
+b,Ratio-ready,Hong Xiangpu,10
+b,Gold,Xiangcheng,47
+b,Gold,Chen Xiangpu,38
+b,Gold,Hong Xiangpu,6
+b,Weak eligible,Xiangcheng,84
+b,Weak eligible,Chen Xiangpu,58
+b,Weak eligible,Hong Xiangpu,4
+c,Chen,gold_only,0.419854560644
+c,Chen,gold_plus_weak,0.425832004253
+c,Hong,gold_only,0.585000000000
+c,Hong,gold_plus_weak,0.558333333333
+c,Huizhai,gold_only,0.287724867725
+c,Huizhai,gold_plus_weak,0.287724867725
+c,Liexiang,gold_only,0.449025974026
+c,Liexiang,gold_plus_weak,0.458192640693
+c,Xiaolu,gold_only,0.400000000000
+c,Xiaolu,gold_plus_weak,0.400000000000
+c,Xiangcheng,gold_only,0.415914813156
+c,Xiangcheng,gold_plus_weak,0.422143603523

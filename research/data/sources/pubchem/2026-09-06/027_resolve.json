@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        6054
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 6054,
+          "SMILES": "C1=CC=C(C=C1)CCO",
+          "ConnectivitySMILES": "C1=CC=C(C=C1)CCO",
+          "InChIKey": "WRMNZCZEMHIOCP-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

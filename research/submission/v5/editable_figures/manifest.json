@@ -1,0 +1,37 @@
+[
+  {
+    "figure": 1,
+    "source": "figure-1.tex",
+    "coordinate_rows": 24
+  },
+  {
+    "figure": 2,
+    "source": "figure-2.tex",
+    "coordinate_rows": 25
+  },
+  {
+    "figure": 3,
+    "source": "figure-3.tex",
+    "coordinate_rows": 0
+  },
+  {
+    "figure": 4,
+    "source": "figure-4.tex",
+    "coordinate_rows": 60
+  },
+  {
+    "figure": 5,
+    "source": "figure-5.tex",
+    "coordinate_rows": 24
+  },
+  {
+    "figure": 6,
+    "source": "figure-6.tex",
+    "coordinate_rows": 48
+  },
+  {
+    "figure": 7,
+    "source": "figure-7.tex",
+    "coordinate_rows": 33
+  }
+]

@@ -1,0 +1,3265 @@
+{
+  "conditions": {
+    "abundance_0.25": {
+      "decoder_fraction": 0.25,
+      "mechanism": "abundance",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.46336485449350656,
+            "hidden_precision": 0.5053196208913088,
+            "hidden_recall": 0.4504484110979876,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.4705763394041247
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.4428927943401628,
+              "hidden_precision": 0.46206140350877195,
+              "hidden_recall": 0.44881161236424383,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.442839162764418
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.6657333407333407,
+              "hidden_precision": 0.7116666666666666,
+              "hidden_recall": 0.638888888888889,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5588937580364254
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.32756132756132755,
+              "hidden_precision": 0.35555555555555557,
+              "hidden_recall": 0.3106349206349206,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.34211857346924596
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.4528991270167741,
+              "hidden_precision": 0.6119444444444444,
+              "hidden_recall": 0.3703703703703704,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.4816400734072466
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.42626262626262623,
+              "hidden_precision": 0.42000000000000004,
+              "hidden_recall": 0.44166666666666665,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.5310874332661455
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.46483991104680766,
+              "hidden_precision": 0.47068965517241385,
+              "hidden_recall": 0.4923180076628353,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.4668790354812666
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.4514408885445058,
+            "hidden_precision": 0.49306255741524946,
+            "hidden_recall": 0.4383809019675626,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.4664707945652986
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.454038184038184,
+              "hidden_precision": 0.4728070175438597,
+              "hidden_recall": 0.46103801169590636,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.44892192553240157
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.6742706367706367,
+              "hidden_precision": 0.7241666666666667,
+              "hidden_recall": 0.6444444444444444,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5530476753854475
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.3437229437229437,
+              "hidden_precision": 0.3712962962962963,
+              "hidden_recall": 0.3268253968253968,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.3499253860288573
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.43721285250697023,
+              "hidden_precision": 0.5952777777777777,
+              "hidden_recall": 0.35555555555555557,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.47440624475942855
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.36363636363636365,
+              "hidden_precision": 0.36,
+              "hidden_recall": 0.375,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.519555785447297
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.4357643505919368,
+              "hidden_precision": 0.43482758620689654,
+              "hidden_recall": 0.46742200328407224,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.45296775023835933
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.4200713485149537,
+            "hidden_precision": 0.4592967892272188,
+            "hidden_recall": 0.41092742632443174,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.4427858312874993
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.43613945995524955,
+              "hidden_precision": 0.4524122807017544,
+              "hidden_recall": 0.4450062656641604,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.4428583079217231
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.5291930291930292,
+              "hidden_precision": 0.5511111111111111,
+              "hidden_recall": 0.5194444444444445,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.46140108911616445
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.23924963924963924,
+              "hidden_precision": 0.26481481481481484,
+              "hidden_recall": 0.2238095238095238,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.29675888635972963
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.4626673979615157,
+              "hidden_precision": 0.6341666666666667,
+              "hidden_recall": 0.3746031746031746,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.48228734194291273
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.42222222222222217,
+              "hidden_precision": 0.42,
+              "hidden_recall": 0.4333333333333333,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.5320874880548003
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.43095634250806664,
+              "hidden_precision": 0.4332758620689655,
+              "hidden_recall": 0.469367816091954,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.4413218743296658
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.45758829892237074,
+            "hidden_precision": 0.49845303712666084,
+            "hidden_recall": 0.44680563157574654,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.46770092002959457
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.4475014313172208,
+              "hidden_precision": 0.46600877192982465,
+              "hidden_recall": 0.4543253968253968,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.44638653103019754
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.6638750138750139,
+              "hidden_precision": 0.71,
+              "hidden_recall": 0.6375000000000001,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5484286276460796
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.3336219336219336,
+              "hidden_precision": 0.36203703703703705,
+              "hidden_recall": 0.31666666666666665,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.3428129777591928
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.43838932309520545,
+              "hidden_precision": 0.5924999999999999,
+              "hidden_recall": 0.3582010582010582,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.47686051968500265
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.40404040404040403,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.41666666666666663,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.529434058251338
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.45810168758444625,
+              "hidden_precision": 0.46017241379310353,
+              "hidden_recall": 0.49747400109469075,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.4622828058057568
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.25
+    },
+    "abundance_0.50": {
+      "decoder_fraction": 0.5,
+      "mechanism": "abundance",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.42952375532759685,
+            "hidden_precision": 0.4827153211893079,
+            "hidden_recall": 0.41548142168378105,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.6292669858014016
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.4440479987848409,
+              "hidden_precision": 0.4945614035087718,
+              "hidden_recall": 0.4127944862155389,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.6198730302977156
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.6427777777777778,
+              "hidden_precision": 0.6911111111111111,
+              "hidden_recall": 0.6105555555555556,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.7570672827830327
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.2496560846560847,
+              "hidden_precision": 0.25037037037037035,
+              "hidden_recall": 0.27070707070707073,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.47328690219954656
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.39834415584415583,
+              "hidden_precision": 0.6244444444444445,
+              "hidden_recall": 0.3055555555555555,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5417528235932421
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.375,
+              "hidden_precision": 0.375,
+              "hidden_recall": 0.375,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7333050710346931
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.4673165149027218,
+              "hidden_precision": 0.4608045977011494,
+              "hidden_recall": 0.5182758620689655,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.6503168049001796
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.4288162914251843,
+            "hidden_precision": 0.4777197463646344,
+            "hidden_recall": 0.41710545593636944,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.6330561728007288
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.42710982000455683,
+              "hidden_precision": 0.4751754385964912,
+              "hidden_recall": 0.3972681704260652,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.6149666663767424
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.55,
+              "hidden_precision": 0.5833333333333334,
+              "hidden_recall": 0.5277777777777778,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.7494291569308275
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.2437301587301587,
+              "hidden_precision": 0.24296296296296294,
+              "hidden_recall": 0.267003367003367,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.47645912951941516
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.3919047619047619,
+              "hidden_precision": 0.611111111111111,
+              "hidden_recall": 0.302020202020202,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5548619138640055
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.5249999999999999,
+              "hidden_precision": 0.5249999999999999,
+              "hidden_recall": 0.5249999999999999,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7523774096249436
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.4351530079116286,
+              "hidden_precision": 0.42873563218390803,
+              "hidden_recall": 0.4835632183908047,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.6502427604884388
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.3884667265807617,
+            "hidden_precision": 0.4384718021106406,
+            "hidden_recall": 0.37579043466672024,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.6155476547362647
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.40477823346244396,
+              "hidden_precision": 0.44929824561403503,
+              "hidden_recall": 0.3764661654135339,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.6065954397512315
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.49277777777777776,
+              "hidden_precision": 0.5344444444444444,
+              "hidden_recall": 0.465,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.704872238732725
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.23534391534391533,
+              "hidden_precision": 0.24333333333333332,
+              "hidden_recall": 0.25084175084175087,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.46778661079042166
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.3714502164502164,
+              "hidden_precision": 0.5844444444444444,
+              "hidden_recall": 0.28484848484848485,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5462304600923675
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7294626020589587
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.4264502164502164,
+              "hidden_precision": 0.4193103448275862,
+              "hidden_recall": 0.47758620689655173,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.6383385769918837
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.42549557235128926,
+            "hidden_precision": 0.47681269745244337,
+            "hidden_recall": 0.4125685411136107,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.6276339867265082
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.437502468291942,
+              "hidden_precision": 0.48692982456140343,
+              "hidden_recall": 0.4066541353383459,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.6175344057387293
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.6477777777777779,
+              "hidden_precision": 0.6994444444444444,
+              "hidden_recall": 0.6133333333333333,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.7564176503424767
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.24833333333333338,
+              "hidden_precision": 0.24333333333333332,
+              "hidden_recall": 0.2740740740740741,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.46758745228155796
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.3858441558441558,
+              "hidden_precision": 0.6044444444444445,
+              "hidden_recall": 0.2964646464646465,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5380423556198816
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.375,
+              "hidden_precision": 0.375,
+              "hidden_recall": 0.375,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7333050710346931
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.45851569886052645,
+              "hidden_precision": 0.4517241379310345,
+              "hidden_recall": 0.5098850574712643,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.6529169853417102
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.5
+    },
+    "abundance_0.75": {
+      "decoder_fraction": 0.75,
+      "mechanism": "abundance",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.3478569057032457,
+            "hidden_precision": 0.443651833927091,
+            "hidden_recall": 0.3188413082514716,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.7491780807884979
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.3610526315789474,
+              "hidden_precision": 0.4149122807017544,
+              "hidden_recall": 0.34114035087719297,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.7992820556249862
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.48111111111111104,
+              "hidden_precision": 0.5388888888888889,
+              "hidden_recall": 0.44999999999999996,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.8681473643392322
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.15185185185185185,
+              "hidden_precision": 0.14814814814814814,
+              "hidden_recall": 0.18253968253968253,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5853839744092562
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.3885281385281385,
+              "hidden_precision": 0.7111111111111111,
+              "hidden_recall": 0.30833333333333335,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.6511265713748929
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.33333333333333337,
+              "hidden_precision": 0.45,
+              "hidden_recall": 0.26666666666666666,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7893788739729093
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.37126436781609196,
+              "hidden_precision": 0.3988505747126437,
+              "hidden_recall": 0.364367816091954,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.8017496450097114
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.3436214578592074,
+            "hidden_precision": 0.4435605296766822,
+            "hidden_recall": 0.31240831964969895,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.7506198337770401
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.3928070175438596,
+              "hidden_precision": 0.4535087719298246,
+              "hidden_recall": 0.36833333333333335,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.8003732928700605
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.4611111111111111,
+              "hidden_precision": 0.5222222222222223,
+              "hidden_recall": 0.42777777777777776,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.8718137196151795
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.12666666666666668,
+              "hidden_precision": 0.12222222222222223,
+              "hidden_recall": 0.1634920634920635,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5842914446571237
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.342063492063492,
+              "hidden_precision": 0.6444444444444445,
+              "hidden_recall": 0.26944444444444443,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.649097994007349
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.55,
+              "hidden_recall": 0.31666666666666665,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7904170623039153
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.339080459770115,
+              "hidden_precision": 0.3689655172413793,
+              "hidden_recall": 0.3287356321839081,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.8077254892086131
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.3550495826236903,
+            "hidden_precision": 0.4646182025946091,
+            "hidden_recall": 0.31855287164270824,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.7449607971356201
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.3449122807017544,
+              "hidden_precision": 0.381578947368421,
+              "hidden_recall": 0.3288596491228071,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.7945115382348437
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.39444444444444443,
+              "hidden_precision": 0.44999999999999996,
+              "hidden_recall": 0.3666666666666667,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.8652109095156953
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.11185185185185187,
+              "hidden_precision": 0.1111111111111111,
+              "hidden_recall": 0.14126984126984127,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.585748205007527
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.33196248196248196,
+              "hidden_precision": 0.6444444444444445,
+              "hidden_recall": 0.25555555555555554,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.6501645539124413
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.5333333333333333,
+              "hidden_precision": 0.75,
+              "hidden_recall": 0.41666666666666663,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7725026278706997
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.41379310344827586,
+              "hidden_precision": 0.45057471264367815,
+              "hidden_recall": 0.4022988505747126,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.8016269482725144
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.3484338269335245,
+            "hidden_precision": 0.4445575944970985,
+            "hidden_recall": 0.31860890252451046,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.750351384223575
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.35769423558897245,
+              "hidden_precision": 0.40789473684210525,
+              "hidden_recall": 0.3385964912280701,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.7982719065669031
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.4944444444444444,
+              "hidden_precision": 0.5555555555555555,
+              "hidden_recall": 0.461111111111111,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.8697453717937788
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.15185185185185185,
+              "hidden_precision": 0.14814814814814814,
+              "hidden_recall": 0.18253968253968253,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5853839744092562
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.34408369408369405,
+              "hidden_precision": 0.6666666666666666,
+              "hidden_recall": 0.2638888888888889,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.6508098243737371
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.33333333333333337,
+              "hidden_precision": 0.45,
+              "hidden_recall": 0.26666666666666666,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7893788739729093
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.40919540229885065,
+              "hidden_precision": 0.43908045977011495,
+              "hidden_recall": 0.39885057471264374,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.808518354224865
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.75
+    },
+    "prefix_0.25": {
+      "decoder_fraction": 0.25,
+      "mechanism": "prefix",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.47140484589218623,
+            "hidden_precision": 0.5140537126660841,
+            "hidden_recall": 0.46044309368568287,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.4178298149743717
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.46607267002003844,
+              "hidden_precision": 0.4758771929824561,
+              "hidden_recall": 0.48922305764411034,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.39190269162464403
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.6336186961186961,
+              "hidden_precision": 0.6819444444444445,
+              "hidden_recall": 0.6041666666666666,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.33365040873649393
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.27705627705627706,
+              "hidden_precision": 0.3009259259259259,
+              "hidden_recall": 0.2626984126984127,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.26747718769301637
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.5055029937382879,
+              "hidden_precision": 0.6833333333333332,
+              "hidden_recall": 0.4130291005291005,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.4723457961475619
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.515151515151515,
+              "hidden_precision": 0.5,
+              "hidden_recall": 0.5416666666666666,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.6677768684816698
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.4310269232683026,
+              "hidden_precision": 0.44224137931034485,
+              "hidden_recall": 0.45187465790914066,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.37382593716284396
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.43757580914354705,
+            "hidden_precision": 0.4807404046514754,
+            "hidden_recall": 0.42583708232906653,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.41682032865032265
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.47833036846194754,
+              "hidden_precision": 0.487938596491228,
+              "hidden_recall": 0.5019527986633249,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.3943938449504461
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.6116730491730491,
+              "hidden_precision": 0.6513888888888889,
+              "hidden_recall": 0.5902777777777778,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.34147064416289313
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.2987012987012987,
+              "hidden_precision": 0.3333333333333333,
+              "hidden_recall": 0.2761904761904762,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.2789230968092469
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.5010466657525482,
+              "hidden_precision": 0.6833333333333332,
+              "hidden_recall": 0.4064153439153439,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.46641200675120736
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.31313131313131315,
+              "hidden_precision": 0.30000000000000004,
+              "hidden_recall": 0.3333333333333333,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.6576169095000205
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.4225721596411252,
+              "hidden_precision": 0.4284482758620689,
+              "hidden_recall": 0.44685276409414343,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.3621054697281218
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.4470859073333184,
+            "hidden_precision": 0.4844635735251283,
+            "hidden_recall": 0.442591252236594,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.39303294039040493
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.4196654953233901,
+              "hidden_precision": 0.4243421052631579,
+              "hidden_recall": 0.44589598997493735,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.37806557191576223
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.5474039849039849,
+              "hidden_precision": 0.5736111111111111,
+              "hidden_recall": 0.5347222222222222,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.26982259596080416
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.23520923520923523,
+              "hidden_precision": 0.25925925925925924,
+              "hidden_recall": 0.22063492063492063,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.22835435725528963
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.485895150601033,
+              "hidden_precision": 0.6625,
+              "hidden_recall": 0.39451058201058203,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.465773838357288
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.606060606060606,
+              "hidden_precision": 0.6,
+              "hidden_recall": 0.625,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.6692212740040243
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.38828097190166155,
+              "hidden_precision": 0.38706896551724135,
+              "hidden_recall": 0.43478379857690197,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.34696000484926115
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.46525457098056827,
+            "hidden_precision": 0.5056864903318322,
+            "hidden_recall": 0.45842877868361837,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.4136848535180513
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.46202408702408704,
+              "hidden_precision": 0.47149122807017535,
+              "hidden_recall": 0.4854636591478697,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.3905724148311858
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.6079776704776705,
+              "hidden_precision": 0.6486111111111111,
+              "hidden_recall": 0.5833333333333334,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.32398979880445056
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.2568542568542569,
+              "hidden_precision": 0.2824074074074074,
+              "hidden_recall": 0.24047619047619045,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.2625405120441626
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.5055029937382879,
+              "hidden_precision": 0.6833333333333332,
+              "hidden_recall": 0.4130291005291005,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.4723457961475619
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.515151515151515,
+              "hidden_precision": 0.5,
+              "hidden_recall": 0.5416666666666666,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.6677768684816698
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.4440169026375923,
+              "hidden_precision": 0.4482758620689655,
+              "hidden_recall": 0.48660372194854956,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.36488373079927716
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.25
+    },
+    "prefix_0.50": {
+      "decoder_fraction": 0.5,
+      "mechanism": "prefix",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.4681214585139268,
+            "hidden_precision": 0.5219180614371177,
+            "hidden_recall": 0.45533104501646543,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.5282492038572141
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.5075662641452116,
+              "hidden_precision": 0.5635964912280701,
+              "hidden_recall": 0.4722431077694235,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.5588184634729974
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.6694444444444446,
+              "hidden_precision": 0.7027777777777778,
+              "hidden_recall": 0.6472222222222223,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5071847746580507
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.31785714285714284,
+              "hidden_precision": 0.31666666666666665,
+              "hidden_recall": 0.34511784511784505,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.42245941994795433
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.4592532467532467,
+              "hidden_precision": 0.7111111111111111,
+              "hidden_recall": 0.35418470418470416,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5309558733991079
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.41666666666666663,
+              "hidden_precision": 0.41666666666666663,
+              "hidden_recall": 0.41666666666666663,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.6470185756981777
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.43794098621684835,
+              "hidden_precision": 0.42068965517241386,
+              "hidden_recall": 0.496551724137931,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.5030581159669962
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.48123464137529465,
+            "hidden_precision": 0.5341054984203804,
+            "hidden_recall": 0.4689321956638956,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.534944957031175
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.524525328472697,
+              "hidden_precision": 0.5798245614035087,
+              "hidden_recall": 0.4897869674185463,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.5713415282454176
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.6944444444444443,
+              "hidden_precision": 0.736111111111111,
+              "hidden_recall": 0.6666666666666666,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5161846041367639
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.31785714285714284,
+              "hidden_precision": 0.31666666666666665,
+              "hidden_recall": 0.34511784511784505,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.41650129956420917
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.4384199134199134,
+              "hidden_precision": 0.6777777777777777,
+              "hidden_recall": 0.339033189033189,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5257474240097871
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.41666666666666663,
+              "hidden_precision": 0.41666666666666663,
+              "hidden_recall": 0.41666666666666663,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.6470185756981777
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.4954943523909041,
+              "hidden_precision": 0.47758620689655173,
+              "hidden_recall": 0.5563218390804597,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.5328763105326937
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.3985993934534467,
+            "hidden_precision": 0.4456126347157805,
+            "hidden_recall": 0.3871861821045124,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.5014005423127345
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.44511657932710563,
+              "hidden_precision": 0.4907894736842104,
+              "hidden_recall": 0.41672932330827067,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.5416581634117293
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.48611111111111116,
+              "hidden_precision": 0.5111111111111112,
+              "hidden_recall": 0.4694444444444445,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.4621383094819291
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.28082010582010586,
+              "hidden_precision": 0.2796296296296296,
+              "hidden_recall": 0.30808080808080807,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.3778850482359337
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.3872835497835498,
+              "hidden_precision": 0.611111111111111,
+              "hidden_recall": 0.29610389610389604,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.4924108124274123
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.41666666666666663,
+              "hidden_precision": 0.41666666666666663,
+              "hidden_recall": 0.41666666666666663,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.6470185756981777
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.37559834801214115,
+              "hidden_precision": 0.364367816091954,
+              "hidden_recall": 0.4160919540229885,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.4872923446212244
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.4662476408279493,
+            "hidden_precision": 0.5205938697318008,
+            "hidden_recall": 0.453714175575942,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.5323102770932225
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.5023031062504747,
+              "hidden_precision": 0.5583333333333332,
+              "hidden_recall": 0.46697994987468666,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.5565000381318067
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.6277777777777779,
+              "hidden_precision": 0.6694444444444444,
+              "hidden_recall": 0.6,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5291194138483144
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.3496031746031746,
+              "hidden_precision": 0.3444444444444444,
+              "hidden_recall": 0.38215488215488214,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.4249536135490899
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.4592532467532467,
+              "hidden_precision": 0.7111111111111111,
+              "hidden_recall": 0.35418470418470416,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5267914427797046
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.41666666666666663,
+              "hidden_precision": 0.41666666666666663,
+              "hidden_recall": 0.41666666666666663,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.6470185756981777
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.44188187291635567,
+              "hidden_precision": 0.4235632183908045,
+              "hidden_recall": 0.5022988505747127,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.509478578552242
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.5
+    },
+    "prefix_0.75": {
+      "decoder_fraction": 0.75,
+      "mechanism": "prefix",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.43835231000990227,
+            "hidden_precision": 0.5648708296923662,
+            "hidden_recall": 0.392741372108432,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.6677968136638063
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.4189223057644111,
+              "hidden_precision": 0.48245614035087714,
+              "hidden_recall": 0.3978070175438596,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.7012296126971083
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.5222222222222223,
+              "hidden_precision": 0.611111111111111,
+              "hidden_recall": 0.47222222222222215,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.69467431094083
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.15185185185185182,
+              "hidden_precision": 0.14814814814814814,
+              "hidden_recall": 0.18253968253968253,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5362264156125003
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.39458874458874454,
+              "hidden_precision": 0.7222222222222223,
+              "hidden_recall": 0.3125,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.6216056990563537
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.7333333333333334,
+              "hidden_precision": 1.0,
+              "hidden_recall": 0.5833333333333333,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7657542793587067
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.40919540229885054,
+              "hidden_precision": 0.42528735632183906,
+              "hidden_recall": 0.4080459770114942,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.6872905643173394
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.3792056406545215,
+            "hidden_precision": 0.49206269185095564,
+            "hidden_recall": 0.3419906927279885,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.6554743353848397
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.39699248120300756,
+              "hidden_precision": 0.46929824561403505,
+              "hidden_recall": 0.3714912280701754,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.6989393026102535
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.35555555555555557,
+              "hidden_precision": 0.38888888888888884,
+              "hidden_recall": 0.3333333333333333,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.6501452057838882
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.17407407407407405,
+              "hidden_precision": 0.18518518518518517,
+              "hidden_recall": 0.1984126984126984,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5499206530492591
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.39458874458874454,
+              "hidden_precision": 0.7222222222222223,
+              "hidden_recall": 0.3125,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.6216056990563537
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.5333333333333333,
+              "hidden_precision": 0.75,
+              "hidden_recall": 0.41666666666666663,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7239016860527878
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.42068965517241375,
+              "hidden_precision": 0.43678160919540227,
+              "hidden_recall": 0.41954022988505746,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.6883334657564959
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.3951250688546515,
+            "hidden_precision": 0.5239827698236651,
+            "hidden_recall": 0.34369634574943103,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.6592224200333322
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.37769423558897247,
+              "hidden_precision": 0.4385964912280701,
+              "hidden_recall": 0.35394736842105257,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.7136066246453876
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.39999999999999997,
+              "hidden_precision": 0.47222222222222215,
+              "hidden_recall": 0.3611111111111111,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.6641828984609494
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.1,
+              "hidden_precision": 0.12962962962962962,
+              "hidden_recall": 0.0873015873015873,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5528691618061193
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.339033189033189,
+              "hidden_precision": 0.6666666666666666,
+              "hidden_recall": 0.2569444444444445,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5849564487623161
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.7333333333333334,
+              "hidden_precision": 1.0,
+              "hidden_recall": 0.5833333333333333,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7657542793587067
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.42068965517241386,
+              "hidden_precision": 0.43678160919540227,
+              "hidden_recall": 0.41954022988505746,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.6739651071665141
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.4619191293571208,
+            "hidden_precision": 0.5711725034169075,
+            "hidden_recall": 0.418309362966804,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.6803413569970961
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.4320802005012532,
+              "hidden_precision": 0.5087719298245613,
+              "hidden_recall": 0.40657894736842104,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.7046384315784738
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.688888888888889,
+              "hidden_precision": 0.7777777777777778,
+              "hidden_recall": 0.6388888888888888,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.774948634452834
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.15185185185185182,
+              "hidden_precision": 0.14814814814814814,
+              "hidden_recall": 0.18253968253968253,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5362264156125003
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.34696969696969693,
+              "hidden_precision": 0.5555555555555556,
+              "hidden_recall": 0.2847222222222222,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.6155920936141769
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.7333333333333334,
+              "hidden_precision": 1.0,
+              "hidden_recall": 0.5833333333333333,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.7657542793587067
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.41839080459770117,
+              "hidden_precision": 0.43678160919540227,
+              "hidden_recall": 0.41379310344827586,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.6848882873658845
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.75
+    },
+    "uniform_0.25": {
+      "decoder_fraction": 0.25,
+      "mechanism": "uniform",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.4437315150920538,
+            "hidden_precision": 0.48274649346866516,
+            "hidden_recall": 0.4342111264751918,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.34294062379836393
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.46180437983069555,
+              "hidden_precision": 0.4734649122807016,
+              "hidden_recall": 0.48051169590643267,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.3659096992367937
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.5986212861212861,
+              "hidden_precision": 0.6369444444444444,
+              "hidden_recall": 0.5777777777777778,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.37967909540990413
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.25781625781625783,
+              "hidden_precision": 0.2787037037037037,
+              "hidden_recall": 0.24608465608465607,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.2530293854202853
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.4465944513003337,
+              "hidden_precision": 0.6080555555555555,
+              "hidden_recall": 0.363558201058201,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.41494072519144964
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.4484848484848484,
+              "hidden_precision": 0.44,
+              "hidden_recall": 0.4666666666666667,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.29653226807792843
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.4490678669989015,
+              "hidden_precision": 0.45931034482758615,
+              "hidden_recall": 0.4706677613574165,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.34755256945382274
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.42860047063135925,
+            "hidden_precision": 0.4678683258273397,
+            "hidden_recall": 0.4185760057871371,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.34065233935721256
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.45557368070525966,
+              "hidden_precision": 0.46864035087719297,
+              "hidden_recall": 0.4725981620718463,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.36392740895242515
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.5737711362711363,
+              "hidden_precision": 0.6108333333333333,
+              "hidden_recall": 0.5541666666666666,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.37663041621423515
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.28369408369408367,
+              "hidden_precision": 0.3037037037037037,
+              "hidden_recall": 0.27206349206349206,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.2684433576017568
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.43786004844828375,
+              "hidden_precision": 0.5997222222222222,
+              "hidden_recall": 0.3548280423280423,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.40103804279552663
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.38181818181818183,
+              "hidden_precision": 0.38,
+              "hidden_recall": 0.39166666666666666,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.284604394879558
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.4388856928512101,
+              "hidden_precision": 0.44431034482758625,
+              "hidden_recall": 0.4661330049261084,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.3492704156997738
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.40751281559798164,
+            "hidden_precision": 0.44484999215791715,
+            "hidden_recall": 0.39959115941193984,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.3188855100563917
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.4208882199671673,
+              "hidden_precision": 0.4304824561403508,
+              "hidden_recall": 0.4393504594820385,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.35253828518948344
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.49911199911199905,
+              "hidden_precision": 0.5222222222222221,
+              "hidden_recall": 0.4875,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.3056505597950989
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.23492063492063492,
+              "hidden_precision": 0.2564814814814815,
+              "hidden_recall": 0.22238095238095237,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.21855004845294002
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.45753919283331057,
+              "hidden_precision": 0.6275000000000001,
+              "hidden_recall": 0.37043650793650795,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.4171776564957111
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.42626262626262623,
+              "hidden_precision": 0.42000000000000004,
+              "hidden_recall": 0.44166666666666665,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.29327683624515444
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.4063542204921516,
+              "hidden_precision": 0.4124137931034483,
+              "hidden_recall": 0.4362123700054734,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.3261196741599623
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.4792128789406467,
+            "hidden_f1": 0.42980804104367315,
+            "hidden_precision": 0.46749425847505094,
+            "hidden_recall": 0.42155783776170946,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.3355425522363064
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.2105263157894737,
+              "hidden_f1": 0.45735431235431234,
+              "hidden_precision": 0.46929824561403494,
+              "hidden_recall": 0.4755931495405179,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.36558759207210434
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.5703675953675953,
+              "hidden_precision": 0.6127777777777778,
+              "hidden_recall": 0.5458333333333333,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.3560489300809521
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.2557960557960558,
+              "hidden_precision": 0.2759259259259259,
+              "hidden_recall": 0.2444973544973545,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.25038114075019463
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.42348096348096353,
+              "hidden_precision": 0.5747222222222221,
+              "hidden_recall": 0.345568783068783,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.39980489926740304
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.42626262626262623,
+              "hidden_precision": 0.42000000000000004,
+              "hidden_recall": 0.44166666666666665,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.29618521433937595
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.2758620689655173,
+              "hidden_f1": 0.44558669300048614,
+              "hidden_precision": 0.45224137931034486,
+              "hidden_recall": 0.47618773946360154,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.3452475369078084
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.25
+    },
+    "uniform_0.50": {
+      "decoder_fraction": 0.5,
+      "mechanism": "uniform",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.4259512239177998,
+            "hidden_precision": 0.48082700365217,
+            "hidden_recall": 0.41337125104064,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.4699024226472817
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.4268219791904002,
+              "hidden_precision": 0.4729824561403508,
+              "hidden_recall": 0.39837092731829576,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.4771359935102304
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.5583333333333333,
+              "hidden_precision": 0.6,
+              "hidden_recall": 0.5305555555555556,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.4838263457272245
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.2877248677248677,
+              "hidden_precision": 0.2792592592592593,
+              "hidden_recall": 0.3205387205387205,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.4130239341684174
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.4648593073593074,
+              "hidden_precision": 0.7244444444444444,
+              "hidden_recall": 0.3568542568542569,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.4896537527043809
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4718683415170802
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.41796785589889035,
+              "hidden_precision": 0.4082758620689656,
+              "hidden_recall": 0.47390804597701147,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.4839061682563571
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.4228727750090424,
+            "hidden_precision": 0.4793407609060967,
+            "hidden_recall": 0.4081605259811551,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.47299651172445895
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.4135015569226096,
+              "hidden_precision": 0.4578070175438596,
+              "hidden_recall": 0.38649122807017544,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.47084196886647484
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.5716666666666667,
+              "hidden_precision": 0.62,
+              "hidden_recall": 0.5394444444444445,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5017190541719109
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.28669312169312167,
+              "hidden_precision": 0.28,
+              "hidden_recall": 0.3188552188552188,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.41467128707220274
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.4587987012987013,
+              "hidden_precision": 0.7177777777777777,
+              "hidden_recall": 0.3512987012987013,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.49485695174096667
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.3833333333333333,
+              "hidden_precision": 0.3833333333333333,
+              "hidden_recall": 0.3833333333333333,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4646436032192242
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.42324327013982177,
+              "hidden_precision": 0.41712643678160916,
+              "hidden_recall": 0.46954022988505745,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.4912462052759742
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.37818334586029684,
+            "hidden_precision": 0.43227588447491655,
+            "hidden_recall": 0.36328288502517186,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.45137392697839407
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.38119541277436014,
+              "hidden_precision": 0.42052631578947364,
+              "hidden_recall": 0.3564411027568922,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.45917438600687693
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.46888888888888897,
+              "hidden_precision": 0.5022222222222222,
+              "hidden_recall": 0.4466666666666667,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.43730593546745683
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.22682539682539687,
+              "hidden_precision": 0.227037037037037,
+              "hidden_recall": 0.25050505050505056,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.3730300767658028
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.4364502164502164,
+              "hidden_precision": 0.6911111111111111,
+              "hidden_recall": 0.3316017316017316,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5012946653697915
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4718683415170802
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.35574016022291893,
+              "hidden_precision": 0.35275862068965524,
+              "hidden_recall": 0.3944827586206897,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.4655701567433562
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.1446696242522014,
+            "hidden_f1": 0.4262533692585115,
+            "hidden_precision": 0.48021548923394053,
+            "hidden_recall": 0.4137852933739201,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.47158259830933225
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.4198545606440344,
+              "hidden_precision": 0.46350877192982454,
+              "hidden_recall": 0.3924937343358397,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.4755436341020759
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.5850000000000001,
+              "hidden_precision": 0.6349999999999999,
+              "hidden_recall": 0.5516666666666666,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5148779180453075
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.2877248677248677,
+              "hidden_precision": 0.2792592592592593,
+              "hidden_recall": 0.3205387205387205,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.40197379283263573
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.44902597402597405,
+              "hidden_precision": 0.6977777777777777,
+              "hidden_recall": 0.3455988455988456,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.48073102144021523
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4718683415170802
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.4159148131561925,
+              "hidden_precision": 0.4057471264367816,
+              "hidden_recall": 0.4724137931034483,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.4845008819186793
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.5
+    },
+    "uniform_0.75": {
+      "decoder_fraction": 0.75,
+      "mechanism": "uniform",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.26947202267831427,
+            "hidden_precision": 0.3527223230490018,
+            "hidden_recall": 0.24588453893354076,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.6090699873222887
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.29919799498746863,
+              "hidden_precision": 0.34736842105263155,
+              "hidden_recall": 0.28043859649122804,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.6290558478262703
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.3211111111111111,
+              "hidden_precision": 0.33888888888888885,
+              "hidden_recall": 0.3111111111111111,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.6283148576856796
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.09481481481481484,
+              "hidden_precision": 0.08888888888888889,
+              "hidden_recall": 0.12063492063492065,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5103550805837497
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.3663059163059163,
+              "hidden_precision": 0.6888888888888888,
+              "hidden_recall": 0.28611111111111115,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.6012808096927765
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.25333333333333335,
+              "hidden_precision": 0.35,
+              "hidden_recall": 0.2,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.6476171807817723
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.28206896551724137,
+              "hidden_precision": 0.3022988505747127,
+              "hidden_recall": 0.2770114942528736,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.6377961473634841
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.2852672811716974,
+            "hidden_precision": 0.3766205104075642,
+            "hidden_recall": 0.25847354257290733,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.6158840911483554
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.3070927318295739,
+              "hidden_precision": 0.36578947368421055,
+              "hidden_recall": 0.28482456140350876,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.6437254138803729
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.3422222222222222,
+              "hidden_precision": 0.36666666666666664,
+              "hidden_recall": 0.3277777777777777,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.6469183736655565
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.10740740740740741,
+              "hidden_precision": 0.1037037037037037,
+              "hidden_recall": 0.1380952380952381,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.511796282606921
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.34913419913419913,
+              "hidden_precision": 0.6666666666666666,
+              "hidden_recall": 0.2708333333333333,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.6006790609526337
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.32000000000000006,
+              "hidden_precision": 0.44999999999999996,
+              "hidden_recall": 0.25,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.6486553691127783
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.28574712643678163,
+              "hidden_precision": 0.30689655172413793,
+              "hidden_recall": 0.2793103448275862,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.64353004667187
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.27339762531837547,
+            "hidden_precision": 0.36801830566198385,
+            "hidden_recall": 0.2421806911915805,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.5999235248751761
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.2763659147869674,
+              "hidden_precision": 0.31666666666666665,
+              "hidden_recall": 0.2599122807017544,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.6156893583981923
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.33888888888888885,
+              "hidden_precision": 0.3833333333333333,
+              "hidden_recall": 0.31666666666666665,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.6319147162131277
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.06296296296296296,
+              "hidden_precision": 0.07037037037037036,
+              "hidden_recall": 0.07142857142857144,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.4784364089400202
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.3663059163059163,
+              "hidden_precision": 0.6888888888888888,
+              "hidden_recall": 0.28611111111111115,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.6059892305787076
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.32000000000000006,
+              "hidden_precision": 0.44999999999999996,
+              "hidden_recall": 0.25,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.6486553691127783
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.27586206896551724,
+              "hidden_precision": 0.29885057471264365,
+              "hidden_recall": 0.26896551724137935,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.6188560660082303
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0925589836660616,
+            "hidden_f1": 0.28609188564119,
+            "hidden_precision": 0.3714156079854809,
+            "hidden_recall": 0.26144521985039226,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.6171441681890667
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7105263157894737,
+              "hidden_f1": 0.29155388471177945,
+              "hidden_precision": 0.3359649122807018,
+              "hidden_recall": 0.2749999999999999,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.6219765941893002
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.3333333333333333,
+              "hidden_f1": 0.39444444444444443,
+              "hidden_precision": 0.4222222222222222,
+              "hidden_recall": 0.37777777777777777,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.6813020399112949
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.09481481481481484,
+              "hidden_precision": 0.08888888888888889,
+              "hidden_recall": 0.12063492063492065,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5103550805837497
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.1666666666666665,
+              "hidden_f1": 0.3612554112554112,
+              "hidden_precision": 0.6888888888888888,
+              "hidden_recall": 0.2791666666666667,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.6011204150148309
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.25333333333333335,
+              "hidden_precision": 0.35,
+              "hidden_recall": 0.2,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.6476171807817723
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.3448275862068966,
+              "hidden_f1": 0.32114942528735635,
+              "hidden_precision": 0.3425287356321839,
+              "hidden_recall": 0.31609195402298856,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.6404936986534523
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.75
+    },
+    "uniform_unknown_fraction_0.25": {
+      "decoder_fraction": null,
+      "mechanism": "uniform_unknown_fraction",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 2.393510116286886,
+            "hidden_f1": 0.41363160289405493,
+            "hidden_precision": 0.46345606193004857,
+            "hidden_recall": 0.4225268911422874,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.3372207525397433
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.5526315789473684,
+              "hidden_f1": 0.4333172383172383,
+              "hidden_precision": 0.44789473684210535,
+              "hidden_recall": 0.4711173767752715,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.3616177989476254
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 2.3333333333333335,
+              "hidden_f1": 0.5538461538461538,
+              "hidden_precision": 0.6666666666666666,
+              "hidden_recall": 0.5069444444444444,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.3546640333578602
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.2222222222222223,
+              "hidden_f1": 0.2469135802469136,
+              "hidden_precision": 0.24703703703703703,
+              "hidden_recall": 0.3084126984126984,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.25481367457491005
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.374954674954675,
+              "hidden_precision": 0.5416666666666666,
+              "hidden_recall": 0.29847883597883595,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.4248887301057591
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.4484848484848484,
+              "hidden_precision": 0.44,
+              "hidden_recall": 0.4666666666666667,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.29653226807792843
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 2.586206896551724,
+              "hidden_f1": 0.4242731215145008,
+              "hidden_precision": 0.4374712643678161,
+              "hidden_recall": 0.4835413245758074,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.33080801017437655
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 2.393510116286886,
+            "hidden_f1": 0.3961057191148944,
+            "hidden_precision": 0.44639017723107255,
+            "hidden_recall": 0.40464134874222596,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.33263305804861437
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.5526315789473684,
+              "hidden_f1": 0.4292816248079405,
+              "hidden_precision": 0.44526315789473686,
+              "hidden_recall": 0.4656787802840434,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.3608752531939572
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 2.3333333333333335,
+              "hidden_f1": 0.5301864801864801,
+              "hidden_precision": 0.6349999999999999,
+              "hidden_recall": 0.4875,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.34678212754316046
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.2222222222222223,
+              "hidden_f1": 0.24493827160493828,
+              "hidden_precision": 0.24962962962962962,
+              "hidden_recall": 0.30333333333333334,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.2585533698975403
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.374954674954675,
+              "hidden_precision": 0.5416666666666666,
+              "hidden_recall": 0.29847883597883595,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.4125020614691823
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.38181818181818183,
+              "hidden_precision": 0.38,
+              "hidden_recall": 0.39166666666666666,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.284604394879558
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 2.586206896551724,
+              "hidden_f1": 0.41545508131715025,
+              "hidden_precision": 0.4267816091954023,
+              "hidden_recall": 0.4811904761904762,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.33248114130828826
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 2.393510116286886,
+            "hidden_f1": 0.39799306063522644,
+            "hidden_precision": 0.44388468777307244,
+            "hidden_recall": 0.4124738370511208,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.3282180269508161
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.5526315789473684,
+              "hidden_f1": 0.4257400202137044,
+              "hidden_precision": 0.43631578947368416,
+              "hidden_recall": 0.4673370927318296,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.3563298874087966
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 2.3333333333333335,
+              "hidden_f1": 0.4858844858844859,
+              "hidden_precision": 0.5866666666666666,
+              "hidden_recall": 0.44583333333333336,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.30707323002646464
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.2222222222222223,
+              "hidden_f1": 0.26962962962962966,
+              "hidden_precision": 0.27222222222222225,
+              "hidden_recall": 0.3349206349206349,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.2693172191881788
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.38051023051023053,
+              "hidden_precision": 0.5483333333333333,
+              "hidden_recall": 0.3032407407407407,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.420937137578513
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.42626262626262623,
+              "hidden_precision": 0.42000000000000004,
+              "hidden_recall": 0.44166666666666665,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.29327683624515444
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 2.586206896551724,
+              "hidden_f1": 0.3999313713106816,
+              "hidden_precision": 0.39977011494252873,
+              "hidden_recall": 0.4818445539135195,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.3223738512577891
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 2.393510116286886,
+            "hidden_f1": 0.4055363131673879,
+            "hidden_precision": 0.45496218995765275,
+            "hidden_recall": 0.41616407317783605,
+            "hidden_reference_count": 5.676144383948377,
+            "weighted_jaccard": 0.332936652857824
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.5526315789473684,
+              "hidden_f1": 0.4321599161072845,
+              "hidden_precision": 0.446842105263158,
+              "hidden_recall": 0.46983291562238927,
+              "hidden_reference_count": 5.131578947368421,
+              "record_count": 38,
+              "weighted_jaccard": 0.3606246242119277
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 2.3333333333333335,
+              "hidden_f1": 0.5316109816109815,
+              "hidden_precision": 0.645,
+              "hidden_recall": 0.48333333333333334,
+              "hidden_reference_count": 6.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.34734058892935954
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.2222222222222223,
+              "hidden_f1": 0.24938271604938272,
+              "hidden_precision": 0.2533333333333333,
+              "hidden_recall": 0.30888888888888894,
+              "hidden_reference_count": 4.666666666666667,
+              "record_count": 9,
+              "weighted_jaccard": 0.25716360365088503
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.37125097125097123,
+              "hidden_precision": 0.5333333333333333,
+              "hidden_recall": 0.2960978835978836,
+              "hidden_reference_count": 8.166666666666666,
+              "record_count": 6,
+              "weighted_jaccard": 0.4090061753226404
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.42626262626262623,
+              "hidden_precision": 0.42000000000000004,
+              "hidden_recall": 0.44166666666666665,
+              "hidden_reference_count": 5.0,
+              "record_count": 2,
+              "weighted_jaccard": 0.29618521433937595
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 2.586206896551724,
+              "hidden_f1": 0.4225506677230814,
+              "hidden_precision": 0.43126436781609195,
+              "hidden_recall": 0.4971647509578544,
+              "hidden_reference_count": 4.758620689655173,
+              "record_count": 29,
+              "weighted_jaccard": 0.3272997106927554
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.25
+    },
+    "uniform_unknown_fraction_0.50": {
+      "decoder_fraction": null,
+      "mechanism": "uniform_unknown_fraction",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 2.065957518316865,
+            "hidden_f1": 0.39204493513477184,
+            "hidden_precision": 0.4220494723398535,
+            "hidden_recall": 0.42849007896497304,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.4658832934294311
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.3421052631578947,
+              "hidden_f1": 0.4209447862079441,
+              "hidden_precision": 0.3971052631578948,
+              "hidden_recall": 0.5043358395989973,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.4803190696352502
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.8333333333333333,
+              "hidden_f1": 0.44537037037037036,
+              "hidden_precision": 0.5011111111111112,
+              "hidden_recall": 0.4411111111111112,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.45063142459911393
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.111111111111111,
+              "hidden_f1": 0.25238095238095243,
+              "hidden_precision": 0.23777777777777775,
+              "hidden_recall": 0.3552188552188552,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.3980269299930026
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 2.8333333333333335,
+              "hidden_f1": 0.39000481000480997,
+              "hidden_precision": 0.5388888888888889,
+              "hidden_recall": 0.3137229437229437,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5128908817795119
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.4857142857142858,
+              "hidden_precision": 0.4916666666666667,
+              "hidden_recall": 0.49999999999999994,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4876784466598611
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 2.2758620689655173,
+              "hidden_f1": 0.3578544061302682,
+              "hidden_precision": 0.36574712643678153,
+              "hidden_recall": 0.456551724137931,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.46575300790984664
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 2.065957518316865,
+            "hidden_f1": 0.3867542251949391,
+            "hidden_precision": 0.4204888418363917,
+            "hidden_recall": 0.4228852026734664,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.4616477464505948
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.3421052631578947,
+              "hidden_f1": 0.4016343890028102,
+              "hidden_precision": 0.3778947368421053,
+              "hidden_recall": 0.48429824561403495,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.47215343407399296
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.8333333333333333,
+              "hidden_f1": 0.4845238095238096,
+              "hidden_precision": 0.5594444444444444,
+              "hidden_recall": 0.46888888888888874,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.4657719747356272
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.111111111111111,
+              "hidden_f1": 0.2285714285714286,
+              "hidden_precision": 0.21777777777777776,
+              "hidden_recall": 0.3255892255892256,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.3798684554022252
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 2.8333333333333335,
+              "hidden_f1": 0.3947667147667147,
+              "hidden_precision": 0.5499999999999999,
+              "hidden_recall": 0.31675324675324673,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.502487405350256
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.4285714285714286,
+              "hidden_precision": 0.43333333333333335,
+              "hidden_recall": 0.44166666666666665,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.47475750548975126
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 2.2758620689655173,
+              "hidden_f1": 0.3824575807334429,
+              "hidden_precision": 0.38448275862068965,
+              "hidden_recall": 0.5001149425287357,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.4748477036517162
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 2.065957518316865,
+            "hidden_f1": 0.37812910308978065,
+            "hidden_precision": 0.40606456274786584,
+            "hidden_recall": 0.41998749413298714,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.4578112277971045
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.3421052631578947,
+              "hidden_f1": 0.3841611604769499,
+              "hidden_precision": 0.356578947368421,
+              "hidden_recall": 0.47073934837092735,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.4655990156578947
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.8333333333333333,
+              "hidden_f1": 0.4052910052910053,
+              "hidden_precision": 0.4483333333333333,
+              "hidden_recall": 0.40666666666666657,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.4303189980401834
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.111111111111111,
+              "hidden_f1": 0.2666666666666667,
+              "hidden_precision": 0.24777777777777782,
+              "hidden_recall": 0.3774410774410774,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.3940609357407581
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 2.8333333333333335,
+              "hidden_f1": 0.3942376142376142,
+              "hidden_precision": 0.5611111111111111,
+              "hidden_recall": 0.3147330447330447,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5070348961470658
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.4857142857142858,
+              "hidden_precision": 0.4916666666666667,
+              "hidden_recall": 0.49999999999999994,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4865993272983906
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 2.2758620689655173,
+              "hidden_f1": 0.33270388615216206,
+              "hidden_precision": 0.33091954022988496,
+              "hidden_recall": 0.4503448275862069,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.46325419389833444
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 2.065957518316865,
+            "hidden_f1": 0.40382721650870473,
+            "hidden_precision": 0.4369037216284645,
+            "hidden_recall": 0.4398438006952828,
+            "hidden_reference_count": 4.153777643342072,
+            "weighted_jaccard": 0.46969083665990013
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.3421052631578947,
+              "hidden_f1": 0.42324219640009114,
+              "hidden_precision": 0.3984210526315789,
+              "hidden_recall": 0.5081077694235588,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.4801788010509521
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 1.8333333333333333,
+              "hidden_f1": 0.5067460317460318,
+              "hidden_precision": 0.5927777777777777,
+              "hidden_recall": 0.48555555555555546,
+              "hidden_reference_count": 4.333333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.4715670040037369
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.111111111111111,
+              "hidden_f1": 0.24603174603174605,
+              "hidden_precision": 0.22296296296296292,
+              "hidden_recall": 0.35117845117845115,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.39845526937585357
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 2.8333333333333335,
+              "hidden_f1": 0.39593073593073586,
+              "hidden_precision": 0.5444444444444444,
+              "hidden_recall": 0.3192784992784992,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5105763616096283
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 1.0,
+              "hidden_f1": 0.4857142857142858,
+              "hidden_precision": 0.4916666666666667,
+              "hidden_recall": 0.49999999999999994,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4876784466598611
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 2.2758620689655173,
+              "hidden_f1": 0.36529830322933776,
+              "hidden_precision": 0.3711494252873562,
+              "hidden_recall": 0.4749425287356322,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.46968913725936895
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.5
+    },
+    "uniform_unknown_fraction_0.75": {
+      "decoder_fraction": null,
+      "mechanism": "uniform_unknown_fraction",
+      "models": {
+        "directed_graph": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.6314949250520938,
+            "hidden_f1": 0.2922824062070886,
+            "hidden_precision": 0.27227347583518186,
+            "hidden_recall": 0.38692673974207553,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.6226608721659921
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.8157894736842106,
+              "hidden_f1": 0.32356307435254805,
+              "hidden_precision": 0.257280701754386,
+              "hidden_recall": 0.511140350877193,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.6466144044583908
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.6666666666666666,
+              "hidden_f1": 0.37999999999999995,
+              "hidden_precision": 0.35555555555555557,
+              "hidden_recall": 0.43333333333333335,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.6774819504152204
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.111111111111111,
+              "hidden_f1": 0.1495238095238095,
+              "hidden_precision": 0.1388888888888889,
+              "hidden_recall": 0.29523809523809524,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5415227097299343
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 1.8333333333333333,
+              "hidden_f1": 0.2742857142857143,
+              "hidden_precision": 0.3444444444444445,
+              "hidden_recall": 0.23472222222222217,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5853663722620486
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.32666666666666666,
+              "hidden_precision": 0.3,
+              "hidden_recall": 0.3666666666666667,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.6405291564853578
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.8620689655172413,
+              "hidden_f1": 0.29965517241379314,
+              "hidden_precision": 0.23747126436781613,
+              "hidden_recall": 0.4804597701149426,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.6444506396450003
+            }
+          }
+        },
+        "ease": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.6314949250520938,
+            "hidden_f1": 0.3107136855548834,
+            "hidden_precision": 0.2895838654746701,
+            "hidden_recall": 0.41193689443916304,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.6302931856988941
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.8157894736842106,
+              "hidden_f1": 0.2862197159565581,
+              "hidden_precision": 0.22499999999999998,
+              "hidden_recall": 0.466578947368421,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.6387827883538378
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.6666666666666666,
+              "hidden_f1": 0.43999999999999995,
+              "hidden_precision": 0.41111111111111115,
+              "hidden_recall": 0.5,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.7036617252835136
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.111111111111111,
+              "hidden_f1": 0.15285714285714286,
+              "hidden_precision": 0.12407407407407407,
+              "hidden_recall": 0.3031746031746032,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5397039896336012
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 1.8333333333333333,
+              "hidden_f1": 0.30095238095238097,
+              "hidden_precision": 0.39444444444444443,
+              "hidden_recall": 0.25416666666666665,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.6107932131474108
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.3666666666666667,
+              "hidden_precision": 0.3333333333333333,
+              "hidden_recall": 0.41666666666666663,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.642334813900979
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.8620689655172413,
+              "hidden_f1": 0.31758620689655176,
+              "hidden_precision": 0.2495402298850575,
+              "hidden_recall": 0.5310344827586208,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.6464825838740227
+            }
+          }
+        },
+        "frequency": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.6314949250520938,
+            "hidden_f1": 0.2566834951363082,
+            "hidden_precision": 0.2430237391051063,
+            "hidden_recall": 0.3440009146429292,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.60994466974896
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.8157894736842106,
+              "hidden_f1": 0.2708563074352548,
+              "hidden_precision": 0.21096491228070177,
+              "hidden_recall": 0.4485087719298246,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.6316470785204833
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.6666666666666666,
+              "hidden_f1": 0.3,
+              "hidden_precision": 0.27777777777777773,
+              "hidden_recall": 0.35000000000000003,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.638750620770569
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.111111111111111,
+              "hidden_f1": 0.12285714285714287,
+              "hidden_precision": 0.11851851851851852,
+              "hidden_recall": 0.2507936507936508,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5211395169233934
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 1.8333333333333333,
+              "hidden_f1": 0.2742857142857143,
+              "hidden_precision": 0.3611111111111111,
+              "hidden_recall": 0.23194444444444443,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5988747812366031
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.32666666666666666,
+              "hidden_precision": 0.3,
+              "hidden_recall": 0.3666666666666667,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.6405291564853578
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.8620689655172413,
+              "hidden_f1": 0.24543513957307062,
+              "hidden_precision": 0.1897701149425287,
+              "hidden_recall": 0.4160919540229885,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.6287268645573536
+            }
+          }
+        },
+        "sscl": {
+          "source_macro_metrics": {
+            "count_absolute_error": 1.6314949250520938,
+            "hidden_f1": 0.30554928989139524,
+            "hidden_precision": 0.2840237166991553,
+            "hidden_recall": 0.40289602118322626,
+            "hidden_reference_count": 2.6126907306580627,
+            "weighted_jaccard": 0.6285411109802421
+          },
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.8157894736842106,
+              "hidden_f1": 0.32075605680868846,
+              "hidden_precision": 0.2537719298245614,
+              "hidden_recall": 0.5128947368421053,
+              "hidden_reference_count": 2.1052631578947367,
+              "record_count": 38,
+              "weighted_jaccard": 0.646496414709717
+            },
+            "hong_xiangpu_attributed": {
+              "count_absolute_error": 0.6666666666666666,
+              "hidden_f1": 0.44222222222222224,
+              "hidden_precision": 0.41111111111111104,
+              "hidden_recall": 0.5055555555555555,
+              "hidden_reference_count": 2.3333333333333335,
+              "record_count": 6,
+              "weighted_jaccard": 0.7062268752351143
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 3.111111111111111,
+              "hidden_f1": 0.15841269841269842,
+              "hidden_precision": 0.14814814814814817,
+              "hidden_recall": 0.29523809523809524,
+              "hidden_reference_count": 2.111111111111111,
+              "record_count": 9,
+              "weighted_jaccard": 0.5438905348029386
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 1.8333333333333333,
+              "hidden_f1": 0.2742857142857143,
+              "hidden_precision": 0.3444444444444445,
+              "hidden_recall": 0.23472222222222217,
+              "hidden_reference_count": 4.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.5884178501384484
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.5,
+              "hidden_f1": 0.32666666666666666,
+              "hidden_precision": 0.3,
+              "hidden_recall": 0.3666666666666667,
+              "hidden_reference_count": 2.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.6405291564853578
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.8620689655172413,
+              "hidden_f1": 0.31095238095238104,
+              "hidden_precision": 0.24666666666666667,
+              "hidden_recall": 0.5022988505747127,
+              "hidden_reference_count": 1.793103448275862,
+              "record_count": 29,
+              "weighted_jaccard": 0.6456858345098765
+            }
+          }
+        }
+      },
+      "observed_fraction": 0.75
+    }
+  },
+  "design": "six_outer_works_with_configuration_selected_inside_each_outer_fold",
+  "evaluation_unit": "historical_work_group",
+  "models": [
+    "frequency",
+    "directed_graph",
+    "sscl",
+    "ease"
+  ],
+  "schema_version": "0.2"
+}

@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        5281515
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 5281515,
+          "SMILES": "C/C/1=C\\CCC(=C)[C@H]2CC([C@@H]2CC1)(C)C",
+          "ConnectivitySMILES": "CC1=CCCC(=C)C2CC(C2CC1)(C)C",
+          "InChIKey": "NPNUFJAVOOONJE-GFUGXAQUSA-N"
+        }
+      ]
+    }
+  }
+}

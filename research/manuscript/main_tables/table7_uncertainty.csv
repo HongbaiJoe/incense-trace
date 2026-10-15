@@ -1,0 +1,7 @@
+Diagnostic,Estimate,Interpretation
+Hidden-candidate Brier score,0.0429,Lower is better
+Hidden-candidate ECE,0.0236,Ten equal-width bins
+Base count interval coverage,0.642,Nominal level 0.80
+Calibrated count interval coverage,0.825,Development radius equals one
+Calibrated count interval mean width,2.861,Materials
+Conditional ratio interval coverage,0.912,Conditional on correct selection

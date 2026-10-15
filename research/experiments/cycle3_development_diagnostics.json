@@ -1,0 +1,2220 @@
+{
+  "schema_version": "0.1",
+  "scope": "development leave-one-work-out folds only; primary folds unused and Hong records model-quarantined",
+  "locked_model": {
+    "schema_version": "0.1",
+    "locked_after": "development-only model selection",
+    "primary_task": "source-shifted partial-formula completion",
+    "model": "xiangji-cgir-v1",
+    "channels": [
+      "global_prevalence_logit",
+      "source_prevalence_logit",
+      "title_material_similarity",
+      "hypergraph_affinity",
+      "legacy_odor_similarity",
+      "observed_material",
+      "observed_log_weight"
+    ],
+    "inactive_without_odor_target": [
+      "legacy_odor_similarity"
+    ],
+    "C": 3.0,
+    "group_dro_iterations": 0,
+    "graph_reducer": "mean",
+    "mask_fractions_training": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "evaluation_observed_fraction": 0.5,
+    "count_decision": "posterior median under absolute error",
+    "count_observation_model": "registered deterministic masking rule",
+    "inclusion_posterior": "Gaussian-prior generalized Bayesian logistic; Laplace approximation",
+    "ratio_posterior": "Ridge log-ratio mean plus Dirichlet residual dispersion",
+    "chemistry_in_primary_task": "disabled by development selection",
+    "chemistry_rationale": "pairwise chemical similarity did not improve held-out-work completion and represents substitutability more naturally than complementarity",
+    "sealed_source_status": "quarantined_from_model_statistics_not_investigator_blinded",
+    "selection_artifact": "experiments/cycle3_model_selection.json"
+  },
+  "seed_macro_mean": {
+    "full_precision": 0.7251658692185007,
+    "full_recall": 0.6358401521711545,
+    "full_f1": 0.6658209276169259,
+    "hidden_precision": 0.45809034079451505,
+    "hidden_recall": 0.37109619311252706,
+    "hidden_f1": 0.3910655753804574,
+    "count_absolute_error": 1.2736035491026416,
+    "weighted_jaccard": 0.39821732143082145,
+    "union_ratio_mae": 0.12414353779321707,
+    "aitchison_distance": 7.577949784601216,
+    "inclusion_brier_in_vocabulary": 0.0352231513027801,
+    "true_material_vocabulary_coverage": 0.8780257063869745
+  },
+  "seed_macro_sd": {
+    "full_precision": 0.006063569202427726,
+    "full_recall": 0.0037861938142142804,
+    "full_f1": 0.004801810684754679,
+    "hidden_precision": 0.012639306777421299,
+    "hidden_recall": 0.004699258757979759,
+    "hidden_f1": 0.008108191391298161,
+    "count_absolute_error": 0.0,
+    "weighted_jaccard": 0.035385216053042096,
+    "union_ratio_mae": 0.00981229890692709,
+    "aitchison_distance": 0.13048357586205542,
+    "inclusion_brier_in_vocabulary": 0.0005724463755095794,
+    "true_material_vocabulary_coverage": 0.0
+  },
+  "hidden_candidate_reliability": {
+    "n": 28645,
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "n": 25705,
+        "mean_probability": 0.03172429697429759,
+        "empirical_frequency": 0.019101342151332426
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "n": 1165,
+        "mean_probability": 0.13741752705335153,
+        "empirical_frequency": 0.15021459227467812
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "n": 403,
+        "mean_probability": 0.24468557354593173,
+        "empirical_frequency": 0.21836228287841192
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "n": 247,
+        "mean_probability": 0.3448171538119342,
+        "empirical_frequency": 0.291497975708502
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "n": 237,
+        "mean_probability": 0.4501848992138258,
+        "empirical_frequency": 0.34177215189873417
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "n": 231,
+        "mean_probability": 0.5495039020502908,
+        "empirical_frequency": 0.38095238095238093
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "n": 211,
+        "mean_probability": 0.6492705310153699,
+        "empirical_frequency": 0.4597156398104265
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "n": 200,
+        "mean_probability": 0.743389235389682,
+        "empirical_frequency": 0.47
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "n": 190,
+        "mean_probability": 0.8504343979196748,
+        "empirical_frequency": 0.5631578947368421
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "n": 56,
+        "mean_probability": 0.9304066162004203,
+        "empirical_frequency": 0.5714285714285714
+      }
+    ],
+    "expected_calibration_error": 0.020846507787018975
+  },
+  "count_posterior": {
+    "mean_absolute_error": 0.9880952380952381,
+    "mean_signed_error": -0.6309523809523809,
+    "central_80_interval_coverage": 0.7261904761904762
+  },
+  "ratio_posterior": {
+    "conditional_on_true_component_selected_80_interval_coverage": 0.9158337716991057,
+    "true_component_selection_rate": 0.6670175438596492,
+    "evaluated_selected_true_components": 1901
+  },
+  "seed_runs": [
+    {
+      "seed": 17,
+      "source_macro_metrics": {
+        "full_precision": 0.7223982107829657,
+        "full_recall": 0.6343986242318153,
+        "full_f1": 0.6641519105313647,
+        "hidden_precision": 0.45258318209316395,
+        "hidden_recall": 0.36778686091753243,
+        "hidden_f1": 0.3893524825648237,
+        "count_absolute_error": 1.2736035491026416,
+        "weighted_jaccard": 0.4040142767127932,
+        "union_ratio_mae": 0.12060494270529873,
+        "aitchison_distance": 7.60321522875046,
+        "inclusion_brier_in_vocabulary": 0.0356101346122058,
+        "true_material_vocabulary_coverage": 0.8780257063869745
+      },
+      "fold_diagnostics": [
+        {
+          "fold_id": "dev_lowo_01",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 47,
+          "vocabulary_size": 69,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.6077983576122977,
+            "source_prevalence_logit": 0.546618222401386,
+            "title_material_similarity": 0.11597344605747978,
+            "hypergraph_affinity": 1.547871952139111,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3525708496849411,
+            "observed_log_weight": -0.7858371953572512
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.06231844913357691,
+            "source_prevalence_logit": 0.03535261026694935,
+            "title_material_similarity": 0.027695624124494125,
+            "hypergraph_affinity": 0.07069954284828948,
+            "chemical_affinity": 1.7320508075688283,
+            "chemical_evidence_available": 1.7320508075688779,
+            "legacy_odor_similarity": 1.7320508075688772,
+            "chemical_odor_similarity": 1.7320508075688772,
+            "observed_material": 0.9126687101076072,
+            "observed_log_weight": 1.2946259297165001
+          },
+          "group_dro_weights": {
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "huizhai_xiangpu": 0.1573320935161607,
+            "liexiang_xinpu": 0.20280102775516237,
+            "moe_xiaolu_xiangpu": 0.1747510799005399,
+            "xiangcheng_compilation_unresolved_source": 0.13852988986187365
+          },
+          "inclusion_map_gradient_inf_norm": 0.001230119086175152,
+          "case_control_logit_offset": -2.23302336091948,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_yellow_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_qinan_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.8954602172439137,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_02",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 75,
+          "vocabulary_size": 73,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.5742526719807023,
+            "source_prevalence_logit": 0.41591007714427264,
+            "title_material_similarity": 0.18652207159254264,
+            "hypergraph_affinity": 1.7944620788118397,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3806710021712683,
+            "observed_log_weight": -0.7639639968276003
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.0520481902334839,
+            "source_prevalence_logit": 0.030795836006381985,
+            "title_material_similarity": 0.023143446501320077,
+            "hypergraph_affinity": 0.058261150899136166,
+            "chemical_affinity": 1.7320508075688053,
+            "chemical_evidence_available": 1.7320508075688772,
+            "legacy_odor_similarity": 1.7320508075688772,
+            "chemical_odor_similarity": 1.7320508075688776,
+            "observed_material": 0.8928731357983822,
+            "observed_log_weight": 1.3148922057220702
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.1341771044863277,
+            "liexiang_xinpu": 0.20067232633662763,
+            "moe_xiaolu_xiangpu": 0.16021362437917924,
+            "xiangcheng_compilation_unresolved_source": 0.1285432901961695
+          },
+          "inclusion_map_gradient_inf_norm": 0.0009434371524070506,
+          "case_control_logit_offset": -2.2628526210075712,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9284276530821256,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_03",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 79,
+          "vocabulary_size": 67,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.5004849483946993,
+            "source_prevalence_logit": 0.32556865196568185,
+            "title_material_similarity": 0.18733773148926924,
+            "hypergraph_affinity": 1.7161232850584596,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.390740503639685,
+            "observed_log_weight": -0.796533416730684
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.05006633922001907,
+            "source_prevalence_logit": 0.030888757581403047,
+            "title_material_similarity": 0.023583498119059014,
+            "hypergraph_affinity": 0.055907545038305584,
+            "chemical_affinity": 1.7320508075688725,
+            "chemical_evidence_available": 1.7320508075688779,
+            "legacy_odor_similarity": 1.732050807568877,
+            "chemical_odor_similarity": 1.7320508075688772,
+            "observed_material": 0.9082396530183956,
+            "observed_log_weight": 1.3121608650322116
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.14278658712922127,
+            "huizhai_xiangpu": 0.16986596489190756,
+            "moe_xiaolu_xiangpu": 0.1746154238466891,
+            "xiangcheng_compilation_unresolved_source": 0.13678214016234416
+          },
+          "inclusion_map_gradient_inf_norm": 0.0002373306228097838,
+          "case_control_logit_offset": -2.2340803835865954,
+          "chemical_material_count": 24,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.8979425967884751,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_04",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 83,
+          "vocabulary_size": 79,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.4520124583316647,
+            "source_prevalence_logit": 0.522771399852673,
+            "title_material_similarity": 0.17512262650138913,
+            "hypergraph_affinity": 1.5888773975945512,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.351754251783494,
+            "observed_log_weight": -0.7776039841674087
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.04452180119474516,
+            "source_prevalence_logit": 0.02699771520604925,
+            "title_material_similarity": 0.021162597995228155,
+            "hypergraph_affinity": 0.04935842877947185,
+            "chemical_affinity": 1.7320508075689303,
+            "chemical_evidence_available": 1.7320508075688772,
+            "legacy_odor_similarity": 1.7320508075688776,
+            "chemical_odor_similarity": 1.7320508075688772,
+            "observed_material": 0.9047120974699493,
+            "observed_log_weight": 1.3080158201638798
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.12437425222779357,
+            "huizhai_xiangpu": 0.14461188725193674,
+            "liexiang_xinpu": 0.1851875413838446,
+            "xiangcheng_compilation_unresolved_source": 0.11909784151587793
+          },
+          "inclusion_map_gradient_inf_norm": 0.0026324610451537445,
+          "case_control_logit_offset": -2.374989105271782,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9007390894453587,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_05",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 56,
+          "vocabulary_size": 74,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.7193311812399648,
+            "source_prevalence_logit": 0.5929799772068238,
+            "title_material_similarity": 0.16534901816615785,
+            "hypergraph_affinity": 1.7602321732677073,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3094009448675097,
+            "observed_log_weight": -0.786298368337456
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.054242782510365156,
+            "source_prevalence_logit": 0.03364367686305086,
+            "title_material_similarity": 0.025783022767927922,
+            "hypergraph_affinity": 0.06175770913185319,
+            "chemical_affinity": 1.7320508075689145,
+            "chemical_evidence_available": 1.732050807568876,
+            "legacy_odor_similarity": 1.7320508075688772,
+            "chemical_odor_similarity": 1.732050807568877,
+            "observed_material": 0.939255204202517,
+            "observed_log_weight": 1.3202564772482508
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.1355585727904008,
+            "huizhai_xiangpu": 0.15090154013796087,
+            "liexiang_xinpu": 0.1905051934793693,
+            "moe_xiaolu_xiangpu": 0.15981056856087034
+          },
+          "inclusion_map_gradient_inf_norm": 0.0004079924252751166,
+          "case_control_logit_offset": -2.27010450070488,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9356418247047177,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "source_macro_metrics": {
+        "full_precision": 0.7206155933197677,
+        "full_recall": 0.6323366283945978,
+        "full_f1": 0.6619573133147931,
+        "hidden_precision": 0.45024400080661425,
+        "hidden_recall": 0.3664489201059074,
+        "hidden_f1": 0.38561144239910117,
+        "count_absolute_error": 1.2736035491026416,
+        "weighted_jaccard": 0.3565415148688711,
+        "union_ratio_mae": 0.1347175041416521,
+        "aitchison_distance": 7.6442998694336906,
+        "inclusion_brier_in_vocabulary": 0.03569280578823619,
+        "true_material_vocabulary_coverage": 0.8780257063869745
+      },
+      "fold_diagnostics": [
+        {
+          "fold_id": "dev_lowo_01",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 47,
+          "vocabulary_size": 69,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.7368574140530453,
+            "source_prevalence_logit": 0.4752320915537632,
+            "title_material_similarity": 0.11941899422924977,
+            "hypergraph_affinity": 1.726295075238915,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3103813273560017,
+            "observed_log_weight": -0.7754597063273472
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.06226193697973094,
+            "source_prevalence_logit": 0.03469868997968365,
+            "title_material_similarity": 0.02840088068399501,
+            "hypergraph_affinity": 0.0734582838452505,
+            "chemical_affinity": 1.732050807568875,
+            "chemical_evidence_available": 1.732050807568877,
+            "legacy_odor_similarity": 1.732050807568877,
+            "chemical_odor_similarity": 1.7320508075688776,
+            "observed_material": 0.9242417548069786,
+            "observed_log_weight": 1.291417374500147
+          },
+          "group_dro_weights": {
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "huizhai_xiangpu": 0.15384875188080013,
+            "liexiang_xinpu": 0.20134830390120778,
+            "moe_xiaolu_xiangpu": 0.1630886869478509,
+            "xiangcheng_compilation_unresolved_source": 0.14245015853049214
+          },
+          "inclusion_map_gradient_inf_norm": 0.0015934024800650485,
+          "case_control_logit_offset": -2.23302336091948,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_yellow_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_qinan_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9256882865628653,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_02",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 75,
+          "vocabulary_size": 73,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.6092797284444612,
+            "source_prevalence_logit": 0.31269555668890936,
+            "title_material_similarity": 0.18167172799016545,
+            "hypergraph_affinity": 1.806560626130631,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3905826030086859,
+            "observed_log_weight": -0.7512278988025682
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.05120056527817521,
+            "source_prevalence_logit": 0.029430887855610748,
+            "title_material_similarity": 0.022909505113723066,
+            "hypergraph_affinity": 0.05864051613341691,
+            "chemical_affinity": 1.7320508075688408,
+            "chemical_evidence_available": 1.7320508075688772,
+            "legacy_odor_similarity": 1.7320508075688772,
+            "chemical_odor_similarity": 1.732050807568877,
+            "observed_material": 0.884576894420468,
+            "observed_log_weight": 1.3247274504215376
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.13853703283790228,
+            "liexiang_xinpu": 0.20557142149809007,
+            "moe_xiaolu_xiangpu": 0.16053353654614994,
+            "xiangcheng_compilation_unresolved_source": 0.13574697045182826
+          },
+          "inclusion_map_gradient_inf_norm": 0.003190778262162852,
+          "case_control_logit_offset": -2.2628526210075712,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9166591929314462,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_03",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 79,
+          "vocabulary_size": 67,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.42151602057352106,
+            "source_prevalence_logit": 0.29587070327973464,
+            "title_material_similarity": 0.19609066075419068,
+            "hypergraph_affinity": 1.6137901175752913,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.4235123604287696,
+            "observed_log_weight": -0.7847637688696802
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.04937288596092934,
+            "source_prevalence_logit": 0.029972316574085917,
+            "title_material_similarity": 0.022942101305923338,
+            "hypergraph_affinity": 0.05587269265767737,
+            "chemical_affinity": 1.7320508075689731,
+            "chemical_evidence_available": 1.732050807568877,
+            "legacy_odor_similarity": 1.7320508075688772,
+            "chemical_odor_similarity": 1.7320508075688772,
+            "observed_material": 0.8868014334524011,
+            "observed_log_weight": 1.3092584228729474
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.14782397813140466,
+            "huizhai_xiangpu": 0.15689603165431773,
+            "moe_xiaolu_xiangpu": 0.16940324607168578,
+            "xiangcheng_compilation_unresolved_source": 0.1440922931785825
+          },
+          "inclusion_map_gradient_inf_norm": 0.0014933117289658293,
+          "case_control_logit_offset": -2.2340803835865954,
+          "chemical_material_count": 24,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.8693106714657991,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_04",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 83,
+          "vocabulary_size": 79,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.5490074403844417,
+            "source_prevalence_logit": 0.45802587297870945,
+            "title_material_similarity": 0.19215119733100178,
+            "hypergraph_affinity": 1.6715924492893426,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3472232782230875,
+            "observed_log_weight": -0.756504129345231
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.044463707331460975,
+            "source_prevalence_logit": 0.026311723182731773,
+            "title_material_similarity": 0.02135215940592412,
+            "hypergraph_affinity": 0.049996956055245644,
+            "chemical_affinity": 1.7320508075688685,
+            "chemical_evidence_available": 1.7320508075688767,
+            "legacy_odor_similarity": 1.7320508075688772,
+            "chemical_odor_similarity": 1.7320508075688772,
+            "observed_material": 0.8924915308723865,
+            "observed_log_weight": 1.3041047465171358
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.12816118691560746,
+            "huizhai_xiangpu": 0.1348286742058879,
+            "liexiang_xinpu": 0.1848041153930544,
+            "xiangcheng_compilation_unresolved_source": 0.12452292552651993
+          },
+          "inclusion_map_gradient_inf_norm": 0.008078433513431738,
+          "case_control_logit_offset": -2.374989105271782,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.879013214024297,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_05",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 56,
+          "vocabulary_size": 74,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.7285140492965474,
+            "source_prevalence_logit": 0.587237338103312,
+            "title_material_similarity": 0.12455561319685443,
+            "hypergraph_affinity": 1.7744715265604656,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.303702667731801,
+            "observed_log_weight": -0.7704722384979517
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.0534396749975186,
+            "source_prevalence_logit": 0.03358064179479266,
+            "title_material_similarity": 0.026957244690257853,
+            "hypergraph_affinity": 0.061549498756223106,
+            "chemical_affinity": 1.7320508075688499,
+            "chemical_evidence_available": 1.732050807568878,
+            "legacy_odor_similarity": 1.7320508075688779,
+            "chemical_odor_similarity": 1.732050807568878,
+            "observed_material": 0.9286055689761539,
+            "observed_log_weight": 1.3110069330188254
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.13868952695623185,
+            "huizhai_xiangpu": 0.13677905967574494,
+            "liexiang_xinpu": 0.19919143919071508,
+            "moe_xiaolu_xiangpu": 0.16122546090881107
+          },
+          "inclusion_map_gradient_inf_norm": 0.00011790126849486882,
+          "case_control_logit_offset": -2.27010450070488,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9321714379497289,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "source_macro_metrics": {
+        "full_precision": 0.7258172927093073,
+        "full_recall": 0.6369715383999572,
+        "full_f1": 0.6664964767214316,
+        "hidden_precision": 0.4594807420850978,
+        "hidden_recall": 0.37537198970955776,
+        "hidden_f1": 0.39229447050227445,
+        "count_absolute_error": 1.2736035491026416,
+        "weighted_jaccard": 0.4385465485083663,
+        "union_ratio_mae": 0.11316782595404733,
+        "aitchison_distance": 7.5777463009973,
+        "inclusion_brier_in_vocabulary": 0.034292701923986715,
+        "true_material_vocabulary_coverage": 0.8780257063869745
+      },
+      "fold_diagnostics": [
+        {
+          "fold_id": "dev_lowo_01",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 47,
+          "vocabulary_size": 69,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.7655402113187222,
+            "source_prevalence_logit": 0.4394749926928125,
+            "title_material_similarity": 0.13937858887074525,
+            "hypergraph_affinity": 1.7121580002877208,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3151975716265307,
+            "observed_log_weight": -0.7827031926844551
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.06120082565101864,
+            "source_prevalence_logit": 0.034280568102179845,
+            "title_material_similarity": 0.02716454124227256,
+            "hypergraph_affinity": 0.07050802095289678,
+            "chemical_affinity": 1.732050807568928,
+            "chemical_evidence_available": 1.732050807568881,
+            "legacy_odor_similarity": 1.7320508075688776,
+            "chemical_odor_similarity": 1.732050807568878,
+            "observed_material": 0.9304837933191737,
+            "observed_log_weight": 1.302621070444147
+          },
+          "group_dro_weights": {
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "huizhai_xiangpu": 0.14405250404517128,
+            "liexiang_xinpu": 0.20338809983314513,
+            "moe_xiaolu_xiangpu": 0.15471306732340678,
+            "xiangcheng_compilation_unresolved_source": 0.14275868376549253
+          },
+          "inclusion_map_gradient_inf_norm": 0.0007804275692908369,
+          "case_control_logit_offset": -2.23302336091948,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_yellow_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_qinan_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.8807578023043392,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_02",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 75,
+          "vocabulary_size": 73,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.7733994293647644,
+            "source_prevalence_logit": 0.36584667538166554,
+            "title_material_similarity": 0.19145791860155778,
+            "hypergraph_affinity": 1.9786251413956077,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3792736594689854,
+            "observed_log_weight": -0.747225811111835
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.05347129285482939,
+            "source_prevalence_logit": 0.029355334911815134,
+            "title_material_similarity": 0.023171467019599847,
+            "hypergraph_affinity": 0.06132693027960459,
+            "chemical_affinity": 1.7320508075688859,
+            "chemical_evidence_available": 1.7320508075688792,
+            "legacy_odor_similarity": 1.7320508075688776,
+            "chemical_odor_similarity": 1.7320508075688772,
+            "observed_material": 0.8882483658597567,
+            "observed_log_weight": 1.3287483697649853
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.13583298492867354,
+            "liexiang_xinpu": 0.19697882027242247,
+            "moe_xiaolu_xiangpu": 0.15654184763706744,
+            "xiangcheng_compilation_unresolved_source": 0.13246853378514042
+          },
+          "inclusion_map_gradient_inf_norm": 0.0010782235659785068,
+          "case_control_logit_offset": -2.2628526210075712,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.8892299771361613,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_03",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 79,
+          "vocabulary_size": 67,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.6344630389561012,
+            "source_prevalence_logit": 0.22378977949522863,
+            "title_material_similarity": 0.21114946074755794,
+            "hypergraph_affinity": 1.858575895655335,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3962828730016728,
+            "observed_log_weight": -0.7868289384589172
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.05121399901075691,
+            "source_prevalence_logit": 0.030155550549233683,
+            "title_material_similarity": 0.023179051016313748,
+            "hypergraph_affinity": 0.05790390801200453,
+            "chemical_affinity": 1.7320508075687926,
+            "chemical_evidence_available": 1.7320508075688807,
+            "legacy_odor_similarity": 1.7320508075688776,
+            "chemical_odor_similarity": 1.7320508075688776,
+            "observed_material": 0.9009916964585774,
+            "observed_log_weight": 1.3144743456020105
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.14308208967448585,
+            "huizhai_xiangpu": 0.1518854529255679,
+            "moe_xiaolu_xiangpu": 0.17338956740514572,
+            "xiangcheng_compilation_unresolved_source": 0.13971391428546442
+          },
+          "inclusion_map_gradient_inf_norm": 0.0007886592230944289,
+          "case_control_logit_offset": -2.2340803835865954,
+          "chemical_material_count": 24,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.8612952001257328,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_04",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 83,
+          "vocabulary_size": 79,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.6195408385868243,
+            "source_prevalence_logit": 0.4537905227181079,
+            "title_material_similarity": 0.20183892608648452,
+            "hypergraph_affinity": 1.7304412389662946,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.351118107418434,
+            "observed_log_weight": -0.7648336316230919
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.045712716814631814,
+            "source_prevalence_logit": 0.026416411819460545,
+            "title_material_similarity": 0.020735105468496537,
+            "hypergraph_affinity": 0.05045120138339215,
+            "chemical_affinity": 1.7320508075689167,
+            "chemical_evidence_available": 1.732050807568877,
+            "legacy_odor_similarity": 1.7320508075688772,
+            "chemical_odor_similarity": 1.7320508075688774,
+            "observed_material": 0.9004733874053006,
+            "observed_log_weight": 1.3171881332932684
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.1258207066139142,
+            "huizhai_xiangpu": 0.12738449705732394,
+            "liexiang_xinpu": 0.18495577885418416,
+            "xiangcheng_compilation_unresolved_source": 0.12174087375903568
+          },
+          "inclusion_map_gradient_inf_norm": 0.002467581331299873,
+          "case_control_logit_offset": -2.374989105271782,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.8727071795561845,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_05",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 56,
+          "vocabulary_size": 74,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.7571420845952107,
+            "source_prevalence_logit": 0.5719726047892407,
+            "title_material_similarity": 0.1295792657227539,
+            "hypergraph_affinity": 1.8075898527380219,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3174241535235514,
+            "observed_log_weight": -0.7753453046773177
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.055293098814009754,
+            "source_prevalence_logit": 0.033455851659202715,
+            "title_material_similarity": 0.026674196037509302,
+            "hypergraph_affinity": 0.06275861507741513,
+            "chemical_affinity": 1.7320508075688346,
+            "chemical_evidence_available": 1.7320508075688785,
+            "legacy_odor_similarity": 1.7320508075688779,
+            "chemical_odor_similarity": 1.7320508075688785,
+            "observed_material": 0.9279569498546119,
+            "observed_log_weight": 1.318275382528863
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.13578458852335248,
+            "huizhai_xiangpu": 0.1345697711307351,
+            "liexiang_xinpu": 0.1969137015109827,
+            "moe_xiaolu_xiangpu": 0.15602174141642602
+          },
+          "inclusion_map_gradient_inf_norm": 0.0005794846171715089,
+          "case_control_logit_offset": -2.27010450070488,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9215510576851161,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        }
+      ]
+    },
+    {
+      "seed": 71,
+      "source_macro_metrics": {
+        "full_precision": 0.7354293845900015,
+        "full_recall": 0.6418964617323215,
+        "full_f1": 0.6738290932600403,
+        "hidden_precision": 0.47946057672917924,
+        "hidden_recall": 0.3768562079179139,
+        "hidden_f1": 0.4043096311834969,
+        "count_absolute_error": 1.2736035491026416,
+        "weighted_jaccard": 0.4242907822480956,
+        "union_ratio_mae": 0.11797230072548692,
+        "aitchison_distance": 7.360655511399633,
+        "inclusion_brier_in_vocabulary": 0.035449777774152195,
+        "true_material_vocabulary_coverage": 0.8780257063869745
+      },
+      "fold_diagnostics": [
+        {
+          "fold_id": "dev_lowo_01",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 47,
+          "vocabulary_size": 69,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.6966469905069591,
+            "source_prevalence_logit": 0.5600324527891375,
+            "title_material_similarity": 0.16266935650650208,
+            "hypergraph_affinity": 1.6454435196510833,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3355920406711224,
+            "observed_log_weight": -0.7897681615111438
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.06136310145767212,
+            "source_prevalence_logit": 0.03530590798120973,
+            "title_material_similarity": 0.027412378743197956,
+            "hypergraph_affinity": 0.07098302299452318,
+            "chemical_affinity": 1.7320508075689212,
+            "chemical_evidence_available": 1.7320508075688845,
+            "legacy_odor_similarity": 1.7320508075688774,
+            "chemical_odor_similarity": 1.7320508075688772,
+            "observed_material": 0.9189608069574361,
+            "observed_log_weight": 1.2838807534844627
+          },
+          "group_dro_weights": {
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "huizhai_xiangpu": 0.15377838880987812,
+            "liexiang_xinpu": 0.19844667584915157,
+            "moe_xiaolu_xiangpu": 0.16816811841334475,
+            "xiangcheng_compilation_unresolved_source": 0.14060844438093126
+          },
+          "inclusion_map_gradient_inf_norm": 0.0025081307761058436,
+          "case_control_logit_offset": -2.23302336091948,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_yellow_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_qinan_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9558890964303455,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_02",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 75,
+          "vocabulary_size": 73,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.6735463640602689,
+            "source_prevalence_logit": 0.42863466223011853,
+            "title_material_similarity": 0.2028401473572426,
+            "hypergraph_affinity": 1.887718166622716,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3894528867994551,
+            "observed_log_weight": -0.7550585398239523
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.051359841631076056,
+            "source_prevalence_logit": 0.030365527959349464,
+            "title_material_similarity": 0.02281032887815399,
+            "hypergraph_affinity": 0.05890750429304643,
+            "chemical_affinity": 1.7320508075688894,
+            "chemical_evidence_available": 1.7320508075688774,
+            "legacy_odor_similarity": 1.7320508075688776,
+            "chemical_odor_similarity": 1.732050807568877,
+            "observed_material": 0.8854519956467788,
+            "observed_log_weight": 1.31914032975097
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.13242477048247608,
+            "liexiang_xinpu": 0.19208328591850637,
+            "moe_xiaolu_xiangpu": 0.16096172321029545,
+            "xiangcheng_compilation_unresolved_source": 0.13255914604996263
+          },
+          "inclusion_map_gradient_inf_norm": 0.0018208155056744827,
+          "case_control_logit_offset": -2.2628526210075712,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.942800015576276,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_03",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 79,
+          "vocabulary_size": 67,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.3275108669369104,
+            "source_prevalence_logit": 0.2870849051283619,
+            "title_material_similarity": 0.1928979461638909,
+            "hypergraph_affinity": 1.5585601848557624,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.4352314170474854,
+            "observed_log_weight": -0.789944003952449
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.04786690451053375,
+            "source_prevalence_logit": 0.03120475170953574,
+            "title_material_similarity": 0.02275810692547191,
+            "hypergraph_affinity": 0.05354889240290108,
+            "chemical_affinity": 1.7320508075689611,
+            "chemical_evidence_available": 1.7320508075688774,
+            "legacy_odor_similarity": 1.7320508075688772,
+            "chemical_odor_similarity": 1.732050807568877,
+            "observed_material": 0.8820886832491814,
+            "observed_log_weight": 1.3010102030443818
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.14059766042162578,
+            "huizhai_xiangpu": 0.16624183710573345,
+            "moe_xiaolu_xiangpu": 0.17253110893913545,
+            "xiangcheng_compilation_unresolved_source": 0.14151705233233888
+          },
+          "inclusion_map_gradient_inf_norm": 0.004573102157732489,
+          "case_control_logit_offset": -2.2340803835865954,
+          "chemical_material_count": 24,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9164970597414996,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_04",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 83,
+          "vocabulary_size": 79,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.5108885521900598,
+            "source_prevalence_logit": 0.5410347611351521,
+            "title_material_similarity": 0.18882657139886114,
+            "hypergraph_affinity": 1.6473324768444393,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3590694579593177,
+            "observed_log_weight": -0.7695100636345602
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.044488818286196205,
+            "source_prevalence_logit": 0.027000581493818326,
+            "title_material_similarity": 0.021091228686808083,
+            "hypergraph_affinity": 0.049708763264370806,
+            "chemical_affinity": 1.7320508075689018,
+            "chemical_evidence_available": 1.7320508075688776,
+            "legacy_odor_similarity": 1.7320508075688772,
+            "chemical_odor_similarity": 1.732050807568877,
+            "observed_material": 0.8959329185991282,
+            "observed_log_weight": 1.305962830019455
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.12207869284680681,
+            "huizhai_xiangpu": 0.1401352446155326,
+            "liexiang_xinpu": 0.18173313603659944,
+            "xiangcheng_compilation_unresolved_source": 0.12259530168830715
+          },
+          "inclusion_map_gradient_inf_norm": 0.0044754494991060545,
+          "case_control_logit_offset": -2.374989105271782,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9128330556261477,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_05",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 56,
+          "vocabulary_size": 74,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.7509251459634911,
+            "source_prevalence_logit": 0.6141486706680231,
+            "title_material_similarity": 0.13333354526511382,
+            "hypergraph_affinity": 1.803794009159161,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3251527316377847,
+            "observed_log_weight": -0.7735653950782377
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.05468528124804301,
+            "source_prevalence_logit": 0.03427502959407847,
+            "title_material_similarity": 0.027438752782066835,
+            "hypergraph_affinity": 0.06208821625307065,
+            "chemical_affinity": 1.732050807568894,
+            "chemical_evidence_available": 1.7320508075688774,
+            "legacy_odor_similarity": 1.7320508075688776,
+            "chemical_odor_similarity": 1.7320508075688779,
+            "observed_material": 0.9208893360598309,
+            "observed_log_weight": 1.311607938221595
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.1309637064484053,
+            "huizhai_xiangpu": 0.14701777577375671,
+            "liexiang_xinpu": 0.19427185524286708,
+            "moe_xiaolu_xiangpu": 0.15985746834658104
+          },
+          "inclusion_map_gradient_inf_norm": 0.001927452966581584,
+          "case_control_logit_offset": -2.27010450070488,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9268778409883284,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        }
+      ]
+    },
+    {
+      "seed": 101,
+      "source_macro_metrics": {
+        "full_precision": 0.7215688646904617,
+        "full_recall": 0.633597508097081,
+        "full_f1": 0.6626698442570002,
+        "hidden_precision": 0.4486832022585198,
+        "hidden_recall": 0.3690169869117237,
+        "hidden_f1": 0.3837598502525907,
+        "count_absolute_error": 1.2736035491026416,
+        "weighted_jaccard": 0.36769348481598085,
+        "union_ratio_mae": 0.13425511543960028,
+        "aitchison_distance": 7.703832012424999,
+        "inclusion_brier_in_vocabulary": 0.03507033641531962,
+        "true_material_vocabulary_coverage": 0.8780257063869745
+      },
+      "fold_diagnostics": [
+        {
+          "fold_id": "dev_lowo_01",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 47,
+          "vocabulary_size": 69,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.7081577312423334,
+            "source_prevalence_logit": 0.49403088722367205,
+            "title_material_similarity": 0.09927198384495284,
+            "hypergraph_affinity": 1.6953138477045646,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.318186221314798,
+            "observed_log_weight": -0.7944104319562416
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.061240711784644644,
+            "source_prevalence_logit": 0.035140503217502506,
+            "title_material_similarity": 0.02754557611821018,
+            "hypergraph_affinity": 0.07140943911129212,
+            "chemical_affinity": 1.7320508075688648,
+            "chemical_evidence_available": 1.732050807568846,
+            "legacy_odor_similarity": 1.7320508075688774,
+            "chemical_odor_similarity": 1.7320508075688772,
+            "observed_material": 0.9325073726440345,
+            "observed_log_weight": 1.299612937355058
+          },
+          "group_dro_weights": {
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "huizhai_xiangpu": 0.15023276628025464,
+            "liexiang_xinpu": 0.19966647926495773,
+            "moe_xiaolu_xiangpu": 0.14880567179348972,
+            "xiangcheng_compilation_unresolved_source": 0.1420902673595078
+          },
+          "inclusion_map_gradient_inf_norm": 0.0012602852643953666,
+          "case_control_logit_offset": -2.23302336091948,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_yellow_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_qinan_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9340665737294797,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_02",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 75,
+          "vocabulary_size": 73,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.7532446235280241,
+            "source_prevalence_logit": 0.4045788111411288,
+            "title_material_similarity": 0.22542448891622338,
+            "hypergraph_affinity": 1.953679402703748,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3843528369662228,
+            "observed_log_weight": -0.7583178961885616
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.0529165769030149,
+            "source_prevalence_logit": 0.030484150566751536,
+            "title_material_similarity": 0.02318075446026991,
+            "hypergraph_affinity": 0.060104678372098964,
+            "chemical_affinity": 1.7320508075689018,
+            "chemical_evidence_available": 1.732050807568887,
+            "legacy_odor_similarity": 1.7320508075688776,
+            "chemical_odor_similarity": 1.732050807568878,
+            "observed_material": 0.8912196796073976,
+            "observed_log_weight": 1.3243667530199628
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.13413984614370308,
+            "liexiang_xinpu": 0.2055696239881665,
+            "moe_xiaolu_xiangpu": 0.13974106850407644,
+            "xiangcheng_compilation_unresolved_source": 0.1321198519241601
+          },
+          "inclusion_map_gradient_inf_norm": 0.0010665259751652112,
+          "case_control_logit_offset": -2.2628526210075712,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.927445822270959,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_03",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 79,
+          "vocabulary_size": 67,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.5158922953131402,
+            "source_prevalence_logit": 0.26317537001575736,
+            "title_material_similarity": 0.20002809579124106,
+            "hypergraph_affinity": 1.766350689495392,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.412754459307781,
+            "observed_log_weight": -0.7904520009432179
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.049339797802724,
+            "source_prevalence_logit": 0.030980323360832653,
+            "title_material_similarity": 0.023216518751317063,
+            "hypergraph_affinity": 0.055922564981415214,
+            "chemical_affinity": 1.7320508075687833,
+            "chemical_evidence_available": 1.7320508075688776,
+            "legacy_odor_similarity": 1.7320508075688776,
+            "chemical_odor_similarity": 1.7320508075688772,
+            "observed_material": 0.8968160549054079,
+            "observed_log_weight": 1.3162669731852035
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.14234333391706167,
+            "huizhai_xiangpu": 0.15765623357537242,
+            "moe_xiaolu_xiangpu": 0.15227008920201196,
+            "xiangcheng_compilation_unresolved_source": 0.14071337865623523
+          },
+          "inclusion_map_gradient_inf_norm": 0.0007212311345088929,
+          "case_control_logit_offset": -2.2340803835865954,
+          "chemical_material_count": 24,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.8873990648610814,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_04",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 83,
+          "vocabulary_size": 79,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.5894785177462574,
+            "source_prevalence_logit": 0.44066289124717056,
+            "title_material_similarity": 0.18417437574010623,
+            "hypergraph_affinity": 1.7516344190791397,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3433241219874044,
+            "observed_log_weight": -0.7634323274859722
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.044256587887008404,
+            "source_prevalence_logit": 0.026745180058921583,
+            "title_material_similarity": 0.021326516780663815,
+            "hypergraph_affinity": 0.04999875491094262,
+            "chemical_affinity": 1.7320508075687682,
+            "chemical_evidence_available": 1.7320508075688776,
+            "legacy_odor_similarity": 1.7320508075688774,
+            "chemical_odor_similarity": 1.7320508075688772,
+            "observed_material": 0.9010139603492587,
+            "observed_log_weight": 1.3118378792397507
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "xiangcheng_compilation_unresolved_source": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.12466841858220712,
+            "huizhai_xiangpu": 0.13758061889086923,
+            "liexiang_xinpu": 0.18372628345863537,
+            "xiangcheng_compilation_unresolved_source": 0.12150515897848392
+          },
+          "inclusion_map_gradient_inf_norm": 0.005150179564777105,
+          "case_control_logit_offset": -2.374989105271782,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9047436888343577,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        },
+        {
+          "fold_id": "dev_lowo_05",
+          "model": "xiangji-cgir-v1",
+          "training_formula_count": 56,
+          "vocabulary_size": 74,
+          "feature_names": [
+            "global_prevalence_logit",
+            "source_prevalence_logit",
+            "title_material_similarity",
+            "hypergraph_affinity",
+            "chemical_affinity",
+            "chemical_evidence_available",
+            "legacy_odor_similarity",
+            "chemical_odor_similarity",
+            "observed_material",
+            "observed_log_weight"
+          ],
+          "enabled_channels": [
+            "global_prevalence_logit",
+            "hypergraph_affinity",
+            "legacy_odor_similarity",
+            "observed_log_weight",
+            "observed_material",
+            "source_prevalence_logit",
+            "title_material_similarity"
+          ],
+          "inclusion_coefficients": {
+            "global_prevalence_logit": -0.7943510885273568,
+            "source_prevalence_logit": 0.5547741019518408,
+            "title_material_similarity": 0.1191173711562799,
+            "hypergraph_affinity": 1.8700448269401069,
+            "chemical_affinity": 0.0,
+            "chemical_evidence_available": 0.0,
+            "legacy_odor_similarity": 0.0,
+            "chemical_odor_similarity": 0.0,
+            "observed_material": 1.3044878153540946,
+            "observed_log_weight": -0.7745755223211731
+          },
+          "inclusion_coefficient_sd": {
+            "global_prevalence_logit": 0.05376788916552467,
+            "source_prevalence_logit": 0.03363879291558651,
+            "title_material_similarity": 0.0278790696834457,
+            "hypergraph_affinity": 0.06198601239386759,
+            "chemical_affinity": 1.7320508075688348,
+            "chemical_evidence_available": 1.7320508075688779,
+            "legacy_odor_similarity": 1.732050807568877,
+            "chemical_odor_similarity": 1.7320508075688772,
+            "observed_material": 0.9299176576652876,
+            "observed_log_weight": 1.3086319195988914
+          },
+          "group_dro_weights": {
+            "chen_xiangpu_compilation": 0.25,
+            "huizhai_xiangpu": 0.25,
+            "liexiang_xinpu": 0.25,
+            "moe_xiaolu_xiangpu": 0.25
+          },
+          "training_source_log_loss": {
+            "chen_xiangpu_compilation": 0.13461675927638753,
+            "huizhai_xiangpu": 0.14257662142417524,
+            "liexiang_xinpu": 0.19054199048792944,
+            "moe_xiaolu_xiangpu": 0.14176731002948922
+          },
+          "inclusion_map_gradient_inf_norm": 0.0033719390680667857,
+          "case_control_logit_offset": -2.27010450070488,
+          "chemical_material_count": 25,
+          "chemical_proxies": {
+            "agarwood_zhan_grade": "agarwood",
+            "agarwood_soku_grade": "agarwood",
+            "clove_bark": "clove_bud",
+            "agarwood_yellow_grade": "agarwood",
+            "agarwood_raw_resin": "agarwood",
+            "agarwood_zhala_grade": "agarwood",
+            "agarwood_qinan_grade": "agarwood"
+          },
+          "ratio_residual_sd_log_scale": 0.9501799122786634,
+          "dirichlet_concentration": 2.0,
+          "maximum_training_component_count": 17,
+          "graph_reducer": "mean"
+        }
+      ]
+    }
+  ]
+}

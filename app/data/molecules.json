@@ -1,0 +1,979 @@
+{
+  "dimensions": [
+    "woody",
+    "resinous",
+    "sweet",
+    "floral",
+    "spicy",
+    "herbal",
+    "fresh",
+    "earthy",
+    "smoky",
+    "musky",
+    "fruity",
+    "tenacity"
+  ],
+  "mapping_note": "Semantic labels are mapped by a fixed, published rule table above. Tenacity is a material/performance property and is not inferred from isolated-molecule labels.",
+  "molecules": [
+    {
+      "name": "alpha-pinene",
+      "cid": 6654,
+      "molecular_weight": 136.23,
+      "smiles": "CC1=CCC2CC1C2(C)C",
+      "iupac_name": "2,6,6-trimethylbicyclo[3.1.1]hept-2-ene",
+      "leffingwell_labels": [
+        "pine"
+      ],
+      "vector": [
+        0.7,
+        0.25,
+        0,
+        0,
+        0,
+        0,
+        0.35,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 136.1252,
+        "logp": 2.9987,
+        "tpsa": 0.0,
+        "hbd": 0,
+        "hba": 0,
+        "rings": 3,
+        "rotatable_bonds": 0
+      }
+    },
+    {
+      "name": "beta-pinene",
+      "cid": 14896,
+      "molecular_weight": 136.23,
+      "smiles": "CC1(C2CCC(=C)C1C2)C",
+      "iupac_name": "6,6-dimethyl-2-methylidenebicyclo[3.1.1]heptane",
+      "leffingwell_labels": [
+        "dry",
+        "pine",
+        "woody"
+      ],
+      "vector": [
+        1.0,
+        0.25,
+        0,
+        0,
+        0,
+        0,
+        0.35,
+        0.2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 136.1252,
+        "logp": 2.9987,
+        "tpsa": 0.0,
+        "hbd": 0,
+        "hba": 0,
+        "rings": 3,
+        "rotatable_bonds": 0
+      }
+    },
+    {
+      "name": "limonene",
+      "cid": 22311,
+      "molecular_weight": 136.23,
+      "smiles": "CC1=CCC(CC1)C(=C)C",
+      "iupac_name": "1-methyl-4-prop-1-en-2-ylcyclohexene",
+      "leffingwell_labels": [
+        "citrus",
+        "gasoline"
+      ],
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.65,
+        0,
+        0,
+        0,
+        0.65,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 136.1252,
+        "logp": 3.3089,
+        "tpsa": 0.0,
+        "hbd": 0,
+        "hba": 0,
+        "rings": 1,
+        "rotatable_bonds": 1
+      }
+    },
+    {
+      "name": "sabinene",
+      "cid": 18818,
+      "molecular_weight": 136.23,
+      "smiles": "CC(C)C12CCC(=C)C1C2",
+      "iupac_name": "4-methylidene-1-propan-2-ylbicyclo[3.1.0]hexane",
+      "leffingwell_labels": [
+        "citrus",
+        "spicy"
+      ],
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0.65,
+        0,
+        0,
+        0,
+        0.65,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 136.1252,
+        "logp": 2.9987,
+        "tpsa": 0.0,
+        "hbd": 0,
+        "hba": 0,
+        "rings": 2,
+        "rotatable_bonds": 1
+      }
+    },
+    {
+      "name": "camphor",
+      "cid": 2537,
+      "molecular_weight": 152.23,
+      "smiles": "CC1(C2CCC1(C(=O)C2)C)C",
+      "iupac_name": "1,7,7-trimethylbicyclo[2.2.1]heptan-2-one",
+      "leffingwell_labels": [
+        "camphoreous",
+        "fresh",
+        "mint"
+      ],
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 152.1201,
+        "logp": 2.4017,
+        "tpsa": 17.07,
+        "hbd": 0,
+        "hba": 1,
+        "rings": 2,
+        "rotatable_bonds": 0
+      }
+    },
+    {
+      "name": "borneol",
+      "cid": 64685,
+      "molecular_weight": 154.25,
+      "smiles": "CC1(C2CCC1(C(C2)O)C)C",
+      "iupac_name": "1,7,7-trimethylbicyclo[2.2.1]heptan-2-ol",
+      "leffingwell_labels": [
+        "camphoreous",
+        "mint",
+        "sharp",
+        "woody"
+      ],
+      "vector": [
+        1.0,
+        0,
+        0,
+        0,
+        0.35,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 154.1358,
+        "logp": 2.1935,
+        "tpsa": 20.23,
+        "hbd": 1,
+        "hba": 1,
+        "rings": 2,
+        "rotatable_bonds": 0
+      }
+    },
+    {
+      "name": "isoborneol",
+      "cid": 61060,
+      "molecular_weight": 154.25,
+      "smiles": "C[C@@]12CC[C@H](C1(C)C)C[C@H]2O",
+      "iupac_name": "(1R,2R,4S)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-ol",
+      "leffingwell_labels": [
+        "camphoreous",
+        "pine"
+      ],
+      "vector": [
+        0.7,
+        0.25,
+        0,
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 154.1358,
+        "logp": 2.1935,
+        "tpsa": 20.23,
+        "hbd": 1,
+        "hba": 1,
+        "rings": 2,
+        "rotatable_bonds": 0
+      }
+    },
+    {
+      "name": "eugenol",
+      "cid": 3314,
+      "molecular_weight": 164.2,
+      "smiles": "COC1=C(C=CC(=C1)CC=C)O",
+      "iupac_name": "2-methoxy-4-prop-2-enylphenol",
+      "leffingwell_labels": [
+        "dry",
+        "pungent",
+        "smoky",
+        "spicy"
+      ],
+      "vector": [
+        0.25,
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0.2,
+        1.0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 164.0837,
+        "logp": 2.1293,
+        "tpsa": 29.46,
+        "hbd": 1,
+        "hba": 2,
+        "rings": 1,
+        "rotatable_bonds": 3
+      }
+    },
+    {
+      "name": "eugenol acetate",
+      "cid": 7136,
+      "molecular_weight": 206.24,
+      "smiles": "CC(=O)OC1=C(C=C(C=C1)CC=C)OC",
+      "iupac_name": "(2-methoxy-4-prop-2-enylphenyl) acetate",
+      "leffingwell_labels": [
+        "balsamic",
+        "fruity",
+        "spicy",
+        "sweet"
+      ],
+      "vector": [
+        0,
+        1.0,
+        1.0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1.0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 206.0943,
+        "logp": 2.349,
+        "tpsa": 35.53,
+        "hbd": 0,
+        "hba": 3,
+        "rings": 1,
+        "rotatable_bonds": 4
+      }
+    },
+    {
+      "name": "beta-caryophyllene",
+      "cid": 5281515,
+      "molecular_weight": 204.35,
+      "smiles": "C/C/1=C\\CCC(=C)[C@H]2CC([C@@H]2CC1)(C)C",
+      "iupac_name": "(1R,4E,9S)-4,11,11-trimethyl-8-methylidenebicyclo[7.2.0]undec-4-ene",
+      "leffingwell_labels": [
+        "dry",
+        "spicy",
+        "woody"
+      ],
+      "vector": [
+        1.0,
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0.2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 204.1878,
+        "logp": 4.7252,
+        "tpsa": 0.0,
+        "hbd": 0,
+        "hba": 0,
+        "rings": 2,
+        "rotatable_bonds": 0
+      }
+    },
+    {
+      "name": "caryophyllene oxide",
+      "cid": 14350,
+      "molecular_weight": 220.35,
+      "smiles": "CC1(CC2C1CCC3(C(O3)CCC2=C)C)C",
+      "iupac_name": "4,12,12-trimethyl-9-methylidene-5-oxatricyclo[8.2.0.04,6]dodecane",
+      "leffingwell_labels": [
+        "dry",
+        "tobacco",
+        "woody"
+      ],
+      "vector": [
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.2,
+        0.5,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 220.1827,
+        "logp": 3.9364,
+        "tpsa": 12.53,
+        "hbd": 0,
+        "hba": 1,
+        "rings": 3,
+        "rotatable_bonds": 0
+      }
+    },
+    {
+      "name": "cinnamaldehyde",
+      "cid": 637511,
+      "molecular_weight": 132.16,
+      "smiles": "C1=CC=C(C=C1)/C=C/C=O",
+      "iupac_name": "(E)-3-phenylprop-2-enal",
+      "leffingwell_labels": [
+        "cinnamon",
+        "spicy"
+      ],
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 132.0575,
+        "logp": 1.8987,
+        "tpsa": 17.07,
+        "hbd": 0,
+        "hba": 1,
+        "rings": 1,
+        "rotatable_bonds": 2
+      }
+    },
+    {
+      "name": "linalool",
+      "cid": 6549,
+      "molecular_weight": 154.25,
+      "smiles": "CC(=CCCC(C)(C=C)O)C",
+      "iupac_name": "3,7-dimethylocta-1,6-dien-3-ol",
+      "leffingwell_labels": [
+        "citrus",
+        "floral",
+        "woody"
+      ],
+      "vector": [
+        1.0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0.65,
+        0,
+        0,
+        0,
+        0.65,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 154.1358,
+        "logp": 2.6698,
+        "tpsa": 20.23,
+        "hbd": 1,
+        "hba": 1,
+        "rings": 0,
+        "rotatable_bonds": 4
+      }
+    },
+    {
+      "name": "vanillin",
+      "cid": 1183,
+      "molecular_weight": 152.15,
+      "smiles": "COC1=C(C=CC(=C1)C=O)O",
+      "iupac_name": "4-hydroxy-3-methoxybenzaldehyde",
+      "leffingwell_labels": [
+        "creamy",
+        "vanilla"
+      ],
+      "vector": [
+        0,
+        0.25,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 152.0473,
+        "logp": 1.2133,
+        "tpsa": 46.53,
+        "hbd": 1,
+        "hba": 3,
+        "rings": 1,
+        "rotatable_bonds": 2
+      }
+    },
+    {
+      "name": "benzyl benzoate",
+      "cid": 2345,
+      "molecular_weight": 212.24,
+      "smiles": "C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2",
+      "iupac_name": "benzyl benzoate",
+      "leffingwell_labels": [
+        "balsamic",
+        "fruity",
+        "sweet"
+      ],
+      "vector": [
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1.0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 212.0837,
+        "logp": 3.0436,
+        "tpsa": 26.3,
+        "hbd": 0,
+        "hba": 2,
+        "rings": 2,
+        "rotatable_bonds": 3
+      }
+    },
+    {
+      "name": "muscone",
+      "cid": 10947,
+      "molecular_weight": 238.41,
+      "smiles": "CC1CCCCCCCCCCCCC(=O)C1",
+      "iupac_name": "3-methylcyclopentadecan-1-one",
+      "leffingwell_labels": [
+        "musk",
+        "sweet"
+      ],
+      "vector": [
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 238.2297,
+        "logp": 5.2765,
+        "tpsa": 17.07,
+        "hbd": 0,
+        "hba": 1,
+        "rings": 1,
+        "rotatable_bonds": 0
+      }
+    },
+    {
+      "name": "geraniol",
+      "cid": 637566,
+      "molecular_weight": 154.25,
+      "smiles": "CC(=CCC/C(=C/CO)/C)C",
+      "iupac_name": "(2E)-3,7-dimethylocta-2,6-dien-1-ol",
+      "leffingwell_labels": [
+        "floral",
+        "rose",
+        "sweet"
+      ],
+      "vector": [
+        0,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 154.1358,
+        "logp": 2.6714,
+        "tpsa": 20.23,
+        "hbd": 1,
+        "hba": 1,
+        "rings": 0,
+        "rotatable_bonds": 4
+      }
+    },
+    {
+      "name": "citronellol",
+      "cid": 101977,
+      "molecular_weight": 156.26,
+      "smiles": "C[C@H](CCC=C(C)C)CCO",
+      "iupac_name": "(3R)-3,7-dimethyloct-6-en-1-ol",
+      "leffingwell_labels": [
+        "rose"
+      ],
+      "vector": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 156.1514,
+        "logp": 2.7513,
+        "tpsa": 20.23,
+        "hbd": 1,
+        "hba": 1,
+        "rings": 0,
+        "rotatable_bonds": 5
+      }
+    },
+    {
+      "name": "benzyl acetate",
+      "cid": 8785,
+      "molecular_weight": 150.17,
+      "smiles": "CC(=O)OCC1=CC=CC=C1",
+      "iupac_name": "benzyl acetate",
+      "leffingwell_labels": [
+        "floral",
+        "fruity",
+        "jasmine",
+        "sweet"
+      ],
+      "vector": [
+        0,
+        0,
+        1.0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1.0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 150.0681,
+        "logp": 1.7497,
+        "tpsa": 26.3,
+        "hbd": 0,
+        "hba": 2,
+        "rings": 1,
+        "rotatable_bonds": 2
+      }
+    },
+    {
+      "name": "indole",
+      "cid": 798,
+      "molecular_weight": 117.15,
+      "smiles": "C1=CC=C2C(=C1)C=CN2",
+      "iupac_name": "1H-indole",
+      "leffingwell_labels": [
+        "animal",
+        "cheesy",
+        "floral"
+      ],
+      "vector": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.75,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 117.0578,
+        "logp": 2.1679,
+        "tpsa": 15.79,
+        "hbd": 1,
+        "hba": 0,
+        "rings": 2,
+        "rotatable_bonds": 0
+      }
+    },
+    {
+      "name": "anethole",
+      "cid": 637563,
+      "molecular_weight": 148.2,
+      "smiles": "C/C=C/C1=CC=C(C=C1)OC",
+      "iupac_name": "1-methoxy-4-[(E)-prop-1-enyl]benzene",
+      "leffingwell_labels": [
+        "anisic",
+        "herbal",
+        "sweet"
+      ],
+      "vector": [
+        0,
+        0,
+        1.0,
+        0,
+        0.35,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 148.0888,
+        "logp": 2.7283,
+        "tpsa": 9.23,
+        "hbd": 0,
+        "hba": 1,
+        "rings": 1,
+        "rotatable_bonds": 2
+      }
+    },
+    {
+      "name": "alpha-santalol",
+      "cid": 5281531,
+      "molecular_weight": 220.35,
+      "smiles": "C/C(=C/CCC1(C2CC3C1(C3C2)C)C)/CO",
+      "iupac_name": "(Z)-5-(2,3-dimethyl-3-tricyclo[2.2.1.02,6]heptanyl)-2-methylpent-2-en-1-ol",
+      "leffingwell_labels": [
+        "woody"
+      ],
+      "vector": [
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 220.1827,
+        "logp": 3.3874,
+        "tpsa": 20.23,
+        "hbd": 1,
+        "hba": 1,
+        "rings": 4,
+        "rotatable_bonds": 4
+      }
+    },
+    {
+      "name": "beta-santalol",
+      "cid": 5281532,
+      "molecular_weight": 220.35,
+      "smiles": "C/C(=C/CCC1(C2CCC(C2)C1=C)C)/CO",
+      "iupac_name": "(Z)-2-methyl-5-(2-methyl-3-methylidene-2-bicyclo[2.2.1]heptanyl)pent-2-en-1-ol",
+      "leffingwell_labels": [
+        "animal",
+        "woody"
+      ],
+      "vector": [
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.75,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 220.1827,
+        "logp": 3.6976,
+        "tpsa": 20.23,
+        "hbd": 1,
+        "hba": 1,
+        "rings": 2,
+        "rotatable_bonds": 4
+      }
+    },
+    {
+      "name": "benzaldehyde",
+      "cid": 240,
+      "molecular_weight": 106.12,
+      "smiles": "C1=CC=C(C=C1)C=O",
+      "iupac_name": "benzaldehyde",
+      "leffingwell_labels": [
+        "almond"
+      ],
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 106.0419,
+        "logp": 1.4991,
+        "tpsa": 17.07,
+        "hbd": 0,
+        "hba": 1,
+        "rings": 1,
+        "rotatable_bonds": 1
+      }
+    },
+    {
+      "name": "2-phenylethanol",
+      "cid": 6054,
+      "molecular_weight": 122.16,
+      "smiles": "C1=CC=C(C=C1)CCO",
+      "iupac_name": "2-phenylethanol",
+      "leffingwell_labels": [
+        "floral",
+        "rose"
+      ],
+      "vector": [
+        0,
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 122.0732,
+        "logp": 1.2214,
+        "tpsa": 20.23,
+        "hbd": 1,
+        "hba": 1,
+        "rings": 1,
+        "rotatable_bonds": 2
+      }
+    },
+    {
+      "name": "beta-ionone",
+      "cid": 638014,
+      "molecular_weight": 192.3,
+      "smiles": "CC1=C(C(CCC1)(C)C)/C=C/C(=O)C",
+      "iupac_name": "(E)-4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-one",
+      "leffingwell_labels": [
+        "fruity",
+        "violet",
+        "woody"
+      ],
+      "vector": [
+        1.0,
+        0,
+        0,
+        0.8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1.0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 192.1514,
+        "logp": 3.6582,
+        "tpsa": 17.07,
+        "hbd": 0,
+        "hba": 1,
+        "rings": 1,
+        "rotatable_bonds": 2
+      }
+    },
+    {
+      "name": "methyl salicylate",
+      "cid": 4133,
+      "molecular_weight": 152.15,
+      "smiles": "COC(=O)C1=CC=CC=C1O",
+      "iupac_name": "methyl 2-hydroxybenzoate",
+      "leffingwell_labels": [
+        "sweet",
+        "warm"
+      ],
+      "vector": [
+        0,
+        0,
+        1.0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source": "Pyrfume leffingwell archive; CID-linked metadata",
+      "rdkit": {
+        "exact_mw": 152.0473,
+        "logp": 1.1788,
+        "tpsa": 46.53,
+        "hbd": 1,
+        "hba": 3,
+        "rings": 1,
+        "rotatable_bonds": 1
+      }
+    }
+  ],
+  "rdkit_note": "Descriptors are retained for audit and future similarity experiments. They are not treated as direct odor labels in model v1."
+}

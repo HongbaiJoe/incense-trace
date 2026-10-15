@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        14525
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 14525,
+          "SMILES": "CC1(C2CCC(C2)(C1=O)C)C",
+          "ConnectivitySMILES": "CC1(C2CCC(C2)(C1=O)C)C",
+          "InChIKey": "LHXDLQBQYFFVNW-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+date,provider,theme,query_or_method,records_retained,scope
+2026-09-06,Crossref and publisher/DOI resolution,computational olfaction and inverse scent design,seed DOI resolution plus backward/forward citation leads from closest prior art,8,bounded method map; total hit count not retained
+2026-09-06,ACL Anthology and PMLR,"historical NLP, recipe NER and conformal multilabel prediction",venue search and direct record verification,3,bounded method map; total hit count not retained
+2026-09-07,Europe PMC,material analytical chemistry,17 material-specific GC-MS/GC-O queries preserved in protocol/literature_search_log_2026-09-07.md,17,targeted evidence search
+2026-09-07,Crossref,bibliographic verification,exact DOI metadata retrieval for analytical sources,16,"metadata verification, not discovery"

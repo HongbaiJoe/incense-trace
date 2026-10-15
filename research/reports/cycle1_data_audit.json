@@ -1,0 +1,35 @@
+{
+  "recipe_count": 44,
+  "material_catalogue_count": 25,
+  "observed_material_count": 20,
+  "odor_dimension_count": 12,
+  "family_counts": {
+    "orchid": 11,
+    "osmanthus": 5,
+    "plum": 9,
+    "quiet": 16,
+    "spring": 3
+  },
+  "ingredient_count_distribution": {
+    "2": 4,
+    "3": 9,
+    "4": 13,
+    "5": 10,
+    "6": 5,
+    "8": 3
+  },
+  "duplicate_recipe_ids": [],
+  "recipes_with_source_id": 0,
+  "recipes_with_source_locator": 0,
+  "cross_document_evaluation_available": false,
+  "validation_flag_counts": {
+    "false": 37,
+    "true": 7
+  },
+  "known_limitations": [
+    "All 44 records currently lack document identifiers and page or folio locators.",
+    "The provided odor targets are curated labels, not instrumental measurements.",
+    "Leave-one-family-out evaluates style-family extrapolation; it must not be described as cross-document validation.",
+    "A true cross-document test requires independently sourced recipes with provenance metadata."
+  ]
+}

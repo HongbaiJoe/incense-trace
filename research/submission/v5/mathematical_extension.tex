@@ -1,0 +1,65 @@
+\subsection{Separating Source Variation from Estimation Noise}
+\label{sec:posterior-extension}
+
+A poorly supported association can vary across books simply because each book provides few observations. We therefore examine a posterior-moment extension of SSCL that separates this estimation noise from between-book variation. This extension retains the same graph, source splits and ranking task. Its changes concern the quantities pooled across sources.
+
+Write $A_{abd}=c_{abd}+\alpha\pi_{bd}$ and $B_{abd}=c_{ad}-c_{abd}+\alpha(1-\pi_{bd})$. The beta distribution in Equation~\eqref{eq:beta} gives exact conditional moments on the log-odds scale:
+\begin{align}
+ m_{abd}&=\psi(A_{abd})-\psi(B_{abd})-\logit\pi_{bd},\label{eq:logit-mean}\\
+ V_{abd}&=\psi_1(A_{abd})+\psi_1(B_{abd}),\label{eq:logit-var}
+\end{align}
+where $\psi$ and $\psi_1$ are the digamma and trigamma functions. These expressions follow by differentiating the beta log-normalising constant: $\mathrm E\log\theta=\psi(A)-\psi(A+B)$ and $\mathrm E\log(1-\theta)=\psi(B)-\psi(A+B)$. Taking their difference gives Equation~\eqref{eq:logit-mean}; the corresponding covariance terms cancel to give Equation~\eqref{eq:logit-var}. The moments condition on the empirical-Bayes prevalence estimates, rather than integrating their estimation uncertainty.
+
+For an edge with positive exposure, let $q_d=v_{ad}/\sum_e v_{ae}$ and $\bar m_{ab}=\sum_d q_dm_{abd}$. Suppose $m_{abd}=\mu_{ab}+u_d+e_d$, with independent, zero-mean source effects and errors, $\operatorname{Var}(u_d)=\tau_{ab}^2$ and $\operatorname{Var}(e_d)=V_{abd}$, treating the weights as fixed. Expanding the weighted sum of squares yields
+\begin{equation}
+\mathrm E\!\left[\sum_dq_d(m_{abd}-\bar m_{ab})^2\right]
+=\left(1-\sum_dq_d^2\right)\tau_{ab}^2+\sum_dq_d(1-q_d)V_{abd}.
+\label{eq:variance-decomposition}
+\end{equation}
+The first term measures genuine source variation; the second is the contribution of estimation noise. Solving this identity and truncating at zero gives the moment estimator
+\begin{equation}
+\widehat\tau_{ab}^2=
+\max\!\left\{0,\frac{\sum_dq_d(m_{abd}-\bar m_{ab})^2-\sum_dq_d(1-q_d)V_{abd}}
+{1-\sum_dq_d^2}\right\}.
+\label{eq:tau-estimator}
+\end{equation}
+For one exposed source we set $\widehat\tau^2=0$ and retain its posterior estimation variance. A new-source predictive scale is
+\begin{equation}
+U_{ab}^2=\widehat\tau_{ab}^2+\sum_dq_d^2(V_{abd}+\widehat\tau_{ab}^2),\qquad
+\widetilde G_{ab}=\expit(\logit\pi_b+\bar m_{ab}-\gamma U_{ab}).
+\label{eq:posterior-edge}
+\end{equation}
+The added term accounts for estimating the pooled mean. We blend $\widetilde G$ with the direct graph as in Equation~\eqref{eq:sscl}. Nested validation selects among $\alpha\in\{0.5,1,2,5\}$, $\lambda\in\{0,0.5,1\}$, $\gamma\in\{0,0.5\}$ and mean, maximum or top-two reduction. The resulting 72 configurations include the direct graph as $\lambda=0$. These are exploratory extensions made after the original benchmark was analysed; their results are reported separately in Section~\ref{sec:operational-results}.
+
+\subsection{Completing a Residual Formula without Knowing Its Missing Fraction}
+\label{sec:operational}
+
+A researcher normally knows the surviving materials and their relative amounts, but may know neither the original ingredient count nor the surviving fraction of the full mass. The deployment decoder therefore accepts relative observed amounts and estimates the two missing totals from training data. Let $K$ be the full ingredient count, $m=|O|$, and $p_{\rm train}(K)$ the smoothed training histogram. Under a simple exchangeable retention model, each ingredient survives with probability $\rho$, and $\rho\sim\operatorname{Beta}(a_0,b_0)$. Integrating over $\rho$ gives
+\begin{equation}
+p(K\mid m)\ \propto\ p_{\rm train}(K)\binom Km
+\frac{B(m+a_0,K-m+b_0)}{B(a_0,b_0)}\,\mathbf1\{K>m\}.
+\label{eq:unknown-retention}
+\end{equation}
+With $a_0=b_0=1$, the likelihood reduces to $1/(K+1)$. We use its posterior median to minimise posterior expected absolute count error. The assumption describes unknown independent retention; the abundance and prefix tests examine different mechanisms. An investigator can replace the inferred count with a documented total.
+
+For composition, write the supplied relative amounts as $o_a>0$ and $u_a=o_a/\sum_{j\in O}o_j$. The same training-neighbour estimator used by the benchmark supplies a positive reference vector $r$ on the selected support. If the known mass $M$ is undocumented, estimate it as $\widehat M=\sum_{a\in O}r_a/\sum_{j\in\widehat S}r_j$. We then solve
+\begin{equation}
+\min_{x\in\Delta^{|\widehat S|-1}}\ \sum_{j\in\widehat S}x_j\log(x_j/r_j)
+\quad\text{subject to}\quad x_a=M u_a\quad(a\in O).
+\label{eq:kl-projection}
+\end{equation}
+The normalisation of $r$ changes the objective only by a constant. Strict convexity gives a unique solution for positive $r$ and $0<M<1$. A Lagrange multiplier for the remaining mass gives $\log(x_b/r_b)+1+\nu=0$ for each hidden material, hence
+\begin{equation}
+x_a=M u_a\quad(a\in O),\qquad
+x_b=(1-M)\frac{r_b}{\sum_{j\in\widehat S\setminus O}r_j}\quad(b\notin O).
+\label{eq:kl-solution}
+\end{equation}
+This makes the composition rule a constrained information projection: known ratios remain fixed while the residual mass follows the closest reference composition. The benchmark decoder is the special case in which the observed absolute mass is supplied.
+
+To distinguish finding the right hidden mixture from guessing its total mass, we additionally report hidden-shape total variation and absolute missing-mass error. With $p_H$ and $\widehat p_H$ normalised separately over all unobserved materials,
+\begin{equation}
+\operatorname{TV}_H=\tfrac12\sum_{b\notin O}|p_{Hb}-\widehat p_{Hb}|,\qquad
+E_M=\left|\sum_{b\notin O}p_b-\sum_{b\notin O}\widehat p_b\right|.
+\label{eq:hidden-metrics}
+\end{equation}
+The operational test uses the original outer folds and masks, renormalises the visible amounts to sum to one before prediction, and withholds both the observation fraction and true visible mass. Its graph parameters are selected by the original inner benchmark. No query-specific hidden quantity enters inference.

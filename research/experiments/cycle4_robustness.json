@@ -1,0 +1,380 @@
+{
+  "schema_version": "0.1",
+  "model_parameters_changed_after_primary_result": false,
+  "observation_fraction_sensitivity": {
+    "0.25": {
+      "aggregation": "formula first, then historical work, then equal-weight work macro",
+      "model_metrics": {
+        "frequency": {
+          "aitchison_distance": 8.822247820214162,
+          "hidden_f1": 0.3808143429818859,
+          "weighted_jaccard": 0.264508656354543
+        },
+        "graph_only": {
+          "aitchison_distance": 8.716817018027179,
+          "hidden_f1": 0.3910574607775018,
+          "weighted_jaccard": 0.27244546025773164
+        },
+        "full_no_chemistry": {
+          "aitchison_distance": 8.76056970824004,
+          "hidden_f1": 0.3834394949552817,
+          "weighted_jaccard": 0.27098264343149275
+        }
+      },
+      "selected_vs_graph": {
+        "metric": "hidden_f1",
+        "unit_of_inference": "historical work group",
+        "source_count": 5,
+        "per_source_difference": {
+          "chen_xiangpu_compilation": -0.017039941053098917,
+          "huizhai_xiangpu": -0.004250841750841755,
+          "liexiang_xinpu": -0.006236878589819694,
+          "moe_xiaolu_xiangpu": -0.004545454545454519,
+          "xiangcheng_compilation_unresolved_source": -0.006016713171885513
+        },
+        "mean_paired_difference": -0.007617965822220079,
+        "descriptive_t_95_interval": [
+          -0.014247302797391526,
+          -0.0009886288470486327
+        ],
+        "source_bootstrap_95_interval": [
+          -0.012380431258914193,
+          -0.004706971677559896
+        ],
+        "exact_two_sided_sign_flip_pvalue": 0.0625
+      },
+      "selected_vs_frequency": {
+        "metric": "hidden_f1",
+        "unit_of_inference": "historical work group",
+        "source_count": 5,
+        "per_source_difference": {
+          "chen_xiangpu_compilation": -0.007040517961570569,
+          "huizhai_xiangpu": 0.00041847041847045685,
+          "liexiang_xinpu": 0.018811645870469407,
+          "moe_xiaolu_xiangpu": -0.02929292929292926,
+          "xiangcheng_compilation_unresolved_source": 0.03022909083253905
+        },
+        "mean_paired_difference": 0.002625151973395817,
+        "descriptive_t_95_interval": [
+          -0.026101587611291728,
+          0.031351891558083364
+        ],
+        "source_bootstrap_95_interval": [
+          -0.015221531993977789,
+          0.0204916800813032
+        ],
+        "exact_two_sided_sign_flip_pvalue": 0.8125
+      }
+    },
+    "0.75": {
+      "aggregation": "formula first, then historical work, then equal-weight work macro",
+      "model_metrics": {
+        "frequency": {
+          "aitchison_distance": 6.753359817142345,
+          "hidden_f1": 0.23231974965278052,
+          "weighted_jaccard": 0.5253310396853175
+        },
+        "graph_only": {
+          "aitchison_distance": 6.670784050739057,
+          "hidden_f1": 0.24503754073445547,
+          "weighted_jaccard": 0.5289994957722087
+        },
+        "full_no_chemistry": {
+          "aitchison_distance": 6.695742441221671,
+          "hidden_f1": 0.2437656445188206,
+          "weighted_jaccard": 0.5246037665323089
+        }
+      },
+      "selected_vs_graph": {
+        "metric": "hidden_f1",
+        "unit_of_inference": "historical work group",
+        "source_count": 5,
+        "per_source_difference": {
+          "chen_xiangpu_compilation": 0.004298245614035023,
+          "huizhai_xiangpu": -0.0048148148148148134,
+          "liexiang_xinpu": -0.008888888888888835,
+          "moe_xiaolu_xiangpu": 0.0,
+          "xiangcheng_compilation_unresolved_source": 0.0030459770114942275
+        },
+        "mean_paired_difference": -0.0012718962156348795,
+        "descriptive_t_95_interval": [
+          -0.008125248218407849,
+          0.005581455787138089
+        ],
+        "source_bootstrap_95_interval": [
+          -0.005629629629629618,
+          0.0029376890502117005
+        ],
+        "exact_two_sided_sign_flip_pvalue": 0.625
+      },
+      "selected_vs_frequency": {
+        "metric": "hidden_f1",
+        "unit_of_inference": "historical work group",
+        "source_count": 5,
+        "per_source_difference": {
+          "chen_xiangpu_compilation": 0.04106516290726814,
+          "huizhai_xiangpu": 0.04417508417508417,
+          "liexiang_xinpu": 0.012691197691197753,
+          "moe_xiaolu_xiangpu": -0.053333333333333344,
+          "xiangcheng_compilation_unresolved_source": 0.012631362889983566
+        },
+        "mean_paired_difference": 0.011445894866040057,
+        "descriptive_t_95_interval": [
+          -0.03723226460281072,
+          0.060124054334890834
+        ],
+        "source_bootstrap_95_interval": [
+          -0.021260694840549665,
+          0.03724435566450084
+        ],
+        "exact_two_sided_sign_flip_pvalue": 0.4375
+      }
+    },
+    "0.5": {
+      "aggregation": "formula first, then historical work, then equal-weight work macro",
+      "model_metrics": {
+        "frequency": {
+          "aitchison_distance": 7.890524747021504,
+          "hidden_f1": 0.3386314231241636,
+          "weighted_jaccard": 0.37880861819102574
+        },
+        "graph_only": {
+          "aitchison_distance": 7.716927225587732,
+          "hidden_f1": 0.36541975977910646,
+          "weighted_jaccard": 0.3879966344368349
+        },
+        "full_no_chemistry": {
+          "aitchison_distance": 7.723978147672447,
+          "hidden_f1": 0.3664678698662365,
+          "weighted_jaccard": 0.3871368821278717
+        }
+      },
+      "selected_vs_graph": {
+        "metric": "hidden_f1",
+        "unit_of_inference": "historical work group",
+        "source_count": 5,
+        "per_source_difference": {
+          "chen_xiangpu_compilation": -0.00790413533834583,
+          "huizhai_xiangpu": -0.008472222222222214,
+          "liexiang_xinpu": -0.0031818181818181746,
+          "moe_xiaolu_xiangpu": 0.016666666666666607,
+          "xiangcheng_compilation_unresolved_source": 0.00813205951136986
+        },
+        "mean_paired_difference": 0.0010481100871300498,
+        "descriptive_t_95_interval": [
+          -0.012593157905895548,
+          0.014689378080155647
+        ],
+        "source_bootstrap_95_interval": [
+          -0.007186906660590853,
+          0.01004558483460477
+        ],
+        "exact_two_sided_sign_flip_pvalue": 0.875
+      },
+      "selected_vs_frequency": {
+        "metric": "hidden_f1",
+        "unit_of_inference": "historical work group",
+        "source_count": 5,
+        "per_source_difference": {
+          "chen_xiangpu_compilation": 0.04008819396977292,
+          "huizhai_xiangpu": 0.03217592592592591,
+          "liexiang_xinpu": 0.014663299663299711,
+          "moe_xiaolu_xiangpu": -0.00833333333333336,
+          "xiangcheng_compilation_unresolved_source": 0.06058814748469915
+        },
+        "mean_paired_difference": 0.02783644674207287,
+        "descriptive_t_95_interval": [
+          -0.0045623900492458985,
+          0.06023528353339164
+        ],
+        "source_bootstrap_95_interval": [
+          0.00787037037037035,
+          0.04730318721743402
+        ],
+        "exact_two_sided_sign_flip_pvalue": 0.125
+      }
+    }
+  },
+  "locked_model_error_analysis": {
+    "pooling_note": "recall opportunities and errors repeat formulas across four pair folds and five mask seeds",
+    "hidden_recall_by_training_frequency": {
+      "common_5_plus": {
+        "recovered": 2221,
+        "total": 3876,
+        "recall": 0.5730134158926729
+      },
+      "out_of_vocabulary": {
+        "recovered": 0,
+        "total": 1445,
+        "recall": 0.0
+      },
+      "rare_2_to_4": {
+        "recovered": 44,
+        "total": 787,
+        "recall": 0.05590851334180432
+      },
+      "singleton": {
+        "recovered": 8,
+        "total": 342,
+        "recall": 0.023391812865497075
+      }
+    },
+    "hidden_recall_by_chemical_profile_availability": {
+      "profile_available": {
+        "recovered": 2075,
+        "total": 4300,
+        "recall": 0.48255813953488375
+      },
+      "profile_unavailable": {
+        "recovered": 198,
+        "total": 2150,
+        "recall": 0.09209302325581395
+      }
+    },
+    "metrics_by_true_formula_size": {
+      "2_to_4": {
+        "evaluation_instances": 345,
+        "hidden_f1": 0.35236714975845407,
+        "weighted_jaccard": 0.4201854863779425,
+        "count_absolute_error": 0.7101449275362319
+      },
+      "5_to_7": {
+        "evaluation_instances": 715,
+        "hidden_f1": 0.3436729936729937,
+        "weighted_jaccard": 0.3436614733640852,
+        "count_absolute_error": 1.1398601398601398
+      },
+      "8_plus": {
+        "evaluation_instances": 600,
+        "hidden_f1": 0.44583333333333336,
+        "weighted_jaccard": 0.4232012104803825,
+        "count_absolute_error": 1.525
+      }
+    },
+    "mean_pairwise_prediction_jaccard_across_mask_seeds": 0.6442097134792918,
+    "top_false_negative_materials": [
+      [
+        "scrophularia_root",
+        192
+      ],
+      [
+        "spikenard",
+        173
+      ],
+      [
+        "agarwood_zhan_grade",
+        166
+      ],
+      [
+        "frankincense",
+        165
+      ],
+      [
+        "clove_bud",
+        154
+      ],
+      [
+        "onycha",
+        141
+      ],
+      [
+        "agarwood",
+        131
+      ],
+      [
+        "jinyan_resin",
+        119
+      ],
+      [
+        "borneol_family",
+        109
+      ],
+      [
+        "clove_bark",
+        108
+      ],
+      [
+        "mao_aromatic_grass",
+        103
+      ],
+      [
+        "linglingxiang",
+        102
+      ],
+      [
+        "cyperus",
+        94
+      ],
+      [
+        "angelica_dahurica",
+        87
+      ],
+      [
+        "patchouli",
+        82
+      ]
+    ],
+    "top_false_positive_materials": [
+      [
+        "sandalwood_white",
+        462
+      ],
+      [
+        "borneol_family",
+        409
+      ],
+      [
+        "musk",
+        378
+      ],
+      [
+        "agarwood",
+        376
+      ],
+      [
+        "clove_bud",
+        284
+      ],
+      [
+        "spikenard",
+        234
+      ],
+      [
+        "patchouli",
+        82
+      ],
+      [
+        "linglingxiang",
+        65
+      ],
+      [
+        "mao_aromatic_grass",
+        59
+      ],
+      [
+        "galangal_sanai",
+        58
+      ],
+      [
+        "frankincense",
+        45
+      ],
+      [
+        "agarwood_zhan_grade",
+        45
+      ],
+      [
+        "onycha",
+        29
+      ],
+      [
+        "scrophularia_root",
+        26
+      ],
+      [
+        "jiangzhenxiang",
+        21
+      ]
+    ]
+  }
+}

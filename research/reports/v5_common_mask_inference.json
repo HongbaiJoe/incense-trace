@@ -1,0 +1,21 @@
+{
+  "weak_sscl_difference": {
+    "unit": "historical_work_group",
+    "work_count": 6,
+    "per_work_difference": {
+      "chen_xiangpu_compilation": 0.004624060150375919,
+      "hong_xiangpu_attributed": -0.026666666666666727,
+      "huizhai_xiangpu": -0.10129629629629627,
+      "liexiang_xinpu": 0.0,
+      "moe_xiaolu_xiangpu": 0.0,
+      "xiangcheng_compilation_unresolved_source": 0.0049086928397273355
+    },
+    "mean_difference": -0.019738368328809958,
+    "positive_work_count": 2,
+    "exact_two_sided_sign_flip_pvalue": 0.5
+  },
+  "ninety_percent_interval": [
+    -0.05064814814814814,
+    0.004624060150375919
+  ]
+}

@@ -1,0 +1,1527 @@
+{
+  "record_count": 40,
+  "records_with_identity_failures": 0,
+  "interpretation": "Identity checks must pass. PubChem and RDKit values for XlogP, TPSA, hydrogen-bond counts, and rotatable bonds are retained as method-dependent comparisons, not identity tests. Downstream features use the pinned RDKit version consistently.",
+  "comparisons": [
+    {
+      "cid": 3314,
+      "query_name": "eugenol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.0,
+          "rdkit": 2.1293,
+          "absolute_difference": 0.1293000000000002
+        },
+        "tpsa": {
+          "pubchem": 29.5,
+          "rdkit": 29.46,
+          "absolute_difference": 0.03999999999999915
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 3.0,
+          "rdkit": 3,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 853433,
+      "query_name": "isoeugenol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.6,
+          "rdkit": 2.4339000000000013,
+          "absolute_difference": 0.1660999999999988
+        },
+        "tpsa": {
+          "pubchem": 29.5,
+          "rdkit": 29.46,
+          "absolute_difference": 0.03999999999999915
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 5281515,
+      "query_name": "beta-caryophyllene",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 4.4,
+          "rdkit": 4.7252000000000045,
+          "absolute_difference": 0.32520000000000415
+        },
+        "tpsa": {
+          "pubchem": 0.0,
+          "rdkit": 0.0,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 637511,
+      "query_name": "trans-cinnamaldehyde",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 1.9,
+          "rdkit": 1.8987,
+          "absolute_difference": 0.0012999999999998568
+        },
+        "tpsa": {
+          "pubchem": 17.1,
+          "rdkit": 17.07,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 323,
+      "query_name": "coumarin",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 1.4,
+          "rdkit": 1.7929999999999997,
+          "absolute_difference": 0.3929999999999998
+        },
+        "tpsa": {
+          "pubchem": 26.3,
+          "rdkit": 30.21,
+          "absolute_difference": 3.91
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 6654,
+      "query_name": "alpha-pinene",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.8,
+          "rdkit": 2.9987000000000013,
+          "absolute_difference": 0.19870000000000143
+        },
+        "tpsa": {
+          "pubchem": 0.0,
+          "rdkit": 0.0,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 14896,
+      "query_name": "beta-pinene",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 3.1,
+          "rdkit": 2.9987000000000013,
+          "absolute_difference": 0.10129999999999884
+        },
+        "tpsa": {
+          "pubchem": 0.0,
+          "rdkit": 0.0,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 22311,
+      "query_name": "limonene",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 3.4,
+          "rdkit": 3.308900000000002,
+          "absolute_difference": 0.09109999999999774
+        },
+        "tpsa": {
+          "pubchem": 0.0,
+          "rdkit": 0.0,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 6549,
+      "query_name": "linalool",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.7,
+          "rdkit": 2.6698000000000013,
+          "absolute_difference": 0.030199999999998894
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 4.0,
+          "rdkit": 4,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 64685,
+      "query_name": "borneol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.7,
+          "rdkit": 2.1935000000000002,
+          "absolute_difference": 0.5065
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 2537,
+      "query_name": "camphor",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.2,
+          "rdkit": 2.401700000000001,
+          "absolute_difference": 0.20170000000000066
+        },
+        "tpsa": {
+          "pubchem": 17.1,
+          "rdkit": 17.07,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 2758,
+      "query_name": "1,8-cineole",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.5,
+          "rdkit": 2.7441000000000013,
+          "absolute_difference": 0.24410000000000132
+        },
+        "tpsa": {
+          "pubchem": 9.2,
+          "rdkit": 9.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 11085337,
+      "query_name": "alpha-santalol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 4.0,
+          "rdkit": 3.3874000000000026,
+          "absolute_difference": 0.6125999999999974
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 4.0,
+          "rdkit": 4,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 6857681,
+      "query_name": "beta-santalol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 4.0,
+          "rdkit": 3.6976000000000027,
+          "absolute_difference": 0.30239999999999734
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 4.0,
+          "rdkit": 4,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 10955174,
+      "query_name": "patchoulol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 4.1,
+          "rdkit": 3.609800000000003,
+          "absolute_difference": 0.49019999999999664
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 7160826,
+      "query_name": "muscone",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 6.2,
+          "rdkit": 5.276500000000005,
+          "absolute_difference": 0.9234999999999953
+        },
+        "tpsa": {
+          "pubchem": 17.1,
+          "rdkit": 17.07,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 8785,
+      "query_name": "benzyl acetate",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.0,
+          "rdkit": 1.7496999999999998,
+          "absolute_difference": 0.2503000000000002
+        },
+        "tpsa": {
+          "pubchem": 26.3,
+          "rdkit": 26.3,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 3.0,
+          "rdkit": 2,
+          "absolute_difference": 1.0
+        }
+      }
+    },
+    {
+      "cid": 2345,
+      "query_name": "benzyl benzoate",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 4.0,
+          "rdkit": 3.0436000000000014,
+          "absolute_difference": 0.9563999999999986
+        },
+        "tpsa": {
+          "pubchem": 26.3,
+          "rdkit": 26.3,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 4.0,
+          "rdkit": 3,
+          "absolute_difference": 1.0
+        }
+      }
+    },
+    {
+      "cid": 240,
+      "query_name": "benzaldehyde",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 1.5,
+          "rdkit": 1.4990999999999999,
+          "absolute_difference": 0.0009000000000001229
+        },
+        "tpsa": {
+          "pubchem": 17.1,
+          "rdkit": 17.07,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 243,
+      "query_name": "benzoic acid",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 1.9,
+          "rdkit": 1.3848,
+          "absolute_difference": 0.5151999999999999
+        },
+        "tpsa": {
+          "pubchem": 37.3,
+          "rdkit": 37.3,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 2.0,
+          "rdkit": 1,
+          "absolute_difference": 1.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 444539,
+      "query_name": "trans-cinnamic acid",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.1,
+          "rdkit": 1.7844,
+          "absolute_difference": 0.3156000000000001
+        },
+        "tpsa": {
+          "pubchem": 37.3,
+          "rdkit": 37.3,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 2.0,
+          "rdkit": 1,
+          "absolute_difference": 1.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 1183,
+      "query_name": "vanillin",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 1.2,
+          "rdkit": 1.2133,
+          "absolute_difference": 0.01330000000000009
+        },
+        "tpsa": {
+          "pubchem": 46.5,
+          "rdkit": 46.53,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 3.0,
+          "rdkit": 3,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 31244,
+      "query_name": "p-anisaldehyde",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 1.8,
+          "rdkit": 1.5076999999999998,
+          "absolute_difference": 0.2923000000000002
+        },
+        "tpsa": {
+          "pubchem": 26.3,
+          "rdkit": 26.3,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 637563,
+      "query_name": "trans-anethole",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 3.3,
+          "rdkit": 2.728300000000001,
+          "absolute_difference": 0.571699999999999
+        },
+        "tpsa": {
+          "pubchem": 9.2,
+          "rdkit": 9.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 4133,
+      "query_name": "methyl salicylate",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.3,
+          "rdkit": 1.1787999999999998,
+          "absolute_difference": 1.1212
+        },
+        "tpsa": {
+          "pubchem": 46.5,
+          "rdkit": 46.53,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 3.0,
+          "rdkit": 3,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 2.0,
+          "rdkit": 1,
+          "absolute_difference": 1.0
+        }
+      }
+    },
+    {
+      "cid": 798,
+      "query_name": "indole",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.1,
+          "rdkit": 2.1678999999999995,
+          "absolute_difference": 0.0678999999999994
+        },
+        "tpsa": {
+          "pubchem": 15.8,
+          "rdkit": 15.79,
+          "absolute_difference": 0.010000000000001563
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 6054,
+      "query_name": "2-phenylethanol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 1.4,
+          "rdkit": 1.2213999999999998,
+          "absolute_difference": 0.1786000000000001
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 637566,
+      "query_name": "geraniol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.9,
+          "rdkit": 2.671400000000001,
+          "absolute_difference": 0.2285999999999988
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 4.0,
+          "rdkit": 4,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 8842,
+      "query_name": "citronellol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 3.2,
+          "rdkit": 2.751300000000001,
+          "absolute_difference": 0.4486999999999992
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 5.0,
+          "rdkit": 5,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 5284507,
+      "query_name": "nerolidol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 4.6,
+          "rdkit": 4.396300000000004,
+          "absolute_difference": 0.203699999999996
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 7.0,
+          "rdkit": 7,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 445070,
+      "query_name": "farnesol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 4.8,
+          "rdkit": 4.3979000000000035,
+          "absolute_difference": 0.40209999999999635
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 7.0,
+          "rdkit": 7,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 227829,
+      "query_name": "guaiol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 3.1,
+          "rdkit": 3.920000000000003,
+          "absolute_difference": 0.820000000000003
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 21675005,
+      "query_name": "agarospirol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 3.7,
+          "rdkit": 3.9200000000000026,
+          "absolute_difference": 0.22000000000000242
+        },
+        "tpsa": {
+          "pubchem": 20.2,
+          "rdkit": 20.23,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 17355,
+      "query_name": "benzylacetone",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 1.8,
+          "rdkit": 2.2081999999999997,
+          "absolute_difference": 0.4081999999999997
+        },
+        "tpsa": {
+          "pubchem": 17.1,
+          "rdkit": 17.07,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 3.0,
+          "rdkit": 3,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 5281437,
+      "query_name": "costunolide",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.1,
+          "rdkit": 3.5508000000000024,
+          "absolute_difference": 1.4508000000000023
+        },
+        "tpsa": {
+          "pubchem": 26.3,
+          "rdkit": 26.3,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 73174,
+      "query_name": "dehydrocostus lactone",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.6,
+          "rdkit": 3.0166000000000013,
+          "absolute_difference": 0.4166000000000012
+        },
+        "tpsa": {
+          "pubchem": 26.3,
+          "rdkit": 26.3,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 7501,
+      "query_name": "styrene",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.9,
+          "rdkit": 2.3296,
+          "absolute_difference": 0.5703999999999998
+        },
+        "tpsa": {
+          "pubchem": 0.0,
+          "rdkit": 0.0,
+          "absolute_difference": 0.0
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 7127,
+      "query_name": "methyl eugenol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.5,
+          "rdkit": 2.4323000000000006,
+          "absolute_difference": 0.06769999999999943
+        },
+        "tpsa": {
+          "pubchem": 18.5,
+          "rdkit": 18.46,
+          "absolute_difference": 0.03999999999999915
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 4.0,
+          "rdkit": 4,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 14525,
+      "query_name": "fenchone",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.3,
+          "rdkit": 2.401700000000001,
+          "absolute_difference": 0.10170000000000101
+        },
+        "tpsa": {
+          "pubchem": 17.1,
+          "rdkit": 17.07,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 0.0,
+          "rdkit": 0,
+          "absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "cid": 11092,
+      "query_name": "paeonol",
+      "identity_checks": {
+        "molecular_formula": true,
+        "inchikey": true,
+        "molecular_weight": true,
+        "exact_mass": true
+      },
+      "identity_failures": [],
+      "definition_sensitive_differences": {
+        "xlogp": {
+          "pubchem": 2.0,
+          "rdkit": 1.6033999999999995,
+          "absolute_difference": 0.3966000000000005
+        },
+        "tpsa": {
+          "pubchem": 46.5,
+          "rdkit": 46.53,
+          "absolute_difference": 0.030000000000001137
+        },
+        "hbond_donor_count": {
+          "pubchem": 1.0,
+          "rdkit": 1,
+          "absolute_difference": 0.0
+        },
+        "hbond_acceptor_count": {
+          "pubchem": 3.0,
+          "rdkit": 3,
+          "absolute_difference": 0.0
+        },
+        "rotatable_bond_count": {
+          "pubchem": 2.0,
+          "rdkit": 2,
+          "absolute_difference": 0.0
+        }
+      }
+    }
+  ]
+}

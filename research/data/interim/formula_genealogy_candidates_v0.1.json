@@ -1,0 +1,5158 @@
+{
+  "schema_version": "0.1",
+  "source_sha256": "f7466a6aa512b44eccf61f4eb3467ef7a0db7834a5d214f49116de60ba9f6c37",
+  "edge_count": 121,
+  "family_candidate_count": 415,
+  "multi_member_family_count": 99,
+  "largest_family_size": 6,
+  "edge_counts_by_collection_pair": {
+    "chen_xiangpu + hong_xiangpu": 9,
+    "chen_xiangpu + xiangcheng": 105,
+    "hong_xiangpu + xiangcheng": 7
+  },
+  "thresholds": {
+    "high_text_similarity": 0.72,
+    "cross_witness_same_non_generic_title": 0.3,
+    "cross_witness_same_generic_title": 0.55,
+    "cross_witness_text_similarity": 0.5,
+    "within_witness_same_title": 0.48,
+    "cross_witness_distinctive_title_text": 0.12,
+    "cross_witness_material_set": 0.85,
+    "cross_witness_composition_cosine": 0.94,
+    "cross_witness_title_2gram": 0.6
+  },
+  "status": "candidate genealogy only; multi-member families require manual adjudication",
+  "edges": [
+    {
+      "left_candidate_id": "1ed88b4d49468126",
+      "right_candidate_id": "24ec521a31888a5e",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "漢建寧宫中香",
+      "right_title": "漢建寜宫中香",
+      "text_3gram_jaccard": 0.3656716417910448,
+      "title_2gram_jaccard": 0.42857142857142855,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999448139223936,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "34b8adabfe45a015",
+      "right_candidate_id": "1cdc43866c1197b1",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "唐開元宫中香",
+      "right_title": "唐開元宫中方",
+      "text_3gram_jaccard": 0.5087719298245614,
+      "title_2gram_jaccard": 0.8,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "8947ca2961e16584",
+      "right_candidate_id": "6d34034d8697afde",
+      "left_collection": "xiangcheng",
+      "right_collection": "hong_xiangpu",
+      "left_title": "宫中香",
+      "right_title": "又牙香法",
+      "text_3gram_jaccard": 0.16455696202531644,
+      "title_2gram_jaccard": 0.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "8947ca2961e16584",
+      "right_candidate_id": "01acbffa51f004b9",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "宫中香",
+      "right_title": "宫中香",
+      "text_3gram_jaccard": 0.5157894736842106,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "ce5ff58e92411808",
+      "right_candidate_id": "a4ede62bc7f1a912",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "宫中香",
+      "right_title": "宫中香",
+      "text_3gram_jaccard": 0.47619047619047616,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "cdc32ca7f8ab595c",
+      "right_candidate_id": "937ace5d81b8c3d7",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "又方",
+      "right_title": "又方",
+      "text_3gram_jaccard": 0.40384615384615385,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999999999999999,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "e4819932b10b480f",
+      "right_candidate_id": "861c8373612f74c8",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "又方",
+      "right_title": "又方",
+      "text_3gram_jaccard": 0.4626865671641791,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "4be998cb22b181ad",
+      "right_candidate_id": "159459c3065d6a17",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "趙清獻公香",
+      "right_title": "趙清獻公香",
+      "text_3gram_jaccard": 0.3902439024390244,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "426374854607cf16",
+      "right_candidate_id": "43f3ddb5a0de7ebe",
+      "left_collection": "xiangcheng",
+      "right_collection": "hong_xiangpu",
+      "left_title": "唐化度寺衙香",
+      "right_title": "唐化度寺牙香法",
+      "text_3gram_jaccard": 0.676923076923077,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "426374854607cf16",
+      "right_candidate_id": "4a8ea093dbe9855e",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "唐化度寺衙香",
+      "right_title": "唐化度寺衙香",
+      "text_3gram_jaccard": 0.24358974358974358,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9851355305740084,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "112b330c0ead4e8e",
+      "right_candidate_id": "0eb6159581b67df4",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "花蕊夫人衙香",
+      "right_title": "大真香",
+      "text_3gram_jaccard": 0.03759398496240601,
+      "title_2gram_jaccard": 0.0,
+      "material_set_jaccard": 0.8571428571428571,
+      "composition_cosine": 0.9493781582252456,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "fef8bc76cda9820a",
+      "right_candidate_id": "23da5f93d3689f69",
+      "left_collection": "xiangcheng",
+      "right_collection": "hong_xiangpu",
+      "left_title": "雍文徹郎中衙香",
+      "right_title": "雍文徹郎中牙香法",
+      "text_3gram_jaccard": 0.4861111111111111,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9847319278346619,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "fef8bc76cda9820a",
+      "right_candidate_id": "7b805494d6a005b6",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "雍文徹郎中衙香",
+      "right_title": "雍文徹郎中衙香",
+      "text_3gram_jaccard": 0.16049382716049382,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9847319278346619,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "a5d2f47b4ecd735a",
+      "right_candidate_id": "57bcdaa6eea2e79c",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "錢塘僧日休衙香",
+      "right_title": "錢塘僧日休衙香",
+      "text_3gram_jaccard": 0.46296296296296297,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999999999999999,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "74879092d2183530",
+      "right_candidate_id": "db304f6913d431c3",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "衙香",
+      "right_title": "衙香",
+      "text_3gram_jaccard": 0.48717948717948717,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.917662935482247,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "759fe8040187a82e",
+      "right_candidate_id": "83b8df1ec6026189",
+      "left_collection": "xiangcheng",
+      "right_collection": "hong_xiangpu",
+      "left_title": "衙香",
+      "right_title": "又牙香法",
+      "text_3gram_jaccard": 0.15454545454545454,
+      "title_2gram_jaccard": 0.5,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9959210716433798,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "b188422c6f076cd0",
+      "right_candidate_id": "be21fa1ff351375e",
+      "left_collection": "xiangcheng",
+      "right_collection": "hong_xiangpu",
+      "left_title": "衙香",
+      "right_title": "又牙香法",
+      "text_3gram_jaccard": 0.2857142857142857,
+      "title_2gram_jaccard": 0.5,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "b188422c6f076cd0",
+      "right_candidate_id": "331d546fdff0a912",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "衙香",
+      "right_title": "衙香",
+      "text_3gram_jaccard": 0.3037974683544304,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9883351367840097,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "ecf58a649df2b824",
+      "right_candidate_id": "8f7b69558ee83217",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "衙香",
+      "right_title": "衙香",
+      "text_3gram_jaccard": 0.34074074074074073,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "4884c69a912a8efc",
+      "right_candidate_id": "6d34034d8697afde",
+      "left_collection": "xiangcheng",
+      "right_collection": "hong_xiangpu",
+      "left_title": "衙香",
+      "right_title": "又牙香法",
+      "text_3gram_jaccard": 0.5273972602739726,
+      "title_2gram_jaccard": 0.5,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "4884c69a912a8efc",
+      "right_candidate_id": "01acbffa51f004b9",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "衙香",
+      "right_title": "宫中香",
+      "text_3gram_jaccard": 0.12269938650306748,
+      "title_2gram_jaccard": 0.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "4884c69a912a8efc",
+      "right_candidate_id": "6066288bb2df0b9e",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "衙香",
+      "right_title": "衙香",
+      "text_3gram_jaccard": 0.01764705882352941,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.7142857142857143,
+      "composition_cosine": 0.8279317851243955,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "8870aa6e9529ef69",
+      "right_candidate_id": "5e171ff4f390c63e",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "嬰香",
+      "right_title": "嬰香",
+      "text_3gram_jaccard": 0.2994350282485876,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999999999999999,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "30eda448e9e70fde",
+      "right_candidate_id": "32416d1d741b6f6c",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "道香",
+      "right_title": "金粟衙香",
+      "text_3gram_jaccard": 0.5454545454545454,
+      "title_2gram_jaccard": 0.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999999999999999,
+      "reason": "cross_witness_text_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "88d58aee9af2863c",
+      "right_candidate_id": "9a97be4d6974afd9",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "宣和貴妃王氏金香",
+      "right_title": "宣和貴妃黄氏金香",
+      "text_3gram_jaccard": 0.7073170731707317,
+      "title_2gram_jaccard": 0.5555555555555556,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "ce2fcf4efc794da3",
+      "right_candidate_id": "d859dfceb3da004f",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "壓香",
+      "right_title": "壓香",
+      "text_3gram_jaccard": 0.25806451612903225,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "dde60b2409925731",
+      "right_candidate_id": "b7aef8be54a1b3bf",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "僧惠深濕香",
+      "right_title": "僧恵深温香",
+      "text_3gram_jaccard": 0.39361702127659576,
+      "title_2gram_jaccard": 0.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "a23dcbff88dd8107",
+      "right_candidate_id": "464a46c7bc7c0026",
+      "left_collection": "xiangcheng",
+      "right_collection": "hong_xiangpu",
+      "left_title": "供佛濕香",
+      "right_title": "供佛濕香法",
+      "text_3gram_jaccard": 0.3850267379679144,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "a23dcbff88dd8107",
+      "right_candidate_id": "5b1139b8d301fa11",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "供佛濕香",
+      "right_title": "供佛温香",
+      "text_3gram_jaccard": 0.4327485380116959,
+      "title_2gram_jaccard": 0.2,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9933604144213769,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "bba9a1b61cdb94ca",
+      "right_candidate_id": "32a340e540f55294",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "濕香",
+      "right_title": "濕香",
+      "text_3gram_jaccard": 0.4791666666666667,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "9f87f885fb176803",
+      "right_candidate_id": "1158b2856da165fb",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "丁晉公清眞香",
+      "right_title": "丁晉公清真香",
+      "text_3gram_jaccard": 0.43902439024390244,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.995816693777087,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "3a9662a3041ba59e",
+      "right_candidate_id": "577fd5fe9e38cdcf",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "清眞香",
+      "right_title": "清真香",
+      "text_3gram_jaccard": 0.4657534246575342,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.9166666666666666,
+      "composition_cosine": 0.8908325144615472,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "66d0d513221a0031",
+      "right_candidate_id": "3234a403476fc18b",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "黄太史清眞香",
+      "right_title": "黄太史清真香",
+      "text_3gram_jaccard": 0.5686274509803921,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "65577c80558e52f0",
+      "right_candidate_id": "bdc30fa3ab84c767",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "清妙香",
+      "right_title": "清妙香",
+      "text_3gram_jaccard": 0.6142857142857143,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "c1f7bfd868a92f54",
+      "right_candidate_id": "1e6a8c2ad56ec242",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "清逺香",
+      "right_title": "清逺香",
+      "text_3gram_jaccard": 0.8461538461538461,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "high_text_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "cd3c56b236e8a027",
+      "right_candidate_id": "2b66f4cc9dd327a1",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "龍涎香",
+      "right_title": "龍涎香",
+      "text_3gram_jaccard": 0.45714285714285713,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8,
+      "composition_cosine": 0.9969270776799195,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "aff6a29955468d8a",
+      "right_candidate_id": "7fc9b1f8caae9d5d",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "龍涎香四",
+      "right_title": "龍涎香",
+      "text_3gram_jaccard": 0.625,
+      "title_2gram_jaccard": 0.6666666666666666,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "b4b72fb84cd012ad",
+      "right_candidate_id": "e6604303e0934c1b",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "智月龍涎香",
+      "right_title": "智月龍涎香",
+      "text_3gram_jaccard": 0.18518518518518517,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8571428571428571,
+      "composition_cosine": 0.9976359605462541,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "4e1c1f138c89d482",
+      "right_candidate_id": "0ccfd36195c1a773",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "古龍涎香",
+      "right_title": "龍涎香",
+      "text_3gram_jaccard": 0.5037037037037037,
+      "title_2gram_jaccard": 0.6666666666666666,
+      "material_set_jaccard": 0.0,
+      "composition_cosine": 0.0,
+      "reason": "cross_witness_text_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "069798e24589d272",
+      "right_candidate_id": "abdd53e40b64aeb2",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "古龍涎香",
+      "right_title": "古龍涎香",
+      "text_3gram_jaccard": 0.5660377358490566,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999999999999999,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "380c95ed9dd4e3d0",
+      "right_candidate_id": "9aa605f6d2b14e93",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "古龍涎香",
+      "right_title": "古龍涎香",
+      "text_3gram_jaccard": 0.49295774647887325,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8571428571428571,
+      "composition_cosine": 0.4063998012193409,
+      "reason": "cross_witness_title_and_text",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "62e31519429b1d74",
+      "right_candidate_id": "9954841e8aeb53cc",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "白龍涎香",
+      "right_title": "白龍涎香",
+      "text_3gram_jaccard": 0.8064516129032258,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "high_text_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "1234e2d7456c74e5",
+      "right_candidate_id": "d8fcae17cbb10dc9",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "小龍涎香",
+      "right_title": "小龍涎香",
+      "text_3gram_jaccard": 0.27586206896551724,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9940334046894772,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "42c04a6d66c560cd",
+      "right_candidate_id": "91028e8e3aafc2bb",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "小龍涎香",
+      "right_title": "小龍涎香",
+      "text_3gram_jaccard": 0.13157894736842105,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9996884254661472,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "c1a4bf5780f0ee8d",
+      "right_candidate_id": "4857457943fc72a8",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "小龍涎香",
+      "right_title": "小龍涎香",
+      "text_3gram_jaccard": 0.7674418604651163,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "high_text_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "824af5aa7a988326",
+      "right_candidate_id": "7fc9b1f8caae9d5d",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "小龍涎香",
+      "right_title": "龍涎香",
+      "text_3gram_jaccard": 0.02912621359223301,
+      "title_2gram_jaccard": 0.6666666666666666,
+      "material_set_jaccard": 0.75,
+      "composition_cosine": 0.9941916530340654,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "824af5aa7a988326",
+      "right_candidate_id": "08a80ef981e20828",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "小龍涎香",
+      "right_title": "小龍涎香",
+      "text_3gram_jaccard": 0.40963855421686746,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9960022582372767,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "460bab04355c2208",
+      "right_candidate_id": "aabc4d451244e28f",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "龍泉香",
+      "right_title": "龍泉香",
+      "text_3gram_jaccard": 0.673469387755102,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8333333333333334,
+      "composition_cosine": 0.9530594409869697,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "8fc7faf605e21999",
+      "right_candidate_id": "a96edb49f66fdefb",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "降眞香",
+      "right_title": "假降真香",
+      "text_3gram_jaccard": 0.35384615384615387,
+      "title_2gram_jaccard": 0.6666666666666666,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999999999999998,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "ccfa7ed09d928474",
+      "right_candidate_id": "f5b2400339b55722",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "假篤耨香",
+      "right_title": "假篤耨香",
+      "text_3gram_jaccard": 0.375,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9899494936611666,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "c4b94c2cc0329569",
+      "right_candidate_id": "e996c1b98994fc31",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "香毬",
+      "right_title": "香毬",
+      "text_3gram_jaccard": 0.5054945054945055,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.0,
+      "composition_cosine": 0.0,
+      "reason": "cross_witness_text_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "6ded6d20d82af4e7",
+      "right_candidate_id": "a8e9748d4b271c91",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "芬積香",
+      "right_title": "芬積香",
+      "text_3gram_jaccard": 0.38235294117647056,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9730179849915719,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "0ae3d7e58ad2d926",
+      "right_candidate_id": "c02d85f12b94c989",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "芬積香",
+      "right_title": "芬積香",
+      "text_3gram_jaccard": 0.33962264150943394,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8,
+      "composition_cosine": 0.9891919143217376,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "a7c326d2236d7bc3",
+      "right_candidate_id": "4ff9774d4374dae0",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "小芬積香",
+      "right_title": "小芬積香",
+      "text_3gram_jaccard": 0.2608695652173913,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9973144535107564,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "fe52b9ddb254c177",
+      "right_candidate_id": "7a5054fc3b934ae0",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "出塵香",
+      "right_title": "出塵香",
+      "text_3gram_jaccard": 0.6,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "aa281088efbdefc1",
+      "right_candidate_id": "b8b483d22dc1ec33",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "馮仲和四和香",
+      "right_title": "馮仲柔四和香",
+      "text_3gram_jaccard": 0.5,
+      "title_2gram_jaccard": 0.42857142857142855,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "06478d6c0f8fb02f",
+      "right_candidate_id": "2e31a3a02608a137",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "洪駒父百歩香",
+      "right_title": "洪駒父百歩香",
+      "text_3gram_jaccard": 0.17525773195876287,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9660121141015334,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "17f6cc2fc076e2a3",
+      "right_candidate_id": "22a4061cb34a7d4a",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "元御帶清觀香",
+      "right_title": "元御帶清觀香",
+      "text_3gram_jaccard": 0.34285714285714286,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.7142857142857143,
+      "composition_cosine": 0.9975384615384618,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "603249e56ef598da",
+      "right_candidate_id": "55614559610b3230",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "文英香",
+      "right_title": "文英香",
+      "text_3gram_jaccard": 0.5,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "f2f195df2c4c289d",
+      "right_candidate_id": "0eb6159581b67df4",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "太真香",
+      "right_title": "大真香",
+      "text_3gram_jaccard": 0.2840909090909091,
+      "title_2gram_jaccard": 0.3333333333333333,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.986953132404872,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "d2e762855b9e9433",
+      "right_candidate_id": "f869f86c9b64ffe3",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "天真香",
+      "right_title": "天真香",
+      "text_3gram_jaccard": 0.32857142857142857,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.875,
+      "composition_cosine": 0.9161729411895109,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "a5b197bdad50c36d",
+      "right_candidate_id": "81520d6e2b9e35ea",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "玉蕊香",
+      "right_title": "笑蘭香",
+      "text_3gram_jaccard": 0.13095238095238096,
+      "title_2gram_jaccard": 0.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9601356138816586,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "9ae325172f6d6f17",
+      "right_candidate_id": "9969fbe5afcbfc47",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "康漕紫瑞香",
+      "right_title": "康漕紫瑞香",
+      "text_3gram_jaccard": 0.2542372881355932,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "cb8cdd754006b696",
+      "right_candidate_id": "151718eb592ae807",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "靈犀香",
+      "right_title": "靈犀香",
+      "text_3gram_jaccard": 0.34782608695652173,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.5,
+      "composition_cosine": 0.37360319846649837,
+      "reason": "cross_witness_title_and_text",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "1e6834af2c83d9a6",
+      "right_candidate_id": "bf92dc1b7ceee53f",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "復古東閣雲頭香",
+      "right_title": "復古東䦨雲頭香",
+      "text_3gram_jaccard": 0.2786885245901639,
+      "title_2gram_jaccard": 0.5,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9830960364677281,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "5eff76c484bc1913",
+      "right_candidate_id": "615b27416ea97577",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "崔賢妃瑶英勝",
+      "right_title": "崔賢妃瑤英香",
+      "text_3gram_jaccard": 0.27,
+      "title_2gram_jaccard": 0.25,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.987363943144517,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "d3b2a17f08ff44a2",
+      "right_candidate_id": "95e722b1f819a959",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "滁州公庫天花香",
+      "right_title": "滁州公庫天花香",
+      "text_3gram_jaccard": 0.6206896551724138,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "7c1b0b22b9a40e37",
+      "right_candidate_id": "05bf6b07c03e3add",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "寳林香",
+      "right_title": "寳林香",
+      "text_3gram_jaccard": 0.4444444444444444,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8888888888888888,
+      "composition_cosine": 0.9930312739844155,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "9e76790cffaeb98b",
+      "right_candidate_id": "7d79ded465757a0a",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "巡筵香",
+      "right_title": "巡筵香",
+      "text_3gram_jaccard": 0.31746031746031744,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.875,
+      "composition_cosine": 0.910689738298008,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "0b58deeb970b1fba",
+      "right_candidate_id": "6de79a241a5f111b",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "梅花香",
+      "right_title": "梅花香",
+      "text_3gram_jaccard": 0.6666666666666666,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "1394fb8f0e39e2a0",
+      "right_candidate_id": "26296cb88b71f7eb",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "梅花香",
+      "right_title": "梅花香",
+      "text_3gram_jaccard": 0.5714285714285714,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.0,
+      "composition_cosine": 0.0,
+      "reason": "cross_witness_title_and_text",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "e20b943bb82162cd",
+      "right_candidate_id": "341d7e1657a4e8bc",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "梅花香",
+      "right_title": "梅花香",
+      "text_3gram_jaccard": 0.6,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.0,
+      "composition_cosine": 0.0,
+      "reason": "cross_witness_title_and_text",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "011b64cf77ae7582",
+      "right_candidate_id": "b12308d86e94047a",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "李王帳中梅花香",
+      "right_title": "李王帳中梅花香",
+      "text_3gram_jaccard": 0.28,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999890914551457,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "ac0e6620fd977ce4",
+      "right_candidate_id": "0f160fd9a3f1d3db",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "梅英香",
+      "right_title": "梅英香",
+      "text_3gram_jaccard": 0.35353535353535354,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.6,
+      "composition_cosine": 0.9460567059505681,
+      "reason": "cross_witness_title_and_text",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "ced4ad559252f7ec",
+      "right_candidate_id": "5b72f752561c3c20",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "笑梅香",
+      "right_title": "笑梅香",
+      "text_3gram_jaccard": 0.24675324675324675,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "44268b453c577f48",
+      "right_candidate_id": "e82e59533f901d98",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "肖梅韻香",
+      "right_title": "肖梅香",
+      "text_3gram_jaccard": 0.4186046511627907,
+      "title_2gram_jaccard": 0.25,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9986477466475565,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "6b63eb2c10c4b755",
+      "right_candidate_id": "046ce029b41f4dfb",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "勝梅香",
+      "right_title": "勝梅香",
+      "text_3gram_jaccard": 0.5483870967741935,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.0,
+      "composition_cosine": 0.0,
+      "reason": "cross_witness_text_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "ff850795ba59bfac",
+      "right_candidate_id": "be707d174afdb6a1",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "梅林香",
+      "right_title": "梅林香",
+      "text_3gram_jaccard": 0.21774193548387097,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999999999999998,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "7287d0193675c4f1",
+      "right_candidate_id": "8176689b00b8556b",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "蘭逺香",
+      "right_title": "蘭逺香",
+      "text_3gram_jaccard": 0.13636363636363635,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "1e85cb7e5e50880c",
+      "right_candidate_id": "aeaea10f0726c026",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "木犀香",
+      "right_title": "木犀香",
+      "text_3gram_jaccard": 0.17708333333333334,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9952285251199801,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "1f4f5dcdd00fda5b",
+      "right_candidate_id": "56a89714474e7efc",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "智月木犀香",
+      "right_title": "智月木犀香",
+      "text_3gram_jaccard": 0.3333333333333333,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "ccf9f761fe7b1971",
+      "right_candidate_id": "3985d38af1338e82",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "杏花香",
+      "right_title": "杏花香",
+      "text_3gram_jaccard": 0.3135593220338983,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.9090909090909091,
+      "composition_cosine": 0.999919400699292,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "5f1fbcb40e60b9d7",
+      "right_candidate_id": "5f549b06cf843239",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "百花香",
+      "right_title": "百花香",
+      "text_3gram_jaccard": 0.15706806282722513,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8888888888888888,
+      "composition_cosine": 0.7899018670293806,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "4e1828742a6521bd",
+      "right_candidate_id": "01920733120d22ef",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "野花香",
+      "right_title": "野花香",
+      "text_3gram_jaccard": 0.5102040816326531,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.0,
+      "composition_cosine": 0.0,
+      "reason": "cross_witness_text_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "671a36c48c97c2c4",
+      "right_candidate_id": "0b994ac2451fac83",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "野花香",
+      "right_title": "野花香",
+      "text_3gram_jaccard": 0.36585365853658536,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8,
+      "composition_cosine": 0.9354143466934853,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "a63947cfceb427de",
+      "right_candidate_id": "07e799101200301d",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "江梅香",
+      "right_title": "江梅香",
+      "text_3gram_jaccard": 0.48863636363636365,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.0,
+      "composition_cosine": 0.0,
+      "reason": "within_witness_variant",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "88a50e503890ade5",
+      "right_candidate_id": "9f312c0c07b48ddf",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "雪中春信",
+      "right_title": "雪中春信",
+      "text_3gram_jaccard": 0.4642857142857143,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "b37e833d752c2f99",
+      "right_candidate_id": "e17b2a2ec6509dc3",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "雪中春信",
+      "right_title": "雪中春信",
+      "text_3gram_jaccard": 0.5238095238095238,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.0,
+      "composition_cosine": 0.0,
+      "reason": "cross_witness_text_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "40b3a3532d0a3c19",
+      "right_candidate_id": "a6daff9c20d8b8cc",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "春消息",
+      "right_title": "春消息",
+      "text_3gram_jaccard": 0.16417910447761194,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999333844099482,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "84fa55c1559a9e39",
+      "right_candidate_id": "8110e8ee8651436a",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "篤耨佩香",
+      "right_title": "篤耨佩香",
+      "text_3gram_jaccard": 0.3424657534246575,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999999999999999,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "839ca286e4544e61",
+      "right_candidate_id": "73365548381d6f68",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "裛衣香",
+      "right_title": "裛衣香",
+      "text_3gram_jaccard": 0.3111111111111111,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8571428571428571,
+      "composition_cosine": 0.9950030917780985,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "b9c209a980a622ac",
+      "right_candidate_id": "42641a5dedf4046d",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "輭香",
+      "right_title": "輭香",
+      "text_3gram_jaccard": 0.2440944881889764,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9998566415260793,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "b9c209a980a622ac",
+      "right_candidate_id": "dc38e9cb44dba1b5",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "輭香",
+      "right_title": "輭香",
+      "text_3gram_jaccard": 0.021164021164021163,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8333333333333334,
+      "composition_cosine": 0.8185504436780836,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "4fca662666668a1f",
+      "right_candidate_id": "a31f00b60855a712",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "輭香",
+      "right_title": "輭香",
+      "text_3gram_jaccard": 0.3548387096774194,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.971691676876282,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "6b3a14acbfe1f30b",
+      "right_candidate_id": "dc38e9cb44dba1b5",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "輭香",
+      "right_title": "輭香",
+      "text_3gram_jaccard": 0.010050251256281407,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8,
+      "composition_cosine": 0.7523265949488647,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "cb6aac6f6599836d",
+      "right_candidate_id": "9d4969b831e5918e",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "寳梵院主輭香",
+      "right_title": "寳梵院主輭香",
+      "text_3gram_jaccard": 0.40789473684210525,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.47971095055651086,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "931c93811caf09b3",
+      "right_candidate_id": "9d4969b831e5918e",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "廣州呉家輭香",
+      "right_title": "寳梵院主輭香",
+      "text_3gram_jaccard": 0.03597122302158273,
+      "title_2gram_jaccard": 0.1111111111111111,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9913006127586329,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "7fb111936d22fd50",
+      "right_candidate_id": "32c10bc709d6c0a4",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "蜀主熏御衣香",
+      "right_title": "蜀主熏御衣香",
+      "text_3gram_jaccard": 0.16417910447761194,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.8571428571428572,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "ec5de8238b44c18c",
+      "right_candidate_id": "c179292bb4f2f510",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "熏衣梅花香",
+      "right_title": "熏衣梅花香",
+      "text_3gram_jaccard": 0.2033898305084746,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8333333333333334,
+      "composition_cosine": 0.9182166377418889,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "465bb65430336776",
+      "right_candidate_id": "6066288bb2df0b9e",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "熏衣衙香",
+      "right_title": "衙香",
+      "text_3gram_jaccard": 0.0975609756097561,
+      "title_2gram_jaccard": 0.3333333333333333,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9827587564300658,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "57532664fd7314b5",
+      "right_candidate_id": "2a006e7b7588f37b",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "拂手香",
+      "right_title": "拂手香",
+      "text_3gram_jaccard": 0.23484848484848486,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9877629653290689,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "be38e176e6f9e209",
+      "right_candidate_id": "150dcaef39e9a149",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "丁沉煎圓",
+      "right_title": "丁沉煎圓",
+      "text_3gram_jaccard": 0.43010752688172044,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.7142857142857143,
+      "composition_cosine": 0.4740302432610125,
+      "reason": "cross_witness_title_and_text",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "de9f57632a6398ce",
+      "right_candidate_id": "1e421b93d3d861f4",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "孩兒香茶",
+      "right_title": "孩兒香茶",
+      "text_3gram_jaccard": 0.31153846153846154,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9954954725939522,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "9e8eb1624151ada1",
+      "right_candidate_id": "c2854547dae74073",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "香茶",
+      "right_title": "香茶",
+      "text_3gram_jaccard": 0.4418604651162791,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999999999999999,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "de4c3cd65dc79dd6",
+      "right_candidate_id": "8bd1f744d20f6e65",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "香茶",
+      "right_title": "香茶",
+      "text_3gram_jaccard": 0.3617021276595745,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9847319278346619,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "4adff7a32b075139",
+      "right_candidate_id": "7c8b4bb76fd60fe3",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "和州公庫印香",
+      "right_title": "和州公庫印香",
+      "text_3gram_jaccard": 0.4280936454849498,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9999999999999999,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "46b2b473af0c2b1e",
+      "right_candidate_id": "e03c84ad50420894",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "龍麝印香",
+      "right_title": "龍腦印香",
+      "text_3gram_jaccard": 0.3058823529411765,
+      "title_2gram_jaccard": 0.2,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9741552956510968,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "cd211c1b1ca49521",
+      "right_candidate_id": "0563ed1ceceb346e",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "又方",
+      "right_title": "又方",
+      "text_3gram_jaccard": 0.41346153846153844,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8333333333333334,
+      "composition_cosine": 0.7802238127665361,
+      "reason": "cross_witness_title_material_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "b0c774aaa388a1e2",
+      "right_candidate_id": "55a222ca6e39b23f",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "乳檀印香",
+      "right_title": "乳檀印香",
+      "text_3gram_jaccard": 0.4174757281553398,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.9166666666666666,
+      "composition_cosine": 0.9988018495134238,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "feea8ac40bd60d55",
+      "right_candidate_id": "5d19fe5ea97bba78",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "供佛印香",
+      "right_title": "供佛印香",
+      "text_3gram_jaccard": 0.410958904109589,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.8888888888888888,
+      "composition_cosine": 0.9997649733840603,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "c8fd476a609391b1",
+      "right_candidate_id": "90bb54c37a50333e",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "無比印香",
+      "right_title": "無比印香",
+      "text_3gram_jaccard": 0.5277777777777778,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 0.0,
+      "composition_cosine": 0.0,
+      "reason": "cross_witness_text_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "53fe93705afdb037",
+      "right_candidate_id": "efe40f16cd154c97",
+      "left_collection": "xiangcheng",
+      "right_collection": "chen_xiangpu",
+      "left_title": "寳篆香",
+      "right_title": "寶篆香",
+      "text_3gram_jaccard": 0.5432098765432098,
+      "title_2gram_jaccard": 0.3333333333333333,
+      "material_set_jaccard": 0.0,
+      "composition_cosine": 0.0,
+      "reason": "cross_witness_text_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "f8557fe5b9bd2a5a",
+      "right_candidate_id": "32c10bc709d6c0a4",
+      "left_collection": "hong_xiangpu",
+      "right_collection": "chen_xiangpu",
+      "left_title": "蜀王薰御衣法",
+      "right_title": "蜀主熏御衣香",
+      "text_3gram_jaccard": 0.21739130434782608,
+      "title_2gram_jaccard": 0.125,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "43f3ddb5a0de7ebe",
+      "right_candidate_id": "4a8ea093dbe9855e",
+      "left_collection": "hong_xiangpu",
+      "right_collection": "chen_xiangpu",
+      "left_title": "唐化度寺牙香法",
+      "right_title": "唐化度寺衙香",
+      "text_3gram_jaccard": 0.20987654320987653,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9851355305740084,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "23da5f93d3689f69",
+      "right_candidate_id": "7b805494d6a005b6",
+      "left_collection": "hong_xiangpu",
+      "right_collection": "chen_xiangpu",
+      "left_title": "雍文徹郎中牙香法",
+      "right_title": "雍文徹郎中衙香",
+      "text_3gram_jaccard": 0.28169014084507044,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "18695fb987d1abda",
+      "right_candidate_id": "71714727431f1e37",
+      "left_collection": "hong_xiangpu",
+      "right_collection": "chen_xiangpu",
+      "left_title": "延安郡公蘂香法",
+      "right_title": "延安郡公蕊香",
+      "text_3gram_jaccard": 0.2768361581920904,
+      "title_2gram_jaccard": 1.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_distinctive_title",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "464a46c7bc7c0026",
+      "right_candidate_id": "5b1139b8d301fa11",
+      "left_collection": "hong_xiangpu",
+      "right_collection": "chen_xiangpu",
+      "left_title": "供佛濕香法",
+      "right_title": "供佛温香",
+      "text_3gram_jaccard": 0.43902439024390244,
+      "title_2gram_jaccard": 0.2,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9933604144213769,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "be21fa1ff351375e",
+      "right_candidate_id": "331d546fdff0a912",
+      "left_collection": "hong_xiangpu",
+      "right_collection": "chen_xiangpu",
+      "left_title": "又牙香法",
+      "right_title": "衙香",
+      "text_3gram_jaccard": 0.5689655172413793,
+      "title_2gram_jaccard": 0.5,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 0.9883351367840097,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "a92623440ae2168a",
+      "right_candidate_id": "819528b6ebee6866",
+      "left_collection": "hong_xiangpu",
+      "right_collection": "chen_xiangpu",
+      "left_title": "又牙香法",
+      "right_title": "衙香",
+      "text_3gram_jaccard": 0.4842105263157895,
+      "title_2gram_jaccard": 0.5,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "6d34034d8697afde",
+      "right_candidate_id": "01acbffa51f004b9",
+      "left_collection": "hong_xiangpu",
+      "right_collection": "chen_xiangpu",
+      "left_title": "又牙香法",
+      "right_title": "宫中香",
+      "text_3gram_jaccard": 0.12658227848101267,
+      "title_2gram_jaccard": 0.0,
+      "material_set_jaccard": 1.0,
+      "composition_cosine": 1.0000000000000002,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    },
+    {
+      "left_candidate_id": "526789359594ac3e",
+      "right_candidate_id": "0563ed1ceceb346e",
+      "left_collection": "hong_xiangpu",
+      "right_collection": "chen_xiangpu",
+      "left_title": "印香法",
+      "right_title": "又方",
+      "text_3gram_jaccard": 0.36,
+      "title_2gram_jaccard": 0.0,
+      "material_set_jaccard": 0.9090909090909091,
+      "composition_cosine": 0.9885303193239865,
+      "reason": "cross_witness_composition_similarity",
+      "status": "candidate_edge_unverified"
+    }
+  ],
+  "families": [
+    {
+      "formula_family_candidate_id": "ff-2549def2c4d6",
+      "member_candidate_ids": [
+        "01acbffa51f004b9",
+        "465bb65430336776",
+        "4884c69a912a8efc",
+        "6066288bb2df0b9e",
+        "6d34034d8697afde",
+        "8947ca2961e16584"
+      ],
+      "member_count": 6,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-7496f5d9ca2f",
+      "member_candidate_ids": [
+        "08a80ef981e20828",
+        "7fc9b1f8caae9d5d",
+        "824af5aa7a988326",
+        "aff6a29955468d8a"
+      ],
+      "member_count": 4,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-a9c683b53b6f",
+      "member_candidate_ids": [
+        "42641a5dedf4046d",
+        "6b3a14acbfe1f30b",
+        "b9c209a980a622ac",
+        "dc38e9cb44dba1b5"
+      ],
+      "member_count": 4,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-03e8aa2123da",
+      "member_candidate_ids": [
+        "32c10bc709d6c0a4",
+        "7fb111936d22fd50",
+        "f8557fe5b9bd2a5a"
+      ],
+      "member_count": 3,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-21ae50d1337b",
+      "member_candidate_ids": [
+        "426374854607cf16",
+        "43f3ddb5a0de7ebe",
+        "4a8ea093dbe9855e"
+      ],
+      "member_count": 3,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-4a074a055b80",
+      "member_candidate_ids": [
+        "931c93811caf09b3",
+        "9d4969b831e5918e",
+        "cb6aac6f6599836d"
+      ],
+      "member_count": 3,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-67dc492c62d9",
+      "member_candidate_ids": [
+        "0563ed1ceceb346e",
+        "526789359594ac3e",
+        "cd211c1b1ca49521"
+      ],
+      "member_count": 3,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-959e16343006",
+      "member_candidate_ids": [
+        "23da5f93d3689f69",
+        "7b805494d6a005b6",
+        "fef8bc76cda9820a"
+      ],
+      "member_count": 3,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-a113d1e7fc44",
+      "member_candidate_ids": [
+        "331d546fdff0a912",
+        "b188422c6f076cd0",
+        "be21fa1ff351375e"
+      ],
+      "member_count": 3,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-ca70af78c5e4",
+      "member_candidate_ids": [
+        "464a46c7bc7c0026",
+        "5b1139b8d301fa11",
+        "a23dcbff88dd8107"
+      ],
+      "member_count": 3,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-e5fd804abf7b",
+      "member_candidate_ids": [
+        "0eb6159581b67df4",
+        "112b330c0ead4e8e",
+        "f2f195df2c4c289d"
+      ],
+      "member_count": 3,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-019682e14b3e",
+      "member_candidate_ids": [
+        "5eff76c484bc1913",
+        "615b27416ea97577"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-04d8adadff09",
+      "member_candidate_ids": [
+        "2a006e7b7588f37b",
+        "57532664fd7314b5"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-07d92c839c05",
+      "member_candidate_ids": [
+        "5b72f752561c3c20",
+        "ced4ad559252f7ec"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-0e239da3d774",
+      "member_candidate_ids": [
+        "9969fbe5afcbfc47",
+        "9ae325172f6d6f17"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-156a36f58adc",
+      "member_candidate_ids": [
+        "1e421b93d3d861f4",
+        "de9f57632a6398ce"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-1624b94b1cf4",
+      "member_candidate_ids": [
+        "011b64cf77ae7582",
+        "b12308d86e94047a"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-17d5fcf55dc3",
+      "member_candidate_ids": [
+        "53fe93705afdb037",
+        "efe40f16cd154c97"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-1a5a939fac60",
+      "member_candidate_ids": [
+        "90bb54c37a50333e",
+        "c8fd476a609391b1"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-1d68db6051a0",
+      "member_candidate_ids": [
+        "8110e8ee8651436a",
+        "84fa55c1559a9e39"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-200663d24118",
+      "member_candidate_ids": [
+        "5f1fbcb40e60b9d7",
+        "5f549b06cf843239"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-2012548d08dd",
+      "member_candidate_ids": [
+        "81520d6e2b9e35ea",
+        "a5b197bdad50c36d"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-262a23b17f18",
+      "member_candidate_ids": [
+        "1e85cb7e5e50880c",
+        "aeaea10f0726c026"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-2a4e01dbcd27",
+      "member_candidate_ids": [
+        "2b66f4cc9dd327a1",
+        "cd3c56b236e8a027"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-2c29b33bebe2",
+      "member_candidate_ids": [
+        "1158b2856da165fb",
+        "9f87f885fb176803"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-343615886cdc",
+      "member_candidate_ids": [
+        "40b3a3532d0a3c19",
+        "a6daff9c20d8b8cc"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-356ccc3cdfbb",
+      "member_candidate_ids": [
+        "17f6cc2fc076e2a3",
+        "22a4061cb34a7d4a"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-38e2df2ba019",
+      "member_candidate_ids": [
+        "159459c3065d6a17",
+        "4be998cb22b181ad"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-399b666ba9e6",
+      "member_candidate_ids": [
+        "8f7b69558ee83217",
+        "ecf58a649df2b824"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-3d7fe311e4d0",
+      "member_candidate_ids": [
+        "861c8373612f74c8",
+        "e4819932b10b480f"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-402878df0661",
+      "member_candidate_ids": [
+        "05bf6b07c03e3add",
+        "7c1b0b22b9a40e37"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-46edf4e3cd82",
+      "member_candidate_ids": [
+        "1f4f5dcdd00fda5b",
+        "56a89714474e7efc"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-4a21a1d87c95",
+      "member_candidate_ids": [
+        "ccfa7ed09d928474",
+        "f5b2400339b55722"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-4af008b095b5",
+      "member_candidate_ids": [
+        "8fc7faf605e21999",
+        "a96edb49f66fdefb"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-4b84c786ccb2",
+      "member_candidate_ids": [
+        "4857457943fc72a8",
+        "c1a4bf5780f0ee8d"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-4df15b523b5d",
+      "member_candidate_ids": [
+        "1ed88b4d49468126",
+        "24ec521a31888a5e"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-5293527f8773",
+      "member_candidate_ids": [
+        "32a340e540f55294",
+        "bba9a1b61cdb94ca"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-52bc4a8ba8a8",
+      "member_candidate_ids": [
+        "151718eb592ae807",
+        "cb8cdd754006b696"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-53b4065670ef",
+      "member_candidate_ids": [
+        "a4ede62bc7f1a912",
+        "ce5ff58e92411808"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-5b5e5224365b",
+      "member_candidate_ids": [
+        "5e171ff4f390c63e",
+        "8870aa6e9529ef69"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-60ba0fdbdbfc",
+      "member_candidate_ids": [
+        "0ccfd36195c1a773",
+        "4e1c1f138c89d482"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-648be25569a6",
+      "member_candidate_ids": [
+        "069798e24589d272",
+        "abdd53e40b64aeb2"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-6cec0cd81406",
+      "member_candidate_ids": [
+        "1cdc43866c1197b1",
+        "34b8adabfe45a015"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-6d81e7348e4d",
+      "member_candidate_ids": [
+        "74879092d2183530",
+        "db304f6913d431c3"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-7233dcd4c209",
+      "member_candidate_ids": [
+        "01920733120d22ef",
+        "4e1828742a6521bd"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-7a79e88e4516",
+      "member_candidate_ids": [
+        "30eda448e9e70fde",
+        "32416d1d741b6f6c"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-7b0ff86ff534",
+      "member_candidate_ids": [
+        "65577c80558e52f0",
+        "bdc30fa3ab84c767"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-7fff2f60c53b",
+      "member_candidate_ids": [
+        "0f160fd9a3f1d3db",
+        "ac0e6620fd977ce4"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-80fe4e3735bd",
+      "member_candidate_ids": [
+        "06478d6c0f8fb02f",
+        "2e31a3a02608a137"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-88cd09360b28",
+      "member_candidate_ids": [
+        "07e799101200301d",
+        "a63947cfceb427de"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-890167b50b68",
+      "member_candidate_ids": [
+        "7d79ded465757a0a",
+        "9e76790cffaeb98b"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-8d1b97704e9a",
+      "member_candidate_ids": [
+        "9e8eb1624151ada1",
+        "c2854547dae74073"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-94993f7d6bf9",
+      "member_candidate_ids": [
+        "1e6834af2c83d9a6",
+        "bf92dc1b7ceee53f"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-94d4fa36ba44",
+      "member_candidate_ids": [
+        "95e722b1f819a959",
+        "d3b2a17f08ff44a2"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-94eeca12dd18",
+      "member_candidate_ids": [
+        "046ce029b41f4dfb",
+        "6b63eb2c10c4b755"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-9698e343c174",
+      "member_candidate_ids": [
+        "3985d38af1338e82",
+        "ccf9f761fe7b1971"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-9a8b3be77711",
+      "member_candidate_ids": [
+        "0b58deeb970b1fba",
+        "6de79a241a5f111b"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-9abc62114e64",
+      "member_candidate_ids": [
+        "4ff9774d4374dae0",
+        "a7c326d2236d7bc3"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-9bafd739207b",
+      "member_candidate_ids": [
+        "7a5054fc3b934ae0",
+        "fe52b9ddb254c177"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-9dd981b0d86c",
+      "member_candidate_ids": [
+        "c4b94c2cc0329569",
+        "e996c1b98994fc31"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-a1b2f634d88a",
+      "member_candidate_ids": [
+        "88a50e503890ade5",
+        "9f312c0c07b48ddf"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-a3eedae7a49b",
+      "member_candidate_ids": [
+        "380c95ed9dd4e3d0",
+        "9aa605f6d2b14e93"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-a7d88be93150",
+      "member_candidate_ids": [
+        "3a9662a3041ba59e",
+        "577fd5fe9e38cdcf"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-a8f8e0362ad4",
+      "member_candidate_ids": [
+        "b4b72fb84cd012ad",
+        "e6604303e0934c1b"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-aa26f573c432",
+      "member_candidate_ids": [
+        "1234e2d7456c74e5",
+        "d8fcae17cbb10dc9"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-affea311d425",
+      "member_candidate_ids": [
+        "ce2fcf4efc794da3",
+        "d859dfceb3da004f"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-b2ab63c7e22c",
+      "member_candidate_ids": [
+        "aa281088efbdefc1",
+        "b8b483d22dc1ec33"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-b362ad91fc82",
+      "member_candidate_ids": [
+        "3234a403476fc18b",
+        "66d0d513221a0031"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-b63395c1c310",
+      "member_candidate_ids": [
+        "b7aef8be54a1b3bf",
+        "dde60b2409925731"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-bcb53cb76bb8",
+      "member_candidate_ids": [
+        "55a222ca6e39b23f",
+        "b0c774aaa388a1e2"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-bcdaabbbf815",
+      "member_candidate_ids": [
+        "1394fb8f0e39e2a0",
+        "26296cb88b71f7eb"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-c3ebc2678968",
+      "member_candidate_ids": [
+        "73365548381d6f68",
+        "839ca286e4544e61"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-c8128235cc27",
+      "member_candidate_ids": [
+        "1e6a8c2ad56ec242",
+        "c1f7bfd868a92f54"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-ca07b5dede41",
+      "member_candidate_ids": [
+        "46b2b473af0c2b1e",
+        "e03c84ad50420894"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-d1d7907c4fba",
+      "member_candidate_ids": [
+        "4fca662666668a1f",
+        "a31f00b60855a712"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-d201913d75f2",
+      "member_candidate_ids": [
+        "0ae3d7e58ad2d926",
+        "c02d85f12b94c989"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-d4b97400c894",
+      "member_candidate_ids": [
+        "819528b6ebee6866",
+        "a92623440ae2168a"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-d571454ba88a",
+      "member_candidate_ids": [
+        "b37e833d752c2f99",
+        "e17b2a2ec6509dc3"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-d7073cdca1a2",
+      "member_candidate_ids": [
+        "460bab04355c2208",
+        "aabc4d451244e28f"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-d8334411d4ec",
+      "member_candidate_ids": [
+        "44268b453c577f48",
+        "e82e59533f901d98"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-d8dad7afb977",
+      "member_candidate_ids": [
+        "6ded6d20d82af4e7",
+        "a8e9748d4b271c91"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-db83cda8e459",
+      "member_candidate_ids": [
+        "5d19fe5ea97bba78",
+        "feea8ac40bd60d55"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-dbed0f1fd260",
+      "member_candidate_ids": [
+        "be707d174afdb6a1",
+        "ff850795ba59bfac"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-df1353ff227f",
+      "member_candidate_ids": [
+        "4adff7a32b075139",
+        "7c8b4bb76fd60fe3"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-df98def9ef8f",
+      "member_candidate_ids": [
+        "42c04a6d66c560cd",
+        "91028e8e3aafc2bb"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-e0fa315e653e",
+      "member_candidate_ids": [
+        "55614559610b3230",
+        "603249e56ef598da"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-e6c17acff500",
+      "member_candidate_ids": [
+        "8bd1f744d20f6e65",
+        "de4c3cd65dc79dd6"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-e76aafbfeb75",
+      "member_candidate_ids": [
+        "0b994ac2451fac83",
+        "671a36c48c97c2c4"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-ebda30554acb",
+      "member_candidate_ids": [
+        "341d7e1657a4e8bc",
+        "e20b943bb82162cd"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-ede5f502f537",
+      "member_candidate_ids": [
+        "d2e762855b9e9433",
+        "f869f86c9b64ffe3"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-f140cf4f159e",
+      "member_candidate_ids": [
+        "57bcdaa6eea2e79c",
+        "a5d2f47b4ecd735a"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-f2472c796f83",
+      "member_candidate_ids": [
+        "c179292bb4f2f510",
+        "ec5de8238b44c18c"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-f40c70f1c2cf",
+      "member_candidate_ids": [
+        "759fe8040187a82e",
+        "83b8df1ec6026189"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-f92935d7fc20",
+      "member_candidate_ids": [
+        "62e31519429b1d74",
+        "9954841e8aeb53cc"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-f983b8f37688",
+      "member_candidate_ids": [
+        "88d58aee9af2863c",
+        "9a97be4d6974afd9"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-fad396a416c0",
+      "member_candidate_ids": [
+        "18695fb987d1abda",
+        "71714727431f1e37"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-faec7c54b1f9",
+      "member_candidate_ids": [
+        "150dcaef39e9a149",
+        "be38e176e6f9e209"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-fea379fe7b5a",
+      "member_candidate_ids": [
+        "7287d0193675c4f1",
+        "8176689b00b8556b"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-fff4e10edbc8",
+      "member_candidate_ids": [
+        "937ace5d81b8c3d7",
+        "cdc32ca7f8ab595c"
+      ],
+      "member_count": 2,
+      "status": "cluster_requires_adjudication"
+    },
+    {
+      "formula_family_candidate_id": "ff-0282f243cf76",
+      "member_candidate_ids": [
+        "44ffce933b71c348"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-036d5f3c5f56",
+      "member_candidate_ids": [
+        "48b35b7bdbf37cb3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-0419838a9178",
+      "member_candidate_ids": [
+        "5f91201229c6a0ee"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-0437022d7d5b",
+      "member_candidate_ids": [
+        "9a4343facadb4c3a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-0460811db844",
+      "member_candidate_ids": [
+        "3cf39afad47a51eb"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-04f8907f9fc3",
+      "member_candidate_ids": [
+        "52a3dfb408a614a4"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-06200f3fedbc",
+      "member_candidate_ids": [
+        "e4a71c0f64e3de38"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-067d61a53c41",
+      "member_candidate_ids": [
+        "195b878195644d73"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-06c175e0f5a4",
+      "member_candidate_ids": [
+        "078435ac8351027e"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-07280aba8455",
+      "member_candidate_ids": [
+        "276beedd7a5c749a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-078f8b3f1460",
+      "member_candidate_ids": [
+        "e6a98d8bee0fbec8"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-0890c01b0f22",
+      "member_candidate_ids": [
+        "bf11ca3d8a7f8acf"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-09b6410014a6",
+      "member_candidate_ids": [
+        "1c0a34791ebea068"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-0a636d6fa18e",
+      "member_candidate_ids": [
+        "594feb408f31b916"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-0ab93b078f65",
+      "member_candidate_ids": [
+        "f40741ffa4372930"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-0afacb574a85",
+      "member_candidate_ids": [
+        "55d6d437322b1bc2"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-0c0949750c31",
+      "member_candidate_ids": [
+        "82e63a7f63a9145c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-0fc274865faa",
+      "member_candidate_ids": [
+        "53b58e37f515023a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-0fc87d15a40c",
+      "member_candidate_ids": [
+        "9a262a2ff368562e"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-105a0f435096",
+      "member_candidate_ids": [
+        "dced13ba04a9c1a5"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-10ce8b63ee24",
+      "member_candidate_ids": [
+        "b7fdd1aef6b6c35b"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-117f9ea1e48c",
+      "member_candidate_ids": [
+        "6380eaf61cbc1698"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-120774d62885",
+      "member_candidate_ids": [
+        "8651943a1a0307c4"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-16068be02e6c",
+      "member_candidate_ids": [
+        "51d7d37e8130b890"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-173c18d64873",
+      "member_candidate_ids": [
+        "fabaa398da073366"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-17c206440bb2",
+      "member_candidate_ids": [
+        "9ada87b6adaf8d14"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-17fc21cf4ed6",
+      "member_candidate_ids": [
+        "8fec7e2aebe5b2a9"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-18732175868a",
+      "member_candidate_ids": [
+        "a7e15717617a8f47"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-197315d5d306",
+      "member_candidate_ids": [
+        "3446bcb9a1c0dc80"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1a2e8c99db4f",
+      "member_candidate_ids": [
+        "66797709c971daa4"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1a5f79ef0a1d",
+      "member_candidate_ids": [
+        "645fb7d5488c4bd1"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1bed8b1cd23f",
+      "member_candidate_ids": [
+        "68b98cca20657828"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1cdefc5ee3bd",
+      "member_candidate_ids": [
+        "ea13b6886d28b65a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1da561863fc3",
+      "member_candidate_ids": [
+        "6a53b0e067bb8970"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1e1623d63825",
+      "member_candidate_ids": [
+        "b31447041f9e4937"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1e30cf0b2a60",
+      "member_candidate_ids": [
+        "9a1c0b98c41d491b"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1e72c564ce83",
+      "member_candidate_ids": [
+        "5a4fad6bc87d050d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1e94802f7bf7",
+      "member_candidate_ids": [
+        "e26b7719d4f640a5"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1ee860c007c7",
+      "member_candidate_ids": [
+        "b70186a1f0139320"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1f1223caf396",
+      "member_candidate_ids": [
+        "76d9c4fe64d59eb1"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-1f5fbb0b6813",
+      "member_candidate_ids": [
+        "2af4f4e2ef024cd3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-20ae7e79f82b",
+      "member_candidate_ids": [
+        "a6168c9adc64c883"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-20cdc907557a",
+      "member_candidate_ids": [
+        "3076baba587a358c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-20e6f5d84638",
+      "member_candidate_ids": [
+        "614299fe63b9f66c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-2158aa916ffd",
+      "member_candidate_ids": [
+        "1d060a69c3039d47"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-216db3f26504",
+      "member_candidate_ids": [
+        "e68a1592da31b6f9"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-2232fe9e0803",
+      "member_candidate_ids": [
+        "556dcfc5c9e4cc51"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-235d5cb88c0c",
+      "member_candidate_ids": [
+        "9eba63476edf2dc2"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-23aec876e53a",
+      "member_candidate_ids": [
+        "90db12307ffe0b97"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-260d334b22f8",
+      "member_candidate_ids": [
+        "76203ed5bf47d25c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-2627b83ca065",
+      "member_candidate_ids": [
+        "5d16947624f36bbf"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-27a509ea8dbf",
+      "member_candidate_ids": [
+        "7e5d1ec0dbf4bc94"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-288461e5cc16",
+      "member_candidate_ids": [
+        "90e4a9c6ad1760a1"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-2953c2563a89",
+      "member_candidate_ids": [
+        "f6f37f10daf429d7"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-29b87120c7f1",
+      "member_candidate_ids": [
+        "148a01d33ec37389"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-2af2b4d3db1d",
+      "member_candidate_ids": [
+        "1042c70321adb88d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-2b2f94b34a81",
+      "member_candidate_ids": [
+        "8753bbb6d5c2b99c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-2e0971241eed",
+      "member_candidate_ids": [
+        "dbcd8fd8007465a3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-2e1ee725989d",
+      "member_candidate_ids": [
+        "78c838a55bd55886"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-2e54d868faa7",
+      "member_candidate_ids": [
+        "0f0d43c3366e6b48"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-2f6d0477b332",
+      "member_candidate_ids": [
+        "9e44cebcd1054ada"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-309b0600704e",
+      "member_candidate_ids": [
+        "225d12eb53724e19"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-31380fd0bb3e",
+      "member_candidate_ids": [
+        "54da5f2aef736971"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-31dfa40a57d3",
+      "member_candidate_ids": [
+        "ea9fec698f8b6e54"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-31ec06b9f8c8",
+      "member_candidate_ids": [
+        "2ba29568ae61c4d5"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-325711e9cb62",
+      "member_candidate_ids": [
+        "5a4596d3c7ed4f5d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-335767647a13",
+      "member_candidate_ids": [
+        "8fa8de6851ce0b73"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-347e0c7404cb",
+      "member_candidate_ids": [
+        "01892b25870087d6"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-359c761a0ab6",
+      "member_candidate_ids": [
+        "cacc009d6c9bb47a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-3654a198e6c8",
+      "member_candidate_ids": [
+        "667eca09e844f88e"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-36dcb21f73af",
+      "member_candidate_ids": [
+        "26e0588ebc0bb637"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-36e0915380d9",
+      "member_candidate_ids": [
+        "912205b410859517"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-3867e5831450",
+      "member_candidate_ids": [
+        "a7b8b9ea474624ab"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-3989403f560a",
+      "member_candidate_ids": [
+        "9af77fefca2a7d2d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-3ac3c4a5befe",
+      "member_candidate_ids": [
+        "2f89e55ceb1e9917"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-3aeef74a02f0",
+      "member_candidate_ids": [
+        "e3046d4bf246b7e3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-3b82671509a8",
+      "member_candidate_ids": [
+        "bf7d2903618ba95b"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-3c124cba6745",
+      "member_candidate_ids": [
+        "2a238f5a51f778e3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-3cdd8413d5b6",
+      "member_candidate_ids": [
+        "99f14f5e7e46d06e"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-3d522ee9675f",
+      "member_candidate_ids": [
+        "ae6b61dff026732f"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-3e6badbdf73a",
+      "member_candidate_ids": [
+        "6d3a9e9cb3fccce3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-405b52b528a5",
+      "member_candidate_ids": [
+        "04a7f2adbc6817c3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-426ab0431548",
+      "member_candidate_ids": [
+        "644411c7146e0d76"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-42d49a4bd031",
+      "member_candidate_ids": [
+        "c11ba51814c74f5f"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-42e854c4a947",
+      "member_candidate_ids": [
+        "d4aca22a4d68d615"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-43303b31db26",
+      "member_candidate_ids": [
+        "1aa4548b961d354f"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-43a78e2a797e",
+      "member_candidate_ids": [
+        "845e260c25d6138c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-453bee1354af",
+      "member_candidate_ids": [
+        "a522ffd5cca8fb54"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-45793728ebb5",
+      "member_candidate_ids": [
+        "4ec98c4c2b1b4e1e"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-459c419f0418",
+      "member_candidate_ids": [
+        "e2c6a6521aaefd4f"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-46aeb5ed5e42",
+      "member_candidate_ids": [
+        "c77237bc773e1117"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-46d88f29a508",
+      "member_candidate_ids": [
+        "6909b1aa96595141"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-4753e541b63f",
+      "member_candidate_ids": [
+        "2d8e738b7abd7d4d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-495d605f4053",
+      "member_candidate_ids": [
+        "0d614ba2731d4e78"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-4a3438fdf7ab",
+      "member_candidate_ids": [
+        "4ac7ccb9d05eb5db"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-4ada10fdd51f",
+      "member_candidate_ids": [
+        "9c64198a9042a096"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-4b227abf51f8",
+      "member_candidate_ids": [
+        "b752672ad914d1f1"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-4bcff9f1ac6e",
+      "member_candidate_ids": [
+        "6f25039b7a5b98a3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-4eeacf28db22",
+      "member_candidate_ids": [
+        "a40cd57563d29196"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-4f08306ec245",
+      "member_candidate_ids": [
+        "82789f6e48dfcf30"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-4f9309f82951",
+      "member_candidate_ids": [
+        "56970d0b281c18e2"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-4fb195563d69",
+      "member_candidate_ids": [
+        "1b283c7cb583f522"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-518da1dcc020",
+      "member_candidate_ids": [
+        "351bc55a50750f97"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-523c30b50cee",
+      "member_candidate_ids": [
+        "3a3b080cab1f56a7"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-531dd9e628bf",
+      "member_candidate_ids": [
+        "740fab50777d9b78"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-533cea5eccea",
+      "member_candidate_ids": [
+        "15673c0d8f623f69"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-5441fb3d22d0",
+      "member_candidate_ids": [
+        "43f79cfd1dd7ee37"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-54be576737d1",
+      "member_candidate_ids": [
+        "9cb2eb9712bda3c7"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-552b1e31ff8b",
+      "member_candidate_ids": [
+        "12845c67ddf1de4c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-563230181d0c",
+      "member_candidate_ids": [
+        "0b7468f88621a089"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-585d928c43d7",
+      "member_candidate_ids": [
+        "5047778caf2b3a13"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-59182a25fda1",
+      "member_candidate_ids": [
+        "613922081c126be0"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-59869f607940",
+      "member_candidate_ids": [
+        "016869c2a851888d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-59cc0a05ea56",
+      "member_candidate_ids": [
+        "65a80bd908ef75b9"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-5a2bd44fa22c",
+      "member_candidate_ids": [
+        "6fc00252fb8faf35"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-5a8229610af2",
+      "member_candidate_ids": [
+        "d311290b42ea3c08"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-5bd2a3114a63",
+      "member_candidate_ids": [
+        "d79a520ef7f2e41a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-5c815070a9c4",
+      "member_candidate_ids": [
+        "b5ff7605b4e5af5e"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-5f7360ae5c37",
+      "member_candidate_ids": [
+        "6699b3e6099e0b7d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-5fe39a037a75",
+      "member_candidate_ids": [
+        "e18a843faabf60cf"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-60b9b432ca4d",
+      "member_candidate_ids": [
+        "3a7a4064d60c4005"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-611aff0ddea3",
+      "member_candidate_ids": [
+        "cbd827d5c895283a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-6305d739ca37",
+      "member_candidate_ids": [
+        "977f957435791e54"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-6558c8d16e73",
+      "member_candidate_ids": [
+        "bf167ecdf4db22be"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-6678ba9e22eb",
+      "member_candidate_ids": [
+        "677c7ddd84533b13"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-6708c03cc77e",
+      "member_candidate_ids": [
+        "42577e6973f84996"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-6805c98d2af3",
+      "member_candidate_ids": [
+        "2c27f8ce8a5e5a6c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-6885fe61f06d",
+      "member_candidate_ids": [
+        "17df3601b2fa991d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-6902bfcd213e",
+      "member_candidate_ids": [
+        "1aea842068821aad"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-697a20b79c32",
+      "member_candidate_ids": [
+        "40be6746befc7bf2"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7102a59f5d97",
+      "member_candidate_ids": [
+        "d5580507c73e48f1"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7183c285b058",
+      "member_candidate_ids": [
+        "37f63ba11af03552"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-72a8f92ca15b",
+      "member_candidate_ids": [
+        "cdaab5353d5ea7c6"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-73ef57b15c24",
+      "member_candidate_ids": [
+        "b63ccfc944c4a43c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-74a3efaf5837",
+      "member_candidate_ids": [
+        "f4999557585ee449"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-74d8b9f9b58f",
+      "member_candidate_ids": [
+        "693a6095383a1289"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-775342beff2d",
+      "member_candidate_ids": [
+        "5d6aaedabc6190e7"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7838b6c45285",
+      "member_candidate_ids": [
+        "756941f157206e67"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-79a02f3677ba",
+      "member_candidate_ids": [
+        "b7a5fa87faa59c45"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-79f25563e0f4",
+      "member_candidate_ids": [
+        "d3259c574715fa49"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7ad60e39a873",
+      "member_candidate_ids": [
+        "d7d2c21c32564e90"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7b47db3118c7",
+      "member_candidate_ids": [
+        "ba9a1db066db6fae"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7b7cef8ecbb7",
+      "member_candidate_ids": [
+        "9837f3059fce6fe4"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7c33f527ec9d",
+      "member_candidate_ids": [
+        "098c1af94192e589"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7c6a75ecabd8",
+      "member_candidate_ids": [
+        "fd58cda50a0ffd50"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7d6e04a97002",
+      "member_candidate_ids": [
+        "2fc63dbd46c89251"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7de09e6673f9",
+      "member_candidate_ids": [
+        "da6c14b5c90e5beb"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7dfe07dde280",
+      "member_candidate_ids": [
+        "6a90d91cf3011bfb"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7ec165cfb7f7",
+      "member_candidate_ids": [
+        "ccdced9d2c4351c5"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7ed02465b208",
+      "member_candidate_ids": [
+        "8b27a13b4efb53b6"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-7fb614679e3a",
+      "member_candidate_ids": [
+        "5b077cb98c99a55b"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-82605e938901",
+      "member_candidate_ids": [
+        "bd683a6fa682a830"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-8307d4f7aadd",
+      "member_candidate_ids": [
+        "64402fa969f53b28"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-831a772ace2d",
+      "member_candidate_ids": [
+        "5131beb665d60838"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-835c6566d854",
+      "member_candidate_ids": [
+        "b495ba7b6866c280"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-8387d488115a",
+      "member_candidate_ids": [
+        "f09f646efd1371b2"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-83b99acd1695",
+      "member_candidate_ids": [
+        "471c7152289ee2e3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-83dcc93c5040",
+      "member_candidate_ids": [
+        "57562ab780c1e1bf"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-8430fff15348",
+      "member_candidate_ids": [
+        "6d9bdb97ddbfc633"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-84743ebd5bf2",
+      "member_candidate_ids": [
+        "0a223c443439f71c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-85586714e890",
+      "member_candidate_ids": [
+        "c8498719d5397881"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-860ed06bdfe3",
+      "member_candidate_ids": [
+        "eebaafdad86540c4"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-86ae2f2ee82b",
+      "member_candidate_ids": [
+        "a064ce0c5f81bf80"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-8741b13fc309",
+      "member_candidate_ids": [
+        "0e8b4514681642ee"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-87abd4ab8f81",
+      "member_candidate_ids": [
+        "59d61dda637bfefe"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-88322d0359b4",
+      "member_candidate_ids": [
+        "03a0a88c3b9ad82a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-8b2841f254ba",
+      "member_candidate_ids": [
+        "3509352bf6b6b343"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-8ccf1dc50e23",
+      "member_candidate_ids": [
+        "75be154e1aebf6e3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-8d0ff9dcaf3a",
+      "member_candidate_ids": [
+        "3563f266d5fb2452"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-8d1a81c253fb",
+      "member_candidate_ids": [
+        "45db5b2a83bf7674"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-8dbabb557f2a",
+      "member_candidate_ids": [
+        "233192a7df0282bd"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-8e08b6f42038",
+      "member_candidate_ids": [
+        "65c5f2503dae36f3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-8e28ab742fe8",
+      "member_candidate_ids": [
+        "e14d86f99e1f23d7"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-90af1b3703dd",
+      "member_candidate_ids": [
+        "f8b0bad5776cf911"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-9160b7152caf",
+      "member_candidate_ids": [
+        "dd74b68f3b030815"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-92dfe141df61",
+      "member_candidate_ids": [
+        "196658635f202bd6"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-9619fc556614",
+      "member_candidate_ids": [
+        "b37ceb8a626d7fb9"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-974f6daf963a",
+      "member_candidate_ids": [
+        "9f3a2d92bc156385"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-977ac916dff2",
+      "member_candidate_ids": [
+        "58ccd32c35dd36f0"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-979ba94d5f69",
+      "member_candidate_ids": [
+        "00e97cfc402c9e6a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-97a7ea95fa4f",
+      "member_candidate_ids": [
+        "01eb1c684c7a5a37"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-97cf7901b163",
+      "member_candidate_ids": [
+        "95b3d0e62c71b881"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-9a0d3a844868",
+      "member_candidate_ids": [
+        "84059e63fba9ea0c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-9a1b61a3881a",
+      "member_candidate_ids": [
+        "0b4847bd484ea9dd"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-9a21cd36aa3b",
+      "member_candidate_ids": [
+        "b94c5fcfff628627"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-9abe1a2bacc2",
+      "member_candidate_ids": [
+        "dd04576476be7f85"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-9c99b4bd72f6",
+      "member_candidate_ids": [
+        "6bcb19f6b7fb2e1a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-9d91f812e11b",
+      "member_candidate_ids": [
+        "20f59243493f770a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-a0fd60822352",
+      "member_candidate_ids": [
+        "3d86472f56952f31"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-a16a8fd084af",
+      "member_candidate_ids": [
+        "25c9068260616429"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-a203e2a974a1",
+      "member_candidate_ids": [
+        "da26a74c6745a78d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-a22a42f6e02c",
+      "member_candidate_ids": [
+        "fb297c216a5b0a17"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-a2a8a707e912",
+      "member_candidate_ids": [
+        "cf3749098fc42ed5"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-a32c174e5b02",
+      "member_candidate_ids": [
+        "c72df9bc2fbab740"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-a3f59b9a3c5c",
+      "member_candidate_ids": [
+        "10a91e7a07dfdfe7"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-a46bc56540b0",
+      "member_candidate_ids": [
+        "8d9070d5443e1139"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-a63b0d9cccad",
+      "member_candidate_ids": [
+        "311ddf42ff201c80"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-a87cc4dd1904",
+      "member_candidate_ids": [
+        "97856bede9616932"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ab0ff871fcbb",
+      "member_candidate_ids": [
+        "0f012960fa28348d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ac0c5748b35c",
+      "member_candidate_ids": [
+        "4fe4743a41aa0112"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ac685f62190f",
+      "member_candidate_ids": [
+        "67c5280469b27015"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ac72f35f2498",
+      "member_candidate_ids": [
+        "1739711c0f376032"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-aee5f5965bf8",
+      "member_candidate_ids": [
+        "b159553d925d6e8b"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-af15bb938174",
+      "member_candidate_ids": [
+        "d75470626716ffb3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-af74a7ddeb56",
+      "member_candidate_ids": [
+        "fb5f883729326fd9"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-affbb1cc2965",
+      "member_candidate_ids": [
+        "d8ef33af968697b6"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-affd38f8700f",
+      "member_candidate_ids": [
+        "00f4eb82a1452000"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b16ae48378f7",
+      "member_candidate_ids": [
+        "3b52e9af09e09daa"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b1a41ac89252",
+      "member_candidate_ids": [
+        "03df1e7559fd596c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b358a528346b",
+      "member_candidate_ids": [
+        "0559221f19a5f31d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b37ec1935da0",
+      "member_candidate_ids": [
+        "4132f23bf336cc37"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b3a5f2a69866",
+      "member_candidate_ids": [
+        "3625f3a7acb5abbe"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b46d0c0c9465",
+      "member_candidate_ids": [
+        "e4689f7319673fe7"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b4ab0316c906",
+      "member_candidate_ids": [
+        "7647ccc0090c5c35"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b4b1708e922e",
+      "member_candidate_ids": [
+        "0c9d5f9448070aff"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b4b694c9ed24",
+      "member_candidate_ids": [
+        "f205a433ceeeb386"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b512f89cfa05",
+      "member_candidate_ids": [
+        "9b85cf68f5eb763a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b65c4ecbe2ac",
+      "member_candidate_ids": [
+        "3ede2fe2f6148885"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b74685b44f99",
+      "member_candidate_ids": [
+        "193894c3a61c3543"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b76d90ce76c3",
+      "member_candidate_ids": [
+        "a28a0662253542c4"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b7faa8b11989",
+      "member_candidate_ids": [
+        "e276fa3a1dc96ad6"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b83f3960db01",
+      "member_candidate_ids": [
+        "c50d2368f1937b7b"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b8d7576efa48",
+      "member_candidate_ids": [
+        "64b783d8d7ffced6"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b8eb5c2b2107",
+      "member_candidate_ids": [
+        "2cdc40ea676fa16d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b9174a0fe77e",
+      "member_candidate_ids": [
+        "273d649c1df2cbc4"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b94bbaa4e6a4",
+      "member_candidate_ids": [
+        "dacd30f431fae546"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-b97230f6232c",
+      "member_candidate_ids": [
+        "3afa7d48b28df4fb"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-baa7aa459276",
+      "member_candidate_ids": [
+        "2549c9d8da8f63c2"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-bace7296a0ef",
+      "member_candidate_ids": [
+        "a9c57d25e252b33e"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-bbea5a49752c",
+      "member_candidate_ids": [
+        "0f5ec7fa381fa02c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-bc4a4b95ec6f",
+      "member_candidate_ids": [
+        "9a86168475966e4e"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-bc6da489276b",
+      "member_candidate_ids": [
+        "49353de53da59354"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-bd02cbb66e99",
+      "member_candidate_ids": [
+        "cf7ce7b7ee381fdb"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-bfea7ed2d3c3",
+      "member_candidate_ids": [
+        "9b2fbc4cc79464dd"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c0b2f0d8ed47",
+      "member_candidate_ids": [
+        "9b850fd7a1530933"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c0c874ad7f9e",
+      "member_candidate_ids": [
+        "f48e4edf3223ecc9"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c0f39ce8a9cd",
+      "member_candidate_ids": [
+        "cf5e1c010e094d6c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c2585f4bd330",
+      "member_candidate_ids": [
+        "451356d35dc966e4"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c27258846641",
+      "member_candidate_ids": [
+        "288fe6fec373cf27"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c2e25d740a22",
+      "member_candidate_ids": [
+        "d0e6e6e05700d3f0"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c573be91ba45",
+      "member_candidate_ids": [
+        "822a3816d20c7829"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c65fb0f9569b",
+      "member_candidate_ids": [
+        "0d6a50c8121fd029"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c815b804b18f",
+      "member_candidate_ids": [
+        "5732db4708717311"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c8ae2fd49b24",
+      "member_candidate_ids": [
+        "4a0810f12d3c3ca8"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c8b3ec22f4ea",
+      "member_candidate_ids": [
+        "70694ba33f57a332"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c8c133401b97",
+      "member_candidate_ids": [
+        "b0c122d59a4c952d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c8df920b2856",
+      "member_candidate_ids": [
+        "e7633e37842d9d2b"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-c9ea1d570cd1",
+      "member_candidate_ids": [
+        "820b18f70a07274b"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ca786b6c0bcb",
+      "member_candidate_ids": [
+        "5b00513782be8008"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-cde43cce3be0",
+      "member_candidate_ids": [
+        "182174b8a30e6460"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ce4727484cb9",
+      "member_candidate_ids": [
+        "33a60746cc44c37f"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ce545aaaa201",
+      "member_candidate_ids": [
+        "68c50b5144889693"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d0712c56a8df",
+      "member_candidate_ids": [
+        "ab3e53207e543150"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d13ce3952a4e",
+      "member_candidate_ids": [
+        "046b60d84c2b5938"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d26a9450610c",
+      "member_candidate_ids": [
+        "0d60a6f7e7bdb876"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d293520b90ec",
+      "member_candidate_ids": [
+        "e2a88cfe66890039"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d2993f4e6ae5",
+      "member_candidate_ids": [
+        "30e512bcfb85c3d5"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d3658aae5e35",
+      "member_candidate_ids": [
+        "19d194130266ba87"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d4c9e4ca7389",
+      "member_candidate_ids": [
+        "84900b3359135f00"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d57b787e4edc",
+      "member_candidate_ids": [
+        "c3ea7198995ad32f"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d759fe2013f4",
+      "member_candidate_ids": [
+        "738674546e36d8b1"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d7d72238b8d7",
+      "member_candidate_ids": [
+        "9a1ab62567edbe18"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d7e1da61e8c2",
+      "member_candidate_ids": [
+        "5831bd3a57d2d7d6"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d7e6507674e9",
+      "member_candidate_ids": [
+        "13f26a7b98021008"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d85a8d82bf34",
+      "member_candidate_ids": [
+        "a8bc16e264de59bd"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d87a4113764b",
+      "member_candidate_ids": [
+        "919a830d5f9e4317"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-d923c762847d",
+      "member_candidate_ids": [
+        "be19f542921ac6e5"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-da50c621c738",
+      "member_candidate_ids": [
+        "763e7a19613dc7fa"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-de886d24a272",
+      "member_candidate_ids": [
+        "9c2027c6e7205314"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-de9a4264f30e",
+      "member_candidate_ids": [
+        "eb445a73af54207e"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e017417f997c",
+      "member_candidate_ids": [
+        "9a831b62467facac"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e1770e6db491",
+      "member_candidate_ids": [
+        "0496ea0a8dcaada3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e1cb7ba6541d",
+      "member_candidate_ids": [
+        "c59770d457085209"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e1f06b367261",
+      "member_candidate_ids": [
+        "e290bec5210fcc9e"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e1f29eeaf1ad",
+      "member_candidate_ids": [
+        "18db4dde5388488a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e37bba01c7ab",
+      "member_candidate_ids": [
+        "a341c665801d92c9"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e3a81e0b2a40",
+      "member_candidate_ids": [
+        "6d4fd9fede59da97"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e47f03775626",
+      "member_candidate_ids": [
+        "73c30f709e38fcf7"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e4ef22c67bbb",
+      "member_candidate_ids": [
+        "5da58ffdfba66df7"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e5a7bee01a56",
+      "member_candidate_ids": [
+        "f5b52ff9ec275ddb"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e69242ee5b31",
+      "member_candidate_ids": [
+        "9463b9e962b04888"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e70992cb9e7c",
+      "member_candidate_ids": [
+        "23bdbaac7423ee6d"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e751b476ecdd",
+      "member_candidate_ids": [
+        "e8d811fed28b81ef"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e7b7a8d38946",
+      "member_candidate_ids": [
+        "5b16c9e6c9c09d58"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e8fc3a50bd9d",
+      "member_candidate_ids": [
+        "6baaaf78dbaae5f8"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e903454037b4",
+      "member_candidate_ids": [
+        "4686ffca97588450"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e90cb1ad581c",
+      "member_candidate_ids": [
+        "80179287b45ec4e1"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e945846299df",
+      "member_candidate_ids": [
+        "72175f2cb6f20b83"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-e95af46a6e1a",
+      "member_candidate_ids": [
+        "8d9930eec065725a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-eac348657c09",
+      "member_candidate_ids": [
+        "33d2a5f44d13baaa"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-eba16cae1425",
+      "member_candidate_ids": [
+        "8de49b06b36dd897"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ed18ac93ac77",
+      "member_candidate_ids": [
+        "912c844b97386bf3"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ed3464b89ece",
+      "member_candidate_ids": [
+        "b1fd5287e26adc8b"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ed5d2542f363",
+      "member_candidate_ids": [
+        "8ff57a4c504ab14f"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ed627dfc23d1",
+      "member_candidate_ids": [
+        "1b7a4872acf6375f"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ed658c16ff09",
+      "member_candidate_ids": [
+        "b74ac88cc3c7145b"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-eee07bd91109",
+      "member_candidate_ids": [
+        "29cdcb7df6b22767"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-efa79228ade4",
+      "member_candidate_ids": [
+        "a2f314298a96cca8"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f004b500a930",
+      "member_candidate_ids": [
+        "3b5eefafa43248fc"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f05706c863f3",
+      "member_candidate_ids": [
+        "4a94ca62c33d8b12"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f08886566cc1",
+      "member_candidate_ids": [
+        "a26aa797f263ec3c"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f19662e65e2d",
+      "member_candidate_ids": [
+        "baa627363097a01a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f27f9c5ba264",
+      "member_candidate_ids": [
+        "e914cf61126d6d76"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f31cab274871",
+      "member_candidate_ids": [
+        "4176d6ce5a6e325f"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f3845fab4878",
+      "member_candidate_ids": [
+        "3f87d337f404ae6f"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f477eab4e4be",
+      "member_candidate_ids": [
+        "4354a83f5fc62505"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f50eef018632",
+      "member_candidate_ids": [
+        "e008623139194806"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f5ec1853f8fc",
+      "member_candidate_ids": [
+        "e1d8e613c5be83d8"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f63bdd0a8154",
+      "member_candidate_ids": [
+        "e80bc9c0beac5265"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f8b1a8f16ac7",
+      "member_candidate_ids": [
+        "21fab893a88faf4a"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-f9de5bd3ae59",
+      "member_candidate_ids": [
+        "4e2210c55642406e"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-fa703fd5cbde",
+      "member_candidate_ids": [
+        "8ca3ad08308f96f8"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-fc9458438f2a",
+      "member_candidate_ids": [
+        "03f2ee7086c8d7c0"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-fd5f47f2441c",
+      "member_candidate_ids": [
+        "86b5cf024bf023ae"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-fe2475bbf6e2",
+      "member_candidate_ids": [
+        "9b04350c67c32f37"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    },
+    {
+      "formula_family_candidate_id": "ff-ffe670cf0ff5",
+      "member_candidate_ids": [
+        "0af7250d0ffcca28"
+      ],
+      "member_count": 1,
+      "status": "singleton_provisional"
+    }
+  ]
+}

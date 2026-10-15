@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.1",
+  "checkpoint": "cycle3_model_development_lock",
+  "primary_model": "xiangji-cgir-v1",
+  "selected_configuration": {
+    "C": 3.0,
+    "group_dro_iterations": 0,
+    "graph_reducer": "mean"
+  },
+  "development_gate_passed": true,
+  "primary_two_work_folds_accessed": false,
+  "quarantined_source_accessed_by_model": false,
+  "investigator_blinded": false,
+  "files": [
+    {
+      "path": "configs/model/xiangji_cgir_v1.json",
+      "sha256": "967fb1de158a40092cef753fb3cdf9d802b939f499e26d4eb1fe659c5af358e4"
+    },
+    {
+      "path": "configs/model/xiangji_cgir_v1_locked.json",
+      "sha256": "2dbbde6703c8a71950e82040060f448a48465a0ffc7de2621ca8a5c96ed972c7"
+    },
+    {
+      "path": "protocol/cycle3_model_protocol_v0.1.md",
+      "sha256": "829b7b79ff83b05e5d5b975a85be8ec5a3d7271198734f11af6fc024c40e74fc"
+    },
+    {
+      "path": "src/xiangji/models/bayesian_logistic.py",
+      "sha256": "cce18dd83169b579c2fd2cc4770fc606e157464ccbae039b85c8d509b1fa13a1"
+    },
+    {
+      "path": "src/xiangji/models/cgir.py",
+      "sha256": "3476c32ab7d517233be2bc23df9d8b72b11f6f1ca4d7994883ad0142dba3c239"
+    },
+    {
+      "path": "src/xiangji/models/data.py",
+      "sha256": "5313d67ddfc35d04604559c21352d7ef5dda4cb42ca8918d04e67031a6c04337"
+    },
+    {
+      "path": "src/xiangji/models/odor_inverse.py",
+      "sha256": "83dcdbd7f56956249833d2bc222e9d6a1bdf9f2710213c6e06ece564ef997238"
+    },
+    {
+      "path": "src/xiangji/representations/kernels.py",
+      "sha256": "1cb313a7cee0cc99d31aae3d196d5004c9bd3b8eef590a3a946b22ed6b38c598"
+    },
+    {
+      "path": "src/xiangji/representations/odor.py",
+      "sha256": "4e9468674f4152be788c608d848f0257b6bf739c8fbe8f9d03a25d0939392cf6"
+    },
+    {
+      "path": "src/xiangji/evaluation/partial_completion.py",
+      "sha256": "b71dcc885ddd8056aadd0b7f77e7a7ac44b862c1ca2fc4411db575fd4533c061"
+    },
+    {
+      "path": "src/xiangji/evaluation/model_selection.py",
+      "sha256": "924eee8272b5dc013c2b52c21d62d52cc7064e2903ea505914d277876941eead"
+    },
+    {
+      "path": "src/xiangji/evaluation/development_diagnostics.py",
+      "sha256": "ded17e287637a74dfd616c0716f32530a7db060ab9f8e4744cacf06ea3506144"
+    },
+    {
+      "path": "src/xiangji/evaluation/odor_inverse.py",
+      "sha256": "e6398d5da2236ed6c8ba3665a0bb3489dd3e936ea6c50ad17892529ced0c4079"
+    },
+    {
+      "path": "src/xiangji/evaluation/inference_diagnostics.py",
+      "sha256": "79d1b01f47a63056739dfe2bc41fd66a2900602a91325aaa11de36839b298ba9"
+    },
+    {
+      "path": "experiments/cycle3_model_selection.json",
+      "sha256": "560e60f2dd31e7f8d2137cdcb6761794fa4451cf422fe0f9b1d09081840d8483"
+    },
+    {
+      "path": "experiments/cycle3_development_diagnostics.json",
+      "sha256": "873bc7d49c4eb5a4997d77e2bef10ec64effc404ff36352111e1700dc689a208"
+    },
+    {
+      "path": "experiments/cycle3_odor_inverse_nested.json",
+      "sha256": "c3bc7bc88c8913e031dd4e68063746b843e55c782baf59433212fec28f3e0e1c"
+    },
+    {
+      "path": "experiments/cycle3_inference_diagnostics.json",
+      "sha256": "a39a38842b100f2a6d78e0061b698874d8d4b2aa93044b1eb95f3ba37c68e9ff"
+    },
+    {
+      "path": "reports/model_card_xiangji_cgir_v1.md",
+      "sha256": "e0a615532f0a8817fadf4d0a5af9cd548bcb830c6b8601288b7e2a660c67e338"
+    },
+    {
+      "path": "reports/cycle3_completion.md",
+      "sha256": "5cdbabbe2ce52b75751ee8eac893a3bb2b3be205d708cc20ebdc6eeaa2d84d21"
+    }
+  ]
+}

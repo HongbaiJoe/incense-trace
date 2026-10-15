@@ -1,0 +1,28 @@
+{
+  "schema_version": "2.0",
+  "backend": "python-matplotlib",
+  "input_sha256": {
+    "v2_nested_cross_work.json": "36e487fb2d4209c0df20e338f2d474085788c0acc85474495eeb19f8d779ecfe",
+    "v2_missingness_stress.json": "f02c93254dd0bd16043b4dc8da2cfef8ffa1f56bbcb062743a26214e0ed8b54a",
+    "v2_calibration.json": "98921f4c13c923e28d62ad81d7d231760e3fbc905085074734acb9f5d5b65e4c"
+  },
+  "output_sha256": {
+    "v2_fig1_design.pdf": "754f0eed6f034c49db4419b8498207f69b7eb5035ea1ef7a8e4341336b947528",
+    "v2_fig1_design.png": "d1820b7f9b68d141fcd00d2c2c1376c27c02fe0a377460ab9f9f73517214354d",
+    "v2_fig1_design.svg": "6cbd61e5631d216a725e6969992722b4ef786f0dd259d6daf26933b411c3bd7c",
+    "v2_fig1_design.tiff": "4f9628652a17626094d635be0581771b84b3c7b0bf4a6ee2302e213cbc3dc9cf",
+    "v2_fig2_performance.pdf": "2fbd52b3ef66188429c1115df0d4cac93d8aea3027f7760a7109bef6e39947e9",
+    "v2_fig2_performance.png": "9cc015155e3cf01ef7ee6b8b96ee87ba125a69f6680199097dd270ce45d9de5f",
+    "v2_fig2_performance.svg": "08132a1f649b7096dad5310e45b4ea0cc9ebaf6e7a9a921dd440e27b19f7ae35",
+    "v2_fig2_performance.tiff": "7466f16d7ae348e763253b263e8c8cc01f3c4015352b1e38ca103713c628c90a",
+    "v2_fig3_missingness.pdf": "556d90568e823ced615176a8e3f2dc01eece056a2b5db8f7db87052066ea97f0",
+    "v2_fig3_missingness.png": "5dc2a25de4b5ef3eaef92804c338ffe2c2ef5724a2c987223366ca0f479d3be7",
+    "v2_fig3_missingness.svg": "9d926e485e851a64287357ca0ef4b6cff24e507712a4596d6adcba4383011bdd",
+    "v2_fig3_missingness.tiff": "4c9dac10fd77e85de351d1343d46fe458ad64e35260d23426c36bf67b5042569",
+    "v2_fig4_calibration.pdf": "98ac686f1558fa1c2ef12991c5a68acd555ee71de845f351fe62a008d96cab5a",
+    "v2_fig4_calibration.png": "5197746233820dc63d310a6b1c1b8c12f7d4d34179849754024cfdb8c4e6704d",
+    "v2_fig4_calibration.svg": "02b9e39c9f8e7683b64dfcd63668933dc66cb1d9ff3bfa3df55a282d0a9e34bb",
+    "v2_fig4_calibration.tiff": "36829f43fa8cdcefca5219f5dd1a141a22548d5385662d308a8dedba2c4e162f"
+  },
+  "source_data_directory": "figures/source_data"
+}

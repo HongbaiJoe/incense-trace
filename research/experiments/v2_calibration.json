@@ -1,0 +1,467 @@
+{
+  "design": "one_temperature_fitted_inside_each_outer_work_fold",
+  "inner_calibration_candidate_counts": {
+    "chen_xiangpu_compilation": 13380,
+    "hong_xiangpu_attributed": 28645,
+    "huizhai_xiangpu": 24400,
+    "liexiang_xinpu": 23425,
+    "moe_xiaolu_xiangpu": 30135,
+    "xiangcheng_compilation_unresolved_source": 16875
+  },
+  "logit_calibrated": {
+    "pooled_reliability_bins": [
+      {
+        "count": 28122,
+        "empirical_frequency": 0.01852642059597468,
+        "lower": 0.0,
+        "mean_probability": 0.015670355028317925,
+        "upper": 0.1
+      },
+      {
+        "count": 1511,
+        "empirical_frequency": 0.12905360688285902,
+        "lower": 0.1,
+        "mean_probability": 0.1406942344194976,
+        "upper": 0.2
+      },
+      {
+        "count": 674,
+        "empirical_frequency": 0.3323442136498516,
+        "lower": 0.2,
+        "mean_probability": 0.24044601986800843,
+        "upper": 0.30000000000000004
+      },
+      {
+        "count": 430,
+        "empirical_frequency": 0.46511627906976744,
+        "lower": 0.30000000000000004,
+        "mean_probability": 0.3429831783524253,
+        "upper": 0.4
+      },
+      {
+        "count": 271,
+        "empirical_frequency": 0.43911439114391143,
+        "lower": 0.4,
+        "mean_probability": 0.4511026702235284,
+        "upper": 0.5
+      },
+      {
+        "count": 239,
+        "empirical_frequency": 0.5690376569037657,
+        "lower": 0.5,
+        "mean_probability": 0.550004840360276,
+        "upper": 0.6
+      },
+      {
+        "count": 70,
+        "empirical_frequency": 0.5285714285714286,
+        "lower": 0.6000000000000001,
+        "mean_probability": 0.6378742770969892,
+        "upper": 0.7000000000000001
+      },
+      {
+        "count": 21,
+        "empirical_frequency": 0.7619047619047619,
+        "lower": 0.7000000000000001,
+        "mean_probability": 0.7376497190527717,
+        "upper": 0.8
+      },
+      {
+        "count": 2,
+        "empirical_frequency": 1.0,
+        "lower": 0.8,
+        "mean_probability": 0.8314904930848187,
+        "upper": 0.9
+      }
+    ],
+    "source_macro_metrics": {
+      "adaptive_calibration_error": 0.014543285084544432,
+      "brier": 0.034014922412152815,
+      "nll": 0.12617577927759846
+    },
+    "total_high_probability_count": 2,
+    "work_metrics": {
+      "chen_xiangpu_compilation": {
+        "adaptive_calibration_error": 0.007926328221368175,
+        "brier": 0.037127958334069344,
+        "candidate_count": 12720,
+        "formula_count": 38,
+        "high_probability_count": 0,
+        "high_probability_empirical_frequency": null,
+        "high_probability_mean": null,
+        "nll": 0.1387693956143572
+      },
+      "hong_xiangpu_attributed": {
+        "adaptive_calibration_error": 0.024726416294855003,
+        "brier": 0.03558709270938917,
+        "candidate_count": 2275,
+        "formula_count": 6,
+        "high_probability_count": 0,
+        "high_probability_empirical_frequency": null,
+        "high_probability_mean": null,
+        "nll": 0.11950917822425829
+      },
+      "huizhai_xiangpu": {
+        "adaptive_calibration_error": 0.020416819789678912,
+        "brier": 0.03387334460983511,
+        "candidate_count": 3215,
+        "formula_count": 9,
+        "high_probability_count": 0,
+        "high_probability_empirical_frequency": null,
+        "high_probability_mean": null,
+        "nll": 0.1363943336061536
+      },
+      "liexiang_xinpu": {
+        "adaptive_calibration_error": 0.0187297031254732,
+        "brier": 0.03674648072698034,
+        "candidate_count": 1940,
+        "formula_count": 6,
+        "high_probability_count": 0,
+        "high_probability_empirical_frequency": null,
+        "high_probability_mean": null,
+        "nll": 0.12957074544718783
+      },
+      "moe_xiaolu_xiangpu": {
+        "adaptive_calibration_error": 0.008243470255826084,
+        "brier": 0.028794289094750188,
+        "candidate_count": 765,
+        "formula_count": 2,
+        "high_probability_count": 2,
+        "high_probability_empirical_frequency": 1.0,
+        "high_probability_mean": 0.8314904930848187,
+        "nll": 0.11317829999545936
+      },
+      "xiangcheng_compilation_unresolved_source": {
+        "adaptive_calibration_error": 0.007216972820065215,
+        "brier": 0.03196036899789274,
+        "candidate_count": 10425,
+        "formula_count": 29,
+        "high_probability_count": 0,
+        "high_probability_empirical_frequency": null,
+        "high_probability_mean": null,
+        "nll": 0.1196327227781745
+      }
+    }
+  },
+  "model": "nested_selected_sscl",
+  "outer_logit_calibrators": {
+    "chen_xiangpu_compilation": {
+      "intercept": -0.9663489967352796,
+      "slope": 1.0751087698207664
+    },
+    "hong_xiangpu_attributed": {
+      "intercept": -1.2762515795118956,
+      "slope": 0.9563404324986956
+    },
+    "huizhai_xiangpu": {
+      "intercept": -1.5173357371519456,
+      "slope": 1.0210706420152607
+    },
+    "liexiang_xinpu": {
+      "intercept": -1.2831060373923147,
+      "slope": 0.9459217156735527
+    },
+    "moe_xiaolu_xiangpu": {
+      "intercept": -1.4601951669870985,
+      "slope": 1.0083523505204621
+    },
+    "xiangcheng_compilation_unresolved_source": {
+      "intercept": -1.1439686812275283,
+      "slope": 0.9897993197181943
+    }
+  },
+  "outer_temperatures": {
+    "chen_xiangpu_compilation": 0.6794584640137608,
+    "hong_xiangpu_attributed": 0.7373092436226693,
+    "huizhai_xiangpu": 0.7041308003121647,
+    "liexiang_xinpu": 0.746049503163649,
+    "moe_xiaolu_xiangpu": 0.6949226318217575,
+    "xiangcheng_compilation_unresolved_source": 0.7130404352926851
+  },
+  "primary_candidate_count": 31340,
+  "schema_version": "0.2",
+  "temperature_scaled": {
+    "pooled_reliability_bins": [
+      {
+        "count": 26225,
+        "empirical_frequency": 0.014261201143946616,
+        "lower": 0.0,
+        "mean_probability": 0.012056312786375511,
+        "upper": 0.1
+      },
+      {
+        "count": 1998,
+        "empirical_frequency": 0.08608608608608609,
+        "lower": 0.1,
+        "mean_probability": 0.14476750177560346,
+        "upper": 0.2
+      },
+      {
+        "count": 802,
+        "empirical_frequency": 0.1172069825436409,
+        "lower": 0.2,
+        "mean_probability": 0.24050536255235483,
+        "upper": 0.30000000000000004
+      },
+      {
+        "count": 557,
+        "empirical_frequency": 0.16337522441651706,
+        "lower": 0.30000000000000004,
+        "mean_probability": 0.3464431527610818,
+        "upper": 0.4
+      },
+      {
+        "count": 371,
+        "empirical_frequency": 0.24797843665768193,
+        "lower": 0.4,
+        "mean_probability": 0.44655553980131285,
+        "upper": 0.5
+      },
+      {
+        "count": 327,
+        "empirical_frequency": 0.3425076452599388,
+        "lower": 0.5,
+        "mean_probability": 0.5478344268721079,
+        "upper": 0.6
+      },
+      {
+        "count": 357,
+        "empirical_frequency": 0.453781512605042,
+        "lower": 0.6000000000000001,
+        "mean_probability": 0.6474593056261216,
+        "upper": 0.7000000000000001
+      },
+      {
+        "count": 248,
+        "empirical_frequency": 0.45564516129032256,
+        "lower": 0.7000000000000001,
+        "mean_probability": 0.7470208845345389,
+        "upper": 0.8
+      },
+      {
+        "count": 344,
+        "empirical_frequency": 0.502906976744186,
+        "lower": 0.8,
+        "mean_probability": 0.8493769219504322,
+        "upper": 0.9
+      },
+      {
+        "count": 111,
+        "empirical_frequency": 0.6036036036036037,
+        "lower": 0.9,
+        "mean_probability": 0.9241141383650204,
+        "upper": 1.0
+      }
+    ],
+    "source_macro_metrics": {
+      "adaptive_calibration_error": 0.037149402748825874,
+      "brier": 0.040603085275002296,
+      "nll": 0.1455947351894523
+    },
+    "total_high_probability_count": 455,
+    "work_metrics": {
+      "chen_xiangpu_compilation": {
+        "adaptive_calibration_error": 0.019277418632278,
+        "brier": 0.039302712993504005,
+        "candidate_count": 12720,
+        "formula_count": 38,
+        "high_probability_count": 148,
+        "high_probability_empirical_frequency": 0.5337837837837838,
+        "high_probability_mean": 0.858135464171474,
+        "nll": 0.14676988782316744
+      },
+      "hong_xiangpu_attributed": {
+        "adaptive_calibration_error": 0.01493753536594201,
+        "brier": 0.03300243937597357,
+        "candidate_count": 2275,
+        "formula_count": 6,
+        "high_probability_count": 44,
+        "high_probability_empirical_frequency": 0.7045454545454546,
+        "high_probability_mean": 0.8742234098423414,
+        "nll": 0.11343076015900024
+      },
+      "huizhai_xiangpu": {
+        "adaptive_calibration_error": 0.07787546473303146,
+        "brier": 0.05882980110389561,
+        "candidate_count": 3215,
+        "formula_count": 9,
+        "high_probability_count": 100,
+        "high_probability_empirical_frequency": 0.32,
+        "high_probability_mean": 0.8746007507389035,
+        "nll": 0.20326462867549722
+      },
+      "liexiang_xinpu": {
+        "adaptive_calibration_error": 0.03424237124946938,
+        "brier": 0.03766887333263929,
+        "candidate_count": 1940,
+        "formula_count": 6,
+        "high_probability_count": 44,
+        "high_probability_empirical_frequency": 0.5681818181818182,
+        "high_probability_mean": 0.8853835720959757,
+        "nll": 0.13762798604012408
+      },
+      "moe_xiaolu_xiangpu": {
+        "adaptive_calibration_error": 0.05247337160053203,
+        "brier": 0.038824995379430766,
+        "candidate_count": 765,
+        "formula_count": 2,
+        "high_probability_count": 14,
+        "high_probability_empirical_frequency": 0.5,
+        "high_probability_mean": 0.8919287915907568,
+        "nll": 0.14288846583918205
+      },
+      "xiangcheng_compilation_unresolved_source": {
+        "adaptive_calibration_error": 0.02409025491170237,
+        "brier": 0.03598968946457055,
+        "candidate_count": 10425,
+        "formula_count": 29,
+        "high_probability_count": 105,
+        "high_probability_empirical_frequency": 0.6285714285714286,
+        "high_probability_mean": 0.8608428233394372,
+        "nll": 0.1295866825997428
+      }
+    }
+  },
+  "uncalibrated": {
+    "pooled_reliability_bins": [
+      {
+        "count": 23942,
+        "empirical_frequency": 0.010065992815971932,
+        "lower": 0.0,
+        "mean_probability": 0.0258873436726268,
+        "upper": 0.1
+      },
+      {
+        "count": 2799,
+        "empirical_frequency": 0.056448731689889245,
+        "lower": 0.1,
+        "mean_probability": 0.14126455598834986,
+        "upper": 0.2
+      },
+      {
+        "count": 1816,
+        "empirical_frequency": 0.098568281938326,
+        "lower": 0.2,
+        "mean_probability": 0.24376612817185153,
+        "upper": 0.30000000000000004
+      },
+      {
+        "count": 854,
+        "empirical_frequency": 0.13466042154566746,
+        "lower": 0.30000000000000004,
+        "mean_probability": 0.3489105960067651,
+        "upper": 0.4
+      },
+      {
+        "count": 542,
+        "empirical_frequency": 0.23985239852398524,
+        "lower": 0.4,
+        "mean_probability": 0.44750586348805815,
+        "upper": 0.5
+      },
+      {
+        "count": 503,
+        "empirical_frequency": 0.36779324055666,
+        "lower": 0.5,
+        "mean_probability": 0.5519747327446328,
+        "upper": 0.6
+      },
+      {
+        "count": 364,
+        "empirical_frequency": 0.46703296703296704,
+        "lower": 0.6000000000000001,
+        "mean_probability": 0.6481899094044707,
+        "upper": 0.7000000000000001
+      },
+      {
+        "count": 334,
+        "empirical_frequency": 0.47604790419161674,
+        "lower": 0.7000000000000001,
+        "mean_probability": 0.7512406001168883,
+        "upper": 0.8
+      },
+      {
+        "count": 177,
+        "empirical_frequency": 0.5875706214689266,
+        "lower": 0.8,
+        "mean_probability": 0.8346860849294065,
+        "upper": 0.9
+      },
+      {
+        "count": 9,
+        "empirical_frequency": 1.0,
+        "lower": 0.9,
+        "mean_probability": 0.9333811613826557,
+        "upper": 1.0
+      }
+    ],
+    "source_macro_metrics": {
+      "adaptive_calibration_error": 0.057883006265216086,
+      "brier": 0.042730850695233226,
+      "nll": 0.15717655680286075
+    },
+    "total_high_probability_count": 186,
+    "work_metrics": {
+      "chen_xiangpu_compilation": {
+        "adaptive_calibration_error": 0.03858208695008007,
+        "brier": 0.0405804099771108,
+        "candidate_count": 12720,
+        "formula_count": 38,
+        "high_probability_count": 39,
+        "high_probability_empirical_frequency": 0.5641025641025641,
+        "high_probability_mean": 0.8335912604400847,
+        "nll": 0.15160664052584305
+      },
+      "hong_xiangpu_attributed": {
+        "adaptive_calibration_error": 0.03615570838838638,
+        "brier": 0.03423526619828105,
+        "candidate_count": 2275,
+        "formula_count": 6,
+        "high_probability_count": 23,
+        "high_probability_empirical_frequency": 0.6086956521739131,
+        "high_probability_mean": 0.8529914259806115,
+        "nll": 0.12733321463897262
+      },
+      "huizhai_xiangpu": {
+        "adaptive_calibration_error": 0.09704930694476793,
+        "brier": 0.060598372978838175,
+        "candidate_count": 3215,
+        "formula_count": 9,
+        "high_probability_count": 38,
+        "high_probability_empirical_frequency": 0.4473684210526316,
+        "high_probability_mean": 0.8467668263803588,
+        "nll": 0.20886630378620485
+      },
+      "liexiang_xinpu": {
+        "adaptive_calibration_error": 0.05564690832198562,
+        "brier": 0.04090916029258292,
+        "candidate_count": 1940,
+        "formula_count": 6,
+        "high_probability_count": 28,
+        "high_probability_empirical_frequency": 0.5714285714285714,
+        "high_probability_mean": 0.8563946971051297,
+        "nll": 0.15355889584745433
+      },
+      "moe_xiaolu_xiangpu": {
+        "adaptive_calibration_error": 0.07951919117248352,
+        "brier": 0.04313011641864731,
+        "candidate_count": 765,
+        "formula_count": 2,
+        "high_probability_count": 9,
+        "high_probability_empirical_frequency": 0.7777777777777778,
+        "high_probability_mean": 0.8434905656211258,
+        "nll": 0.16516822622554467
+      },
+      "xiangcheng_compilation_unresolved_source": {
+        "adaptive_calibration_error": 0.040344835813593,
+        "brier": 0.03693177830593908,
+        "candidate_count": 10425,
+        "formula_count": 29,
+        "high_probability_count": 49,
+        "high_probability_empirical_frequency": 0.7551020408163265,
+        "high_probability_mean": 0.8217020309845733,
+        "nll": 0.13652605979314494
+      }
+    }
+  }
+}

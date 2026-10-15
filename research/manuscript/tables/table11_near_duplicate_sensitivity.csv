@@ -1,0 +1,4 @@
+model,all_formulas_hidden_f1,after_excluding_high_similarity_hidden_f1,excluded_formula_count,jaccard_threshold
+Frequency,0.3386314231241636,0.32233192269010447,9,0.8
+Directed graph,0.36541975977910646,0.3481871861471862,9,0.8
+Full decoder,0.3664678698662365,0.34937990860990864,9,0.8

@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        637511
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 637511,
+          "SMILES": "C1=CC=C(C=C1)/C=C/C=O",
+          "ConnectivitySMILES": "C1=CC=C(C=C1)C=CC=O",
+          "InChIKey": "KJPRLNWUNMBNBZ-QPJJXVBHSA-N"
+        }
+      ]
+    }
+  }
+}

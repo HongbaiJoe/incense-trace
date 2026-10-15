@@ -1,0 +1,431 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,top=23mm,bottom=25mm,left=24mm,right=24mm]{geometry}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\setmainfont{texgyretermes-regular.otf}[
+  BoldFont=texgyretermes-bold.otf,
+  ItalicFont=texgyretermes-italic.otf,
+  BoldItalicFont=texgyretermes-bolditalic.otf]
+\setsansfont{texgyreheros-regular.otf}[BoldFont=texgyreheros-bold.otf]
+\setmonofont{lmmono10-regular.otf}[Scale=MatchLowercase]
+\setmathfont{latinmodern-math.otf}
+\setmathfont{latinmodern-math.otf}[version=bold,FakeBold=1.5]
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{adjustbox}
+\usepackage{pdflscape}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage[hidelinks]{hyperref}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf,labelsep=period,justification=justified,singlelinecheck=false}
+\setlength{\parindent}{1.4em}
+\setlength{\parskip}{0.22em}
+\setlength{\emergencystretch}{2em}
+\hbadness=2000
+\renewcommand{\familydefault}{\rmdefault}
+\renewcommand{\baselinestretch}{1.08}
+
+
+\title{Supplementary Information}
+
+\author{\parbox{0.82\textwidth}{\centering Probabilistic graph completion of historical Chinese incense formulas under source shift}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\renewcommand{\theequation}{S\arabic{equation}}
+
+\subsection{Supplementary Note 1 Data curation decisions}
+
+The reference target is the relative dry-mass composition of aromatic materials in one burned or fumigating formula. Honey, fruit juice, wine, charcoal and binders remain in the source record as process materials but do not enter the aromatic composition vector. Curation retained only formulas whose aromatic quantities could be converted without imputation. Every record contains the original material string, canonical candidate, identity status, historical quantity string, normalized qian value and source locator.
+
+The curation manifest records 91 inclusions and 29 exclusions. Exclusion categories include missing aromatic quantities, incomplete extraction boundaries, prose without an executable formula and unresolved duplication. The family audit records title similarity, material overlap, ratio-pattern evidence and source genealogy for all retained candidates.
+
+\subsection{Supplementary Note 2 Split construction}
+
+The development set contains 85 formulas from five work groups. Five leave-one-work-out folds supported hyperparameter selection. Ten primary folds held out each unordered pair of work groups. Six Hong-source formulas remained outside vocabulary construction, feature statistics, model fitting and primary evaluation until the confirmation run. Researchers had already handled these records during curation. The confirmation is model-quarantined; it is not investigator-blinded.
+
+\subsection{Supplementary Note 3 Leakage controls}
+
+For every training formula, global prevalence, source prevalence, title-material centroids and the directed material graph excluded that formula. Hyperparameters were selected only from development leave-one-work-out results. The primary source-pair metrics did not change model parameters. The Hong confirmation ran after code and model configuration were frozen.
+
+\subsection{Supplementary Note 4 Model selection}
+
+The grid crossed five Gaussian-prior variances, two training objectives and three graph reducers over five mask seeds. The selected full decoder used C = 3.0, empirical-risk minimization and arithmetic-mean graph affinity. Development source-macro hidden F1 was 0.3911 with standard deviation 0.0081 across seeds. The strongest development baseline, graph-only with C = 0.1 and eight group-DRO updates, reached 0.3876 with standard deviation 0.0116. The mean paired seed difference was 0.0035, with descriptive 95\% t interval [\ensuremath{-}0.0040, 0.0110].
+
+\subsection{Supplementary Note 5 Approximate Bayesian inference checks}
+
+The inclusion model uses a Gaussian coefficient prior and a Laplace posterior centered at the maximum a posteriori solution. A separate Metropolis-Hastings chain with 20,000 draws checked posterior predictive probabilities on a synthetic logistic problem. The mean absolute difference between Laplace and Monte Carlo predictive probabilities was 0.0016.
+
+Synthetic structured formulas provided an implementation-level recovery test. The proposed decoder reached hidden-component F1 0.900 and weighted Jaccard 0.658; frequency reached 0.497 and 0.445, respectively. This test verifies that the code can recover signal generated with compatible structure. It is not part of the historical performance estimate.
+
+\subsection{Supplementary Note 6 Chemical representations}
+
+The material evidence graph contains 18 profile records covering 18 ontology materials, 17 analytical publications and 40 PubChem compounds. Each profile retains specimen, taxon, plant part, preparation, analytical method and measurement basis. Presence-only compounds receive equal conditional weights within that profile and are never described as measured abundance.
+
+The material kernel combines three views: weighted Morgan fingerprint bits, standardized physicochemical descriptors and controlled odor tags. Similarity weights are 0.50, 0.25 and 0.25. The main paper reports the negative development and auxiliary-task results because they determine the model's scientific interpretation.
+
+\subsection{Supplementary Note 7 Metric definitions}
+
+For true hidden set H and predicted hidden set P,
+
+\begin{equation}
+\label{eq:supp-precision}
+\operatorname{precision}=\frac{|H\cap P|}{|P|}.
+\end{equation}
+
+\begin{equation}
+\label{eq:supp-recall}
+\operatorname{recall}=\frac{|H\cap P|}{|H|}.
+\end{equation}
+
+\begin{equation}
+\label{eq:supp-f1}
+F_1=\frac{2\operatorname{precision}\operatorname{recall}}{\operatorname{precision}+\operatorname{recall}}.
+\end{equation}
+
+For reference and predicted composition vectors \textbf{w} and \ensuremath{\hat{w}}, weighted Jaccard is
+
+\begin{equation}
+\label{eq:supp-weighted-jaccard}
+J_w=\frac{\sum_j\min(w_j,\widehat w_j)}{\sum_j\max(w_j,\widehat w_j)}.
+\end{equation}
+
+Expected calibration error uses ten equal-width probability bins and weights each absolute probability-frequency gap by bin count. The Brier score averages squared error over hidden in-vocabulary candidate decisions.
+
+\subsection{Supplementary Note 8 Reproducibility commands}
+
+From the \texttt{research} directory:
+
+\begin{verbatim}
+uv sync --all-groups
+make cycle2-data
+uv run python -m xiangji.freeze_cycle3
+uv run python -m xiangji.freeze_cycle4
+make cycle5-manuscript
+make verify-references
+make export-submission
+make export-latex
+make clean-reproduction
+make cycle6-release
+\end{verbatim}
+
+The release manifests bind source data, configuration, experiment and report files by SHA-256. Raw primary and confirmation records are stored as deterministic gzip archives with modification time fixed to zero.
+
+\subsection{Supplementary Note 9 Competitive baselines and post-freeze analyses}
+
+Formula k-nearest neighbours and PureSVD were added after the primary decoder was frozen. Their configuration grids used only the five development work splits. Formula k-nearest neighbours selected ten cosine neighbours; PureSVD selected rank two. The unchanged primary folds then provided their first source-pair results.
+
+The cross-work similarity analysis flagged nine formulas whose aromatic material sets reached Jaccard 0.8 against another work group. Removing them lowered every model's score but preserved the graph-frequency ordering. The released table lists all reference pairs and similarities.
+
+The original 80\% count interval covered 72.6\% of the 420 work-held-out development predictions. Integer distance from the interval supplied the nonconformity score. The finite-sample 80\% quantile was one material, which expanded the primary interval from 64.2\% to 82.5\% coverage. Its mean width increased from 1.24 to 2.86 materials.
+
+\subsection{Supplementary Note 10 Case-level reconstruction}
+
+The case rule selected the seed-17 Hong formula closest to the median hidden F1 across that run. It selected \emph{Yinxiang fa}, with six observed and five hidden reference materials. Three hidden materials were recovered, two were missed and two extra materials were selected. Supplementary Table S8 gives the complete input, prediction and reference composition. The output holds observed ratios fixed and allocates the remaining mass across predicted hidden materials.
+
+\subsection{Supplementary Note 11 Training-only estimators and explored robust objective}
+
+All candidate statistics for a training formula were recomputed without that formula. If \(y_{ij}\) indicates whether formula \(i\) contains material \(j\), the leave-one-formula-out global prevalence used in its training rows was
+
+\begin{equation}
+\label{eq:supp-loo-prevalence}
+\pi_j^{(-i)}=\frac{c_j-y_{ij}+1/2}{N}.
+\end{equation}
+
+The title centroid and directed graph used the same exclusion. This prevents the candidate label for formula \(i\) from appearing in its own predictors.
+
+Group-distributionally robust optimization was explored during development but was not selected for the locked full decoder. For work weights \(q_d^{(t)}\), work-level log loss \(L_d(\boldsymbol\theta_t)\) and step size \(\eta=0.2\), the implemented update was
+
+\begin{equation}
+\label{eq:supp-group-dro}
+q_d^{(t+1)}=\frac{q_d^{(t)}\exp\{\eta L_d(\boldsymbol\theta_t)\}}{\sum_{h=1}^{D}q_h^{(t)}\exp\{\eta L_h(\boldsymbol\theta_t)\}}.
+\end{equation}
+
+Each optimization iteration weighted a candidate row from work \(d\) by \(q_d^{(t)}/n_d\) before class balancing. The selected full decoder used zero group-DRO updates, so its final objective is Equation 9 of the main manuscript.
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S1}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}llllll@{}}
+\toprule
+\textbf{work\_id} & \textbf{work} & \textbf{formula\_count} & \textbf{unique\_materials} & \textbf{median\_formula\_size} & \textbf{role} \\
+\midrule
+chen\_xiangpu\_compilation & Chen Xiangpu & 38 & 50 & 6.5 & development\_and\_primary \\
+hong\_xiangpu\_attributed & Hong Xiangpu & 6 & 18 & 9.0 & confirmation \\
+huizhai\_xiangpu & Huizhai Xiangpu & 10 & 27 & 4.5 & development\_and\_primary \\
+liexiang\_xinpu & Liexiang Xinpu & 6 & 32 & 9.0 & development\_and\_primary \\
+moe\_xiaolu\_xiangpu & Xiaolu Xiangpu & 2 & 10 & 7.0 & development\_and\_primary \\
+xiangcheng\_compilation\_unresolved\_source & Xiangcheng compilation & 29 & 42 & 6.0 & development\_and\_primary \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S2}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lllllll@{}}
+\toprule
+\textbf{model} & \textbf{hidden\_f1\_source\_macro} & \textbf{weighted\_jaccard\_source\_macro} & \textbf{aitchison\_distance\_source\_macro} & \textbf{development\_formula\_count} & \textbf{held\_out\_work\_groups} & \textbf{mask\_seeds} \\
+\midrule
+Frequency & 0.3386314231241636 & 0.37880861819102574 & 7.890524747021504 & 85 & 5 & 5 \\
+Directed graph & 0.36541975977910646 & 0.3879966344368349 & 7.716927225587732 & 85 & 5 & 5 \\
+Full decoder & 0.3664678698662365 & 0.3871368821278717 & 7.723978147672447 & 85 & 5 & 5 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S3}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lllllll@{}}
+\toprule
+\textbf{work\_id} & \textbf{work} & \textbf{model} & \textbf{record\_count} & \textbf{hidden\_f1} & \textbf{weighted\_jaccard} & \textbf{aitchison\_distance} \\
+\midrule
+chen\_xiangpu\_compilation & Chen Xiangpu & Frequency & 38 & 0.3558255487202856 & 0.37332281842456044 & 7.835823982693473 \\
+chen\_xiangpu\_compilation & Chen Xiangpu & Directed graph & 38 & 0.40381787802840435 & 0.3859633269601026 & 7.5774945991539475 \\
+chen\_xiangpu\_compilation & Chen Xiangpu & Full decoder & 38 & 0.3959137426900585 & 0.38210883346643226 & 7.628889444433014 \\
+huizhai\_xiangpu & Huizhai Xiangpu & Frequency & 9 & 0.1776388888888889 & 0.3111130478356962 & 9.080651238953031 \\
+huizhai\_xiangpu & Huizhai Xiangpu & Directed graph & 9 & 0.21828703703703703 & 0.32335090014279483 & 8.85998210060979 \\
+huizhai\_xiangpu & Huizhai Xiangpu & Full decoder & 9 & 0.20981481481481482 & 0.32409093041018855 & 8.922589444436754 \\
+liexiang\_xinpu & Liexiang Xinpu & Frequency & 6 & 0.42838564213564206 & 0.3677523014100504 & 6.757115913052538 \\
+liexiang\_xinpu & Liexiang Xinpu & Directed graph & 6 & 0.44623075998075995 & 0.37521044493583994 & 6.583982562099366 \\
+liexiang\_xinpu & Liexiang Xinpu & Full decoder & 6 & 0.4430489417989418 & 0.37729351929577887 & 6.599756898677163 \\
+moe\_xiaolu\_xiangpu & Xiaolu Xiangpu & Frequency & 2 & 0.39999999999999997 & 0.4513607447979179 & 7.815560804825541 \\
+moe\_xiaolu\_xiangpu & Xiaolu Xiangpu & Directed graph & 2 & 0.375 & 0.4514001317458871 & 7.893871154345915 \\
+moe\_xiaolu\_xiangpu & Xiaolu Xiangpu & Full decoder & 2 & 0.3916666666666666 & 0.4458173084000894 & 7.865445215265594 \\
+xiangcheng\_compilation\_unresolved\_source & Xiangcheng compilation & Frequency & 29 & 0.33130703587600147 & 0.3904941784869038 & 7.96347179558294 \\
+xiangcheng\_compilation\_unresolved\_source & Xiangcheng compilation & Directed graph & 29 & 0.38376312384933076 & 0.40405836839955 & 7.669305711729642 \\
+xiangcheng\_compilation\_unresolved\_source & Xiangcheng compilation & Full decoder & 29 & 0.3918951833607006 & 0.4063738190668692 & 7.6032097355497115 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S4}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{observed\_fraction} & \textbf{model} & \textbf{aitchison\_distance} & \textbf{hidden\_f1} & \textbf{weighted\_jaccard} \\
+\midrule
+0.25 & Frequency & 8.822247820214162 & 0.3808143429818859 & 0.264508656354543 \\
+0.25 & Directed graph & 8.716817018027179 & 0.3910574607775018 & 0.27244546025773164 \\
+0.25 & Full decoder & 8.76056970824004 & 0.3834394949552817 & 0.27098264343149275 \\
+0.75 & Frequency & 6.753359817142345 & 0.23231974965278052 & 0.5253310396853175 \\
+0.75 & Directed graph & 6.670784050739057 & 0.24503754073445547 & 0.5289994957722087 \\
+0.75 & Full decoder & 6.695742441221671 & 0.2437656445188206 & 0.5246037665323089 \\
+0.5 & Frequency & 7.890524747021504 & 0.3386314231241636 & 0.37880861819102574 \\
+0.5 & Directed graph & 7.716927225587732 & 0.36541975977910646 & 0.3879966344368349 \\
+0.5 & Full decoder & 7.723978147672447 & 0.3664678698662365 & 0.3871368821278717 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S5}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{frequency\_class} & \textbf{recovered} & \textbf{total} & \textbf{recall} \\
+\midrule
+common\_5\_plus & 2221 & 3876 & 0.5730134158926729 \\
+out\_of\_vocabulary & 0 & 1445 & 0.0 \\
+rare\_2\_to\_4 & 44 & 787 & 0.05590851334180432 \\
+singleton & 8 & 342 & 0.023391812865497075 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S6}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{lower} & \textbf{upper} & \textbf{n} & \textbf{mean\_probability} & \textbf{empirical\_frequency} \\
+\midrule
+0.0 & 0.1 & 82012 & 0.03655585734914713 & 0.021252987367702286 \\
+0.1 & 0.2 & 6100 & 0.1373533179318377 & 0.1198360655737705 \\
+0.2 & 0.3 & 1958 & 0.2441597979803616 & 0.23084780388151174 \\
+0.3 & 0.4 & 1153 & 0.3473377310162553 & 0.30355594102341715 \\
+0.4 & 0.5 & 943 & 0.4484651791966857 & 0.35949098621421 \\
+0.5 & 0.6 & 900 & 0.5507251591130595 & 0.35333333333333333 \\
+0.6 & 0.7 & 767 & 0.6484393439988508 & 0.45241199478487615 \\
+0.7 & 0.8 & 639 & 0.74895977597897 & 0.4945226917057903 \\
+0.8 & 0.9 & 531 & 0.8485609517922754 & 0.5499058380414312 \\
+0.9 & 1.0 & 207 & 0.931495340440959 & 0.5652173913043478 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S7}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lllllllllllll@{}}
+\toprule
+\textbf{model} & \textbf{full\_precision} & \textbf{full\_recall} & \textbf{full\_f1} & \textbf{hidden\_precision} & \textbf{hidden\_recall} & \textbf{hidden\_f1} & \textbf{count\_absolute\_error} & \textbf{weighted\_jaccard} & \textbf{union\_ratio\_mae} & \textbf{aitchison\_distance} & \textbf{inclusion\_brier\_in\_vocabulary} & \textbf{true\_material\_vocabulary\_coverage} \\
+\midrule
+Frequency & 0.7565656565656566 & 0.7065656565656565 & 0.7287878787878789 & 0.5022222222222222 & 0.44666666666666666 & 0.4688888888888889 & 0.5 & 0.41954497953133896 & 0.08992408740864868 & 7.270551718135342 & 0.039167612958608065 & 0.9833333333333334 \\
+Directed graph & 0.8045454545454547 & 0.7503787878787879 & 0.7744528619528619 & 0.5999999999999999 & 0.5305555555555557 & 0.5583333333333333 & 0.5 & 0.4560198542263435 & 0.08638779118684412 & 6.674412262317662 & 0.03319885190677435 & 0.9833333333333334 \\
+Full decoder & 0.8170454545454545 & 0.7595454545454546 & 0.7851010101010101 & 0.625 & 0.5444444444444445 & 0.5766666666666667 & 0.5 & 0.46763022628814505 & 0.08496726708874247 & 6.530307597353823 & 0.03208044269717458 & 0.9833333333333334 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S8}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{material\_id} & \textbf{outcome} & \textbf{reference\_ratio} & \textbf{predicted\_ratio} & \textbf{inclusion\_probability} \\
+\midrule
+agarwood & observed input & 0.06648936170212766 & 0.06648936170212766 & 1.0 \\
+agarwood\_zhan\_grade & recovered hidden & 0.3324468085106383 & 0.1170807281430485 & 0.1579713133268401 \\
+borneol\_family & recovered hidden & 0.013297872340425532 & 0.09916713200242623 & 0.6169273386166794 \\
+clove\_bud & false positive & 0.0 & 0.1059280314005388 & 0.2841450773200888 \\
+frankincense & missed hidden & 0.06648936170212766 &  &  \\
+licorice & missed hidden & 0.06648936170212766 &  &  \\
+linglingxiang & false positive & 0.0 & 0.11995743581414034 & 0.44027671710104416 \\
+mao\_aromatic\_grass & observed input & 0.26595744680851063 & 0.26595744680851063 & 1.0 \\
+musk & observed input & 0.05319148936170213 & 0.05319148936170213 & 1.0 \\
+onycha & observed input & 0.0013297872340425532 & 0.0013297872340425532 & 1.0 \\
+patchouli & observed input & 0.0013297872340425532 & 0.0013297872340425532 & 1.0 \\
+sandalwood\_white & recovered hidden & 0.06648936170212766 & 0.103079438597293 & 0.6953282835587735 \\
+spikenard & observed input & 0.06648936170212766 & 0.06648936170212766 & 1.0 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S9}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{work\_id} & \textbf{formula\_count} & \textbf{source\_pages} \\
+\midrule
+chen\_xiangpu\_compilation & 38 & Chen shi xiangpu (Siku Quanshu edition)/juan 2; Chen shi xiangpu (Siku Quanshu edition)/juan 3 \\
+hong\_xiangpu\_attributed & 6 & Xiangpu (Siku Quanshu edition)/juan xia \\
+huizhai\_xiangpu & 10 & Xiangcheng (Siku Quanshu edition)/juan 23 \\
+liexiang\_xinpu & 6 & Xiangcheng (Siku Quanshu edition)/juan 25 \\
+moe\_xiaolu\_xiangpu & 2 & Xiangcheng (Siku Quanshu edition)/juan 24 \\
+xiangcheng\_compilation\_unresolved\_source & 29 & Xiangcheng (Siku Quanshu edition)/juan 14; Xiangcheng (Siku Quanshu edition)/juan 15; Xiangcheng (Siku Quanshu edition)/juan 16; Xiangcheng (Siku Quanshu edition)/juan 17; Xiangcheng (Siku Quanshu edition)/juan 18; Xiangcheng (Siku Quanshu edition)/juan 21 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S10}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{model} & \textbf{hidden\_f1} & \textbf{weighted\_jaccard} \\
+\midrule
+Frequency & 0.3386314231241636 & 0.37880861819102574 \\
+Formula kNN & 0.34311186392924137 & 0.4434976232018514 \\
+PureSVD & 0.33434939272598074 & 0.4199705870605026 \\
+Directed graph & 0.36541975977910646 & 0.3879966344368349 \\
+Full decoder & 0.3664678698662365 & 0.3871368821278717 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S11}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{model} & \textbf{all\_formulas\_hidden\_f1} & \textbf{after\_excluding\_high\_similarity\_hidden\_f1} & \textbf{excluded\_formula\_count} & \textbf{jaccard\_threshold} \\
+\midrule
+Frequency & 0.3386314231241636 & 0.32233192269010447 & 9 & 0.8 \\
+Directed graph & 0.36541975977910646 & 0.3481871861471862 & 9 & 0.8 \\
+Full decoder & 0.3664678698662365 & 0.34937990860990864 & 9 & 0.8 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\begin{landscape}
+\begin{table}[p]
+\centering
+\scriptsize
+\caption*{Supplementary Table S12}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{interval} & \textbf{coverage} & \textbf{mean\_width} \\
+\midrule
+Base posterior & 0.641566265060241 & 1.2439759036144578 \\
+Development-calibrated & 0.8253012048192772 & 2.86144578313253 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+\end{landscape}
+
+\clearpage
+
+\section*{Supplementary Data and software inventory}
+
+The data sheet, curation protocol, source-acquisition protocol, model protocol, model card, frozen configuration, development diagnostics, primary evaluation, robustness analysis, Hong confirmation, computational profile, figure source tables and release manifests are versioned in the repository. File hashes appear in the cycle release manifests and figure manifest.
+
+\end{document}

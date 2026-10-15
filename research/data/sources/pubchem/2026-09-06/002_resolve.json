@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        853433
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 853433,
+          "SMILES": "C/C=C/C1=CC(=C(C=C1)O)OC",
+          "ConnectivitySMILES": "CC=CC1=CC(=C(C=C1)O)OC",
+          "InChIKey": "BJIOGJUNALELMI-ONEGZZNKSA-N"
+        }
+      ]
+    }
+  }
+}

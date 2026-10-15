@@ -1,0 +1,63 @@
+{
+  "source": "Chinese Wikisource official multistream dump",
+  "collection": "hong_xiangpu",
+  "dump_date": "20260901",
+  "dump_url": "https://dumps.wikimedia.org/zhwikisource/20260901/zhwikisource-20260901-pages-articles-multistream.xml.bz2",
+  "multistream_index_url": "https://dumps.wikimedia.org/zhwikisource/20260901/zhwikisource-20260901-pages-articles-multistream-index.txt.bz2",
+  "multistream_index_sha256": "28bc1f75468f53d25b4eae2de07420f9a2f2005e2e7f4d3f0b645b10aec5d0c5",
+  "multistream_index_size_bytes": 62835312,
+  "byte_range_inclusive": [
+    738317443,
+    738880946
+  ],
+  "compressed_stream_sha256": "02c17c3e24f7638a0c3d4e895b33244f2740c66bac21b5ddbbdd53c9ea910014",
+  "catalog_note": "Traditionally attributed to Hong Chu; attribution is disputed and retained as metadata uncertainty.",
+  "rights": "Underlying historical work is public domain; Wikisource transcription is CC BY-SA 4.0.",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "pages": [
+    {
+      "title": "香譜 (四庫全書本)",
+      "page_id": 258511,
+      "revision_id": 1775850,
+      "parent_revision_id": 627005,
+      "timestamp": "2020-03-15T06:51:42Z",
+      "wikimedia_sha1": "cla600d9miwwaevwtpn707vr2w3p6ml",
+      "path": "data/sources/wikisource/hong_xiangpu_20260901/香譜_(四庫全書本).wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29?oldid=1775850"
+    },
+    {
+      "title": "香譜 (四庫全書本)/全覽",
+      "page_id": 258510,
+      "revision_id": 627001,
+      "parent_revision_id": 627000,
+      "timestamp": "2016-10-14T03:23:31Z",
+      "wikimedia_sha1": "ow4oi8s53id7voxrs6d2ivlhc33d3po",
+      "path": "data/sources/wikisource/hong_xiangpu_20260901/全覽.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%85%A8%E8%A6%BD",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%85%A8%E8%A6%BD?oldid=627001"
+    },
+    {
+      "title": "香譜 (四庫全書本)/卷上",
+      "page_id": 258498,
+      "revision_id": 626984,
+      "parent_revision_id": 626977,
+      "timestamp": "2016-10-14T03:23:30Z",
+      "wikimedia_sha1": "ohd6pmhyeg9s4svu39yjpkyt7605dy1",
+      "path": "data/sources/wikisource/hong_xiangpu_20260901/卷上.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B7%E4%B8%8A",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B7%E4%B8%8A?oldid=626984"
+    },
+    {
+      "title": "香譜 (四庫全書本)/卷下",
+      "page_id": 258503,
+      "revision_id": 794696,
+      "parent_revision_id": 626999,
+      "timestamp": "2016-10-28T07:58:26Z",
+      "wikimedia_sha1": "0ny8w4giddddw7kiur3rqwm7xfjqkbx",
+      "path": "data/sources/wikisource/hong_xiangpu_20260901/卷下.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B7%E4%B8%8B",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B7%E4%B8%8B?oldid=794696"
+    }
+  ]
+}

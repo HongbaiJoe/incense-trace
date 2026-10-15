@@ -1,0 +1,111 @@
+{
+  "validation_errors": [],
+  "profile_count": 18,
+  "covered_material_count": 18,
+  "numeric_component_edge_count": 38,
+  "presence_only_edge_count": 4,
+  "automatic_ratio_ready_aromatic_mention_coverage": 0.6524421593830334,
+  "top_20_materials": [
+    {
+      "ontology_material_id": "musk",
+      "formula_count": 200,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "sandalwood_white",
+      "formula_count": 184,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "borneol_family",
+      "formula_count": 158,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "agarwood",
+      "formula_count": 157,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "spikenard",
+      "formula_count": 106,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "clove_bud",
+      "formula_count": 89,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "onycha",
+      "formula_count": 74,
+      "has_analytical_profile": false
+    },
+    {
+      "ontology_material_id": "linglingxiang",
+      "formula_count": 70,
+      "has_analytical_profile": false
+    },
+    {
+      "ontology_material_id": "agarwood_zhan_grade",
+      "formula_count": 69,
+      "has_analytical_profile": false
+    },
+    {
+      "ontology_material_id": "frankincense",
+      "formula_count": 67,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "patchouli",
+      "formula_count": 64,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "mao_aromatic_grass",
+      "formula_count": 48,
+      "has_analytical_profile": false
+    },
+    {
+      "ontology_material_id": "jinyan_resin",
+      "formula_count": 48,
+      "has_analytical_profile": false
+    },
+    {
+      "ontology_material_id": "scrophularia_root",
+      "formula_count": 45,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "storax",
+      "formula_count": 37,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "clove_bark",
+      "formula_count": 35,
+      "has_analytical_profile": false
+    },
+    {
+      "ontology_material_id": "angelica_dahurica",
+      "formula_count": 31,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "costus",
+      "formula_count": 29,
+      "has_analytical_profile": true
+    },
+    {
+      "ontology_material_id": "jiangzhenxiang",
+      "formula_count": 27,
+      "has_analytical_profile": false
+    },
+    {
+      "ontology_material_id": "licorice",
+      "formula_count": 24,
+      "has_analytical_profile": true
+    }
+  ],
+  "interpretation": "Coverage is diagnostic only because the formula corpus is not yet gold and one modern profile cannot represent all historical grades or chemotypes."
+}

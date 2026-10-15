@@ -1,0 +1,162 @@
+{
+  "source": "Chinese Wikisource official multistream dump",
+  "collection": "xiangcheng",
+  "dump_date": "20260901",
+  "dump_url": "https://dumps.wikimedia.org/zhwikisource/20260901/zhwikisource-20260901-pages-articles-multistream.xml.bz2",
+  "multistream_index_url": "https://dumps.wikimedia.org/zhwikisource/20260901/zhwikisource-20260901-pages-articles-multistream-index.txt.bz2",
+  "multistream_index_sha256": "28bc1f75468f53d25b4eae2de07420f9a2f2005e2e7f4d3f0b645b10aec5d0c5",
+  "multistream_index_size_bytes": 62835312,
+  "byte_range_inclusive": [
+    738317443,
+    738880946
+  ],
+  "compressed_stream_sha256": "02c17c3e24f7638a0c3d4e895b33244f2740c66bac21b5ddbbdd53c9ea910014",
+  "catalog_note": "Ming compilation by Zhou Jiazhou; embedded works require work-level segmentation.",
+  "rights": "Underlying historical work is public domain; Wikisource transcription is CC BY-SA 4.0.",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "pages": [
+    {
+      "title": "香乘 (四庫全書本)",
+      "page_id": 258494,
+      "revision_id": 1775854,
+      "parent_revision_id": 626971,
+      "timestamp": "2020-03-15T06:57:46Z",
+      "wikimedia_sha1": "0kpkp15npt0yw61m3crepy6qdy8ib4l",
+      "path": "data/sources/wikisource/xiangcheng_20260901/香乘_(四庫全書本).wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29?oldid=1775854"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷14",
+      "page_id": 258443,
+      "revision_id": 794673,
+      "parent_revision_id": 626869,
+      "timestamp": "2016-10-28T07:54:36Z",
+      "wikimedia_sha1": "oqpdv3wc94hfrztdpststrn5u1n3js2",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷14.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B714",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B714?oldid=794673"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷15",
+      "page_id": 258445,
+      "revision_id": 794674,
+      "parent_revision_id": 626871,
+      "timestamp": "2016-10-28T07:54:46Z",
+      "wikimedia_sha1": "pfit895lyllgrab0eqtjo1xkd3wxvfl",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷15.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B715",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B715?oldid=794674"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷16",
+      "page_id": 258446,
+      "revision_id": 794675,
+      "parent_revision_id": 626881,
+      "timestamp": "2016-10-28T07:54:55Z",
+      "wikimedia_sha1": "1hov0145frpheoxiwmaytrns7p6tiyn",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷16.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B716",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B716?oldid=794675"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷17",
+      "page_id": 258451,
+      "revision_id": 794676,
+      "parent_revision_id": 626886,
+      "timestamp": "2016-10-28T07:55:05Z",
+      "wikimedia_sha1": "bcbzj2ind5rwuok0dntmdec6hu1aqmu",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷17.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B717",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B717?oldid=794676"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷18",
+      "page_id": 258454,
+      "revision_id": 794677,
+      "parent_revision_id": 626895,
+      "timestamp": "2016-10-28T07:55:16Z",
+      "wikimedia_sha1": "q35aypf9uvoz3dbnl3w88lpjig858wc",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷18.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B718",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B718?oldid=794677"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷19",
+      "page_id": 258458,
+      "revision_id": 794678,
+      "parent_revision_id": 751401,
+      "timestamp": "2016-10-28T07:55:26Z",
+      "wikimedia_sha1": "q7e9igjf2g66lkvxcuu7vlpmitf74kr",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷19.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B719",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B719?oldid=794678"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷20",
+      "page_id": 258460,
+      "revision_id": 794679,
+      "parent_revision_id": 751402,
+      "timestamp": "2016-10-28T07:55:36Z",
+      "wikimedia_sha1": "nsfkgznm3q72uqkrj0sn7f5xr3bylqv",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷20.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B720",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B720?oldid=794679"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷21",
+      "page_id": 258465,
+      "revision_id": 794680,
+      "parent_revision_id": 626914,
+      "timestamp": "2016-10-28T07:55:45Z",
+      "wikimedia_sha1": "dfhuy6eoilr4bem87gqup2u7sxgbjdu",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷21.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B721",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B721?oldid=794680"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷22",
+      "page_id": 258468,
+      "revision_id": 626919,
+      "parent_revision_id": 626916,
+      "timestamp": "2016-10-14T03:23:25Z",
+      "wikimedia_sha1": "aakcb3lwoiq4ecs8xp65o4fqrh74j00",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷22.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B722",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B722?oldid=626919"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷23",
+      "page_id": 258470,
+      "revision_id": 794681,
+      "parent_revision_id": 626927,
+      "timestamp": "2016-10-28T07:55:55Z",
+      "wikimedia_sha1": "tap10orjyj7zuzrcxrbf85xuugy1wx2",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷23.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B723",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B723?oldid=794681"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷24",
+      "page_id": 258474,
+      "revision_id": 794682,
+      "parent_revision_id": 626935,
+      "timestamp": "2016-10-28T07:56:05Z",
+      "wikimedia_sha1": "9epfluud2r5mhy3mjqb3orgisr0xlvj",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷24.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B724",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B724?oldid=794682"
+    },
+    {
+      "title": "香乘 (四庫全書本)/卷25",
+      "page_id": 258478,
+      "revision_id": 794683,
+      "parent_revision_id": 626953,
+      "timestamp": "2016-10-28T07:56:16Z",
+      "wikimedia_sha1": "n2493p3q6vouy3hh624ke51wy8t4m7j",
+      "path": "data/sources/wikisource/xiangcheng_20260901/卷25.wiki",
+      "source_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B725",
+      "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E4%B9%98%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B725?oldid=794683"
+    }
+  ]
+}

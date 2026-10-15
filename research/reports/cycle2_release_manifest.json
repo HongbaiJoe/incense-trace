@@ -1,0 +1,113 @@
+{
+  "schema_version": "0.1",
+  "release": "xiangji-cycle2-v0.1",
+  "freeze_date": "2026-09-07",
+  "artifact_count": 21,
+  "artifacts": [
+    {
+      "path": "ontology/materials_v0.1.json",
+      "bytes": 21881,
+      "sha256": "84ae08ffd2b1c0cb4d3345877b8f46d95a305ecb78885d7dae53878f81cf733b"
+    },
+    {
+      "path": "ontology/skchar_resolutions_v0.1.json",
+      "bytes": 1741,
+      "sha256": "a7f94e8416e5e330116d9b0b722c26fe1f43abe5f8c966f7c88e721d05657893"
+    },
+    {
+      "path": "protocol/formula_curation_protocol_v0.1.md",
+      "bytes": 4132,
+      "sha256": "16239ecc8d7c77e475014ef4e9b3433e01ab3da4553c3617a10bf600cd11e8f8"
+    },
+    {
+      "path": "data/interim/structured_formula_candidates_v0.1.json",
+      "bytes": 3581218,
+      "sha256": "f7466a6aa512b44eccf61f4eb3467ef7a0db7834a5d214f49116de60ba9f6c37"
+    },
+    {
+      "path": "data/interim/formula_genealogy_candidates_v0.1.json",
+      "bytes": 152213,
+      "sha256": "861cf68c6f8e3c0374ad176df2e733c263bc9cdf817638eb2d095755fd3b2cbe"
+    },
+    {
+      "path": "data/interim/formula_curation_batch_v0.1.json",
+      "bytes": 610080,
+      "sha256": "89909d380a9c93340be3e17a38b0140b2e303c007a5800d258f29183548a25ed"
+    },
+    {
+      "path": "data/curated/formula_curation_manifest_v0.1.json",
+      "bytes": 10689,
+      "sha256": "61c3a2e7709022fab10bb0ec666568f0c24fe9cdf1d09357a0d3838e75db688a"
+    },
+    {
+      "path": "data/curated/formula_reference_v0.1.json",
+      "bytes": 546556,
+      "sha256": "476e9078c4fe6b22cd1aa5e367461d68b6c6c99a0ef45e1a5de90e98900d15be"
+    },
+    {
+      "path": "data/curated/source_blocked_splits_v0.1.json",
+      "bytes": 48581,
+      "sha256": "30df7415073ec43acb788c2e6a1038121dbe1940128b90296646a2a91f8cd503"
+    },
+    {
+      "path": "data/interim/pubchem_compounds_v0.1.json",
+      "bytes": 28279,
+      "sha256": "bf93ddbae976269bd07eb08512156c52abd92ebdea0e9c6fbbc9a376659f7e08"
+    },
+    {
+      "path": "data/processed/molecular_features_v0.1.json",
+      "bytes": 45177,
+      "sha256": "9013ddb3b0d0e6a415c5c0ecfa81426aab4648a77f8e3211fd7d670620d0357f"
+    },
+    {
+      "path": "data/curated/material_compound_evidence_v0.1.json",
+      "bytes": 25071,
+      "sha256": "9deee733e4b5ddcedbeb08e98188b16b37c11e1aafc88b700a6f26f2e8596452"
+    },
+    {
+      "path": "data/processed/material_representations_v0.1.json",
+      "bytes": 72525,
+      "sha256": "66b1ab112d6d3fd2caaead97b6128c9a48755f71b2934f501adce8d86b76348d"
+    },
+    {
+      "path": "literature/search_log.csv",
+      "bytes": 801,
+      "sha256": "69922abcea24e2e39be596082e9a3da53e96ed86f51808fd309ec1f70f99e0e8"
+    },
+    {
+      "path": "literature/screening.csv",
+      "bytes": 7521,
+      "sha256": "540b81b97125b8a10ebac051195936c4303660bca9a5296e35c5ccd617678763"
+    },
+    {
+      "path": "literature/evidence_matrix.csv",
+      "bytes": 4913,
+      "sha256": "cd1c3118627256f3cf257ef175e32be1397a8b2824aa86d8258bd3b24efb5309"
+    },
+    {
+      "path": "literature/novelty_matrix.csv",
+      "bytes": 1240,
+      "sha256": "0f8e0e8ef39eb7a80041ba633acbbdac78c6762382304f26b0d5ffc69ed9f1ca"
+    },
+    {
+      "path": "literature/references.bib",
+      "bytes": 17301,
+      "sha256": "87092228b14e43c335acc90d755ea205bed17c79a46a11492976ca6584a670ba"
+    },
+    {
+      "path": "reports/formula_reference_audit_v0.1.json",
+      "bytes": 104578,
+      "sha256": "f9ad6a1b697efee6e6f749a4636c39c2a53da3514f6a0dedcb332b9c88e056bf"
+    },
+    {
+      "path": "reports/formula_family_evidence_audit_v0.1.json",
+      "bytes": 107090,
+      "sha256": "16ea194e4c15af9d429ecd5cab63947a3567f4f8c2c01fa19700a07cc9651b80"
+    },
+    {
+      "path": "reports/material_chemistry_audit_v0.1.json",
+      "bytes": 2886,
+      "sha256": "493d97cc3e3257dc4b1806a2e7208334394507768805db8177e9f55d291441f6"
+    }
+  ]
+}

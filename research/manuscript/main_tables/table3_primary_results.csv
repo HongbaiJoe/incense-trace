@@ -1,0 +1,6 @@
+Model,Hidden F1 higher is better,Weighted Jaccard higher is better
+Frequency,0.339,0.379
+Formula kNN,0.343,0.443
+PureSVD,0.334,0.420
+Directed graph,0.365,0.388
+Full decoder,0.366,0.387

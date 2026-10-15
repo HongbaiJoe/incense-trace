@@ -1,0 +1,7 @@
+Development model,Hidden F1 higher is better,Weighted Jaccard higher is better,Normalized Aitchison lower is better
+Frequency only,0.347,0.387,7.807
+Frequency plus source,0.347,0.387,7.811
+Frequency plus title,0.341,0.386,7.829
+Frequency plus directed graph,0.388,0.397,7.588
+Full decoder without chemistry,0.391,0.398,7.578
+Full decoder with chemistry,0.390,0.397,7.573

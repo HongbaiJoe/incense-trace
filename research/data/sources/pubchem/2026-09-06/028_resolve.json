@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        637566
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 637566,
+          "SMILES": "CC(=CCC/C(=C/CO)/C)C",
+          "ConnectivitySMILES": "CC(=CCCC(=CCO)C)C",
+          "InChIKey": "GLZPCOQZEFWAFX-JXMROGBWSA-N"
+        }
+      ]
+    }
+  }
+}

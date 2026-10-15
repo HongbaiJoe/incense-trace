@@ -1,0 +1,7 @@
+Notification recorded 2026-09-06 (Asia/Shanghai):
+
+PubChem data are accessed for the Xiangji research corpus. Before publication or redistribution, review and follow:
+- https://pubchem.ncbi.nlm.nih.gov/docs/citation-guidelines
+- https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest
+
+Every derived compound record must preserve its PubChem CID, access date, and endpoint provenance.

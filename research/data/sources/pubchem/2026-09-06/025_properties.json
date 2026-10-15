@@ -1,0 +1,17 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 4133,
+        "MolecularFormula": "C8H8O3",
+        "MolecularWeight": "152.15",
+        "XLogP": 2.3,
+        "ExactMass": "152.047344113",
+        "TPSA": 46.5,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 3,
+        "RotatableBondCount": 2
+      }
+    ]
+  }
+}

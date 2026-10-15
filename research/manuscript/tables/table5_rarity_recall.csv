@@ -1,0 +1,5 @@
+frequency_class,recovered,total,recall
+common_5_plus,2221,3876,0.5730134158926729
+out_of_vocabulary,0,1445,0.0
+rare_2_to_4,44,787,0.05590851334180432
+singleton,8,342,0.023391812865497075

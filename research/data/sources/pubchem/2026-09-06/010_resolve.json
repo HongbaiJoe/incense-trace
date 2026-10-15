@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        64685
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 64685,
+          "SMILES": "CC1(C2CCC1(C(C2)O)C)C",
+          "ConnectivitySMILES": "CC1(C2CCC1(C(C2)O)C)C",
+          "InChIKey": "DTGKSKDOIYIVQL-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

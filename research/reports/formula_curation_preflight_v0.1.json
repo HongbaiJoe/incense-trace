@@ -1,0 +1,2135 @@
+{
+  "schema_version": "0.1",
+  "status": "deterministic preflight only; flags are review prompts, not inclusion decisions",
+  "record_count": 120,
+  "flag_counts": {
+    "alternative_or_variant_marker": 1,
+    "count_volume_or_qualitative_quantity_present": 21,
+    "method_addition_requires_retention_check": 29,
+    "multi_witness_family_requires_review": 65,
+    "note_addition_requires_retention_check": 10,
+    "optional_or_non_exact_language": 8,
+    "scope_requires_review": 15,
+    "unresolved_skchar_in_ingredient_span": 3,
+    "unspecified_premix_present": 1
+  },
+  "records": [
+    {
+      "curation_order": 1,
+      "candidate_id": "e03c84ad50420894",
+      "formula_family_candidate_id": "ff-ca07b5dede41",
+      "formula_title_candidate": "龍腦印香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 9,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 2,
+      "candidate_id": "5d19fe5ea97bba78",
+      "formula_family_candidate_id": "ff-db83cda8e459",
+      "formula_title_candidate": "供佛印香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 9,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 3,
+      "candidate_id": "4132f23bf336cc37",
+      "formula_family_candidate_id": "ff-b37ec1935da0",
+      "formula_title_candidate": "清逺香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 10,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 4,
+      "candidate_id": "32a340e540f55294",
+      "formula_family_candidate_id": "ff-5293527f8773",
+      "formula_title_candidate": "濕香",
+      "family_size": 2,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 5,
+      "candidate_id": "1158b2856da165fb",
+      "formula_family_candidate_id": "ff-2c29b33bebe2",
+      "formula_title_candidate": "丁晉公清真香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "note_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 3,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 6,
+      "candidate_id": "577fd5fe9e38cdcf",
+      "formula_family_candidate_id": "ff-a7d88be93150",
+      "formula_title_candidate": "清真香",
+      "family_size": 2,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "linglingxiang"
+      ],
+      "aromatic_component_count": 11,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 7,
+      "candidate_id": "bdc30fa3ab84c767",
+      "formula_family_candidate_id": "ff-7b0ff86ff534",
+      "formula_title_candidate": "清妙香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 4,
+      "composition_sum": 0.9999999999999999,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 8,
+      "candidate_id": "51d7d37e8130b890",
+      "formula_family_candidate_id": "ff-16068be02e6c",
+      "formula_title_candidate": "王将眀太宰龍涎香",
+      "family_size": 1,
+      "flags": [
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "jinyan_resin",
+        "olibanum_like_shizhi"
+      ],
+      "aromatic_component_count": 4,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 9,
+      "candidate_id": "e6604303e0934c1b",
+      "formula_family_candidate_id": "ff-a8f8e0362ad4",
+      "formula_title_candidate": "智月龍涎香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 10,
+      "candidate_id": "9aa605f6d2b14e93",
+      "formula_family_candidate_id": "ff-a3eedae7a49b",
+      "formula_title_candidate": "古龍涎香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "fushou_incense_unresolved",
+        "jinyan_resin"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 11,
+      "candidate_id": "9954841e8aeb53cc",
+      "formula_family_candidate_id": "ff-f92935d7fc20",
+      "formula_title_candidate": "白龍涎香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 2,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 12,
+      "candidate_id": "4857457943fc72a8",
+      "formula_family_candidate_id": "ff-4b84c786ccb2",
+      "formula_title_candidate": "小龍涎香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 13,
+      "candidate_id": "91028e8e3aafc2bb",
+      "formula_family_candidate_id": "ff-df98def9ef8f",
+      "formula_title_candidate": "小龍涎香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 2,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 14,
+      "candidate_id": "d5580507c73e48f1",
+      "formula_family_candidate_id": "ff-7102a59f5d97",
+      "formula_title_candidate": "吴侍郎龍津香",
+      "family_size": 1,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "note_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "wood_musk_unresolved"
+      ],
+      "aromatic_component_count": 11,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 15,
+      "candidate_id": "aabc4d451244e28f",
+      "formula_family_candidate_id": "ff-d7073cdca1a2",
+      "formula_title_candidate": "龍泉香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 16,
+      "candidate_id": "e14d86f99e1f23d7",
+      "formula_family_candidate_id": "ff-8e28ab742fe8",
+      "formula_title_candidate": "清心降真香",
+      "family_size": 1,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "note_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "mao_aromatic_grass",
+        "wood_musk_unresolved"
+      ],
+      "aromatic_component_count": 11,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 17,
+      "candidate_id": "a96edb49f66fdefb",
+      "formula_family_candidate_id": "ff-4af008b095b5",
+      "formula_title_candidate": "假降真香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "gaoben"
+      ],
+      "aromatic_component_count": 2,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 18,
+      "candidate_id": "a8e9748d4b271c91",
+      "formula_family_candidate_id": "ff-d8dad7afb977",
+      "formula_title_candidate": "芬積香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 4,
+      "composition_sum": 0.9999999999999999,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 19,
+      "candidate_id": "c02d85f12b94c989",
+      "formula_family_candidate_id": "ff-d201913d75f2",
+      "formula_title_candidate": "芬積香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "linglingxiang"
+      ],
+      "aromatic_component_count": 9,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 20,
+      "candidate_id": "dced13ba04a9c1a5",
+      "formula_family_candidate_id": "ff-105a0f435096",
+      "formula_title_candidate": "芬積香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "linglingxiang"
+      ],
+      "aromatic_component_count": 8,
+      "composition_sum": 0.9999999999999999,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 21,
+      "candidate_id": "b8b483d22dc1ec33",
+      "formula_family_candidate_id": "ff-b2ab63c7e22c",
+      "formula_title_candidate": "馮仲柔四和香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 22,
+      "candidate_id": "b12308d86e94047a",
+      "formula_family_candidate_id": "ff-1624b94b1cf4",
+      "formula_title_candidate": "李王帳中梅花香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "linglingxiang"
+      ],
+      "aromatic_component_count": 8,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 23,
+      "candidate_id": "e82e59533f901d98",
+      "formula_family_candidate_id": "ff-d8334411d4ec",
+      "formula_title_candidate": "肖梅香",
+      "family_size": 2,
+      "flags": [
+        "alternative_or_variant_marker",
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 24,
+      "candidate_id": "be707d174afdb6a1",
+      "formula_family_candidate_id": "ff-dbed0f1fd260",
+      "formula_title_candidate": "梅林香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 25,
+      "candidate_id": "81520d6e2b9e35ea",
+      "formula_family_candidate_id": "ff-2012548d08dd",
+      "formula_title_candidate": "笑蘭香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 26,
+      "candidate_id": "8176689b00b8556b",
+      "formula_family_candidate_id": "ff-fea379fe7b5a",
+      "formula_title_candidate": "蘭逺香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "coptis",
+        "purple_vine_incense_unresolved"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 27,
+      "candidate_id": "56a89714474e7efc",
+      "formula_family_candidate_id": "ff-46edf4e3cd82",
+      "formula_title_candidate": "智月木犀香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "dunou_resin",
+        "jinyan_resin"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 28,
+      "candidate_id": "3985d38af1338e82",
+      "formula_family_candidate_id": "ff-9698e343c174",
+      "formula_title_candidate": "杏花香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "aconite_unresolved",
+        "dunou_resin"
+      ],
+      "aromatic_component_count": 10,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 29,
+      "candidate_id": "5f549b06cf843239",
+      "formula_family_candidate_id": "ff-200663d24118",
+      "formula_title_candidate": "百花香",
+      "family_size": 2,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "multi_witness_family_requires_review",
+        "note_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "cardamom"
+      ],
+      "aromatic_component_count": 9,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 30,
+      "candidate_id": "0b994ac2451fac83",
+      "formula_family_candidate_id": "ff-e76aafbfeb75",
+      "formula_title_candidate": "野花香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 31,
+      "candidate_id": "ae6b61dff026732f",
+      "formula_family_candidate_id": "ff-3d522ee9675f",
+      "formula_title_candidate": "後庭花香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 32,
+      "candidate_id": "820b18f70a07274b",
+      "formula_family_candidate_id": "ff-c9ea1d570cd1",
+      "formula_title_candidate": "茘支香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "cardamom",
+        "cassia",
+        "jinyan_resin"
+      ],
+      "aromatic_component_count": 9,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 33,
+      "candidate_id": "9f312c0c07b48ddf",
+      "formula_family_candidate_id": "ff-a1b2f634d88a",
+      "formula_title_candidate": "雪中春信",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 34,
+      "candidate_id": "2e31a3a02608a137",
+      "formula_family_candidate_id": "ff-80fe4e3735bd",
+      "formula_title_candidate": "洪駒父百歩香",
+      "family_size": 2,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "multi_witness_family_requires_review",
+        "note_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "linglingxiang"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 35,
+      "candidate_id": "22a4061cb34a7d4a",
+      "formula_family_candidate_id": "ff-356ccc3cdfbb",
+      "formula_title_candidate": "元御帶清觀香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "jinyan_resin",
+        "olibanum_like_shizhi"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 36,
+      "candidate_id": "0eb6159581b67df4",
+      "formula_family_candidate_id": "ff-e5fd804abf7b",
+      "formula_title_candidate": "大真香",
+      "family_size": 3,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "multi_witness_family_requires_review",
+        "note_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 37,
+      "candidate_id": "f869f86c9b64ffe3",
+      "formula_family_candidate_id": "ff-ede5f502f537",
+      "formula_title_candidate": "天真香",
+      "family_size": 2,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "wood_musk_unresolved"
+      ],
+      "aromatic_component_count": 8,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 38,
+      "candidate_id": "9b850fd7a1530933",
+      "formula_family_candidate_id": "ff-c0b2f0d8ed47",
+      "formula_title_candidate": "廬陵香",
+      "family_size": 1,
+      "flags": [
+        "optional_or_non_exact_language",
+        "count_volume_or_qualitative_quantity_present",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 39,
+      "candidate_id": "bf92dc1b7ceee53f",
+      "formula_family_candidate_id": "ff-94993f7d6bf9",
+      "formula_title_candidate": "復古東䦨雲頭香",
+      "family_size": 2,
+      "flags": [
+        "optional_or_non_exact_language",
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "fushou_incense_unresolved",
+        "jinyan_resin",
+        "olibanum_like_shizhi"
+      ],
+      "aromatic_component_count": 9,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 40,
+      "candidate_id": "615b27416ea97577",
+      "formula_family_candidate_id": "ff-019682e14b3e",
+      "formula_title_candidate": "崔賢妃瑤英香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "fushou_incense_unresolved",
+        "jinyan_resin",
+        "olibanum_like_shizhi"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 41,
+      "candidate_id": "b5ff7605b4e5af5e",
+      "formula_family_candidate_id": "ff-5c815070a9c4",
+      "formula_title_candidate": "韓鈐轄正徳香",
+      "family_size": 1,
+      "flags": [
+        "optional_or_non_exact_language"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "jinyan_resin",
+        "olibanum_like_shizhi"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 42,
+      "candidate_id": "3cf39afad47a51eb",
+      "formula_family_candidate_id": "ff-0460811db844",
+      "formula_title_candidate": "辛押陁羅亞悉香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "dashixiong_unresolved",
+        "doulou_incense_unresolved",
+        "jianlin_incense_unresolved"
+      ],
+      "aromatic_component_count": 11,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 43,
+      "candidate_id": "05bf6b07c03e3add",
+      "formula_family_candidate_id": "ff-402878df0661",
+      "formula_title_candidate": "寳林香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "duckweed",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 8,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 44,
+      "candidate_id": "7d79ded465757a0a",
+      "formula_family_candidate_id": "ff-890167b50b68",
+      "formula_title_candidate": "巡筵香",
+      "family_size": 2,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "duckweed",
+        "hanlian_unresolved",
+        "pine_lichen_unresolved",
+        "water_lichen_unresolved"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 45,
+      "candidate_id": "03a0a88c3b9ad82a",
+      "formula_family_candidate_id": "ff-88322d0359b4",
+      "formula_title_candidate": "薔薇衣香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "asarum",
+        "fennel",
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 0.9999999999999999,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 46,
+      "candidate_id": "c179292bb4f2f510",
+      "formula_family_candidate_id": "ff-f2472c796f83",
+      "formula_title_candidate": "熏衣梅花香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "fennel"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 47,
+      "candidate_id": "f8557fe5b9bd2a5a",
+      "formula_family_candidate_id": "ff-03e8aa2123da",
+      "formula_title_candidate": "蜀王薰御衣法",
+      "family_size": 3,
+      "flags": [
+        "scope_requires_review",
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 48,
+      "candidate_id": "43f3ddb5a0de7ebe",
+      "formula_family_candidate_id": "ff-21ae50d1337b",
+      "formula_title_candidate": "唐化度寺牙香法",
+      "family_size": 3,
+      "flags": [
+        "scope_requires_review",
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 49,
+      "candidate_id": "23da5f93d3689f69",
+      "formula_family_candidate_id": "ff-959e16343006",
+      "formula_title_candidate": "雍文徹郎中牙香法",
+      "family_size": 3,
+      "flags": [
+        "scope_requires_review",
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 50,
+      "candidate_id": "18695fb987d1abda",
+      "formula_family_candidate_id": "ff-fad396a416c0",
+      "formula_title_candidate": "延安郡公蘂香法",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 51,
+      "candidate_id": "464a46c7bc7c0026",
+      "formula_family_candidate_id": "ff-ca70af78c5e4",
+      "formula_title_candidate": "供佛濕香法",
+      "family_size": 3,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "linglingxiang",
+        "mao_aromatic_grass",
+        "sweet_ginseng_unresolved"
+      ],
+      "aromatic_component_count": 10,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 52,
+      "candidate_id": "83b8df1ec6026189",
+      "formula_family_candidate_id": "ff-f40c70f1c2cf",
+      "formula_title_candidate": "又牙香法",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 11,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 53,
+      "candidate_id": "be21fa1ff351375e",
+      "formula_family_candidate_id": "ff-a113d1e7fc44",
+      "formula_title_candidate": "又牙香法",
+      "family_size": 3,
+      "flags": [
+        "scope_requires_review",
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "linglingxiang"
+      ],
+      "aromatic_component_count": 8,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 54,
+      "candidate_id": "a92623440ae2168a",
+      "formula_family_candidate_id": "ff-d4b97400c894",
+      "formula_title_candidate": "又牙香法",
+      "family_size": 2,
+      "flags": [
+        "scope_requires_review",
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 55,
+      "candidate_id": "6d34034d8697afde",
+      "formula_family_candidate_id": "ff-2549def2c4d6",
+      "formula_title_candidate": "又牙香法",
+      "family_size": 6,
+      "flags": [
+        "scope_requires_review",
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 56,
+      "candidate_id": "526789359594ac3e",
+      "formula_family_candidate_id": "ff-67dc492c62d9",
+      "formula_title_candidate": "印香法",
+      "family_size": 3,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 11,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 57,
+      "candidate_id": "0f012960fa28348d",
+      "formula_family_candidate_id": "ff-ab0ff871fcbb",
+      "formula_title_candidate": "瑞和香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 58,
+      "candidate_id": "d79a520ef7f2e41a",
+      "formula_family_candidate_id": "ff-5bd2a3114a63",
+      "formula_title_candidate": "龍涎香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 4,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 59,
+      "candidate_id": "822a3816d20c7829",
+      "formula_family_candidate_id": "ff-c573be91ba45",
+      "formula_title_candidate": "翠屏香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 4,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 60,
+      "candidate_id": "57562ab780c1e1bf",
+      "formula_family_candidate_id": "ff-83dcc93c5040",
+      "formula_title_candidate": "金絲香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 61,
+      "candidate_id": "55d6d437322b1bc2",
+      "formula_family_candidate_id": "ff-0afacb574a85",
+      "formula_title_candidate": "代梅香",
+      "family_size": 1,
+      "flags": [
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 62,
+      "candidate_id": "9b85cf68f5eb763a",
+      "formula_family_candidate_id": "ff-b512f89cfa05",
+      "formula_title_candidate": "瑶華清露香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "xun_incense_unresolved"
+      ],
+      "aromatic_component_count": 4,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 63,
+      "candidate_id": "b0c122d59a4c952d",
+      "formula_family_candidate_id": "ff-c8c133401b97",
+      "formula_title_candidate": "瑶池清味香",
+      "family_size": 1,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "scope_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "cassia",
+        "galangal_sanai",
+        "gaoben",
+        "lesser_galangal",
+        "notopterygium_root",
+        "spider_incense_unresolved",
+        "yunxiang_unresolved"
+      ],
+      "aromatic_component_count": 17,
+      "composition_sum": 0.9999999999999999,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 64,
+      "candidate_id": "44ffce933b71c348",
+      "formula_family_candidate_id": "ff-0282f243cf76",
+      "formula_title_candidate": "真品清奇香",
+      "family_size": 1,
+      "flags": [
+        "scope_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "galangal_sanai",
+        "gaoben",
+        "yunxiang_unresolved"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 0.9999999999999999,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 65,
+      "candidate_id": "00e97cfc402c9e6a",
+      "formula_family_candidate_id": "ff-979ba94d5f69",
+      "formula_title_candidate": "真全嘉瑞香",
+      "family_size": 1,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "scope_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "luohan_incense_unresolved",
+        "yunxiang_unresolved"
+      ],
+      "aromatic_component_count": 2,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 66,
+      "candidate_id": "2d8e738b7abd7d4d",
+      "formula_family_candidate_id": "ff-4753e541b63f",
+      "formula_title_candidate": "石泉香",
+      "family_size": 1,
+      "flags": [
+        "scope_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "luohan_incense_unresolved",
+        "yunxiang_unresolved"
+      ],
+      "aromatic_component_count": 3,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 67,
+      "candidate_id": "5047778caf2b3a13",
+      "formula_family_candidate_id": "ff-585d928c43d7",
+      "formula_title_candidate": "清鎮香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "atractylodes"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 68,
+      "candidate_id": "f6f37f10daf429d7",
+      "formula_family_candidate_id": "ff-2953c2563a89",
+      "formula_title_candidate": "香牌扇",
+      "family_size": 1,
+      "flags": [
+        "scope_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "cassia"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 69,
+      "candidate_id": "78c838a55bd55886",
+      "formula_family_candidate_id": "ff-2e1ee725989d",
+      "formula_title_candidate": "慶真香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "anba_resin",
+        "borneol_family",
+        "jinyan_resin",
+        "pai_incense_unresolved"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 70,
+      "candidate_id": "5831bd3a57d2d7d6",
+      "formula_family_candidate_id": "ff-d7e1da61e8c2",
+      "formula_title_candidate": "萬春香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "galangal_sanai",
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 12,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 71,
+      "candidate_id": "0d614ba2731d4e78",
+      "formula_family_candidate_id": "ff-495d605f4053",
+      "formula_title_candidate": "臞仙神隠香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "luohe_incense_unresolved",
+        "olive_seed_incense_unresolved"
+      ],
+      "aromatic_component_count": 8,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 72,
+      "candidate_id": "912c844b97386bf3",
+      "formula_family_candidate_id": "ff-ed18ac93ac77",
+      "formula_title_candidate": "芙蓉香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "anba_resin",
+        "borneol_family",
+        "galangal_sanai",
+        "ganmaran_unresolved",
+        "langtai_unresolved",
+        "linglingxiang",
+        "paicao",
+        "yunxiang_unresolved"
+      ],
+      "aromatic_component_count": 17,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 73,
+      "candidate_id": "10a91e7a07dfdfe7",
+      "formula_family_candidate_id": "ff-a3f59b9a3c5c",
+      "formula_title_candidate": "黒香餅",
+      "family_size": 1,
+      "flags": [
+        "unspecified_premix_present"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "anba_resin"
+      ],
+      "aromatic_component_count": 3,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 74,
+      "candidate_id": "4fe4743a41aa0112",
+      "formula_family_candidate_id": "ff-ac0c5748b35c",
+      "formula_title_candidate": "撒䭱蘭香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "anba_resin",
+        "borneol_family",
+        "ganmaran_unresolved",
+        "paicao"
+      ],
+      "aromatic_component_count": 10,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 75,
+      "candidate_id": "6909b1aa96595141",
+      "formula_family_candidate_id": "ff-46d88f29a508",
+      "formula_title_candidate": "金猊玉兔香",
+      "family_size": 1,
+      "flags": [
+        "optional_or_non_exact_language",
+        "count_volume_or_qualitative_quantity_present",
+        "unresolved_skchar_in_ingredient_span"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [
+        "1841",
+        "3295"
+      ],
+      "unresolved_identity_entity_ids": [
+        "cypress_incense",
+        "galangal_sanai",
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 76,
+      "candidate_id": "18db4dde5388488a",
+      "formula_family_candidate_id": "ff-e1f29eeaf1ad",
+      "formula_title_candidate": "窗前省讀香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "almond_kernel",
+        "calamus",
+        "yunxiang_unresolved"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 77,
+      "candidate_id": "90e4a9c6ad1760a1",
+      "formula_family_candidate_id": "ff-288461e5cc16",
+      "formula_title_candidate": "劉真人幻烟瑞毬香",
+      "family_size": 1,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "asarum",
+        "galangal_sanai",
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 9,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 78,
+      "candidate_id": "c59770d457085209",
+      "formula_family_candidate_id": "ff-e1cb7ba6541d",
+      "formula_title_candidate": "駕頭香",
+      "family_size": 1,
+      "flags": [
+        "scope_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "pine_lichen_unresolved"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 79,
+      "candidate_id": "68c50b5144889693",
+      "formula_family_candidate_id": "ff-ce545aaaa201",
+      "formula_title_candidate": "紅緑軟香",
+      "family_size": 1,
+      "flags": [
+        "scope_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "jinyan_resin"
+      ],
+      "aromatic_component_count": 4,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 80,
+      "candidate_id": "046b60d84c2b5938",
+      "formula_family_candidate_id": "ff-d13ce3952a4e",
+      "formula_title_candidate": "藏春不下閣香",
+      "family_size": 1,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "scope_requires_review",
+        "note_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "jinyan_resin",
+        "sandalwood_shetan_unresolved"
+      ],
+      "aromatic_component_count": 8,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 81,
+      "candidate_id": "9b04350c67c32f37",
+      "formula_family_candidate_id": "ff-fe2475bbf6e2",
+      "formula_title_candidate": "太饍香麯",
+      "family_size": 1,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "unresolved_skchar_in_ingredient_span",
+        "scope_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [
+        "2201"
+      ],
+      "unresolved_identity_entity_ids": [
+        "cardamom"
+      ],
+      "aromatic_component_count": 8,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 82,
+      "candidate_id": "34b8adabfe45a015",
+      "formula_family_candidate_id": "ff-6cec0cd81406",
+      "formula_title_candidate": "唐開元宫中香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 83,
+      "candidate_id": "ce5ff58e92411808",
+      "formula_family_candidate_id": "ff-53b4065670ef",
+      "formula_title_candidate": "宫中香",
+      "family_size": 2,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "multi_witness_family_requires_review",
+        "note_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 10,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 84,
+      "candidate_id": "01eb1c684c7a5a37",
+      "formula_family_candidate_id": "ff-97a7ea95fa4f",
+      "formula_title_candidate": "宣和御製香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "jinyan_resin",
+        "shade_grass_unresolved"
+      ],
+      "aromatic_component_count": 8,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 85,
+      "candidate_id": "4be998cb22b181ad",
+      "formula_family_candidate_id": "ff-38e2df2ba019",
+      "formula_title_candidate": "趙清獻公香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 3,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 86,
+      "candidate_id": "a5d2f47b4ecd735a",
+      "formula_family_candidate_id": "ff-f140cf4f159e",
+      "formula_title_candidate": "錢塘僧日休衙香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 4,
+      "composition_sum": 0.9999999999999999,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 87,
+      "candidate_id": "74879092d2183530",
+      "formula_family_candidate_id": "ff-6d81e7348e4d",
+      "formula_title_candidate": "衙香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "cassia"
+      ],
+      "aromatic_component_count": 8,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 88,
+      "candidate_id": "ecf58a649df2b824",
+      "formula_family_candidate_id": "ff-399b666ba9e6",
+      "formula_title_candidate": "衙香",
+      "family_size": 2,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "linglingxiang"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 89,
+      "candidate_id": "88d58aee9af2863c",
+      "formula_family_candidate_id": "ff-f983b8f37688",
+      "formula_title_candidate": "宣和貴妃王氏金香",
+      "family_size": 2,
+      "flags": [
+        "optional_or_non_exact_language",
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "jinyan_resin"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 90,
+      "candidate_id": "ce2fcf4efc794da3",
+      "formula_family_candidate_id": "ff-affea311d425",
+      "formula_title_candidate": "壓香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 3,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 91,
+      "candidate_id": "dde60b2409925731",
+      "formula_family_candidate_id": "ff-b63395c1c310",
+      "formula_title_candidate": "僧惠深濕香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check",
+        "note_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "mao_aromatic_grass",
+        "sanguisorba_root"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 92,
+      "candidate_id": "82789f6e48dfcf30",
+      "formula_family_candidate_id": "ff-4f08306ec245",
+      "formula_title_candidate": "久窨濕香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 11,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 93,
+      "candidate_id": "5131beb665d60838",
+      "formula_family_candidate_id": "ff-831a772ace2d",
+      "formula_title_candidate": "清逺濕香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "galangal_sanai",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 10,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 94,
+      "candidate_id": "66d0d513221a0031",
+      "formula_family_candidate_id": "ff-b362ad91fc82",
+      "formula_title_candidate": "黄太史清眞香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 2,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 95,
+      "candidate_id": "c1f7bfd868a92f54",
+      "formula_family_candidate_id": "ff-c8128235cc27",
+      "formula_title_candidate": "清逺香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 3,
+      "composition_sum": 0.9999999999999999,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 96,
+      "candidate_id": "e7633e37842d9d2b",
+      "formula_family_candidate_id": "ff-c8df920b2856",
+      "formula_title_candidate": "汴梁太乙宮清逺香",
+      "family_size": 1,
+      "flags": [
+        "optional_or_non_exact_language",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 2,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 97,
+      "candidate_id": "311ddf42ff201c80",
+      "formula_family_candidate_id": "ff-a63b0d9cccad",
+      "formula_title_candidate": "王將明太宰龍涎香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "jinyan_resin",
+        "olibanum_like_shizhi"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 98,
+      "candidate_id": "cd3c56b236e8a027",
+      "formula_family_candidate_id": "ff-2a4e01dbcd27",
+      "formula_title_candidate": "龍涎香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "dunou_resin",
+        "jinyan_resin"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 99,
+      "candidate_id": "fabaa398da073366",
+      "formula_family_candidate_id": "ff-173c18d64873",
+      "formula_title_candidate": "龍涎香",
+      "family_size": 1,
+      "flags": [
+        "optional_or_non_exact_language",
+        "count_volume_or_qualitative_quantity_present",
+        "unresolved_skchar_in_ingredient_span"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [
+        "3605"
+      ],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "jingbianzi_incense_unresolved"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 100,
+      "candidate_id": "824af5aa7a988326",
+      "formula_family_candidate_id": "ff-7496f5d9ca2f",
+      "formula_title_candidate": "小龍涎香",
+      "family_size": 4,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 4,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 101,
+      "candidate_id": "7647ccc0090c5c35",
+      "formula_family_candidate_id": "ff-b4ab0316c906",
+      "formula_title_candidate": "呉侍中龍津香",
+      "family_size": 1,
+      "flags": [
+        "count_volume_or_qualitative_quantity_present",
+        "note_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "wood_musk_unresolved"
+      ],
+      "aromatic_component_count": 11,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 102,
+      "candidate_id": "ccfa7ed09d928474",
+      "formula_family_candidate_id": "ff-4a21a1d87c95",
+      "formula_title_candidate": "假篤耨香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "coptis"
+      ],
+      "aromatic_component_count": 2,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 103,
+      "candidate_id": "a7c326d2236d7bc3",
+      "formula_family_candidate_id": "ff-9abc62114e64",
+      "formula_title_candidate": "小芬積香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 4,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 104,
+      "candidate_id": "56970d0b281c18e2",
+      "formula_family_candidate_id": "ff-4f9309f82951",
+      "formula_title_candidate": "出塵香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 3,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 105,
+      "candidate_id": "8fa8de6851ce0b73",
+      "formula_family_candidate_id": "ff-335767647a13",
+      "formula_title_candidate": "加减四和香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 106,
+      "candidate_id": "5b00513782be8008",
+      "formula_family_candidate_id": "ff-ca786b6c0bcb",
+      "formula_title_candidate": "夾箋香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 9,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 107,
+      "candidate_id": "3ede2fe2f6148885",
+      "formula_family_candidate_id": "ff-b65c4ecbe2ac",
+      "formula_title_candidate": "聞思香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "pine_nut"
+      ],
+      "aromatic_component_count": 7,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 108,
+      "candidate_id": "26e0588ebc0bb637",
+      "formula_family_candidate_id": "ff-36dcb21f73af",
+      "formula_title_candidate": "荔枝皮",
+      "family_size": 1,
+      "flags": [
+        "optional_or_non_exact_language",
+        "count_volume_or_qualitative_quantity_present",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 109,
+      "candidate_id": "fb5f883729326fd9",
+      "formula_family_candidate_id": "ff-af74a7ddeb56",
+      "formula_title_candidate": "五眞香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 110,
+      "candidate_id": "603249e56ef598da",
+      "formula_family_candidate_id": "ff-e0fa315e653e",
+      "formula_title_candidate": "文英香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 10,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 111,
+      "candidate_id": "e68a1592da31b6f9",
+      "formula_family_candidate_id": "ff-216db3f26504",
+      "formula_title_candidate": "太洞真香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "linglingxiang"
+      ],
+      "aromatic_component_count": 8,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 112,
+      "candidate_id": "9ae325172f6d6f17",
+      "formula_family_candidate_id": "ff-0e239da3d774",
+      "formula_title_candidate": "康漕紫瑞香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 2,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 113,
+      "candidate_id": "cb8cdd754006b696",
+      "formula_family_candidate_id": "ff-52bc4a8ba8a8",
+      "formula_title_candidate": "靈犀香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "linglingxiang"
+      ],
+      "aromatic_component_count": 4,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 114,
+      "candidate_id": "49353de53da59354",
+      "formula_family_candidate_id": "ff-bc6da489276b",
+      "formula_title_candidate": "華葢香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "cardamom",
+        "linglingxiang",
+        "mao_aromatic_grass",
+        "pine_lichen_unresolved"
+      ],
+      "aromatic_component_count": 11,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 115,
+      "candidate_id": "c77237bc773e1117",
+      "formula_family_candidate_id": "ff-46aeb5ed5e42",
+      "formula_title_candidate": "梅英香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "linglingxiang",
+        "plum"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 116,
+      "candidate_id": "ac0e6620fd977ce4",
+      "formula_family_candidate_id": "ff-7fff2f60c53b",
+      "formula_title_candidate": "梅英香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review",
+        "method_addition_requires_retention_check"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "black_incense_unresolved",
+        "borneol_family"
+      ],
+      "aromatic_component_count": 6,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 117,
+      "candidate_id": "19d194130266ba87",
+      "formula_family_candidate_id": "ff-d3658aae5e35",
+      "formula_title_candidate": "杏花香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [],
+      "aromatic_component_count": 3,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 118,
+      "candidate_id": "d3259c574715fa49",
+      "formula_family_candidate_id": "ff-79f25563e0f4",
+      "formula_title_candidate": "荔枝香",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family",
+        "cardamom",
+        "cassia",
+        "jinyan_resin"
+      ],
+      "aromatic_component_count": 9,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 119,
+      "candidate_id": "b495ba7b6866c280",
+      "formula_family_candidate_id": "ff-835c6566d854",
+      "formula_title_candidate": "雪中春泛",
+      "family_size": 1,
+      "flags": [],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "borneol_family"
+      ],
+      "aromatic_component_count": 5,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    },
+    {
+      "curation_order": 120,
+      "candidate_id": "b0c774aaa388a1e2",
+      "formula_family_candidate_id": "ff-bcb53cb76bb8",
+      "formula_title_candidate": "乳檀印香",
+      "family_size": 2,
+      "flags": [
+        "multi_witness_family_requires_review"
+      ],
+      "unresolved_skchar_ids_in_ingredient_span": [],
+      "unresolved_identity_entity_ids": [
+        "fennel",
+        "linglingxiang",
+        "mao_aromatic_grass"
+      ],
+      "aromatic_component_count": 11,
+      "composition_sum": 1.0,
+      "automatic_status": "preflight_only_not_an_adjudication"
+    }
+  ]
+}

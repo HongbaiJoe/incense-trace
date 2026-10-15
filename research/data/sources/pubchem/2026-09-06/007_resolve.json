@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        14896
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 14896,
+          "SMILES": "CC1(C2CCC(=C)C1C2)C",
+          "ConnectivitySMILES": "CC1(C2CCC(=C)C1C2)C",
+          "InChIKey": "WTARULDDTDQWMU-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

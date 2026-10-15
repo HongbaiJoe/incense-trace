@@ -1,0 +1,14 @@
+Material,Outcome,Reference ratio,Predicted ratio,Inclusion probability
+agarwood,observed input,0.066,0.066,1.000
+agarwood zhan grade,recovered hidden,0.332,0.117,0.158
+borneol family,recovered hidden,0.013,0.099,0.617
+clove bud,false positive,0.000,0.106,0.284
+frankincense,missed hidden,0.066,,
+licorice,missed hidden,0.066,,
+linglingxiang,false positive,0.000,0.120,0.440
+mao aromatic grass,observed input,0.266,0.266,1.000
+musk,observed input,0.053,0.053,1.000
+onycha,observed input,0.001,0.001,1.000
+patchouli,observed input,0.001,0.001,1.000
+sandalwood white,recovered hidden,0.066,0.103,0.695
+spikenard,observed input,0.066,0.066,1.000

@@ -1,0 +1,1268 @@
+{
+  "unit_note": "原料数值统一为古方内部的两等价值，仅用于计算同一方内的相对比例；少许、百粒、一撮等无法稳定换算者不进入真值。蜂蜜、炭、梨汁、白芨等工艺成分排除。",
+  "split_note": "validation=true 的条目在模型设计前固定，不参与家族材料先验估计。",
+  "dimensions": [
+    "woody",
+    "resinous",
+    "sweet",
+    "floral",
+    "spicy",
+    "herbal",
+    "fresh",
+    "earthy",
+    "smoky",
+    "musky",
+    "fruity",
+    "tenacity"
+  ],
+  "recipes": [
+    {
+      "id": "xiaomei_a",
+      "name": "笑梅香甲",
+      "family": "plum",
+      "description": "梅香；清冷、辛甜、轻花香",
+      "source_excerpt": "棧香、丁香、甘松、零陵香各二錢；龍腦、麝香各半錢。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 0.2,
+        "clove": 0.2,
+        "nard": 0.2,
+        "lingling": 0.2,
+        "borneol": 0.05,
+        "musk": 0.05
+      },
+      "target": [
+        0.35,
+        0.25,
+        0.35,
+        0.65,
+        0.45,
+        0.25,
+        0.85,
+        0.1,
+        0.05,
+        0.1,
+        0.2,
+        0.7
+      ]
+    },
+    {
+      "id": "bimei",
+      "name": "鄙梅香",
+      "family": "plum",
+      "description": "梅香；清雅而带辛香",
+      "source_excerpt": "沉香一兩，丁香、檀香、麝香各二錢。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 1.0,
+        "clove": 0.2,
+        "sandalwood": 0.2,
+        "musk": 0.2
+      },
+      "target": [
+        0.45,
+        0.3,
+        0.3,
+        0.6,
+        0.4,
+        0.15,
+        0.75,
+        0.1,
+        0.05,
+        0.15,
+        0.15,
+        0.75
+      ]
+    },
+    {
+      "id": "meilin",
+      "name": "梅林香",
+      "family": "plum",
+      "description": "梅林；冷香、穿透、辛香明显",
+      "source_excerpt": "沉香、檀香各一兩，丁香枝杖、樟腦各三兩，麝香一錢。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 1.0,
+        "sandalwood": 1.0,
+        "clove": 3.0,
+        "borneol": 3.0,
+        "musk": 0.1
+      },
+      "target": [
+        0.35,
+        0.2,
+        0.2,
+        0.55,
+        0.55,
+        0.15,
+        0.95,
+        0.05,
+        0.05,
+        0.1,
+        0.1,
+        0.65
+      ]
+    },
+    {
+      "id": "jiamei",
+      "name": "浹梅香",
+      "family": "plum",
+      "description": "梅香；辛甜、草本、清鲜",
+      "source_excerpt": "丁香百粒、茴香一捻、檀香、甘松、零陵香各二兩，腦麝少許。",
+      "validation": false,
+      "ingredients": {
+        "sandalwood": 2.0,
+        "nard": 2.0,
+        "lingling": 2.0
+      },
+      "target": [
+        0.3,
+        0.2,
+        0.45,
+        0.6,
+        0.5,
+        0.45,
+        0.75,
+        0.15,
+        0.05,
+        0.05,
+        0.15,
+        0.65
+      ]
+    },
+    {
+      "id": "lamei",
+      "name": "蠟梅香",
+      "family": "plum",
+      "description": "蜡梅；甜暖、辛香、清透",
+      "source_excerpt": "沉香、檀香各三錢，丁香六錢，龍腦半錢，麝香一錢。",
+      "validation": true,
+      "ingredients": {
+        "agarwood": 0.3,
+        "sandalwood": 0.3,
+        "clove": 0.6,
+        "borneol": 0.05,
+        "musk": 0.1
+      },
+      "target": [
+        0.4,
+        0.25,
+        0.45,
+        0.65,
+        0.55,
+        0.15,
+        0.75,
+        0.1,
+        0.05,
+        0.12,
+        0.15,
+        0.72
+      ]
+    },
+    {
+      "id": "yemei",
+      "name": "黃亞夫野梅香",
+      "family": "plum",
+      "description": "野梅；木质、清透、淡花香",
+      "source_excerpt": "降真香四兩；加龍腦半錢。",
+      "validation": true,
+      "ingredients": {
+        "jiangzhen": 4.0,
+        "borneol": 0.05
+      },
+      "target": [
+        0.6,
+        0.25,
+        0.2,
+        0.45,
+        0.25,
+        0.2,
+        0.8,
+        0.2,
+        0.15,
+        0.02,
+        0.1,
+        0.7
+      ]
+    },
+    {
+      "id": "jiangmei",
+      "name": "江梅香",
+      "family": "plum",
+      "description": "江上梅；草本、辛香、清鲜",
+      "source_excerpt": "零陵香、藿香、丁香各半兩，懷乾茴香半錢，龍腦、麝香少許。",
+      "validation": false,
+      "ingredients": {
+        "lingling": 0.5,
+        "patchouli": 0.5,
+        "clove": 0.5,
+        "anise": 0.05
+      },
+      "target": [
+        0.3,
+        0.2,
+        0.35,
+        0.6,
+        0.55,
+        0.55,
+        0.8,
+        0.2,
+        0.05,
+        0.08,
+        0.12,
+        0.7
+      ]
+    },
+    {
+      "id": "xuezhong",
+      "name": "雪中春信",
+      "family": "plum",
+      "description": "雪中梅信；冷、清、辛甜",
+      "source_excerpt": "檀香半兩，棧香、丁香皮、樟腦各一兩二錢，麝香一錢。",
+      "validation": false,
+      "ingredients": {
+        "sandalwood": 0.5,
+        "agarwood": 1.2,
+        "clove": 1.2,
+        "borneol": 1.2,
+        "musk": 0.1
+      },
+      "target": [
+        0.4,
+        0.25,
+        0.3,
+        0.55,
+        0.55,
+        0.12,
+        0.95,
+        0.08,
+        0.05,
+        0.1,
+        0.1,
+        0.68
+      ]
+    },
+    {
+      "id": "xiaolan_a",
+      "name": "笑蘭香甲",
+      "family": "orchid",
+      "description": "兰香；清婉、草本、轻甜",
+      "source_excerpt": "白檀、丁香、棧香、玄參各一兩，甘松半兩，黃熟香二兩，麝香一分。",
+      "validation": false,
+      "ingredients": {
+        "sandalwood": 1.0,
+        "clove": 1.0,
+        "agarwood": 3.0,
+        "nard": 0.5,
+        "musk": 0.01
+      },
+      "target": [
+        0.35,
+        0.25,
+        0.35,
+        0.85,
+        0.3,
+        0.42,
+        0.75,
+        0.12,
+        0.05,
+        0.08,
+        0.1,
+        0.72
+      ]
+    },
+    {
+      "id": "jinglao_lan",
+      "name": "靖老笑蘭香",
+      "family": "orchid",
+      "description": "兰香；草本、辛香、幽远",
+      "source_excerpt": "零陵、藿香、甘松各七錢半；木香、丁香各半兩；香附、白芷各二錢半；麝半錢。",
+      "validation": false,
+      "ingredients": {
+        "lingling": 0.75,
+        "patchouli": 0.75,
+        "nard": 0.75,
+        "costus": 0.5,
+        "clove": 0.5,
+        "cyperus": 0.25,
+        "angelica": 0.25,
+        "musk": 0.05
+      },
+      "target": [
+        0.3,
+        0.22,
+        0.3,
+        0.82,
+        0.38,
+        0.65,
+        0.65,
+        0.32,
+        0.05,
+        0.12,
+        0.08,
+        0.78
+      ]
+    },
+    {
+      "id": "xiaolan_song",
+      "name": "笑蘭香歌方",
+      "family": "orchid",
+      "description": "兰香；无烟、格外清",
+      "source_excerpt": "零陵、藿香、丁香、檀香、沉香、木香各六錢；藳本、麝較輕。",
+      "validation": false,
+      "ingredients": {
+        "lingling": 0.6,
+        "patchouli": 0.6,
+        "clove": 0.6,
+        "sandalwood": 0.6,
+        "agarwood": 0.6,
+        "costus": 0.6
+      },
+      "target": [
+        0.38,
+        0.25,
+        0.28,
+        0.8,
+        0.32,
+        0.55,
+        0.9,
+        0.25,
+        0.0,
+        0.08,
+        0.08,
+        0.72
+      ]
+    },
+    {
+      "id": "xiaolan_b",
+      "name": "肖蘭香乙",
+      "family": "orchid",
+      "description": "兰香；草本根香、清甜",
+      "source_excerpt": "零陵、藿香、甘松各七錢；丁香、官桂、白芷、木香、香附各二錢；玄參三兩。",
+      "validation": false,
+      "ingredients": {
+        "lingling": 0.7,
+        "patchouli": 0.7,
+        "nard": 0.7,
+        "clove": 0.2,
+        "cassia": 0.2,
+        "angelica": 0.2,
+        "costus": 0.2,
+        "cyperus": 0.2
+      },
+      "target": [
+        0.28,
+        0.2,
+        0.38,
+        0.83,
+        0.42,
+        0.68,
+        0.68,
+        0.35,
+        0.05,
+        0.06,
+        0.1,
+        0.72
+      ]
+    },
+    {
+      "id": "shenglan",
+      "name": "勝蘭香",
+      "family": "orchid",
+      "description": "异香清婉胜芳兰",
+      "source_excerpt": "甲香一分，沉香二兩，檀香三兩，麝香一錢，龍腦半錢。",
+      "validation": true,
+      "ingredients": {
+        "agarwood": 2.0,
+        "sandalwood": 3.0,
+        "musk": 0.1,
+        "borneol": 0.05
+      },
+      "target": [
+        0.48,
+        0.32,
+        0.4,
+        0.9,
+        0.18,
+        0.12,
+        0.82,
+        0.12,
+        0.05,
+        0.15,
+        0.08,
+        0.82
+      ]
+    },
+    {
+      "id": "xiulan",
+      "name": "秀蘭香",
+      "family": "orchid",
+      "description": "兰香；草本、幽香、略清凉",
+      "source_excerpt": "沉香、藿香、零陵各半兩；丁香一分，麝三錢。",
+      "validation": true,
+      "ingredients": {
+        "agarwood": 0.5,
+        "patchouli": 0.5,
+        "lingling": 0.5,
+        "clove": 0.01,
+        "musk": 0.3
+      },
+      "target": [
+        0.34,
+        0.28,
+        0.38,
+        0.85,
+        0.28,
+        0.58,
+        0.65,
+        0.3,
+        0.05,
+        0.2,
+        0.08,
+        0.85
+      ]
+    },
+    {
+      "id": "lanrui",
+      "name": "蘭蕊香",
+      "family": "orchid",
+      "description": "兰蕊；花香、甜润、木质底",
+      "source_excerpt": "棧香、檀香各三錢，乳香一錢，麝香半錢；丁香三十粒未换算。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 0.3,
+        "sandalwood": 0.3,
+        "frankincense": 0.1,
+        "musk": 0.05
+      },
+      "target": [
+        0.38,
+        0.4,
+        0.45,
+        0.92,
+        0.2,
+        0.18,
+        0.62,
+        0.1,
+        0.05,
+        0.13,
+        0.1,
+        0.82
+      ]
+    },
+    {
+      "id": "lanyuan",
+      "name": "蘭遠香",
+      "family": "orchid",
+      "description": "兰远；幽远、草木、持久",
+      "source_excerpt": "沉香、速香、黃連、甘松各一兩，丁香皮、紫藤香各半兩；蘇合油和。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 2.0,
+        "nard": 1.0,
+        "clove": 0.5,
+        "styrax": 0.3
+      },
+      "target": [
+        0.45,
+        0.42,
+        0.3,
+        0.78,
+        0.3,
+        0.48,
+        0.55,
+        0.3,
+        0.08,
+        0.08,
+        0.08,
+        0.95
+      ]
+    },
+    {
+      "id": "muxi_jiangzhen",
+      "name": "木犀香甲",
+      "family": "osmanthus",
+      "description": "木犀；甜花香、果香、木质底",
+      "source_excerpt": "降真香一兩，檀香二錢；梨汁浸制。",
+      "validation": false,
+      "ingredients": {
+        "jiangzhen": 1.0,
+        "sandalwood": 0.2
+      },
+      "target": [
+        0.32,
+        0.22,
+        0.65,
+        0.95,
+        0.14,
+        0.1,
+        0.42,
+        0.08,
+        0.06,
+        0.03,
+        0.7,
+        0.72
+      ]
+    },
+    {
+      "id": "muxi_flower",
+      "name": "木犀香乙",
+      "family": "osmanthus",
+      "description": "木犀花；浓甜花果香",
+      "source_excerpt": "沉香、檀香各半兩，茅香一兩；半開木犀花十二兩。",
+      "validation": true,
+      "ingredients": {
+        "agarwood": 0.5,
+        "sandalwood": 0.5,
+        "osmanthus": 12.0
+      },
+      "target": [
+        0.22,
+        0.18,
+        0.78,
+        1.0,
+        0.1,
+        0.08,
+        0.38,
+        0.05,
+        0.05,
+        0.03,
+        0.82,
+        0.78
+      ]
+    },
+    {
+      "id": "guizhi",
+      "name": "桂枝香",
+      "family": "osmanthus",
+      "description": "桂花意象；木质、清甜",
+      "source_excerpt": "沉香、降真各等分。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 1.0,
+        "jiangzhen": 1.0
+      },
+      "target": [
+        0.58,
+        0.32,
+        0.48,
+        0.7,
+        0.22,
+        0.12,
+        0.45,
+        0.15,
+        0.12,
+        0.03,
+        0.35,
+        0.78
+      ]
+    },
+    {
+      "id": "wu_muxi",
+      "name": "吳彥莊木犀香",
+      "family": "osmanthus",
+      "description": "木犀；花香、果甜、沉静木底",
+      "source_excerpt": "沉香一兩半，檀香二錢半，金顏香三錢；木犀花五盞，腦麝少許。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 1.5,
+        "sandalwood": 0.25,
+        "benzoin": 0.3,
+        "osmanthus": 2.0
+      },
+      "target": [
+        0.32,
+        0.35,
+        0.72,
+        0.98,
+        0.12,
+        0.1,
+        0.4,
+        0.1,
+        0.06,
+        0.07,
+        0.76,
+        0.85
+      ]
+    },
+    {
+      "id": "shenjing_known",
+      "name": "深靜",
+      "family": "quiet",
+      "description": "恬淡寂寞；木质、树脂、幽静",
+      "source_excerpt": "海南沉香二兩；婆律膏三錢，麝一錢，安息香一分。",
+      "validation": true,
+      "ingredients": {
+        "agarwood": 2.0,
+        "benzoin": 0.31,
+        "musk": 0.1
+      },
+      "target": [
+        0.82,
+        0.68,
+        0.28,
+        0.12,
+        0.14,
+        0.12,
+        0.52,
+        0.32,
+        0.22,
+        0.12,
+        0.04,
+        0.9
+      ]
+    },
+    {
+      "id": "dazhen",
+      "name": "大真香",
+      "family": "quiet",
+      "description": "沉静真香；木质、树脂、持久",
+      "source_excerpt": "沉香一兩半，白檀一兩，棧香二兩，甲香一兩，腦麝各一錢。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 3.5,
+        "sandalwood": 1.0,
+        "borneol": 0.1,
+        "musk": 0.1
+      },
+      "target": [
+        0.85,
+        0.6,
+        0.3,
+        0.12,
+        0.18,
+        0.1,
+        0.42,
+        0.3,
+        0.25,
+        0.13,
+        0.03,
+        0.92
+      ]
+    },
+    {
+      "id": "yurui_a",
+      "name": "玉蕊香",
+      "family": "quiet",
+      "description": "清雅花蕊；木质、草本、轻甜",
+      "source_excerpt": "白檀、丁香、棧香、玄參各一兩，甘松半兩，黃熟香二兩，麝一分。",
+      "validation": false,
+      "ingredients": {
+        "sandalwood": 1.0,
+        "clove": 1.0,
+        "agarwood": 3.0,
+        "nard": 0.5,
+        "musk": 0.01
+      },
+      "target": [
+        0.52,
+        0.35,
+        0.4,
+        0.55,
+        0.3,
+        0.35,
+        0.62,
+        0.22,
+        0.08,
+        0.08,
+        0.1,
+        0.82
+      ]
+    },
+    {
+      "id": "jiangxian",
+      "name": "降仙香",
+      "family": "quiet",
+      "description": "静雅草木；柔和、持久",
+      "source_excerpt": "檀香四兩，玄參、甘松各二兩，川零陵一兩，麝少許。",
+      "validation": true,
+      "ingredients": {
+        "sandalwood": 4.0,
+        "nard": 2.0,
+        "lingling": 1.0
+      },
+      "target": [
+        0.62,
+        0.3,
+        0.38,
+        0.32,
+        0.18,
+        0.58,
+        0.42,
+        0.3,
+        0.08,
+        0.04,
+        0.08,
+        0.84
+      ]
+    },
+    {
+      "id": "tianhua",
+      "name": "天花香",
+      "family": "quiet",
+      "description": "清淡、草木、微甜",
+      "source_excerpt": "玄參四兩，甘松二兩，檀香一兩，麝香半錢。",
+      "validation": false,
+      "ingredients": {
+        "nard": 2.0,
+        "sandalwood": 1.0,
+        "musk": 0.05
+      },
+      "target": [
+        0.55,
+        0.25,
+        0.32,
+        0.35,
+        0.18,
+        0.62,
+        0.45,
+        0.35,
+        0.05,
+        0.06,
+        0.05,
+        0.78
+      ]
+    },
+    {
+      "id": "feiyan",
+      "name": "禁中非煙",
+      "family": "quiet",
+      "description": "非烟；清、温、木香",
+      "source_excerpt": "龍腦、麝香、沉香、檀香俱半兩，丁香一分，桂三錢。",
+      "validation": false,
+      "ingredients": {
+        "borneol": 0.5,
+        "musk": 0.5,
+        "agarwood": 0.5,
+        "sandalwood": 0.5,
+        "clove": 0.01,
+        "cassia": 0.3
+      },
+      "target": [
+        0.56,
+        0.32,
+        0.4,
+        0.22,
+        0.35,
+        0.14,
+        0.78,
+        0.15,
+        0.05,
+        0.18,
+        0.06,
+        0.82
+      ]
+    },
+    {
+      "id": "xiaomei_root",
+      "name": "笑梅香根方",
+      "family": "plum",
+      "description": "梅香；根香、木质、清辛",
+      "source_excerpt": "沉香、烏梅肉、芎藭、甘松各一兩，檀香半兩。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 1,
+        "chuanxiong": 1,
+        "nard": 1,
+        "sandalwood": 0.5
+      },
+      "target": [
+        0.38,
+        0.24,
+        0.34,
+        0.62,
+        0.48,
+        0.28,
+        0.82,
+        0.12,
+        0.06,
+        0.1,
+        0.14,
+        0.72
+      ]
+    },
+    {
+      "id": "yuanlao_lan",
+      "name": "李元老笑蘭香",
+      "family": "orchid",
+      "description": "兰香；复合辛香、清凉、木质",
+      "source_excerpt": "丁香、木香、沉香、白檀、肉桂、香附各一錢；腦麝各半錢。",
+      "validation": false,
+      "ingredients": {
+        "clove": 0.1,
+        "costus": 0.1,
+        "agarwood": 0.1,
+        "sandalwood": 0.1,
+        "cassia": 0.1,
+        "cyperus": 0.1,
+        "borneol": 0.05,
+        "musk": 0.05
+      },
+      "target": [
+        0.34,
+        0.24,
+        0.34,
+        0.84,
+        0.3,
+        0.52,
+        0.72,
+        0.22,
+        0.05,
+        0.1,
+        0.09,
+        0.76
+      ]
+    },
+    {
+      "id": "purple_lan",
+      "name": "肖蘭香紫檀方",
+      "family": "orchid",
+      "description": "兰香；柔木、树脂、幽远",
+      "source_excerpt": "紫檀五兩，麝香、乳香各一錢。",
+      "validation": false,
+      "ingredients": {
+        "sandalwood": 5,
+        "musk": 0.1,
+        "frankincense": 0.1
+      },
+      "target": [
+        0.34,
+        0.24,
+        0.34,
+        0.84,
+        0.3,
+        0.52,
+        0.72,
+        0.22,
+        0.05,
+        0.1,
+        0.09,
+        0.76
+      ]
+    },
+    {
+      "id": "muxi_borneol",
+      "name": "木犀香腦方",
+      "family": "osmanthus",
+      "description": "木犀；甜花、果香、微凉",
+      "source_excerpt": "檀香少許，木犀花蕊，梅花腦子；蜜窨。",
+      "validation": false,
+      "ingredients": {
+        "sandalwood": 0.2,
+        "osmanthus": 3,
+        "borneol": 0.1
+      },
+      "target": [
+        0.28,
+        0.24,
+        0.7,
+        0.96,
+        0.14,
+        0.1,
+        0.4,
+        0.08,
+        0.05,
+        0.04,
+        0.74,
+        0.78
+      ]
+    },
+    {
+      "id": "xinghua_root",
+      "name": "杏花香簡方",
+      "family": "spring",
+      "description": "杏花意象；根香、柔甜、温暖",
+      "source_excerpt": "甘松、芎藭各半兩，麝香少許。",
+      "validation": false,
+      "ingredients": {
+        "nard": 0.5,
+        "chuanxiong": 0.5,
+        "musk": 0.05
+      },
+      "target": [
+        0.32,
+        0.22,
+        0.42,
+        0.65,
+        0.42,
+        0.44,
+        0.8,
+        0.18,
+        0.05,
+        0.08,
+        0.18,
+        0.7
+      ]
+    },
+    {
+      "id": "chunxiao_a",
+      "name": "春消息甲",
+      "family": "spring",
+      "description": "春消息；清甜、辛草本",
+      "source_excerpt": "丁香、零陵香、甘松各半兩，茴香、麝香各一分。",
+      "validation": false,
+      "ingredients": {
+        "clove": 0.5,
+        "lingling": 0.5,
+        "nard": 0.5,
+        "anise": 0.01,
+        "musk": 0.01
+      },
+      "target": [
+        0.32,
+        0.22,
+        0.42,
+        0.65,
+        0.42,
+        0.44,
+        0.8,
+        0.18,
+        0.05,
+        0.08,
+        0.18,
+        0.7
+      ]
+    },
+    {
+      "id": "chunxiao_b",
+      "name": "春消息乙",
+      "family": "spring",
+      "description": "春消息；清鲜、花草、木香",
+      "source_excerpt": "丁香百粒，茴香半合；沉香、檀香、零陵香、藿香各半兩。",
+      "validation": false,
+      "ingredients": {
+        "clove": 0.2,
+        "anise": 0.1,
+        "agarwood": 0.5,
+        "sandalwood": 0.5,
+        "lingling": 0.5,
+        "patchouli": 0.5
+      },
+      "target": [
+        0.32,
+        0.22,
+        0.42,
+        0.65,
+        0.42,
+        0.44,
+        0.8,
+        0.18,
+        0.05,
+        0.08,
+        0.18,
+        0.7
+      ]
+    },
+    {
+      "id": "baibu",
+      "name": "洪駒父百步香",
+      "family": "quiet",
+      "description": "百步；木质、清凉、扩散",
+      "source_excerpt": "沉香一兩半，棧香、檀香、甲香各半兩，龍腦、麝香各三分。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 2,
+        "sandalwood": 0.5,
+        "borneol": 0.03,
+        "musk": 0.03
+      },
+      "target": [
+        0.68,
+        0.52,
+        0.3,
+        0.2,
+        0.2,
+        0.22,
+        0.55,
+        0.3,
+        0.18,
+        0.12,
+        0.05,
+        0.86
+      ]
+    },
+    {
+      "id": "baili",
+      "name": "百里香",
+      "family": "quiet",
+      "description": "百里；果皮、木香、持久",
+      "source_excerpt": "荔枝皮千顆；甘松、棧香各三兩，檀香、甲香各半兩，麝香一錢。",
+      "validation": false,
+      "ingredients": {
+        "nard": 3,
+        "agarwood": 3,
+        "sandalwood": 0.5,
+        "musk": 0.1
+      },
+      "target": [
+        0.68,
+        0.52,
+        0.3,
+        0.2,
+        0.2,
+        0.22,
+        0.55,
+        0.3,
+        0.18,
+        0.12,
+        0.05,
+        0.86
+      ]
+    },
+    {
+      "id": "yike",
+      "name": "意可",
+      "family": "quiet",
+      "description": "香殊不凡；沉檀、根香、柔润",
+      "source_excerpt": "沉水香三兩，檀香一兩，木香四錢，婆律膏、麝各三錢。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 3,
+        "sandalwood": 1,
+        "costus": 0.4,
+        "benzoin": 0.3,
+        "musk": 0.3
+      },
+      "target": [
+        0.68,
+        0.52,
+        0.3,
+        0.2,
+        0.2,
+        0.22,
+        0.55,
+        0.3,
+        0.18,
+        0.12,
+        0.05,
+        0.86
+      ]
+    },
+    {
+      "id": "xiaozong_v2",
+      "name": "小宗香",
+      "family": "quiet",
+      "description": "幽静；木质、香脂、持久",
+      "source_excerpt": "沉水香一分，棧香半兩，紫檀三分半，蘇合油二錢，麝一錢半。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 0.6,
+        "sandalwood": 0.35,
+        "styrax": 0.2,
+        "musk": 0.15
+      },
+      "target": [
+        0.68,
+        0.52,
+        0.3,
+        0.2,
+        0.2,
+        0.22,
+        0.55,
+        0.3,
+        0.18,
+        0.12,
+        0.05,
+        0.86
+      ]
+    },
+    {
+      "id": "qingguan",
+      "name": "清觀香",
+      "family": "quiet",
+      "description": "清观；沉静木香、甜树脂",
+      "source_excerpt": "沉香四兩，金顏香、石芝、檀香各二錢半，麝香一錢半。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 4,
+        "benzoin": 0.25,
+        "sandalwood": 0.25,
+        "musk": 0.15
+      },
+      "target": [
+        0.68,
+        0.52,
+        0.3,
+        0.2,
+        0.2,
+        0.22,
+        0.55,
+        0.3,
+        0.18,
+        0.12,
+        0.05,
+        0.86
+      ]
+    },
+    {
+      "id": "tianzhen",
+      "name": "天真香",
+      "family": "quiet",
+      "description": "天真；木质、辛香、清凉",
+      "source_excerpt": "沉香三兩，丁香、麝香木各一兩，龍腦半兩，麝香三錢。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 3,
+        "clove": 1,
+        "costus": 1,
+        "borneol": 0.5,
+        "musk": 0.3
+      },
+      "target": [
+        0.68,
+        0.52,
+        0.3,
+        0.2,
+        0.2,
+        0.22,
+        0.55,
+        0.3,
+        0.18,
+        0.12,
+        0.05,
+        0.86
+      ]
+    },
+    {
+      "id": "luling",
+      "name": "廬陵香",
+      "family": "quiet",
+      "description": "清幽木香、香脂、轻麝",
+      "source_excerpt": "紫檀三兩，棧香半兩，沉香一分，麝香一錢字，蘇合香二錢二分。",
+      "validation": false,
+      "ingredients": {
+        "sandalwood": 3,
+        "agarwood": 0.75,
+        "musk": 0.025,
+        "styrax": 0.22
+      },
+      "target": [
+        0.68,
+        0.52,
+        0.3,
+        0.2,
+        0.2,
+        0.22,
+        0.55,
+        0.3,
+        0.18,
+        0.12,
+        0.05,
+        0.86
+      ]
+    },
+    {
+      "id": "kangzirui",
+      "name": "康漕紫瑞香",
+      "family": "quiet",
+      "description": "柔和檀香、轻麝、持久",
+      "source_excerpt": "白檀一兩，麝香半錢或一錢。",
+      "validation": false,
+      "ingredients": {
+        "sandalwood": 1,
+        "musk": 0.075
+      },
+      "target": [
+        0.68,
+        0.52,
+        0.3,
+        0.2,
+        0.2,
+        0.22,
+        0.55,
+        0.3,
+        0.18,
+        0.12,
+        0.05,
+        0.86
+      ]
+    },
+    {
+      "id": "xianyu",
+      "name": "仙茰香",
+      "family": "orchid",
+      "description": "花草、白芷、清甜",
+      "source_excerpt": "甘菊蕊、檀香、零陵香、白芷各一兩，腦麝少許。",
+      "validation": false,
+      "ingredients": {
+        "sandalwood": 1,
+        "lingling": 1,
+        "angelica": 1,
+        "borneol": 0.05,
+        "musk": 0.05
+      },
+      "target": [
+        0.34,
+        0.24,
+        0.34,
+        0.84,
+        0.3,
+        0.52,
+        0.72,
+        0.22,
+        0.05,
+        0.1,
+        0.09,
+        0.76
+      ]
+    },
+    {
+      "id": "feiyan_b",
+      "name": "禁中非煙乙",
+      "family": "quiet",
+      "description": "非烟；木质、辛香、根香",
+      "source_excerpt": "沉香半兩，白檀四兩，丁香、降真、鬱金、甲香各二兩，麝少許。",
+      "validation": false,
+      "ingredients": {
+        "agarwood": 0.5,
+        "sandalwood": 4,
+        "clove": 2,
+        "jiangzhen": 2,
+        "turmeric": 2,
+        "musk": 0.1
+      },
+      "target": [
+        0.68,
+        0.52,
+        0.3,
+        0.2,
+        0.2,
+        0.22,
+        0.55,
+        0.3,
+        0.18,
+        0.12,
+        0.05,
+        0.86
+      ]
+    },
+    {
+      "id": "tianhua_v2",
+      "name": "天花香",
+      "family": "quiet",
+      "description": "清淡草木、微甜、持久",
+      "source_excerpt": "玄參四兩，甘松二兩，檀香一兩，麝香半錢。",
+      "validation": false,
+      "ingredients": {
+        "nard": 2,
+        "sandalwood": 1,
+        "musk": 0.05
+      },
+      "target": [
+        0.68,
+        0.52,
+        0.3,
+        0.2,
+        0.2,
+        0.22,
+        0.55,
+        0.3,
+        0.18,
+        0.12,
+        0.05,
+        0.86
+      ]
+    }
+  ],
+  "version": "v2-expanded"
+}

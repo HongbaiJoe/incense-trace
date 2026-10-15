@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        637563
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 637563,
+          "SMILES": "C/C=C/C1=CC=C(C=C1)OC",
+          "ConnectivitySMILES": "CC=CC1=CC=C(C=C1)OC",
+          "InChIKey": "RUVINXPYWBROJD-ONEGZZNKSA-N"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "figure_count": 6,
+  "figures": [
+    {
+      "checks": {
+        "embedded_truetype_font": true,
+        "png_is_rgb_450dpi": true,
+        "single_page_vector_pdf": true,
+        "standard_sans_serif_font": true,
+        "svg_text_is_editable": true,
+        "within_180mm_by_170mm": true
+      },
+      "figure": "fig1_workflow",
+      "height_mm": 63.78,
+      "pdf_embedded_font_files": 5,
+      "png_dpi": [
+        450.0,
+        450.0
+      ],
+      "png_pixels": [
+        3171,
+        1130
+      ],
+      "svg_live_text_nodes": 21,
+      "svg_raster_images": 0,
+      "width_mm": 179.03
+    },
+    {
+      "checks": {
+        "embedded_truetype_font": true,
+        "png_is_rgb_450dpi": true,
+        "single_page_vector_pdf": true,
+        "standard_sans_serif_font": true,
+        "svg_text_is_editable": true,
+        "within_180mm_by_170mm": true
+      },
+      "figure": "fig2_corpus",
+      "height_mm": 56.38,
+      "pdf_embedded_font_files": 2,
+      "png_dpi": [
+        450.0,
+        450.0
+      ],
+      "png_pixels": [
+        3107,
+        1001
+      ],
+      "svg_live_text_nodes": 52,
+      "svg_raster_images": 0,
+      "width_mm": 175.07
+    },
+    {
+      "checks": {
+        "embedded_truetype_font": true,
+        "png_is_rgb_450dpi": true,
+        "single_page_vector_pdf": true,
+        "standard_sans_serif_font": true,
+        "svg_text_is_editable": true,
+        "within_180mm_by_170mm": true
+      },
+      "figure": "fig3_primary_performance",
+      "height_mm": 67.33,
+      "pdf_embedded_font_files": 2,
+      "png_dpi": [
+        450.0,
+        450.0
+      ],
+      "png_pixels": [
+        3106,
+        1196
+      ],
+      "svg_live_text_nodes": 28,
+      "svg_raster_images": 0,
+      "width_mm": 175.24
+    },
+    {
+      "checks": {
+        "embedded_truetype_font": true,
+        "png_is_rgb_450dpi": true,
+        "single_page_vector_pdf": true,
+        "standard_sans_serif_font": true,
+        "svg_text_is_editable": true,
+        "within_180mm_by_170mm": true
+      },
+      "figure": "fig4_robustness",
+      "height_mm": 61.73,
+      "pdf_embedded_font_files": 2,
+      "png_dpi": [
+        450.0,
+        450.0
+      ],
+      "png_pixels": [
+        3101,
+        1094
+      ],
+      "svg_live_text_nodes": 38,
+      "svg_raster_images": 0,
+      "width_mm": 175.02
+    },
+    {
+      "checks": {
+        "embedded_truetype_font": true,
+        "png_is_rgb_450dpi": true,
+        "single_page_vector_pdf": true,
+        "standard_sans_serif_font": true,
+        "svg_text_is_editable": true,
+        "within_180mm_by_170mm": true
+      },
+      "figure": "fig5_uncertainty_confirmation",
+      "height_mm": 61.73,
+      "pdf_embedded_font_files": 2,
+      "png_dpi": [
+        450.0,
+        450.0
+      ],
+      "png_pixels": [
+        3113,
+        1094
+      ],
+      "svg_live_text_nodes": 36,
+      "svg_raster_images": 0,
+      "width_mm": 175.76
+    },
+    {
+      "checks": {
+        "embedded_truetype_font": true,
+        "png_is_rgb_450dpi": true,
+        "single_page_vector_pdf": true,
+        "standard_sans_serif_font": true,
+        "svg_text_is_editable": true,
+        "within_180mm_by_170mm": true
+      },
+      "figure": "fig6_stress_tests",
+      "height_mm": 59.25,
+      "pdf_embedded_font_files": 2,
+      "png_dpi": [
+        450.0,
+        450.0
+      ],
+      "png_pixels": [
+        3101,
+        1053
+      ],
+      "svg_live_text_nodes": 47,
+      "svg_raster_images": 0,
+      "width_mm": 175.02
+    }
+  ],
+  "passed": true,
+  "schema_version": "0.1",
+  "sources": [
+    "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+    "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/"
+  ],
+  "standards": {
+    "accessibility": "Okabe-Ito-derived palette with redundant markers, fills or line styles",
+    "dimensions": "single or double column, up to 180 mm wide and 170 mm high",
+    "raster_review_copy": "RGB PNG at 450 dpi",
+    "typography": "standard sans serif, 5 to 7 pt at final size",
+    "vectors": "editable PDF or SVG with live text and embedded Type 42 fonts"
+  },
+  "target": "npj Heritage Science and Nature Portfolio main-figure artwork"
+}

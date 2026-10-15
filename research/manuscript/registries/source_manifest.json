@@ -1,0 +1,117 @@
+{
+  "schema_version": "0.1",
+  "sources": [
+    {
+      "evidence_id": "E001",
+      "path": "data/curated/formula_reference_v0.1.json",
+      "role": "curated formulas and corpus statistics",
+      "sha256": "476e9078c4fe6b22cd1aa5e367461d68b6c6c99a0ef45e1a5de90e98900d15be",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E002",
+      "path": "data/curated/source_blocked_splits_v0.1.json",
+      "role": "development primary and confirmation partitions",
+      "sha256": "30df7415073ec43acb788c2e6a1038121dbe1940128b90296646a2a91f8cd503",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E003",
+      "path": "experiments/cycle4_primary_evaluation.json",
+      "role": "primary source-blocked metrics and calibration",
+      "sha256": "5d89086151a8d84c43738a9a732fc785355a24db12ec6bd01e622cf21679d211",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E004",
+      "path": "experiments/cycle4_robustness.json",
+      "role": "context rarity stability and error analyses",
+      "sha256": "24d8a070881ba2674c7b1fa7305a65e42cbd917ed02098c197a99019d99fc61c",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E005",
+      "path": "experiments/cycle4_hong_confirmation.json",
+      "role": "quarantined-source confirmation",
+      "sha256": "5c2edbbf081549ba19f02fea6321298b638ea9f07c9c830bfc638f976ee83adb",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E006",
+      "path": "experiments/cycle3_model_selection.json",
+      "role": "development model selection and chemistry ablation",
+      "sha256": "560e60f2dd31e7f8d2137cdcb6761794fa4451cf422fe0f9b1d09081840d8483",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E007",
+      "path": "experiments/cycle3_odor_inverse_nested.json",
+      "role": "auxiliary odor inverse evaluation",
+      "sha256": "c3bc7bc88c8913e031dd4e68063746b843e55c782baf59433212fec28f3e0e1c",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E008",
+      "path": "experiments/cycle3_inference_diagnostics.json",
+      "role": "Laplace and synthetic recovery checks",
+      "sha256": "a39a38842b100f2a6d78e0061b698874d8d4b2aa93044b1eb95f3ba37c68e9ff",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E009",
+      "path": "experiments/cycle5_computational_profile.json",
+      "role": "computational timing",
+      "sha256": "c3541a5ebae0b5a3db851278a092e3a49aa60aef8a0f335b16c1edbb927286a6",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E010",
+      "path": "data/processed/material_representations_v0.1.json",
+      "role": "material representation counts and schema",
+      "sha256": "66b1ab112d6d3fd2caaead97b6128c9a48755f71b2934f501adce8d86b76348d",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E011",
+      "path": "data/curated/material_compound_evidence_v0.1.json",
+      "role": "analytical evidence and PubChem links",
+      "sha256": "9deee733e4b5ddcedbeb08e98188b16b37c11e1aafc88b700a6f26f2e8596452",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E012",
+      "path": "literature/references.bib",
+      "role": "bibliographic metadata",
+      "sha256": "87092228b14e43c335acc90d755ea205bed17c79a46a11492976ca6584a670ba",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E013",
+      "path": "figures/figure_manifest.json",
+      "role": "figure provenance and hashes",
+      "sha256": "96bfc071a3f748fecd0cc30dcc8ea171592817c039ff4c3250fee9fbf97e3779",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E014",
+      "path": "experiments/cycle6_stress_tests.json",
+      "role": "competitive baselines duplicate sensitivity and count recalibration",
+      "sha256": "c39e596b561213940c68c9112699b11bbf340b9798b6904d8945072fdc9af452",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E015",
+      "path": "experiments/cycle6_case_study.json",
+      "role": "deterministically selected case-level reconstruction",
+      "sha256": "c2dec647e339f323a6d700a6fe30f0ee66d32758067a3f1bd9524059859e20b5",
+      "verification_state": "local_artifact_hash_verified"
+    },
+    {
+      "evidence_id": "E016",
+      "path": "figures/cycle6_figure_manifest.json",
+      "role": "post-freeze stress-test figure provenance",
+      "sha256": "6fbdd92a327f2bde3d750fefe6c76547b9ff29fecd2f8d16bc795a9952306bed",
+      "verification_state": "local_artifact_hash_verified"
+    }
+  ]
+}

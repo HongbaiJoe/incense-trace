@@ -1,0 +1,14 @@
+Symbol,Meaning
+"i, j, d","Formula, material and historical-work indices"
+"S_i, O_i, H_i","Complete, observed and hidden material sets for formula i"
+"q_ij, w_ij",Converted aromatic mass and closed mass fraction
+"pi_j, pi_j|d",Global and source-conditioned material prevalence
+G_ab,Directed posterior-predictive affinity from material a to b
+"g_ij, u_ij",Source-deviation feature and observed-material indicator
+"phi_ij, x_ij, z_ij","Core, complete and standardized candidate-feature vectors"
+"theta, Sigma",Inclusion coefficients and Laplace covariance
+p_ij,Posterior-approximated inclusion probability
+"K_i, K-hat_i",True and predicted total ingredient count
+"mu_ij, W_i",Predicted mean composition and composition random vector
+"L_tr, L_r, B","Candidate rows, positive ratio rows and chemical-profile bins"
+"D, I_d, A_i","Number of works, formulas in work d and repeated evaluations of formula i"

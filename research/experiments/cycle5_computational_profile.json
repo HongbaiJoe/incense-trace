@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1",
+  "model": "xiangji-cgir-v1 locked full decoder without chemistry",
+  "formula_count": 85,
+  "material_vocabulary_size": 80,
+  "repetitions": 11,
+  "posterior_samples_per_prediction": 200,
+  "environment": {
+    "python": "3.14.6",
+    "platform": "macOS-14.5-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "numpy": "2.5.2"
+  },
+  "fit_wall_time": {
+    "median_seconds": 0.1145114996470511,
+    "iqr_seconds": 0.005284125218167901,
+    "minimum_seconds": 0.10989266727119684,
+    "maximum_seconds": 0.12038249988108873
+  },
+  "single_prediction_wall_time": {
+    "median_seconds": 0.001701792236417532,
+    "iqr_seconds": 0.00014072866179049015,
+    "minimum_seconds": 0.0015929997898638248,
+    "maximum_seconds": 0.0034033339470624924
+  },
+  "timing_scope": "data already loaded; one process; no parallelism; wall-clock descriptive benchmark"
+}

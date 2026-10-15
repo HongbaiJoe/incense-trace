@@ -1,0 +1,332 @@
+{
+  "development_work_counts": {
+    "chen_xiangpu_compilation": 38,
+    "huizhai_xiangpu": 10,
+    "liexiang_xinpu": 6,
+    "moe_xiaolu_xiangpu": 2,
+    "xiangcheng_compilation_unresolved_source": 29
+  },
+  "family_size_definition": "Number of eligible non-gold ratio-ready witnesses in the family, counted before collection blocking; each retained witness has eta/family_size weight.",
+  "weak_selections": [
+    {
+      "work": "chen_xiangpu_compilation",
+      "directed_graph": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 88,
+          "effective_weak_weight": 63.166666666666664,
+          "eligible_weak_family_count": 81,
+          "eligible_weak_record_count": 88,
+          "forbidden_collections": [
+            "chen_xiangpu"
+          ],
+          "gold_formula_count": 53
+        },
+        "weak_label_weight": 1.0
+      },
+      "sscl": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 88,
+          "effective_weak_weight": 31.583333333333332,
+          "eligible_weak_family_count": 81,
+          "eligible_weak_record_count": 88,
+          "forbidden_collections": [
+            "chen_xiangpu"
+          ],
+          "gold_formula_count": 53
+        },
+        "weak_label_weight": 0.5
+      }
+    },
+    {
+      "work": "hong_xiangpu_attributed",
+      "directed_graph": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 142,
+          "effective_weak_weight": 98.66666666666667,
+          "eligible_weak_family_count": 100,
+          "eligible_weak_record_count": 142,
+          "forbidden_collections": [
+            "hong_xiangpu"
+          ],
+          "gold_formula_count": 85
+        },
+        "weak_label_weight": 1.0
+      },
+      "sscl": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 142,
+          "effective_weak_weight": 98.66666666666667,
+          "eligible_weak_family_count": 100,
+          "eligible_weak_record_count": 142,
+          "forbidden_collections": [
+            "hong_xiangpu"
+          ],
+          "gold_formula_count": 85
+        },
+        "weak_label_weight": 1.0
+      }
+    },
+    {
+      "work": "huizhai_xiangpu",
+      "directed_graph": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 0,
+          "effective_weak_weight": 0.0,
+          "eligible_weak_family_count": 56,
+          "eligible_weak_record_count": 62,
+          "forbidden_collections": [
+            "xiangcheng"
+          ],
+          "gold_formula_count": 81
+        },
+        "weak_label_weight": 0.0
+      },
+      "sscl": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 0,
+          "effective_weak_weight": 0.0,
+          "eligible_weak_family_count": 56,
+          "eligible_weak_record_count": 62,
+          "forbidden_collections": [
+            "xiangcheng"
+          ],
+          "gold_formula_count": 81
+        },
+        "weak_label_weight": 0.0
+      }
+    },
+    {
+      "work": "liexiang_xinpu",
+      "directed_graph": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 62,
+          "effective_weak_weight": 3.816666666666667,
+          "eligible_weak_family_count": 56,
+          "eligible_weak_record_count": 62,
+          "forbidden_collections": [
+            "xiangcheng"
+          ],
+          "gold_formula_count": 85
+        },
+        "weak_label_weight": 0.1
+      },
+      "sscl": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 62,
+          "effective_weak_weight": 3.816666666666667,
+          "eligible_weak_family_count": 56,
+          "eligible_weak_record_count": 62,
+          "forbidden_collections": [
+            "xiangcheng"
+          ],
+          "gold_formula_count": 85
+        },
+        "weak_label_weight": 0.1
+      }
+    },
+    {
+      "work": "moe_xiaolu_xiangpu",
+      "directed_graph": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 62,
+          "effective_weak_weight": 3.816666666666667,
+          "eligible_weak_family_count": 56,
+          "eligible_weak_record_count": 62,
+          "forbidden_collections": [
+            "xiangcheng"
+          ],
+          "gold_formula_count": 89
+        },
+        "weak_label_weight": 0.1
+      },
+      "sscl": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 62,
+          "effective_weak_weight": 38.166666666666664,
+          "eligible_weak_family_count": 56,
+          "eligible_weak_record_count": 62,
+          "forbidden_collections": [
+            "xiangcheng"
+          ],
+          "gold_formula_count": 89
+        },
+        "weak_label_weight": 1.0
+      }
+    },
+    {
+      "work": "xiangcheng_compilation_unresolved_source",
+      "directed_graph": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 62,
+          "effective_weak_weight": 38.166666666666664,
+          "eligible_weak_family_count": 56,
+          "eligible_weak_record_count": 62,
+          "forbidden_collections": [
+            "xiangcheng"
+          ],
+          "gold_formula_count": 62
+        },
+        "weak_label_weight": 1.0
+      },
+      "sscl": {
+        "outer_training_exposure": {
+          "active_weak_record_count": 62,
+          "effective_weak_weight": 38.166666666666664,
+          "eligible_weak_family_count": 56,
+          "eligible_weak_record_count": 62,
+          "forbidden_collections": [
+            "xiangcheng"
+          ],
+          "gold_formula_count": 62
+        },
+        "weak_label_weight": 1.0
+      }
+    }
+  ],
+  "rarity": {
+    "evaluation_instances": 1660,
+    "opportunities": 6450,
+    "strata": {
+      "5+": {
+        "total": 3876,
+        "recovered": 2221
+      },
+      "0": {
+        "total": 1445,
+        "recovered": 0
+      },
+      "1": {
+        "total": 342,
+        "recovered": 8
+      },
+      "2-4": {
+        "total": 787,
+        "recovered": 44
+      }
+    }
+  },
+  "near_duplicate_exact": {
+    "frequency": {
+      "aitchison_distance": 8.00565249177275,
+      "count_absolute_error": 1.3845656565656566,
+      "full_f1": 0.6243369168763451,
+      "full_precision": 0.6880115886134067,
+      "full_recall": 0.5920665261733711,
+      "hidden_f1": 0.32233192269010447,
+      "hidden_precision": 0.3879997306397306,
+      "hidden_recall": 0.3010762025012025,
+      "inclusion_brier_in_vocabulary": 0.038928453392317604,
+      "true_material_vocabulary_coverage": 0.8503378459923914,
+      "union_ratio_mae": 0.1291886998525328,
+      "weighted_jaccard": 0.37321369861262976
+    },
+    "full_no_chemistry": {
+      "aitchison_distance": 7.850073678159997,
+      "count_absolute_error": 1.3845656565656566,
+      "full_f1": 0.6383364279890926,
+      "full_precision": 0.7020097796143251,
+      "full_recall": 0.6064390176915577,
+      "hidden_f1": 0.34937990860990864,
+      "hidden_precision": 0.41489838383838384,
+      "hidden_recall": 0.3310137421837422,
+      "inclusion_brier_in_vocabulary": 0.040409071870204386,
+      "true_material_vocabulary_coverage": 0.8503378459923914,
+      "union_ratio_mae": 0.12818602141047025,
+      "weighted_jaccard": 0.3813549637393637
+    },
+    "graph_only": {
+      "aitchison_distance": 7.845688286407295,
+      "count_absolute_error": 1.3845656565656566,
+      "full_f1": 0.6378975304914736,
+      "full_precision": 0.702098347107438,
+      "full_recall": 0.6053881490869993,
+      "hidden_f1": 0.3481871861471862,
+      "hidden_precision": 0.41552161616161615,
+      "hidden_recall": 0.3269069696969697,
+      "inclusion_brier_in_vocabulary": 0.03930981166048275,
+      "true_material_vocabulary_coverage": 0.8503378459923914,
+      "union_ratio_mae": 0.12833787247673367,
+      "weighted_jaccard": 0.3822175612750927
+    },
+    "source_prior": {
+      "aitchison_distance": 8.010326465956682,
+      "count_absolute_error": 1.3845656565656566,
+      "full_f1": 0.6243369168763451,
+      "full_precision": 0.6880115886134067,
+      "full_recall": 0.5920665261733711,
+      "hidden_f1": 0.32233192269010447,
+      "hidden_precision": 0.3879997306397306,
+      "hidden_recall": 0.3010762025012025,
+      "inclusion_brier_in_vocabulary": 0.039213854656721635,
+      "true_material_vocabulary_coverage": 0.8503378459923914,
+      "union_ratio_mae": 0.12910363319148027,
+      "weighted_jaccard": 0.3733503063443006
+    },
+    "title_only": {
+      "aitchison_distance": 8.043497556192005,
+      "count_absolute_error": 1.3845656565656566,
+      "full_f1": 0.6203963613175228,
+      "full_precision": 0.6833125160697888,
+      "full_recall": 0.588648056552281,
+      "hidden_f1": 0.31531678866587953,
+      "hidden_precision": 0.378414074074074,
+      "hidden_recall": 0.295529074074074,
+      "inclusion_brier_in_vocabulary": 0.03933791538182935,
+      "true_material_vocabulary_coverage": 0.8503378459923914,
+      "union_ratio_mae": 0.12910626813317383,
+      "weighted_jaccard": 0.3711134756285296
+    },
+    "xiangji_cgir_v1": {
+      "aitchison_distance": 7.840295791405208,
+      "count_absolute_error": 1.3845656565656566,
+      "full_f1": 0.6390284790670677,
+      "full_precision": 0.7028247015610651,
+      "full_recall": 0.6070248006548808,
+      "hidden_f1": 0.350687801171892,
+      "hidden_precision": 0.4166432323232323,
+      "hidden_recall": 0.3319978018278018,
+      "inclusion_brier_in_vocabulary": 0.040401186227131555,
+      "true_material_vocabulary_coverage": 0.8503378459923914,
+      "union_ratio_mae": 0.128666787295501,
+      "weighted_jaccard": 0.3803099072886214
+    }
+  },
+  "full_exact": {
+    "frequency": {
+      "record_count": 16.8,
+      "hidden_f1": 0.3386314231241636,
+      "weighted_jaccard": 0.37880861819102574,
+      "aitchison_distance": 7.890524747021504
+    },
+    "source_prior": {
+      "record_count": 16.8,
+      "hidden_f1": 0.3386314231241636,
+      "weighted_jaccard": 0.37901575843360413,
+      "aitchison_distance": 7.894959510953387
+    },
+    "title_only": {
+      "record_count": 16.8,
+      "hidden_f1": 0.33050358720730766,
+      "weighted_jaccard": 0.3759153640690037,
+      "aitchison_distance": 7.936812220939638
+    },
+    "graph_only": {
+      "record_count": 16.8,
+      "hidden_f1": 0.36541975977910646,
+      "weighted_jaccard": 0.3879966344368349,
+      "aitchison_distance": 7.716927225587732
+    },
+    "full_no_chemistry": {
+      "record_count": 16.8,
+      "hidden_f1": 0.3664678698662365,
+      "weighted_jaccard": 0.3871368821278717,
+      "aitchison_distance": 7.723978147672447
+    },
+    "xiangji_cgir_v1": {
+      "record_count": 16.8,
+      "hidden_f1": 0.36740714693822674,
+      "weighted_jaccard": 0.3860000233276857,
+      "aitchison_distance": 7.71734767218891
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "schema_version": "0.1",
+  "run_date": "2026-09-08",
+  "environment": {
+    "platform": "macOS-14.5-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6",
+    "uv": "uv 0.11.33 (fece32fc5 2026-07-28 aarch64-apple-darwin)"
+  },
+  "commands": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen",
+        "--all-groups"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "",
+      "stderr_tail": "warning: `VIRTUAL_ENV=<working-research>/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\nUsing CPython 3.14.6\nCreating virtual environment at: .venv\n   Building xiangji-cgir @ file://<clean-research>\nDownloading lxml (8.2MiB)\nDownloading pygments (1.2MiB)\nDownloading numpy (5.1MiB)\nDownloading scipy (19.5MiB)\nDownloading pandas (9.5MiB)\nDownloading rdkit (28.6MiB)\nDownloading pillow (4.6MiB)\nDownloading scikit-learn (7.9MiB)\nDownloading fonttools (3.0MiB)\nDownloading matplotlib (8.9MiB)\n Downloaded pygments\n Downloaded fonttools\n      Built xiangji-cgir @ file://<clean-research>\n Downloaded pillow\n Downloaded numpy\n Downloaded scikit-learn\n Downloaded lxml\n Downloaded matplotlib\n Downloaded pandas\n Downloaded scipy\n Downloaded rdkit\nPrepared 27 packages in 19.23s\nInstalled 27 packages in 84ms\n + cloudpickle==3.1.2\n + contourpy==1.3.3\n + cycler==0.12.1\n + fonttools==4.64.0\n + iniconfig==2.3.0\n + joblib==1.6.0\n + kiwisolver==1.5.1\n + lxml==6.1.3\n + matplotlib==3.11.1\n + narwhals==2.25.0\n + numpy==2.5.2\n + packaging==26.3\n + pandas==3.0.5\n + pillow==12.3.0\n + pluggy==1.6.0\n + pygments==2.21.0\n + pyparsing==3.3.2\n + pytest==9.1.1\n + python-dateutil==2.9.0.post0\n + python-docx==1.2.0\n + rdkit==2026.3.3\n + scikit-learn==1.9.0\n + scipy==1.18.1\n + six==1.17.0\n + threadpoolctl==3.6.0\n + typing-extensions==4.16.0\n + xiangji-cgir==0.1.0 (from file://<clean-research>)\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "xiangji.evaluation.cycle6_stress_tests"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "0.33434939272598074,\n      \"hidden_precision\": 0.39476403172682667,\n      \"hidden_recall\": 0.3161240097369862,\n      \"weighted_jaccard\": 0.4199705870605026\n    }\n  },\n  \"near_duplicate\": {\n    \"frequency\": {\n      \"aitchison_distance\": 8.00565249177275,\n      \"count_absolute_error\": 1.3845656565656566,\n      \"full_f1\": 0.6243369168763451,\n      \"full_precision\": 0.6880115886134067,\n      \"full_recall\": 0.5920665261733711,\n      \"hidden_f1\": 0.32233192269010447,\n      \"hidden_precision\": 0.3879997306397306,\n      \"hidden_recall\": 0.3010762025012025,\n      \"inclusion_brier_in_vocabulary\": 0.038928453392317604,\n      \"true_material_vocabulary_coverage\": 0.8503378459923914,\n      \"union_ratio_mae\": 0.1291886998525328,\n      \"weighted_jaccard\": 0.37321369861262976\n    },\n    \"source_prior\": {\n      \"aitchison_distance\": 8.010326465956682,\n      \"count_absolute_error\": 1.3845656565656566,\n      \"full_f1\": 0.6243369168763451,\n      \"full_precision\": 0.6880115886134067,\n      \"full_recall\": 0.5920665261733711,\n      \"hidden_f1\": 0.32233192269010447,\n      \"hidden_precision\": 0.3879997306397306,\n      \"hidden_recall\": 0.3010762025012025,\n      \"inclusion_brier_in_vocabulary\": 0.039213854656721635,\n      \"true_material_vocabulary_coverage\": 0.8503378459923914,\n      \"union_ratio_mae\": 0.12910363319148027,\n      \"weighted_jaccard\": 0.3733503063443006\n    },\n    \"title_only\": {\n      \"aitchison_distance\": 8.043497556192005,\n      \"count_absolute_error\": 1.3845656565656566,\n      \"full_f1\": 0.6203963613175228,\n      \"full_precision\": 0.6833125160697888,\n      \"full_recall\": 0.588648056552281,\n      \"hidden_f1\": 0.31531678866587953,\n      \"hidden_precision\": 0.378414074074074,\n      \"hidden_recall\": 0.295529074074074,\n      \"inclusion_brier_in_vocabulary\": 0.03933791538182935,\n      \"true_material_vocabulary_coverage\": 0.8503378459923914,\n      \"union_ratio_mae\": 0.12910626813317383,\n      \"weighted_jaccard\": 0.3711134756285296\n    },\n    \"graph_only\": {\n      \"aitchison_distance\": 7.845688286407295,\n      \"count_absolute_error\": 1.3845656565656566,\n      \"full_f1\": 0.6378975304914736,\n      \"full_precision\": 0.702098347107438,\n      \"full_recall\": 0.6053881490869993,\n      \"hidden_f1\": 0.3481871861471862,\n      \"hidden_precision\": 0.41552161616161615,\n      \"hidden_recall\": 0.3269069696969697,\n      \"inclusion_brier_in_vocabulary\": 0.03930981166048275,\n      \"true_material_vocabulary_coverage\": 0.8503378459923914,\n      \"union_ratio_mae\": 0.12833787247673367,\n      \"weighted_jaccard\": 0.3822175612750927\n    },\n    \"full_no_chemistry\": {\n      \"aitchison_distance\": 7.850073678159997,\n      \"count_absolute_error\": 1.3845656565656566,\n      \"full_f1\": 0.6383364279890926,\n      \"full_precision\": 0.7020097796143251,\n      \"full_recall\": 0.6064390176915577,\n      \"hidden_f1\": 0.34937990860990864,\n      \"hidden_precision\": 0.41489838383838384,\n      \"hidden_recall\": 0.3310137421837422,\n      \"inclusion_brier_in_vocabulary\": 0.040409071870204386,\n      \"true_material_vocabulary_coverage\": 0.8503378459923914,\n      \"union_ratio_mae\": 0.12818602141047025,\n      \"weighted_jaccard\": 0.3813549637393637\n    },\n    \"xiangji_cgir_v1\": {\n      \"aitchison_distance\": 7.840295791405208,\n      \"count_absolute_error\": 1.3845656565656566,\n      \"full_f1\": 0.6390284790670677,\n      \"full_precision\": 0.7028247015610651,\n      \"full_recall\": 0.6070248006548808,\n      \"hidden_f1\": 0.350687801171892,\n      \"hidden_precision\": 0.4166432323232323,\n      \"hidden_recall\": 0.3319978018278018,\n      \"inclusion_brier_in_vocabulary\": 0.040401186227131555,\n      \"true_material_vocabulary_coverage\": 0.8503378459923914,\n      \"union_ratio_mae\": 0.128666787295501,\n      \"weighted_jaccard\": 0.3803099072886214\n    }\n  },\n  \"count_recalibration\": {\n    \"base_coverage\": 0.641566265060241,\n    \"expanded_coverage\": 0.8253012048192772,\n    \"base_mean_width\": 1.2439759036144578,\n    \"expanded_mean_width\": 2.86144578313253\n  },\n  \"mass_constrained_weighted_jaccard\": 0.4265661686491066\n}\n",
+      "stderr_tail": "warning: `VIRTUAL_ENV=<working-research>/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "xiangji.evaluation.case_study"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\"output\": \"<clean-research>/experiments/cycle6_case_study.json\", \"reference_id\": \"xjfr-526789359594ac3e\", \"title\": \"印香法\", \"hidden_f1\": 0.6}\n",
+      "stderr_tail": "warning: `VIRTUAL_ENV=<working-research>/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "xiangji.cycle6_assets"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"outputs\": [\n    \"<clean-research>/manuscript/tables/table10_competitive_baselines.csv\",\n    \"<clean-research>/manuscript/tables/table11_near_duplicate_sensitivity.csv\",\n    \"<clean-research>/manuscript/tables/table12_count_recalibration.csv\",\n    \"<clean-research>/figures/fig6_stress_tests.pdf\",\n    \"<clean-research>/figures/fig6_stress_tests.png\",\n    \"<clean-research>/figures/fig6_stress_tests.svg\",\n    \"<clean-research>/figures/cycle6_figure_manifest.json\"\n  ]\n}\n",
+      "stderr_tail": "warning: `VIRTUAL_ENV=<working-research>/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "xiangji.manuscript_audit"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"title_word_count\": 11,\n  \"abstract_word_count\": 139,\n  \"reference_count\": 38,\n  \"cited_reference_count\": 38,\n  \"missing_references\": [],\n  \"uncited_references\": [],\n  \"duplicate_bib_keys\": [],\n  \"unresolved_bib_field_count\": 0,\n  \"missing_sections\": [],\n  \"discussion_subheadings\": [],\n  \"cjk_character_count\": 0,\n  \"missing_numeric_anchors\": [],\n  \"placeholder_count\": 4,\n  \"source_count\": 16,\n  \"claim_count\": 13\n}\n",
+      "stderr_tail": "warning: `VIRTUAL_ENV=<working-research>/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "xiangji.freeze_cycle2"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\"release\": \"xiangji-cycle2-v0.1\", \"artifacts\": 21, \"output\": \"<clean-research>/reports/cycle2_release_manifest.json\"}\n",
+      "stderr_tail": "warning: `VIRTUAL_ENV=<working-research>/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "xiangji.freeze_cycle5"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\"output\": \"<clean-research>/reports/cycle5_release_manifest.json\", \"artifact_count\": 41}\n",
+      "stderr_tail": "warning: `VIRTUAL_ENV=<working-research>/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "........................................................................ [ 64%]\n........................................                                 [100%]\n112 passed in 43.17s\n",
+      "stderr_tail": "warning: `VIRTUAL_ENV=<working-research>/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "xiangji.manuscript_audit"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"title_word_count\": 11,\n  \"abstract_word_count\": 139,\n  \"reference_count\": 38,\n  \"cited_reference_count\": 38,\n  \"missing_references\": [],\n  \"uncited_references\": [],\n  \"duplicate_bib_keys\": [],\n  \"unresolved_bib_field_count\": 0,\n  \"missing_sections\": [],\n  \"discussion_subheadings\": [],\n  \"cjk_character_count\": 0,\n  \"missing_numeric_anchors\": [],\n  \"placeholder_count\": 4,\n  \"source_count\": 16,\n  \"claim_count\": 13\n}\n",
+      "stderr_tail": "warning: `VIRTUAL_ENV=<working-research>/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "xiangji.freeze_cycle2"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\"release\": \"xiangji-cycle2-v0.1\", \"artifacts\": 21, \"output\": \"<clean-research>/reports/cycle2_release_manifest.json\"}\n",
+      "stderr_tail": "warning: `VIRTUAL_ENV=<working-research>/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "python",
+        "-m",
+        "xiangji.freeze_cycle5"
+      ],
+      "exit_code": 0,
+      "stdout_tail": "{\"output\": \"<clean-research>/reports/cycle5_release_manifest.json\", \"artifact_count\": 41}\n",
+      "stderr_tail": "warning: `VIRTUAL_ENV=<working-research>/.venv` does not match the project environment path `.venv` and will be ignored; use `--active` to target the active environment instead\n"
+    }
+  ],
+  "tests_passed": 112,
+  "matching_output_count": 14,
+  "outputs": [
+    {
+      "path": "experiments/cycle6_stress_tests.json",
+      "original_sha256": "c39e596b561213940c68c9112699b11bbf340b9798b6904d8945072fdc9af452",
+      "reproduced_sha256": "c39e596b561213940c68c9112699b11bbf340b9798b6904d8945072fdc9af452",
+      "match": true
+    },
+    {
+      "path": "experiments/cycle6_case_study.json",
+      "original_sha256": "c2dec647e339f323a6d700a6fe30f0ee66d32758067a3f1bd9524059859e20b5",
+      "reproduced_sha256": "c2dec647e339f323a6d700a6fe30f0ee66d32758067a3f1bd9524059859e20b5",
+      "match": true
+    },
+    {
+      "path": "manuscript/tables/table8_case_study.csv",
+      "original_sha256": "eef31b4d1f388b2930bf549cab01dd9c33dab5597e924ee04d886c90e44658ce",
+      "reproduced_sha256": "eef31b4d1f388b2930bf549cab01dd9c33dab5597e924ee04d886c90e44658ce",
+      "match": true
+    },
+    {
+      "path": "manuscript/tables/table9_source_mapping.csv",
+      "original_sha256": "e94800b81aba26a8b26e508671a18c15c0c47e4f70d07da8f1afab8c98759fa4",
+      "reproduced_sha256": "e94800b81aba26a8b26e508671a18c15c0c47e4f70d07da8f1afab8c98759fa4",
+      "match": true
+    },
+    {
+      "path": "manuscript/tables/table10_competitive_baselines.csv",
+      "original_sha256": "d50c57a72cea19c5ff84816b549eeb6e91b23e85f6cdcf112fdd4b3671735083",
+      "reproduced_sha256": "d50c57a72cea19c5ff84816b549eeb6e91b23e85f6cdcf112fdd4b3671735083",
+      "match": true
+    },
+    {
+      "path": "manuscript/tables/table11_near_duplicate_sensitivity.csv",
+      "original_sha256": "bf79661da6ff0057759c2b286455286b1ccfdc39903e368b989f6a0bb767e7f5",
+      "reproduced_sha256": "bf79661da6ff0057759c2b286455286b1ccfdc39903e368b989f6a0bb767e7f5",
+      "match": true
+    },
+    {
+      "path": "manuscript/tables/table12_count_recalibration.csv",
+      "original_sha256": "429adb802d27be86db3290d033de3229ee65887d98105ac0379ba667506481e4",
+      "reproduced_sha256": "429adb802d27be86db3290d033de3229ee65887d98105ac0379ba667506481e4",
+      "match": true
+    },
+    {
+      "path": "figures/fig6_stress_tests.png",
+      "original_sha256": "b57efa4561e0f77d9fb93967d07d2b13ae8e4be3eae196bf23d4965f41938a28",
+      "reproduced_sha256": "b57efa4561e0f77d9fb93967d07d2b13ae8e4be3eae196bf23d4965f41938a28",
+      "match": true
+    },
+    {
+      "path": "figures/fig6_stress_tests.pdf",
+      "original_sha256": "4ae8ba1cf70209680a0d4b515bb88338a364c192179a59baa835a38ec5d3929e",
+      "reproduced_sha256": "4ae8ba1cf70209680a0d4b515bb88338a364c192179a59baa835a38ec5d3929e",
+      "match": true
+    },
+    {
+      "path": "figures/fig6_stress_tests.svg",
+      "original_sha256": "9bfd0e6ec058cbbc89a3af6bcf8139fa2e568d1bc387c4f6b75bb59c8b985eb6",
+      "reproduced_sha256": "9bfd0e6ec058cbbc89a3af6bcf8139fa2e568d1bc387c4f6b75bb59c8b985eb6",
+      "match": true
+    },
+    {
+      "path": "figures/cycle6_figure_manifest.json",
+      "original_sha256": "6fbdd92a327f2bde3d750fefe6c76547b9ff29fecd2f8d16bc795a9952306bed",
+      "reproduced_sha256": "6fbdd92a327f2bde3d750fefe6c76547b9ff29fecd2f8d16bc795a9952306bed",
+      "match": true
+    },
+    {
+      "path": "manuscript/registries/source_manifest.json",
+      "original_sha256": "2a2bc8446cc06a77b527d8e4c3819d352decb703de28d4b40de5ea6b4b65fcd9",
+      "reproduced_sha256": "2a2bc8446cc06a77b527d8e4c3819d352decb703de28d4b40de5ea6b4b65fcd9",
+      "match": true
+    },
+    {
+      "path": "manuscript/registries/claims.csv",
+      "original_sha256": "bae78a6d8b14297062e8d4cce16928781d05940559c006bec70ecfd42c3641b1",
+      "reproduced_sha256": "bae78a6d8b14297062e8d4cce16928781d05940559c006bec70ecfd42c3641b1",
+      "match": true
+    },
+    {
+      "path": "manuscript/registries/consistency_manifest.json",
+      "original_sha256": "57dd5552715bc283395fe897012df9a8fec122667dd68f74f1353722425efb03",
+      "reproduced_sha256": "57dd5552715bc283395fe897012df9a8fec122667dd68f74f1353722425efb03",
+      "match": true
+    }
+  ]
+}

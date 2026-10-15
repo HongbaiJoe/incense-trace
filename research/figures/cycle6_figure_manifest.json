@@ -1,0 +1,31 @@
+{
+  "generator": "xiangji.cycle6_assets",
+  "input": "experiments/cycle6_stress_tests.json",
+  "outputs": [
+    {
+      "path": "manuscript/tables/table10_competitive_baselines.csv",
+      "sha256": "d50c57a72cea19c5ff84816b549eeb6e91b23e85f6cdcf112fdd4b3671735083"
+    },
+    {
+      "path": "manuscript/tables/table11_near_duplicate_sensitivity.csv",
+      "sha256": "bf79661da6ff0057759c2b286455286b1ccfdc39903e368b989f6a0bb767e7f5"
+    },
+    {
+      "path": "manuscript/tables/table12_count_recalibration.csv",
+      "sha256": "429adb802d27be86db3290d033de3229ee65887d98105ac0379ba667506481e4"
+    },
+    {
+      "path": "figures/fig6_stress_tests.pdf",
+      "sha256": "4ae8ba1cf70209680a0d4b515bb88338a364c192179a59baa835a38ec5d3929e"
+    },
+    {
+      "path": "figures/fig6_stress_tests.png",
+      "sha256": "b57efa4561e0f77d9fb93967d07d2b13ae8e4be3eae196bf23d4965f41938a28"
+    },
+    {
+      "path": "figures/fig6_stress_tests.svg",
+      "sha256": "9bfd0e6ec058cbbc89a3af6bcf8139fa2e568d1bc387c4f6b75bb59c8b985eb6"
+    }
+  ],
+  "schema_version": "0.1"
+}

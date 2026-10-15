@@ -1,0 +1,7 @@
+work_id,work,formula_count,unique_materials,median_formula_size,role
+chen_xiangpu_compilation,Chen Xiangpu,38,50,6.5,development_and_primary
+hong_xiangpu_attributed,Hong Xiangpu,6,18,9.0,confirmation
+huizhai_xiangpu,Huizhai Xiangpu,10,27,4.5,development_and_primary
+liexiang_xinpu,Liexiang Xinpu,6,32,9.0,development_and_primary
+moe_xiaolu_xiangpu,Xiaolu Xiangpu,2,10,7.0,development_and_primary
+xiangcheng_compilation_unresolved_source,Xiangcheng compilation,29,42,6.0,development_and_primary

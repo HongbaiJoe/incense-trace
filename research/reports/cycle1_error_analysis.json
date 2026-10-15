@@ -1,0 +1,377 @@
+{
+  "protocol": "Record-level errors from leave-one-style-family-out predictions.",
+  "worst_five_by_weighted_jaccard": {
+    "frequency": [
+      {
+        "record_id": "yemei",
+        "held_out_family": "plum",
+        "weighted_jaccard": 0.0,
+        "recall_at_6": 0.0,
+        "union_ratio_mae": 0.25
+      },
+      {
+        "record_id": "muxi_borneol",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.031249999999999997,
+        "recall_at_6": 0.3333333333333333,
+        "union_ratio_mae": 0.23484848484848486
+      },
+      {
+        "record_id": "muxi_flower",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.04,
+        "recall_at_6": 0.6666666666666666,
+        "union_ratio_mae": 0.26373626373626374
+      },
+      {
+        "record_id": "xinghua_root",
+        "held_out_family": "spring",
+        "weighted_jaccard": 0.06255063520427191,
+        "recall_at_6": 0.3333333333333333,
+        "union_ratio_mae": 0.2205658096979789
+      },
+      {
+        "record_id": "jiangmei",
+        "held_out_family": "plum",
+        "weighted_jaccard": 0.07132239993458771,
+        "recall_at_6": 0.5,
+        "union_ratio_mae": 0.21671291483360072
+      }
+    ],
+    "bm25_char": [
+      {
+        "record_id": "muxi_borneol",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.03125000000000001,
+        "recall_at_6": 0.3333333333333333,
+        "union_ratio_mae": 0.2348484848484848
+      },
+      {
+        "record_id": "muxi_flower",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.04,
+        "recall_at_6": 0.6666666666666666,
+        "union_ratio_mae": 0.26373626373626374
+      },
+      {
+        "record_id": "yemei",
+        "held_out_family": "plum",
+        "weighted_jaccard": 0.06684685939209865,
+        "recall_at_6": 0.5,
+        "union_ratio_mae": 0.2499095167067833
+      },
+      {
+        "record_id": "shenjing_known",
+        "held_out_family": "quiet",
+        "weighted_jaccard": 0.06970711576480489,
+        "recall_at_6": 0.3333333333333333,
+        "union_ratio_mae": 0.21741766286420997
+      },
+      {
+        "record_id": "tianhua_v2",
+        "held_out_family": "quiet",
+        "weighted_jaccard": 0.0810540618481212,
+        "recall_at_6": 0.3333333333333333,
+        "union_ratio_mae": 0.21251155945450367
+      }
+    ],
+    "odor_knn": [
+      {
+        "record_id": "purple_lan",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.0,
+        "recall_at_6": 0.0,
+        "union_ratio_mae": 0.2222222222222222
+      },
+      {
+        "record_id": "muxi_borneol",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.03125000000000001,
+        "recall_at_6": 0.3333333333333333,
+        "union_ratio_mae": 0.2348484848484848
+      },
+      {
+        "record_id": "muxi_flower",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.04,
+        "recall_at_6": 0.6666666666666666,
+        "union_ratio_mae": 0.26373626373626374
+      },
+      {
+        "record_id": "yemei",
+        "held_out_family": "plum",
+        "weighted_jaccard": 0.059138606236390195,
+        "recall_at_6": 0.5,
+        "union_ratio_mae": 0.2538077070295363
+      },
+      {
+        "record_id": "muxi_jiangzhen",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.06322229470881291,
+        "recall_at_6": 0.5,
+        "union_ratio_mae": 0.25173547834005994
+      }
+    ],
+    "ridge": [
+      {
+        "record_id": "muxi_borneol",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.0,
+        "recall_at_6": 0.0,
+        "union_ratio_mae": 0.22222222222222218
+      },
+      {
+        "record_id": "muxi_flower",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.0196078431372549,
+        "recall_at_6": 0.3333333333333333,
+        "union_ratio_mae": 0.24038461538461542
+      },
+      {
+        "record_id": "kangzirui",
+        "held_out_family": "quiet",
+        "weighted_jaccard": 0.031677573606254596,
+        "recall_at_6": 0.5,
+        "union_ratio_mae": 0.26816861922386137
+      },
+      {
+        "record_id": "tianhua",
+        "held_out_family": "quiet",
+        "weighted_jaccard": 0.04719950296085791,
+        "recall_at_6": 0.3333333333333333,
+        "union_ratio_mae": 0.22746393937955195
+      },
+      {
+        "record_id": "purple_lan",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.06494569825905026,
+        "recall_at_6": 0.3333333333333333,
+        "union_ratio_mae": 0.2195075071126997
+      }
+    ],
+    "chemical_nnls": [
+      {
+        "record_id": "xiaolan_a",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.0,
+        "recall_at_6": 0.0,
+        "union_ratio_mae": 0.2222222222222222
+      },
+      {
+        "record_id": "xiaolan_song",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.0,
+        "recall_at_6": 0.0,
+        "union_ratio_mae": 0.2
+      },
+      {
+        "record_id": "lanyuan",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.0,
+        "recall_at_6": 0.0,
+        "union_ratio_mae": 0.19999999999999998
+      },
+      {
+        "record_id": "purple_lan",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.0,
+        "recall_at_6": 0.0,
+        "union_ratio_mae": 0.2857142857142857
+      },
+      {
+        "record_id": "jiamei",
+        "held_out_family": "plum",
+        "weighted_jaccard": 0.0,
+        "recall_at_6": 0.0,
+        "union_ratio_mae": 0.25
+      }
+    ]
+  },
+  "best_five_by_weighted_jaccard": {
+    "frequency": [
+      {
+        "record_id": "xiaolan_a",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.5566489920846014,
+        "recall_at_6": 0.8,
+        "union_ratio_mae": 0.08137461765071592
+      },
+      {
+        "record_id": "yurui_a",
+        "held_out_family": "quiet",
+        "weighted_jaccard": 0.5243064724742996,
+        "recall_at_6": 0.8,
+        "union_ratio_mae": 0.08916345819571132
+      },
+      {
+        "record_id": "lanyuan",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.41278970103532137,
+        "recall_at_6": 0.75,
+        "union_ratio_mae": 0.11875395963731676
+      },
+      {
+        "record_id": "shenglan",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.40461352824720437,
+        "recall_at_6": 0.5,
+        "union_ratio_mae": 0.10596980232985674
+      },
+      {
+        "record_id": "lanrui",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.40461352824720437,
+        "recall_at_6": 0.5,
+        "union_ratio_mae": 0.10596980232985674
+      }
+    ],
+    "bm25_char": [
+      {
+        "record_id": "xiaomei_a",
+        "held_out_family": "plum",
+        "weighted_jaccard": 0.528926381323735,
+        "recall_at_6": 0.6666666666666666,
+        "union_ratio_mae": 0.07702686414966761
+      },
+      {
+        "record_id": "xiaomei_root",
+        "held_out_family": "plum",
+        "weighted_jaccard": 0.5284212480925526,
+        "recall_at_6": 1.0,
+        "union_ratio_mae": 0.10284659252065283
+      },
+      {
+        "record_id": "shenglan",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.5052083399809371,
+        "recall_at_6": 0.75,
+        "union_ratio_mae": 0.09391991923292338
+      },
+      {
+        "record_id": "yurui_a",
+        "held_out_family": "quiet",
+        "weighted_jaccard": 0.5015772826450469,
+        "recall_at_6": 0.8,
+        "union_ratio_mae": 0.09483793629455618
+      },
+      {
+        "record_id": "xuezhong",
+        "held_out_family": "plum",
+        "weighted_jaccard": 0.49058607348156846,
+        "recall_at_6": 0.8,
+        "union_ratio_mae": 0.09764403326818216
+      }
+    ],
+    "odor_knn": [
+      {
+        "record_id": "yurui_a",
+        "held_out_family": "quiet",
+        "weighted_jaccard": 0.6784639980196916,
+        "recall_at_6": 0.8,
+        "union_ratio_mae": 0.054733035230793925
+      },
+      {
+        "record_id": "chunxiao_b",
+        "held_out_family": "spring",
+        "weighted_jaccard": 0.5704511550750171,
+        "recall_at_6": 0.8333333333333334,
+        "union_ratio_mae": 0.07814839768211415
+      },
+      {
+        "record_id": "lanyuan",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.49597461098968065,
+        "recall_at_6": 0.75,
+        "union_ratio_mae": 0.09626316713201342
+      },
+      {
+        "record_id": "xiaomei_a",
+        "held_out_family": "plum",
+        "weighted_jaccard": 0.48794395781931765,
+        "recall_at_6": 0.6666666666666666,
+        "union_ratio_mae": 0.08603416134891514
+      },
+      {
+        "record_id": "jinglao_lan",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.48601544574019157,
+        "recall_at_6": 0.5,
+        "union_ratio_mae": 0.06917620617379117
+      }
+    ],
+    "ridge": [
+      {
+        "record_id": "lanyuan",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.5502834467986931,
+        "recall_at_6": 0.75,
+        "union_ratio_mae": 0.08288190397512947
+      },
+      {
+        "record_id": "bimei",
+        "held_out_family": "plum",
+        "weighted_jaccard": 0.5284849022903073,
+        "recall_at_6": 1.0,
+        "union_ratio_mae": 0.10282842768093788
+      },
+      {
+        "record_id": "chunxiao_b",
+        "held_out_family": "spring",
+        "weighted_jaccard": 0.4707799426909365,
+        "recall_at_6": 0.6666666666666666,
+        "union_ratio_mae": 0.08995568302706172
+      },
+      {
+        "record_id": "xiaolan_b",
+        "held_out_family": "orchid",
+        "weighted_jaccard": 0.4159824735389399,
+        "recall_at_6": 0.5,
+        "union_ratio_mae": 0.08248937220267076
+      },
+      {
+        "record_id": "xuezhong",
+        "held_out_family": "plum",
+        "weighted_jaccard": 0.40369592006387406,
+        "recall_at_6": 0.6,
+        "union_ratio_mae": 0.10620250287344848
+      }
+    ],
+    "chemical_nnls": [
+      {
+        "record_id": "muxi_flower",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.9090396093910679,
+        "recall_at_6": 0.6666666666666666,
+        "union_ratio_mae": 0.031764799487474946
+      },
+      {
+        "record_id": "muxi_borneol",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.8850093164087035,
+        "recall_at_6": 1.0,
+        "union_ratio_mae": 0.024401085467391812
+      },
+      {
+        "record_id": "wu_muxi",
+        "held_out_family": "osmanthus",
+        "weighted_jaccard": 0.38711635582194953,
+        "recall_at_6": 0.75,
+        "union_ratio_mae": 0.1767360442707433
+      },
+      {
+        "record_id": "feiyan",
+        "held_out_family": "quiet",
+        "weighted_jaccard": 0.3774748929336085,
+        "recall_at_6": 0.6666666666666666,
+        "union_ratio_mae": 0.11298302246014076
+      },
+      {
+        "record_id": "dazhen",
+        "held_out_family": "quiet",
+        "weighted_jaccard": 0.3532010349107236,
+        "recall_at_6": 1.0,
+        "union_ratio_mae": 0.15932566519503352
+      }
+    ]
+  }
+}

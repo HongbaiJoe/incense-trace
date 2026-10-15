@@ -1,0 +1,17 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5281437,
+        "MolecularFormula": "C15H20O2",
+        "MolecularWeight": "232.32",
+        "XLogP": 2.1,
+        "ExactMass": "232.146329876",
+        "TPSA": 26.3,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 2,
+        "RotatableBondCount": 0
+      }
+    ]
+  }
+}

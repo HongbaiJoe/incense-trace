@@ -1,0 +1,779 @@
+{
+  "schema_version": "0.1",
+  "task": "model-quarantined Hong-source confirmation",
+  "investigator_blinded": false,
+  "model_parameters_changed_after_primary_evaluation": false,
+  "training_formula_count": 85,
+  "Hong_formula_count": 6,
+  "observed_fraction": 0.5,
+  "selected_vs_graph": {
+    "unit": "formula within one historical work; exploratory",
+    "formula_count": 6,
+    "per_formula_difference": {
+      "xjfr-18695fb987d1abda": 0.0,
+      "xjfr-464a46c7bc7c0026": 0.15999999999999992,
+      "xjfr-526789359594ac3e": 0.0,
+      "xjfr-83b8df1ec6026189": 0.0,
+      "xjfr-be21fa1ff351375e": -0.04999999999999999,
+      "xjfr-f8557fe5b9bd2a5a": 0.0
+    },
+    "mean_difference": 0.018333333333333323,
+    "formula_bootstrap_95_interval": [
+      -0.024999999999999994,
+      0.07999999999999996
+    ],
+    "exact_two_sided_sign_flip_pvalue": 1.0
+  },
+  "selected_vs_frequency": {
+    "unit": "formula within one historical work; exploratory",
+    "formula_count": 6,
+    "per_formula_difference": {
+      "xjfr-18695fb987d1abda": 0.0,
+      "xjfr-464a46c7bc7c0026": 0.3599999999999999,
+      "xjfr-526789359594ac3e": 0.0,
+      "xjfr-83b8df1ec6026189": 0.12,
+      "xjfr-be21fa1ff351375e": 0.09999999999999998,
+      "xjfr-f8557fe5b9bd2a5a": 0.06666666666666654
+    },
+    "mean_difference": 0.10777777777777774,
+    "formula_bootstrap_95_interval": [
+      0.027777777777777752,
+      0.2166666666666666
+    ],
+    "exact_two_sided_sign_flip_pvalue": 0.125
+  },
+  "results": {
+    "frequency": {
+      "mean_across_seeds": {
+        "full_precision": 0.7565656565656566,
+        "full_recall": 0.7065656565656565,
+        "full_f1": 0.7287878787878789,
+        "hidden_precision": 0.5022222222222222,
+        "hidden_recall": 0.44666666666666666,
+        "hidden_f1": 0.4688888888888889,
+        "count_absolute_error": 0.5,
+        "weighted_jaccard": 0.41954497953133896,
+        "union_ratio_mae": 0.08992408740864868,
+        "aitchison_distance": 7.270551718135342,
+        "inclusion_brier_in_vocabulary": 0.039167612958608065,
+        "true_material_vocabulary_coverage": 0.9833333333333334
+      },
+      "sd_across_seeds": {
+        "full_precision": 0.022782445657114514,
+        "full_recall": 0.022262718496023348,
+        "full_f1": 0.022399707953775293,
+        "hidden_precision": 0.046869598454214,
+        "hidden_recall": 0.046248123085038714,
+        "hidden_f1": 0.04599718187824928,
+        "count_absolute_error": 0.0,
+        "weighted_jaccard": 0.05152093514752031,
+        "union_ratio_mae": 0.013588029038829271,
+        "aitchison_distance": 0.19413390565314276,
+        "inclusion_brier_in_vocabulary": 0.0013132540997586985,
+        "true_material_vocabulary_coverage": 0.0
+      },
+      "seed_runs": [
+        {
+          "seed": 17,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.76010101010101,
+            "full_recall": 0.7142676767676767,
+            "full_f1": 0.7346380471380471,
+            "hidden_precision": 0.5111111111111112,
+            "hidden_recall": 0.4694444444444445,
+            "hidden_f1": 0.48611111111111116,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.3735702534149658,
+            "union_ratio_mae": 0.10281835841575505,
+            "aitchison_distance": 7.309371779015625,
+            "inclusion_brier_in_vocabulary": 0.03736052770941641,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 29,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.7531565656565656,
+            "full_recall": 0.698989898989899,
+            "full_f1": 0.7230639730639731,
+            "hidden_precision": 0.49722222222222223,
+            "hidden_recall": 0.4277777777777778,
+            "hidden_f1": 0.45555555555555555,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.4638103423332751,
+            "union_ratio_mae": 0.08025501394452612,
+            "aitchison_distance": 7.128219321335336,
+            "inclusion_brier_in_vocabulary": 0.03986846772462249,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 43,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.7228535353535354,
+            "full_recall": 0.6728535353535353,
+            "full_f1": 0.6950757575757577,
+            "hidden_precision": 0.4305555555555556,
+            "hidden_recall": 0.375,
+            "hidden_f1": 0.3972222222222222,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.48541019049650735,
+            "union_ratio_mae": 0.0720897340657316,
+            "aitchison_distance": 7.547684572992644,
+            "inclusion_brier_in_vocabulary": 0.04062057934264551,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 71,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.76010101010101,
+            "full_recall": 0.7142676767676767,
+            "full_f1": 0.7346380471380471,
+            "hidden_precision": 0.5111111111111112,
+            "hidden_recall": 0.4694444444444445,
+            "hidden_f1": 0.48611111111111116,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.37885552741363915,
+            "union_ratio_mae": 0.10242515693410591,
+            "aitchison_distance": 7.319961360757901,
+            "inclusion_brier_in_vocabulary": 0.03969086779549739,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 101,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.7866161616161617,
+            "full_recall": 0.732449494949495,
+            "full_f1": 0.7565235690235691,
+            "hidden_precision": 0.5611111111111111,
+            "hidden_recall": 0.4916666666666667,
+            "hidden_f1": 0.5194444444444445,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.3960785839983072,
+            "union_ratio_mae": 0.0920321736831247,
+            "aitchison_distance": 7.047521556575201,
+            "inclusion_brier_in_vocabulary": 0.03829762222085852,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        }
+      ]
+    },
+    "source_prior": {
+      "mean_across_seeds": {
+        "full_precision": 0.7565656565656566,
+        "full_recall": 0.7065656565656565,
+        "full_f1": 0.7287878787878789,
+        "hidden_precision": 0.5022222222222222,
+        "hidden_recall": 0.44666666666666666,
+        "hidden_f1": 0.4688888888888889,
+        "count_absolute_error": 0.5,
+        "weighted_jaccard": 0.41988082074184724,
+        "union_ratio_mae": 0.08986186065583969,
+        "aitchison_distance": 7.27321106639219,
+        "inclusion_brier_in_vocabulary": 0.03946288985854503,
+        "true_material_vocabulary_coverage": 0.9833333333333334
+      },
+      "sd_across_seeds": {
+        "full_precision": 0.022782445657114514,
+        "full_recall": 0.022262718496023348,
+        "full_f1": 0.022399707953775293,
+        "hidden_precision": 0.046869598454214,
+        "hidden_recall": 0.046248123085038714,
+        "hidden_f1": 0.04599718187824928,
+        "count_absolute_error": 0.0,
+        "weighted_jaccard": 0.05185157473579294,
+        "union_ratio_mae": 0.013614064604013262,
+        "aitchison_distance": 0.19404060734555575,
+        "inclusion_brier_in_vocabulary": 0.0011944479503138102,
+        "true_material_vocabulary_coverage": 0.0
+      },
+      "seed_runs": [
+        {
+          "seed": 17,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.76010101010101,
+            "full_recall": 0.7142676767676767,
+            "full_f1": 0.7346380471380471,
+            "hidden_precision": 0.5111111111111112,
+            "hidden_recall": 0.4694444444444445,
+            "hidden_f1": 0.48611111111111116,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.373420175130786,
+            "union_ratio_mae": 0.10283930052466633,
+            "aitchison_distance": 7.31098677419542,
+            "inclusion_brier_in_vocabulary": 0.037803287620935135,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 29,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.7531565656565656,
+            "full_recall": 0.698989898989899,
+            "full_f1": 0.7230639730639731,
+            "hidden_precision": 0.49722222222222223,
+            "hidden_recall": 0.4277777777777778,
+            "hidden_f1": 0.45555555555555555,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.4640363545475323,
+            "union_ratio_mae": 0.0802160957103046,
+            "aitchison_distance": 7.131545481832532,
+            "inclusion_brier_in_vocabulary": 0.04007755176285436,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 43,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.7228535353535354,
+            "full_recall": 0.6728535353535353,
+            "full_f1": 0.6950757575757577,
+            "hidden_precision": 0.4305555555555556,
+            "hidden_recall": 0.375,
+            "hidden_f1": 0.3972222222222222,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.4865803087942588,
+            "union_ratio_mae": 0.07191849180182701,
+            "aitchison_distance": 7.550365659158831,
+            "inclusion_brier_in_vocabulary": 0.04079870249674478,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 71,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.76010101010101,
+            "full_recall": 0.7142676767676767,
+            "full_f1": 0.7346380471380471,
+            "hidden_precision": 0.5111111111111112,
+            "hidden_recall": 0.4694444444444445,
+            "hidden_f1": 0.48611111111111116,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.37981277175409484,
+            "union_ratio_mae": 0.10222740166539766,
+            "aitchison_distance": 7.3231178750184425,
+            "inclusion_brier_in_vocabulary": 0.03992902382762429,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 101,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.7866161616161617,
+            "full_recall": 0.732449494949495,
+            "full_f1": 0.7565235690235691,
+            "hidden_precision": 0.5611111111111111,
+            "hidden_recall": 0.4916666666666667,
+            "hidden_f1": 0.5194444444444445,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.39555449348256394,
+            "union_ratio_mae": 0.09210801357700284,
+            "aitchison_distance": 7.050039541755726,
+            "inclusion_brier_in_vocabulary": 0.03870588358456658,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        }
+      ]
+    },
+    "title_only": {
+      "mean_across_seeds": {
+        "full_precision": 0.7565656565656566,
+        "full_recall": 0.7065656565656565,
+        "full_f1": 0.7287878787878789,
+        "hidden_precision": 0.5022222222222222,
+        "hidden_recall": 0.44666666666666666,
+        "hidden_f1": 0.4688888888888889,
+        "count_absolute_error": 0.5,
+        "weighted_jaccard": 0.4243523516310244,
+        "union_ratio_mae": 0.08918200514288158,
+        "aitchison_distance": 7.250803972887354,
+        "inclusion_brier_in_vocabulary": 0.03909807962998276,
+        "true_material_vocabulary_coverage": 0.9833333333333334
+      },
+      "sd_across_seeds": {
+        "full_precision": 0.022782445657114514,
+        "full_recall": 0.022262718496023348,
+        "full_f1": 0.022399707953775293,
+        "hidden_precision": 0.046869598454214,
+        "hidden_recall": 0.046248123085038714,
+        "hidden_f1": 0.04599718187824928,
+        "count_absolute_error": 0.0,
+        "weighted_jaccard": 0.05154169932147965,
+        "union_ratio_mae": 0.013680720671668754,
+        "aitchison_distance": 0.18914752690788264,
+        "inclusion_brier_in_vocabulary": 0.0010516765884298514,
+        "true_material_vocabulary_coverage": 0.0
+      },
+      "seed_runs": [
+        {
+          "seed": 17,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.76010101010101,
+            "full_recall": 0.7142676767676767,
+            "full_f1": 0.7346380471380471,
+            "hidden_precision": 0.5111111111111112,
+            "hidden_recall": 0.4694444444444445,
+            "hidden_f1": 0.48611111111111116,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.3732993544620739,
+            "union_ratio_mae": 0.102855046184839,
+            "aitchison_distance": 7.309880076291747,
+            "inclusion_brier_in_vocabulary": 0.037645339385812,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 29,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.7531565656565656,
+            "full_recall": 0.698989898989899,
+            "full_f1": 0.7230639730639731,
+            "hidden_precision": 0.49722222222222223,
+            "hidden_recall": 0.4277777777777778,
+            "hidden_f1": 0.45555555555555555,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.46156618177066283,
+            "union_ratio_mae": 0.08055109484293972,
+            "aitchison_distance": 7.12608321206566,
+            "inclusion_brier_in_vocabulary": 0.03958115655712027,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 43,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.7228535353535354,
+            "full_recall": 0.6728535353535353,
+            "full_f1": 0.6950757575757577,
+            "hidden_precision": 0.4305555555555556,
+            "hidden_recall": 0.375,
+            "hidden_f1": 0.3972222222222222,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.493535268815902,
+            "union_ratio_mae": 0.0710191970537634,
+            "aitchison_distance": 7.511470102826858,
+            "inclusion_brier_in_vocabulary": 0.040404482777470024,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 71,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.76010101010101,
+            "full_recall": 0.7142676767676767,
+            "full_f1": 0.7346380471380471,
+            "hidden_precision": 0.5111111111111112,
+            "hidden_recall": 0.4694444444444445,
+            "hidden_f1": 0.48611111111111116,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.3840874619948032,
+            "union_ratio_mae": 0.10171059832418815,
+            "aitchison_distance": 7.2894886383439355,
+            "inclusion_brier_in_vocabulary": 0.03932776185428533,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 101,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.7866161616161617,
+            "full_recall": 0.732449494949495,
+            "full_f1": 0.7565235690235691,
+            "hidden_precision": 0.5611111111111111,
+            "hidden_recall": 0.4916666666666667,
+            "hidden_f1": 0.5194444444444445,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.4092734911116804,
+            "union_ratio_mae": 0.08977408930867758,
+            "aitchison_distance": 7.017097834908571,
+            "inclusion_brier_in_vocabulary": 0.03853165757522619,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        }
+      ]
+    },
+    "graph_only": {
+      "mean_across_seeds": {
+        "full_precision": 0.8045454545454547,
+        "full_recall": 0.7503787878787879,
+        "full_f1": 0.7744528619528619,
+        "hidden_precision": 0.5999999999999999,
+        "hidden_recall": 0.5305555555555557,
+        "hidden_f1": 0.5583333333333333,
+        "count_absolute_error": 0.5,
+        "weighted_jaccard": 0.4560198542263435,
+        "union_ratio_mae": 0.08638779118684412,
+        "aitchison_distance": 6.674412262317662,
+        "inclusion_brier_in_vocabulary": 0.03319885190677435,
+        "true_material_vocabulary_coverage": 0.9833333333333334
+      },
+      "sd_across_seeds": {
+        "full_precision": 0.029720704242794882,
+        "full_recall": 0.025136570902066658,
+        "full_f1": 0.027151113453643246,
+        "hidden_precision": 0.05954430863951666,
+        "hidden_recall": 0.044314044815399474,
+        "hidden_f1": 0.0502693363079274,
+        "count_absolute_error": 0.0,
+        "weighted_jaccard": 0.07046859421455742,
+        "union_ratio_mae": 0.015938398472764896,
+        "aitchison_distance": 0.390037756000001,
+        "inclusion_brier_in_vocabulary": 0.0026391414383454192,
+        "true_material_vocabulary_coverage": 0.0
+      },
+      "seed_runs": [
+        {
+          "seed": 17,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.8017676767676768,
+            "full_recall": 0.7476010101010101,
+            "full_f1": 0.7716750841750842,
+            "hidden_precision": 0.5944444444444444,
+            "hidden_recall": 0.525,
+            "hidden_f1": 0.5527777777777778,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.3998180693621298,
+            "union_ratio_mae": 0.10139778953155516,
+            "aitchison_distance": 6.792623561181344,
+            "inclusion_brier_in_vocabulary": 0.029625633490175312,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 29,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.8099747474747474,
+            "full_recall": 0.7516414141414142,
+            "full_f1": 0.7775673400673401,
+            "hidden_precision": 0.6138888888888888,
+            "hidden_recall": 0.5305555555555556,
+            "hidden_f1": 0.5638888888888889,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.4942583343493425,
+            "union_ratio_mae": 0.07791714688790334,
+            "aitchison_distance": 6.337948817876648,
+            "inclusion_brier_in_vocabulary": 0.032458527498101,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 43,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.8074494949494951,
+            "full_recall": 0.7532828282828282,
+            "full_f1": 0.7773569023569024,
+            "hidden_precision": 0.6027777777777777,
+            "hidden_recall": 0.5333333333333333,
+            "hidden_f1": 0.5611111111111111,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.5560676594878852,
+            "union_ratio_mae": 0.06424175951008279,
+            "aitchison_distance": 6.636023110498734,
+            "inclusion_brier_in_vocabulary": 0.036667453354449826,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 71,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.76010101010101,
+            "full_recall": 0.7142676767676767,
+            "full_f1": 0.7346380471380471,
+            "hidden_precision": 0.5111111111111112,
+            "hidden_recall": 0.4694444444444445,
+            "hidden_f1": 0.48611111111111116,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.38444914881548226,
+            "union_ratio_mae": 0.10150028200486966,
+            "aitchison_distance": 7.2754538324144145,
+            "inclusion_brier_in_vocabulary": 0.034659624352039474,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 101,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.8434343434343434,
+            "full_recall": 0.7851010101010102,
+            "full_f1": 0.811026936026936,
+            "hidden_precision": 0.6777777777777777,
+            "hidden_recall": 0.5944444444444444,
+            "hidden_f1": 0.6277777777777779,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.44550605911687774,
+            "union_ratio_mae": 0.08688197799980966,
+            "aitchison_distance": 6.330011989617176,
+            "inclusion_brier_in_vocabulary": 0.03258302083910614,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        }
+      ]
+    },
+    "full_no_chemistry": {
+      "mean_across_seeds": {
+        "full_precision": 0.8170454545454545,
+        "full_recall": 0.7595454545454546,
+        "full_f1": 0.7851010101010101,
+        "hidden_precision": 0.625,
+        "hidden_recall": 0.5444444444444445,
+        "hidden_f1": 0.5766666666666667,
+        "count_absolute_error": 0.5,
+        "weighted_jaccard": 0.46763022628814505,
+        "union_ratio_mae": 0.08496726708874247,
+        "aitchison_distance": 6.530307597353823,
+        "inclusion_brier_in_vocabulary": 0.03208044269717458,
+        "true_material_vocabulary_coverage": 0.9833333333333334
+      },
+      "sd_across_seeds": {
+        "full_precision": 0.020502616850654024,
+        "full_recall": 0.01618812929426852,
+        "full_f1": 0.018090545550530468,
+        "hidden_precision": 0.04115425663896959,
+        "hidden_recall": 0.026643508462848447,
+        "hidden_f1": 0.032370349182127126,
+        "count_absolute_error": 0.0,
+        "weighted_jaccard": 0.0719961281942592,
+        "union_ratio_mae": 0.01583612558700982,
+        "aitchison_distance": 0.37226869420109326,
+        "inclusion_brier_in_vocabulary": 0.00312202233215381,
+        "true_material_vocabulary_coverage": 0.0
+      },
+      "seed_runs": [
+        {
+          "seed": 17,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.82260101010101,
+            "full_recall": 0.7642676767676768,
+            "full_f1": 0.7901936026936026,
+            "hidden_precision": 0.6361111111111112,
+            "hidden_recall": 0.5527777777777778,
+            "hidden_f1": 0.5861111111111111,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.42315793365842663,
+            "union_ratio_mae": 0.09781117756670492,
+            "aitchison_distance": 6.414674376408226,
+            "inclusion_brier_in_vocabulary": 0.02808747913056815,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 29,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.8308080808080808,
+            "full_recall": 0.7683080808080809,
+            "full_f1": 0.7960858585858586,
+            "hidden_precision": 0.6555555555555556,
+            "hidden_recall": 0.5583333333333333,
+            "hidden_f1": 0.5972222222222222,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.5074514215537528,
+            "union_ratio_mae": 0.07683090784559779,
+            "aitchison_distance": 6.130255325357915,
+            "inclusion_brier_in_vocabulary": 0.03051822572908014,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 43,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.8282828282828284,
+            "full_recall": 0.769949494949495,
+            "full_f1": 0.7958754208754208,
+            "hidden_precision": 0.6444444444444445,
+            "hidden_recall": 0.5611111111111111,
+            "hidden_f1": 0.5944444444444444,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.5710601478309986,
+            "union_ratio_mae": 0.06285901777607925,
+            "aitchison_distance": 6.483765544669453,
+            "inclusion_brier_in_vocabulary": 0.0365402716446585,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 71,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.7809343434343434,
+            "full_recall": 0.7309343434343435,
+            "full_f1": 0.7531565656565656,
+            "hidden_precision": 0.5527777777777778,
+            "hidden_recall": 0.49722222222222223,
+            "hidden_f1": 0.5194444444444445,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.3900106816069533,
+            "union_ratio_mae": 0.10178544471238314,
+            "aitchison_distance": 7.143616336575859,
+            "inclusion_brier_in_vocabulary": 0.0328666997972543,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 101,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.82260101010101,
+            "full_recall": 0.7642676767676768,
+            "full_f1": 0.7901936026936026,
+            "hidden_precision": 0.6361111111111112,
+            "hidden_recall": 0.5527777777777778,
+            "hidden_f1": 0.5861111111111111,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.4464709467905939,
+            "union_ratio_mae": 0.0855497875429473,
+            "aitchison_distance": 6.479226403757662,
+            "inclusion_brier_in_vocabulary": 0.032389537184311805,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        }
+      ]
+    },
+    "xiangji_cgir_v1": {
+      "mean_across_seeds": {
+        "full_precision": 0.8140151515151516,
+        "full_recall": 0.7565151515151516,
+        "full_f1": 0.782070707070707,
+        "hidden_precision": 0.6183333333333334,
+        "hidden_recall": 0.5377777777777778,
+        "hidden_f1": 0.5700000000000001,
+        "count_absolute_error": 0.5,
+        "weighted_jaccard": 0.46084866524729745,
+        "union_ratio_mae": 0.08583557399098223,
+        "aitchison_distance": 6.5635861804228925,
+        "inclusion_brier_in_vocabulary": 0.03215304930662431,
+        "true_material_vocabulary_coverage": 0.9833333333333334
+      },
+      "sd_across_seeds": {
+        "full_precision": 0.019522790804070808,
+        "full_recall": 0.015137725206115876,
+        "full_f1": 0.017075046018812653,
+        "hidden_precision": 0.039897631353932796,
+        "hidden_recall": 0.02557969874049187,
+        "hidden_f1": 0.031205214822185804,
+        "count_absolute_error": 0.0,
+        "weighted_jaccard": 0.06539688069726443,
+        "union_ratio_mae": 0.015416446049566941,
+        "aitchison_distance": 0.3760012485065855,
+        "inclusion_brier_in_vocabulary": 0.0031036803168189736,
+        "true_material_vocabulary_coverage": 0.0
+      },
+      "seed_runs": [
+        {
+          "seed": 17,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.82260101010101,
+            "full_recall": 0.7642676767676768,
+            "full_f1": 0.7901936026936026,
+            "hidden_precision": 0.6361111111111112,
+            "hidden_recall": 0.5527777777777778,
+            "hidden_f1": 0.5861111111111111,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.41984712244288175,
+            "union_ratio_mae": 0.09863015426809953,
+            "aitchison_distance": 6.406193946817381,
+            "inclusion_brier_in_vocabulary": 0.028151370436071108,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 29,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.8308080808080808,
+            "full_recall": 0.7683080808080809,
+            "full_f1": 0.7960858585858586,
+            "hidden_precision": 0.6555555555555556,
+            "hidden_recall": 0.5583333333333333,
+            "hidden_f1": 0.5972222222222222,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.49989777207136843,
+            "union_ratio_mae": 0.07780666872139795,
+            "aitchison_distance": 6.122346231609536,
+            "inclusion_brier_in_vocabulary": 0.030776985961349215,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 43,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.8131313131313133,
+            "full_recall": 0.7547979797979799,
+            "full_f1": 0.7807239057239057,
+            "hidden_precision": 0.611111111111111,
+            "hidden_recall": 0.5277777777777778,
+            "hidden_f1": 0.5611111111111111,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.5504722581971925,
+            "union_ratio_mae": 0.06487328472308336,
+            "aitchison_distance": 6.697777830140858,
+            "inclusion_brier_in_vocabulary": 0.03662880760077713,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 71,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.7809343434343434,
+            "full_recall": 0.7309343434343435,
+            "full_f1": 0.7531565656565656,
+            "hidden_precision": 0.5527777777777778,
+            "hidden_recall": 0.49722222222222223,
+            "hidden_f1": 0.5194444444444445,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.3851890041505233,
+            "union_ratio_mae": 0.10264938176084915,
+            "aitchison_distance": 7.127606721655781,
+            "inclusion_brier_in_vocabulary": 0.032908296191529164,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        },
+        {
+          "seed": 101,
+          "evaluated_formula_count": 6,
+          "metrics": {
+            "full_precision": 0.82260101010101,
+            "full_recall": 0.7642676767676768,
+            "full_f1": 0.7901936026936026,
+            "hidden_precision": 0.6361111111111112,
+            "hidden_recall": 0.5527777777777778,
+            "hidden_f1": 0.5861111111111111,
+            "count_absolute_error": 0.5,
+            "weighted_jaccard": 0.4488371693745212,
+            "union_ratio_mae": 0.08521838048148118,
+            "aitchison_distance": 6.464006171890909,
+            "inclusion_brier_in_vocabulary": 0.03229978634339494,
+            "true_material_vocabulary_coverage": 0.9833333333333334
+          }
+        }
+      ]
+    }
+  }
+}

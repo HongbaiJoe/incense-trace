@@ -1,0 +1,16 @@
+work_id,work,model,record_count,hidden_f1,weighted_jaccard,aitchison_distance
+chen_xiangpu_compilation,Chen Xiangpu,Frequency,38,0.3558255487202856,0.37332281842456044,7.835823982693473
+chen_xiangpu_compilation,Chen Xiangpu,Directed graph,38,0.40381787802840435,0.3859633269601026,7.5774945991539475
+chen_xiangpu_compilation,Chen Xiangpu,Full decoder,38,0.3959137426900585,0.38210883346643226,7.628889444433014
+huizhai_xiangpu,Huizhai Xiangpu,Frequency,9,0.1776388888888889,0.3111130478356962,9.080651238953031
+huizhai_xiangpu,Huizhai Xiangpu,Directed graph,9,0.21828703703703703,0.32335090014279483,8.85998210060979
+huizhai_xiangpu,Huizhai Xiangpu,Full decoder,9,0.20981481481481482,0.32409093041018855,8.922589444436754
+liexiang_xinpu,Liexiang Xinpu,Frequency,6,0.42838564213564206,0.3677523014100504,6.757115913052538
+liexiang_xinpu,Liexiang Xinpu,Directed graph,6,0.44623075998075995,0.37521044493583994,6.583982562099366
+liexiang_xinpu,Liexiang Xinpu,Full decoder,6,0.4430489417989418,0.37729351929577887,6.599756898677163
+moe_xiaolu_xiangpu,Xiaolu Xiangpu,Frequency,2,0.39999999999999997,0.4513607447979179,7.815560804825541
+moe_xiaolu_xiangpu,Xiaolu Xiangpu,Directed graph,2,0.375,0.4514001317458871,7.893871154345915
+moe_xiaolu_xiangpu,Xiaolu Xiangpu,Full decoder,2,0.3916666666666666,0.4458173084000894,7.865445215265594
+xiangcheng_compilation_unresolved_source,Xiangcheng compilation,Frequency,29,0.33130703587600147,0.3904941784869038,7.96347179558294
+xiangcheng_compilation_unresolved_source,Xiangcheng compilation,Directed graph,29,0.38376312384933076,0.40405836839955,7.669305711729642
+xiangcheng_compilation_unresolved_source,Xiangcheng compilation,Full decoder,29,0.3918951833607006,0.4063738190668692,7.6032097355497115

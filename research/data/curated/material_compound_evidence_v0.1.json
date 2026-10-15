@@ -1,0 +1,460 @@
+{
+  "schema_version": "0.1",
+  "created": "2026-09-07",
+  "measurement_definition": "Each numeric edge retains its reported unit, normally GC or GC-MS peak-area percentage within an extract, or calibrated concentration in ng/g. Values are not dry-material mass fractions and are not historical formula proportions.",
+  "source_policy": "Only source-located analytical results are numeric evidence. Abstract-only statements are presence evidence. Review-derived or website-authored mixture weights are excluded.",
+  "sources": [
+    {
+      "source_id": "ngan2020_agarwood",
+      "doi": "10.14233/ajchem.2020.22177",
+      "title": "Chemical Components of Agarwood (Aquilaria crassna) Essential Oils Grown in Various Regions of Asia",
+      "year": 2020,
+      "url": "https://doi.org/10.14233/ajchem.2020.22177",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "publisher_abstract"
+    },
+    {
+      "source_id": "fatima2019_sandalwood",
+      "doi": "10.1007/s13205-019-1758-9",
+      "title": "Assessment of morphological and genetic variability through genic microsatellite markers for essential oil in Sandalwood (Santalum album L.)",
+      "year": 2019,
+      "url": "https://doi.org/10.1007/s13205-019-1758-9",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "distefano2020_frankincense",
+      "doi": "10.3390/antibiotics9040195",
+      "title": "In Vitro Antimicrobial Activity of Frankincense Oils from Boswellia sacra Grown in Different Locations of the Dhofar Region (Oman)",
+      "year": 2020,
+      "url": "https://doi.org/10.3390/antibiotics9040195",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "benhassine2021_clove",
+      "doi": "10.1155/2021/9940591",
+      "title": "Clove Buds Essential Oil: The Impact of Grinding on the Chemical Composition and Its Biological Activities Involved in Consumer's Health Security",
+      "year": 2021,
+      "url": "https://doi.org/10.1155/2021/9940591",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "firmino2018_cassia",
+      "doi": "10.1155/2018/7405736",
+      "title": "Antibacterial and Antibiofilm Activities of Cinnamomum Sp. Essential Oil and Cinnamaldehyde: Antimicrobial Activities",
+      "year": 2018,
+      "url": "https://doi.org/10.1155/2018/7405736",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "hu2017_cyperus",
+      "doi": "10.1038/srep45231",
+      "title": "Chemical Composition, Antioxidant, DNA Damage Protective, Cytotoxic and Antibacterial Activities of Cyperus rotundus Rhizomes Essential Oil against Foodborne Pathogens",
+      "year": 2017,
+      "url": "https://doi.org/10.1038/srep45231",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "han2017_ten_oils",
+      "doi": "10.1016/j.biopen.2017.04.001",
+      "title": "Chemical composition analysis and in vitro biological activities of ten essential oils in human skin cells",
+      "year": 2017,
+      "url": "https://doi.org/10.1016/j.biopen.2017.04.001",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "li2019_angelica_aroma",
+      "doi": "10.3390/molecules24234352",
+      "title": "Comparison and Identification of the Aroma-Active Compounds in the Root of Angelica dahurica",
+      "year": 2019,
+      "url": "https://doi.org/10.3390/molecules24234352",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "gwari2013_costus",
+      "doi": "10.4103/0974-8490.112424",
+      "title": "Volatile constituents of Saussurea costus roots cultivated in Uttarakhand Himalayas, India",
+      "year": 2013,
+      "url": "https://doi.org/10.4103/0974-8490.112424",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "zou2017_borneol",
+      "doi": "10.3390/molecules22091446",
+      "title": "Comparison of Chemical Profiles, Anti-Inflammatory Activity, and UPLC-Q-TOF/MS-Based Metabolomics in Endotoxic Fever Rats between Synthetic Borneol and Natural Borneol",
+      "year": 2017,
+      "url": "https://doi.org/10.3390/molecules22091446",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "li2016_musk",
+      "doi": "10.1038/srep18975",
+      "title": "The musk chemical composition and microbiota of Chinese forest musk deer males",
+      "year": 2016,
+      "url": "https://doi.org/10.1038/srep18975",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "xue2014_scrophularia",
+      "doi": null,
+      "pmid": "25857160",
+      "title": "[Chemical constituents of Scrophularia ningpoensis root].",
+      "year": 2014,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25857160/",
+      "metadata_status": "europe_pmc_verified_2026-09-07",
+      "evidence_access": "indexed_abstract"
+    },
+    {
+      "source_id": "farag2012_licorice",
+      "doi": "10.1111/j.1750-3841.2012.02927.x",
+      "title": "Volatiles Profiling in Medicinal Licorice Roots Using Steam Distillation and Solid-Phase Microextraction (SPME) Coupled to Chemometrics",
+      "year": 2012,
+      "url": "https://doi.org/10.1111/j.1750-3841.2012.02927.x",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "author_hosted_full_text"
+    },
+    {
+      "source_id": "fernandez2005_storax",
+      "doi": "10.1002/ffj.1370",
+      "title": "Chemical composition of the essential oils from Turkish and Honduras Styrax",
+      "year": 2005,
+      "url": "https://doi.org/10.1002/ffj.1370",
+      "metadata_status": "crossref_verified_2026-09-07; online_first_2004",
+      "evidence_access": "publisher_abstract"
+    },
+    {
+      "source_id": "raza2024_fennel",
+      "doi": "10.1002/fsn3.4593",
+      "pmcid": "PMC11667025",
+      "title": "Comparative Study of Essential Oils Extracted From Foeniculum vulgare Miller Seeds Using Hydrodistillation, Steam Distillation, and Superheated Steam Distillation",
+      "year": 2024,
+      "url": "https://doi.org/10.1002/fsn3.4593",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "guo2016_camphor_tree",
+      "doi": "10.3390/ijms17111836",
+      "pmcid": "PMC5133837",
+      "title": "The Chemical Composition of Essential Oils from Cinnamomum camphora and Their Insecticidal Activity against the Stored Product Pests",
+      "year": 2016,
+      "url": "https://doi.org/10.3390/ijms17111836",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "full_text_pmc"
+    },
+    {
+      "source_id": "miyazawa1996_rhubarb",
+      "doi": "10.1002/(SICI)1099-1026(199601)11:1<57::AID-FFJ549>3.0.CO;2-K",
+      "title": "Volatile components of the Rhizomes of Rheum palmatum L.",
+      "year": 1996,
+      "url": "https://doi.org/10.1002/(SICI)1099-1026(199601)11:1%3C57::AID-FFJ549%3E3.0.CO;2-K",
+      "metadata_status": "crossref_verified_2026-09-07",
+      "evidence_access": "publisher_abstract"
+    }
+  ],
+  "material_profiles": [
+    {
+      "profile_id": "aquilaria_crassna_hydrodistilled_oil_asia",
+      "ontology_material_id": "agarwood",
+      "taxon": "Aquilaria crassna",
+      "part": "resinous wood",
+      "preparation": "hydrodistilled essential oil",
+      "analytical_method": "GC-MS",
+      "source_id": "ngan2020_agarwood",
+      "source_locator": "publisher abstract",
+      "sample_scope": "selected agarwood samples grown in multiple Asian regions",
+      "components": [
+        {"compound_id": "agarospirol", "evidence_type": "presence_across_samples", "measurement": null}
+      ]
+    },
+    {
+      "profile_id": "santalum_album_heartwood_oil_four_accessions",
+      "ontology_material_id": "sandalwood_white",
+      "taxon": "Santalum album",
+      "part": "heartwood core",
+      "preparation": "oil from four selected accessions",
+      "analytical_method": "GC-MS percentage peak area",
+      "source_id": "fatima2019_sandalwood",
+      "source_locator": "Table 2 and Results paragraph 33",
+      "sample_scope": "four selected accessions from three Indian states",
+      "components": [
+        {"compound_id": "alpha-santalol", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 49.52, "max": 59.30}},
+        {"compound_id": "beta-santalol", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 29.21, "max": 32.76}}
+      ]
+    },
+    {
+      "profile_id": "boswellia_sacra_sequential_hydrodistillation_oman",
+      "ontology_material_id": "frankincense",
+      "taxon": "Boswellia sacra",
+      "part": "oleogum resin",
+      "preparation": "2 h, 4 h and 6 h successive hydrodistillation fractions",
+      "analytical_method": "GC-MS percentage essential-oil composition; ZB-WAX column",
+      "source_id": "distefano2020_frankincense",
+      "source_locator": "Table 2",
+      "sample_scope": "Najdi, Sahli and Houjri cultivars; nine oil fractions",
+      "components": [
+        {"compound_id": "alpha-pinene", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 61.82, "max": 79.59}},
+        {"compound_id": "beta-pinene", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 1.43, "max": 2.39}},
+        {"compound_id": "limonene", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 0.83, "max": 3.53}},
+        {"compound_id": "linalool", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 0.0, "max": 0.19}},
+        {"compound_id": "beta-caryophyllene", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 0.07, "max": 1.48}}
+      ]
+    },
+    {
+      "profile_id": "syzygium_aromaticum_grounding_comparison",
+      "ontology_material_id": "clove_bud",
+      "taxon": "Syzygium aromaticum",
+      "part": "flower buds",
+      "preparation": "essential oils from ground and unground buds",
+      "analytical_method": "GC-MS percentage peak area",
+      "source_id": "benhassine2021_clove",
+      "source_locator": "Table 1",
+      "sample_scope": "two physical pretreatments",
+      "components": [
+        {"compound_id": "eugenol", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 68.73, "max": 87.39}}
+      ]
+    },
+    {
+      "profile_id": "cinnamomum_cassia_stem_oil",
+      "ontology_material_id": "cassia",
+      "taxon": "Cinnamomum cassia",
+      "part": "stems",
+      "preparation": "essential oil",
+      "analytical_method": "GC-MS percentage identified components",
+      "source_id": "firmino2018_cassia",
+      "source_locator": "Table 1, EOCc column",
+      "sample_scope": "single reported stem-oil profile",
+      "components": [
+        {"compound_id": "trans-cinnamaldehyde", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 90.22, "max": 90.22}},
+        {"compound_id": "benzaldehyde", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 1.86, "max": 1.86}}
+      ]
+    },
+    {
+      "profile_id": "cyperus_rotundus_dried_rhizome_oil_china",
+      "ontology_material_id": "cyperus",
+      "taxon": "Cyperus rotundus",
+      "part": "dried rhizomes",
+      "preparation": "hydrodistilled essential oil",
+      "analytical_method": "GC-MS percentage composition",
+      "source_id": "hu2017_cyperus",
+      "source_locator": "Table 1, present-result column",
+      "sample_scope": "wild material collected in China; one oil profile",
+      "components": [
+        {"compound_id": "alpha-pinene", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 1.10, "max": 1.10}},
+        {"compound_id": "beta-pinene", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 0.34, "max": 0.34}},
+        {"compound_id": "limonene", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 3.62, "max": 3.62}},
+        {"compound_id": "linalool", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 1.05, "max": 1.05}}
+      ]
+    },
+    {
+      "profile_id": "pogostemon_cablin_commercial_oil",
+      "ontology_material_id": "patchouli",
+      "taxon": "Pogostemon cablin",
+      "part": "commercial distilled oil; plant part not reported in the evidence table",
+      "preparation": "commercial essential oil diluted in hexane",
+      "analytical_method": "triplicate GC-MS; DB-5MS; NIST match above 95% plus retention-index comparison",
+      "source_id": "han2017_ten_oils",
+      "source_locator": "Table 1 and Materials and methods: Essential oils",
+      "sample_scope": "one commercial oil; components above 2% reported",
+      "profile_completeness": "reported_components_above_2_percent",
+      "components": [
+        {"compound_id": "patchoulol", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 39.6, "max": 39.6}},
+        {"compound_id": "beta-caryophyllene", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 2.3, "max": 2.3}}
+      ]
+    },
+    {
+      "profile_id": "nardostachys_jatamansi_commercial_oil",
+      "ontology_material_id": "spikenard",
+      "taxon": "Nardostachys jatamansi",
+      "part": "commercial distilled oil; plant part not reported in the evidence table",
+      "preparation": "commercial essential oil diluted in hexane",
+      "analytical_method": "triplicate GC-MS; DB-5MS; NIST match above 95% plus retention-index comparison",
+      "source_id": "han2017_ten_oils",
+      "source_locator": "Table 1 and Materials and methods: Essential oils",
+      "sample_scope": "one commercial oil; components above 2% reported",
+      "profile_completeness": "resolved_subset_only; major β-gurjunene, jatamansone and spirojatamol await molecular identity resolution",
+      "components": [
+        {"compound_id": "beta-pinene", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 2.5, "max": 2.5}}
+      ]
+    },
+    {
+      "profile_id": "angelica_dahurica_three_root_types",
+      "ontology_material_id": "angelica_dahurica",
+      "taxon": "Angelica dahurica",
+      "part": "root",
+      "preparation": "aroma volatiles collected by SPME for calibrated quantification",
+      "analytical_method": "GC-MS/O plus aroma extract dilution analysis",
+      "source_id": "li2019_angelica_aroma",
+      "source_locator": "Table 3",
+      "sample_scope": "Hangbaizhi, Qibaizhi and Bobaizhi roots",
+      "profile_completeness": "resolved_subset_of_quantified_aroma_active_compounds",
+      "components": [
+        {"compound_id": "beta-pinene", "evidence_type": "observed_range", "measurement": {"unit": "concentration_ng_g", "min": 20.63, "max": 26.59}}
+      ]
+    },
+    {
+      "profile_id": "saussurea_costus_uttarakhand_root_oil",
+      "ontology_material_id": "costus",
+      "taxon": "Saussurea costus",
+      "part": "air-dried cultivated root",
+      "preparation": "6 h Clevenger hydrodistillation",
+      "analytical_method": "GC-FID and GC-MS; retention index, standards and spectral libraries",
+      "source_id": "gwari2013_costus",
+      "source_locator": "Abstract Results and Results and Discussion",
+      "sample_scope": "three biological replicates collected in Uttarakhand, India",
+      "profile_completeness": "resolved_subset; full table was published as an image",
+      "components": [
+        {"compound_id": "dehydrocostus lactone", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 16.7, "max": 16.7}}
+      ]
+    },
+    {
+      "profile_id": "natural_borneol_gc_profile",
+      "ontology_material_id": "borneol_family",
+      "taxon": "botanical origin not reported for the analyzed natural-borneol sample",
+      "part": "natural-borneol drug material",
+      "preparation": "50 mg ultrasonically extracted with 10 mL ethyl acetate for 20 min",
+      "analytical_method": "GC-MS identification with retention indices and NIST 8.0; FID area normalization without response correction",
+      "source_id": "zou2017_borneol",
+      "source_locator": "Table 1, NB column",
+      "sample_scope": "one natural-borneol sample obtained from the National Institutes for Food and Drug Control, Beijing; the paper states two possible botanical origins but does not assign the analyzed sample to either",
+      "profile_completeness": "near_complete_reported_profile",
+      "components": [
+        {"compound_id": "borneol", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 98.96, "max": 98.96}},
+        {"compound_id": "camphor", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 0.8095, "max": 0.8095}}
+      ]
+    },
+    {
+      "profile_id": "moschus_berezovskii_secretion_two_solvents",
+      "ontology_material_id": "musk",
+      "taxon": "Moschus berezovskii",
+      "part": "preputial gland secretion",
+      "preparation": "diethyl-ether and ethanol ultrasonic extracts of dried secretion",
+      "analytical_method": "GC-MS; DB5-MS; NIST08 library; selective-ion monitoring",
+      "source_id": "li2016_musk",
+      "source_locator": "Table 1 and Results: Musk chemical composition",
+      "sample_scope": "pooled mated and unmated captive adult male samples; two solvents",
+      "profile_completeness": "single odor-marker edge retained",
+      "components": [
+        {"compound_id": "muscone", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 18.55, "max": 35.76}}
+      ]
+    },
+    {
+      "profile_id": "scrophularia_ningpoensis_root_isolates",
+      "ontology_material_id": "scrophularia_root",
+      "taxon": "Scrophularia ningpoensis",
+      "part": "root",
+      "preparation": "silica-gel and Sephadex LH-20 chromatographic isolation",
+      "analytical_method": "structure elucidation by spectroscopic analysis",
+      "source_id": "xue2014_scrophularia",
+      "source_locator": "indexed abstract, Methods and Results",
+      "sample_scope": "one published root isolation study; abundance was not reported",
+      "profile_completeness": "presence-only subset of isolated constituents",
+      "components": [
+        {"compound_id": "vanillin", "evidence_type": "isolated_presence", "measurement": null},
+        {"compound_id": "eugenol", "evidence_type": "isolated_presence", "measurement": null},
+        {"compound_id": "benzoic acid", "evidence_type": "isolated_presence", "measurement": null}
+      ]
+    },
+    {
+      "profile_id": "glycyrrhiza_glabra_root_oils_three_origins",
+      "ontology_material_id": "licorice",
+      "taxon": "Glycyrrhiza glabra",
+      "part": "root",
+      "preparation": "steam-distilled essential oil",
+      "analytical_method": "GC-MS identification and triplicate GC-FID relative percentage; MS, RI and standards as reported per compound",
+      "source_id": "farag2012_licorice",
+      "source_locator": "Table 1 and Materials and Methods: Plant material",
+      "sample_scope": "roots originating from Egypt, Afghanistan and Syria; numeric ranges omit trace and non-detected entries",
+      "profile_completeness": "resolved subset intersecting the versioned molecular vocabulary",
+      "components": [
+        {"compound_id": "2-phenylethanol", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 0.5, "max": 2.1}},
+        {"compound_id": "trans-cinnamaldehyde", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 3.6, "max": 6.2}},
+        {"compound_id": "trans-anethole", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 1.3, "max": 1.3}},
+        {"compound_id": "indole", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 1.8, "max": 7.4}},
+        {"compound_id": "eugenol", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 7.5, "max": 9.4}},
+        {"compound_id": "beta-caryophyllene", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 0.5, "max": 1.1}}
+      ]
+    },
+    {
+      "profile_id": "liquidambar_orientalis_asian_styrax_oil",
+      "ontology_material_id": "storax",
+      "taxon": "Liquidambar orientalis",
+      "part": "Asian styrax gum or balsam",
+      "preparation": "essential oil from gum",
+      "analytical_method": "GC and GC-MS",
+      "source_id": "fernandez2005_storax",
+      "source_locator": "publisher abstract",
+      "sample_scope": "one Asian styrax oil; the historical Chinese material remains normalized at resin-family level",
+      "profile_completeness": "three major or diagnostic constituents from the abstract; 58 constituents represented 99.4 percent in the full analysis",
+      "components": [
+        {"compound_id": "styrene", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 70.4, "max": 70.4}},
+        {"compound_id": "alpha-pinene", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 19.4, "max": 19.4}},
+        {"compound_id": "beta-caryophyllene", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 0.2, "max": 0.2}}
+      ]
+    },
+    {
+      "profile_id": "foeniculum_vulgare_seed_oils_three_distillations",
+      "ontology_material_id": "fennel",
+      "taxon": "Foeniculum vulgare",
+      "part": "seeds",
+      "preparation": "hydrodistillation, steam distillation and superheated steam distillation",
+      "analytical_method": "GC-MS relative percentage",
+      "source_id": "raza2024_fennel",
+      "source_locator": "Table 1 and Results 3.1",
+      "sample_scope": "three extraction methods applied to seed material",
+      "profile_completeness": "major constituents intersecting the molecular vocabulary",
+      "components": [
+        {"compound_id": "trans-anethole", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 58.48, "max": 66.46}},
+        {"compound_id": "fenchone", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 8.4, "max": 9.8}},
+        {"compound_id": "limonene", "evidence_type": "observed_range", "measurement": {"unit": "percent_peak_area", "min": 6.5, "max": 7.0}}
+      ]
+    },
+    {
+      "profile_id": "cinnamomum_camphora_stem_bark_oil",
+      "ontology_material_id": "camphor",
+      "taxon": "Cinnamomum camphora",
+      "part": "stem bark",
+      "preparation": "steam-distilled essential oil",
+      "analytical_method": "HP-5MS GC-MS relative percentage",
+      "source_id": "guo2016_camphor_tree",
+      "source_locator": "Table 1, EB column, and Results 2.1",
+      "sample_scope": "one stem-bark oil collected in Jiangxi, China",
+      "profile_completeness": "selected major constituents; non-stereospecific PubChem camphor record represents the reported D-camphor edge",
+      "components": [
+        {"compound_id": "camphor", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 51.3, "max": 51.3}},
+        {"compound_id": "1,8-cineole", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 4.3, "max": 4.3}}
+      ]
+    },
+    {
+      "profile_id": "rheum_palmatum_rhizome_volatile_oil",
+      "ontology_material_id": "rhubarb",
+      "taxon": "Rheum palmatum",
+      "part": "rhizome",
+      "preparation": "volatile oil; extraction details unavailable in the abstract",
+      "analytical_method": "capillary GC, GC-MS and proton NMR",
+      "source_id": "miyazawa1996_rhubarb",
+      "source_locator": "publisher abstract",
+      "sample_scope": "one rhizome volatile-oil study",
+      "profile_completeness": "two major constituents intersecting the molecular vocabulary; abstract reports 108 total components",
+      "components": [
+        {"compound_id": "paeonol", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 16.2, "max": 16.2}},
+        {"compound_id": "methyl eugenol", "evidence_type": "observed_point", "measurement": {"unit": "percent_peak_area", "min": 5.4, "max": 5.4}}
+      ]
+    }
+  ],
+  "excluded_source_notes": [
+    {
+      "doi": "10.3389/fnut.2026.1764021",
+      "reason": "Not used in v0.1: many reported GC-MS identifications lack retention-index confirmation or complete identifiers; the profile requires a separate analytical-quality audit."
+    }
+  ]
+}

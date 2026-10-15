@@ -1,0 +1,3230 @@
+{
+  "schema_version": "0.1",
+  "purpose": "Evidence audit for the family_assignment_ok gate and leakage grouping; not a claim of textual descent.",
+  "reference_record_count": 91,
+  "audited_family_count": 91,
+  "singleton_family_count": 39,
+  "multi_member_family_count": 52,
+  "flag_counts": {
+    "connected_non_clique_cluster": 4,
+    "low_pairwise_composition_cosine_reviewed": 2,
+    "title_variant_reviewed": 15
+  },
+  "all_selected_families_connected": true,
+  "all_selected_families_minimum_material_jaccard_at_least_0_5": true,
+  "one_reference_per_family": true,
+  "families": [
+    {
+      "formula_family_id": "ff-ca07b5dede41",
+      "selected_reference_id": "xjfr-e03c84ad50420894",
+      "selected_candidate_id": "e03c84ad50420894",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "46b2b473af0c2b1e",
+        "e03c84ad50420894"
+      ],
+      "member_titles": [
+        "龍麝印香",
+        "龍腦印香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9741552956510968,
+      "audit_flags": [
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "46b2b473af0c2b1e",
+          "right_candidate_id": "e03c84ad50420894",
+          "left_title": "龍麝印香",
+          "right_title": "龍腦印香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.3058823529411765,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9741552956510968,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-db83cda8e459",
+      "selected_reference_id": "xjfr-5d19fe5ea97bba78",
+      "selected_candidate_id": "5d19fe5ea97bba78",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "5d19fe5ea97bba78",
+        "feea8ac40bd60d55"
+      ],
+      "member_titles": [
+        "供佛印香",
+        "供佛印香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8888888888888888,
+      "minimum_pairwise_composition_cosine": 0.9997649733840603,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "5d19fe5ea97bba78",
+          "right_candidate_id": "feea8ac40bd60d55",
+          "left_title": "供佛印香",
+          "right_title": "供佛印香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.410958904109589,
+          "material_set_jaccard": 0.8888888888888888,
+          "composition_cosine": 0.9997649733840603,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-b37ec1935da0",
+      "selected_reference_id": "xjfr-4132f23bf336cc37",
+      "selected_candidate_id": "4132f23bf336cc37",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "4132f23bf336cc37"
+      ],
+      "member_titles": [
+        "清逺香"
+      ],
+      "member_collections": [
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-5293527f8773",
+      "selected_reference_id": "xjfr-32a340e540f55294",
+      "selected_candidate_id": "32a340e540f55294",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "32a340e540f55294",
+        "bba9a1b61cdb94ca"
+      ],
+      "member_titles": [
+        "濕香",
+        "濕香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0000000000000002,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "32a340e540f55294",
+          "right_candidate_id": "bba9a1b61cdb94ca",
+          "left_title": "濕香",
+          "right_title": "濕香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.4791666666666667,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0000000000000002,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-a7d88be93150",
+      "selected_reference_id": "xjfr-577fd5fe9e38cdcf",
+      "selected_candidate_id": "577fd5fe9e38cdcf",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "3a9662a3041ba59e",
+        "577fd5fe9e38cdcf"
+      ],
+      "member_titles": [
+        "清眞香",
+        "清真香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.9166666666666666,
+      "minimum_pairwise_composition_cosine": 0.8908325144615472,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "3a9662a3041ba59e",
+          "right_candidate_id": "577fd5fe9e38cdcf",
+          "left_title": "清眞香",
+          "right_title": "清真香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.4657534246575342,
+          "material_set_jaccard": 0.9166666666666666,
+          "composition_cosine": 0.8908325144615472,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-7b0ff86ff534",
+      "selected_reference_id": "xjfr-bdc30fa3ab84c767",
+      "selected_candidate_id": "bdc30fa3ab84c767",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "65577c80558e52f0",
+        "bdc30fa3ab84c767"
+      ],
+      "member_titles": [
+        "清妙香",
+        "清妙香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0000000000000002,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "65577c80558e52f0",
+          "right_candidate_id": "bdc30fa3ab84c767",
+          "left_title": "清妙香",
+          "right_title": "清妙香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.6142857142857143,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0000000000000002,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-a8f8e0362ad4",
+      "selected_reference_id": "xjfr-e6604303e0934c1b",
+      "selected_candidate_id": "e6604303e0934c1b",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "b4b72fb84cd012ad",
+        "e6604303e0934c1b"
+      ],
+      "member_titles": [
+        "智月龍涎香",
+        "智月龍涎香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8571428571428571,
+      "minimum_pairwise_composition_cosine": 0.9976359605462541,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "b4b72fb84cd012ad",
+          "right_candidate_id": "e6604303e0934c1b",
+          "left_title": "智月龍涎香",
+          "right_title": "智月龍涎香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.18518518518518517,
+          "material_set_jaccard": 0.8571428571428571,
+          "composition_cosine": 0.9976359605462541,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-a3eedae7a49b",
+      "selected_reference_id": "xjfr-9aa605f6d2b14e93",
+      "selected_candidate_id": "9aa605f6d2b14e93",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "380c95ed9dd4e3d0",
+        "9aa605f6d2b14e93"
+      ],
+      "member_titles": [
+        "古龍涎香",
+        "古龍涎香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8571428571428571,
+      "minimum_pairwise_composition_cosine": 0.4063998012193409,
+      "audit_flags": [
+        "low_pairwise_composition_cosine_reviewed"
+      ],
+      "review_explanation": "The witnesses share title, ordered ingredients and method wording. The low cosine is driven by a historical agarwood-grade identity difference and a divergent Fushouxiang quantity, so they are kept together conservatively for leakage prevention rather than asserted identical.",
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "380c95ed9dd4e3d0",
+          "right_candidate_id": "9aa605f6d2b14e93",
+          "left_title": "古龍涎香",
+          "right_title": "古龍涎香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.49295774647887325,
+          "material_set_jaccard": 0.8571428571428571,
+          "composition_cosine": 0.4063998012193409,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_and_text"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-f92935d7fc20",
+      "selected_reference_id": "xjfr-9954841e8aeb53cc",
+      "selected_candidate_id": "9954841e8aeb53cc",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "62e31519429b1d74",
+        "9954841e8aeb53cc"
+      ],
+      "member_titles": [
+        "白龍涎香",
+        "白龍涎香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "62e31519429b1d74",
+          "right_candidate_id": "9954841e8aeb53cc",
+          "left_title": "白龍涎香",
+          "right_title": "白龍涎香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.8064516129032258,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "high_text_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-4b84c786ccb2",
+      "selected_reference_id": "xjfr-4857457943fc72a8",
+      "selected_candidate_id": "4857457943fc72a8",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "4857457943fc72a8",
+        "c1a4bf5780f0ee8d"
+      ],
+      "member_titles": [
+        "小龍涎香",
+        "小龍涎香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "4857457943fc72a8",
+          "right_candidate_id": "c1a4bf5780f0ee8d",
+          "left_title": "小龍涎香",
+          "right_title": "小龍涎香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.7674418604651163,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "high_text_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-df98def9ef8f",
+      "selected_reference_id": "xjfr-91028e8e3aafc2bb",
+      "selected_candidate_id": "91028e8e3aafc2bb",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "42c04a6d66c560cd",
+        "91028e8e3aafc2bb"
+      ],
+      "member_titles": [
+        "小龍涎香",
+        "小龍涎香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9996884254661472,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "42c04a6d66c560cd",
+          "right_candidate_id": "91028e8e3aafc2bb",
+          "left_title": "小龍涎香",
+          "right_title": "小龍涎香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.13157894736842105,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9996884254661472,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-7102a59f5d97",
+      "selected_reference_id": "xjfr-d5580507c73e48f1",
+      "selected_candidate_id": "d5580507c73e48f1",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "d5580507c73e48f1"
+      ],
+      "member_titles": [
+        "吴侍郎龍津香"
+      ],
+      "member_collections": [
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-d7073cdca1a2",
+      "selected_reference_id": "xjfr-aabc4d451244e28f",
+      "selected_candidate_id": "aabc4d451244e28f",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "460bab04355c2208",
+        "aabc4d451244e28f"
+      ],
+      "member_titles": [
+        "龍泉香",
+        "龍泉香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8333333333333334,
+      "minimum_pairwise_composition_cosine": 0.9530594409869697,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "460bab04355c2208",
+          "right_candidate_id": "aabc4d451244e28f",
+          "left_title": "龍泉香",
+          "right_title": "龍泉香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.673469387755102,
+          "material_set_jaccard": 0.8333333333333334,
+          "composition_cosine": 0.9530594409869697,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-d8dad7afb977",
+      "selected_reference_id": "xjfr-a8e9748d4b271c91",
+      "selected_candidate_id": "a8e9748d4b271c91",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "6ded6d20d82af4e7",
+        "a8e9748d4b271c91"
+      ],
+      "member_titles": [
+        "芬積香",
+        "芬積香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9730179849915719,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "6ded6d20d82af4e7",
+          "right_candidate_id": "a8e9748d4b271c91",
+          "left_title": "芬積香",
+          "right_title": "芬積香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.38235294117647056,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9730179849915719,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-d201913d75f2",
+      "selected_reference_id": "xjfr-c02d85f12b94c989",
+      "selected_candidate_id": "c02d85f12b94c989",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "0ae3d7e58ad2d926",
+        "c02d85f12b94c989"
+      ],
+      "member_titles": [
+        "芬積香",
+        "芬積香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8,
+      "minimum_pairwise_composition_cosine": 0.9891919143217376,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "0ae3d7e58ad2d926",
+          "right_candidate_id": "c02d85f12b94c989",
+          "left_title": "芬積香",
+          "right_title": "芬積香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.33962264150943394,
+          "material_set_jaccard": 0.8,
+          "composition_cosine": 0.9891919143217376,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-105a0f435096",
+      "selected_reference_id": "xjfr-dced13ba04a9c1a5",
+      "selected_candidate_id": "dced13ba04a9c1a5",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "dced13ba04a9c1a5"
+      ],
+      "member_titles": [
+        "芬積香"
+      ],
+      "member_collections": [
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-b2ab63c7e22c",
+      "selected_reference_id": "xjfr-b8b483d22dc1ec33",
+      "selected_candidate_id": "b8b483d22dc1ec33",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "aa281088efbdefc1",
+        "b8b483d22dc1ec33"
+      ],
+      "member_titles": [
+        "馮仲和四和香",
+        "馮仲柔四和香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0000000000000002,
+      "audit_flags": [
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "aa281088efbdefc1",
+          "right_candidate_id": "b8b483d22dc1ec33",
+          "left_title": "馮仲和四和香",
+          "right_title": "馮仲柔四和香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.5,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0000000000000002,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-1624b94b1cf4",
+      "selected_reference_id": "xjfr-b12308d86e94047a",
+      "selected_candidate_id": "b12308d86e94047a",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "011b64cf77ae7582",
+        "b12308d86e94047a"
+      ],
+      "member_titles": [
+        "李王帳中梅花香",
+        "李王帳中梅花香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9999890914551457,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "011b64cf77ae7582",
+          "right_candidate_id": "b12308d86e94047a",
+          "left_title": "李王帳中梅花香",
+          "right_title": "李王帳中梅花香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.28,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9999890914551457,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_distinctive_title"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-dbed0f1fd260",
+      "selected_reference_id": "xjfr-be707d174afdb6a1",
+      "selected_candidate_id": "be707d174afdb6a1",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "be707d174afdb6a1",
+        "ff850795ba59bfac"
+      ],
+      "member_titles": [
+        "梅林香",
+        "梅林香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9999999999999998,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "be707d174afdb6a1",
+          "right_candidate_id": "ff850795ba59bfac",
+          "left_title": "梅林香",
+          "right_title": "梅林香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.21774193548387097,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9999999999999998,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-2012548d08dd",
+      "selected_reference_id": "xjfr-81520d6e2b9e35ea",
+      "selected_candidate_id": "81520d6e2b9e35ea",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "81520d6e2b9e35ea",
+        "a5b197bdad50c36d"
+      ],
+      "member_titles": [
+        "笑蘭香",
+        "玉蕊香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9601356138816586,
+      "audit_flags": [
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "81520d6e2b9e35ea",
+          "right_candidate_id": "a5b197bdad50c36d",
+          "left_title": "笑蘭香",
+          "right_title": "玉蕊香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.13095238095238096,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9601356138816586,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-fea379fe7b5a",
+      "selected_reference_id": "xjfr-8176689b00b8556b",
+      "selected_candidate_id": "8176689b00b8556b",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "7287d0193675c4f1",
+        "8176689b00b8556b"
+      ],
+      "member_titles": [
+        "蘭逺香",
+        "蘭逺香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "7287d0193675c4f1",
+          "right_candidate_id": "8176689b00b8556b",
+          "left_title": "蘭逺香",
+          "right_title": "蘭逺香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.13636363636363635,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-46edf4e3cd82",
+      "selected_reference_id": "xjfr-56a89714474e7efc",
+      "selected_candidate_id": "56a89714474e7efc",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "1f4f5dcdd00fda5b",
+        "56a89714474e7efc"
+      ],
+      "member_titles": [
+        "智月木犀香",
+        "智月木犀香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "1f4f5dcdd00fda5b",
+          "right_candidate_id": "56a89714474e7efc",
+          "left_title": "智月木犀香",
+          "right_title": "智月木犀香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.3333333333333333,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-200663d24118",
+      "selected_reference_id": "xjfr-5f549b06cf843239",
+      "selected_candidate_id": "5f549b06cf843239",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "5f1fbcb40e60b9d7",
+        "5f549b06cf843239"
+      ],
+      "member_titles": [
+        "百花香",
+        "百花香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8888888888888888,
+      "minimum_pairwise_composition_cosine": 0.7899018670293806,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "5f1fbcb40e60b9d7",
+          "right_candidate_id": "5f549b06cf843239",
+          "left_title": "百花香",
+          "right_title": "百花香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.15706806282722513,
+          "material_set_jaccard": 0.8888888888888888,
+          "composition_cosine": 0.7899018670293806,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-e76aafbfeb75",
+      "selected_reference_id": "xjfr-0b994ac2451fac83",
+      "selected_candidate_id": "0b994ac2451fac83",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "0b994ac2451fac83",
+        "671a36c48c97c2c4"
+      ],
+      "member_titles": [
+        "野花香",
+        "野花香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8,
+      "minimum_pairwise_composition_cosine": 0.9354143466934853,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "0b994ac2451fac83",
+          "right_candidate_id": "671a36c48c97c2c4",
+          "left_title": "野花香",
+          "right_title": "野花香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.36585365853658536,
+          "material_set_jaccard": 0.8,
+          "composition_cosine": 0.9354143466934853,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-3d522ee9675f",
+      "selected_reference_id": "xjfr-ae6b61dff026732f",
+      "selected_candidate_id": "ae6b61dff026732f",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "ae6b61dff026732f"
+      ],
+      "member_titles": [
+        "後庭花香"
+      ],
+      "member_collections": [
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-c9ea1d570cd1",
+      "selected_reference_id": "xjfr-820b18f70a07274b",
+      "selected_candidate_id": "820b18f70a07274b",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "820b18f70a07274b"
+      ],
+      "member_titles": [
+        "茘支香"
+      ],
+      "member_collections": [
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-a1b2f634d88a",
+      "selected_reference_id": "xjfr-9f312c0c07b48ddf",
+      "selected_candidate_id": "9f312c0c07b48ddf",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "88a50e503890ade5",
+        "9f312c0c07b48ddf"
+      ],
+      "member_titles": [
+        "雪中春信",
+        "雪中春信"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0000000000000002,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "88a50e503890ade5",
+          "right_candidate_id": "9f312c0c07b48ddf",
+          "left_title": "雪中春信",
+          "right_title": "雪中春信",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.4642857142857143,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0000000000000002,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-356ccc3cdfbb",
+      "selected_reference_id": "xjfr-22a4061cb34a7d4a",
+      "selected_candidate_id": "22a4061cb34a7d4a",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "17f6cc2fc076e2a3",
+        "22a4061cb34a7d4a"
+      ],
+      "member_titles": [
+        "元御帶清觀香",
+        "元御帶清觀香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.7142857142857143,
+      "minimum_pairwise_composition_cosine": 0.9975384615384618,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "17f6cc2fc076e2a3",
+          "right_candidate_id": "22a4061cb34a7d4a",
+          "left_title": "元御帶清觀香",
+          "right_title": "元御帶清觀香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.34285714285714286,
+          "material_set_jaccard": 0.7142857142857143,
+          "composition_cosine": 0.9975384615384618,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_distinctive_title"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-e5fd804abf7b",
+      "selected_reference_id": "xjfr-0eb6159581b67df4",
+      "selected_candidate_id": "0eb6159581b67df4",
+      "member_count": 3,
+      "member_candidate_ids": [
+        "0eb6159581b67df4",
+        "112b330c0ead4e8e",
+        "f2f195df2c4c289d"
+      ],
+      "member_titles": [
+        "大真香",
+        "花蕊夫人衙香",
+        "太真香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8571428571428571,
+      "minimum_pairwise_composition_cosine": 0.9069369210102916,
+      "audit_flags": [
+        "connected_non_clique_cluster",
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "0eb6159581b67df4",
+          "right_candidate_id": "112b330c0ead4e8e",
+          "left_title": "大真香",
+          "right_title": "花蕊夫人衙香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.03759398496240601,
+          "material_set_jaccard": 0.8571428571428571,
+          "composition_cosine": 0.9493781582252456,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        },
+        {
+          "left_candidate_id": "0eb6159581b67df4",
+          "right_candidate_id": "f2f195df2c4c289d",
+          "left_title": "大真香",
+          "right_title": "太真香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.2840909090909091,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.986953132404872,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        },
+        {
+          "left_candidate_id": "112b330c0ead4e8e",
+          "right_candidate_id": "f2f195df2c4c289d",
+          "left_title": "花蕊夫人衙香",
+          "right_title": "太真香",
+          "left_collection": "xiangcheng",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.04929577464788732,
+          "material_set_jaccard": 0.8571428571428571,
+          "composition_cosine": 0.9069369210102916,
+          "direct_candidate_edge": false,
+          "direct_edge_reason": null
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-ede5f502f537",
+      "selected_reference_id": "xjfr-f869f86c9b64ffe3",
+      "selected_candidate_id": "f869f86c9b64ffe3",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "d2e762855b9e9433",
+        "f869f86c9b64ffe3"
+      ],
+      "member_titles": [
+        "天真香",
+        "天真香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.875,
+      "minimum_pairwise_composition_cosine": 0.9161729411895109,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "d2e762855b9e9433",
+          "right_candidate_id": "f869f86c9b64ffe3",
+          "left_title": "天真香",
+          "right_title": "天真香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.32857142857142857,
+          "material_set_jaccard": 0.875,
+          "composition_cosine": 0.9161729411895109,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-94993f7d6bf9",
+      "selected_reference_id": "xjfr-bf92dc1b7ceee53f",
+      "selected_candidate_id": "bf92dc1b7ceee53f",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "1e6834af2c83d9a6",
+        "bf92dc1b7ceee53f"
+      ],
+      "member_titles": [
+        "復古東閣雲頭香",
+        "復古東䦨雲頭香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9830960364677281,
+      "audit_flags": [
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "1e6834af2c83d9a6",
+          "right_candidate_id": "bf92dc1b7ceee53f",
+          "left_title": "復古東閣雲頭香",
+          "right_title": "復古東䦨雲頭香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.2786885245901639,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9830960364677281,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-019682e14b3e",
+      "selected_reference_id": "xjfr-615b27416ea97577",
+      "selected_candidate_id": "615b27416ea97577",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "5eff76c484bc1913",
+        "615b27416ea97577"
+      ],
+      "member_titles": [
+        "崔賢妃瑶英勝",
+        "崔賢妃瑤英香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.987363943144517,
+      "audit_flags": [
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "5eff76c484bc1913",
+          "right_candidate_id": "615b27416ea97577",
+          "left_title": "崔賢妃瑶英勝",
+          "right_title": "崔賢妃瑤英香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.27,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.987363943144517,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-5c815070a9c4",
+      "selected_reference_id": "xjfr-b5ff7605b4e5af5e",
+      "selected_candidate_id": "b5ff7605b4e5af5e",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "b5ff7605b4e5af5e"
+      ],
+      "member_titles": [
+        "韓鈐轄正徳香"
+      ],
+      "member_collections": [
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-0460811db844",
+      "selected_reference_id": "xjfr-3cf39afad47a51eb",
+      "selected_candidate_id": "3cf39afad47a51eb",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "3cf39afad47a51eb"
+      ],
+      "member_titles": [
+        "辛押陁羅亞悉香"
+      ],
+      "member_collections": [
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-402878df0661",
+      "selected_reference_id": "xjfr-05bf6b07c03e3add",
+      "selected_candidate_id": "05bf6b07c03e3add",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "05bf6b07c03e3add",
+        "7c1b0b22b9a40e37"
+      ],
+      "member_titles": [
+        "寳林香",
+        "寳林香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8888888888888888,
+      "minimum_pairwise_composition_cosine": 0.9930312739844155,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "05bf6b07c03e3add",
+          "right_candidate_id": "7c1b0b22b9a40e37",
+          "left_title": "寳林香",
+          "right_title": "寳林香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.4444444444444444,
+          "material_set_jaccard": 0.8888888888888888,
+          "composition_cosine": 0.9930312739844155,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-890167b50b68",
+      "selected_reference_id": "xjfr-7d79ded465757a0a",
+      "selected_candidate_id": "7d79ded465757a0a",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "7d79ded465757a0a",
+        "9e76790cffaeb98b"
+      ],
+      "member_titles": [
+        "巡筵香",
+        "巡筵香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.875,
+      "minimum_pairwise_composition_cosine": 0.910689738298008,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "7d79ded465757a0a",
+          "right_candidate_id": "9e76790cffaeb98b",
+          "left_title": "巡筵香",
+          "right_title": "巡筵香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.31746031746031744,
+          "material_set_jaccard": 0.875,
+          "composition_cosine": 0.910689738298008,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-88322d0359b4",
+      "selected_reference_id": "xjfr-03a0a88c3b9ad82a",
+      "selected_candidate_id": "03a0a88c3b9ad82a",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "03a0a88c3b9ad82a"
+      ],
+      "member_titles": [
+        "薔薇衣香"
+      ],
+      "member_collections": [
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-f2472c796f83",
+      "selected_reference_id": "xjfr-c179292bb4f2f510",
+      "selected_candidate_id": "c179292bb4f2f510",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "c179292bb4f2f510",
+        "ec5de8238b44c18c"
+      ],
+      "member_titles": [
+        "熏衣梅花香",
+        "熏衣梅花香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8333333333333334,
+      "minimum_pairwise_composition_cosine": 0.9182166377418889,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "c179292bb4f2f510",
+          "right_candidate_id": "ec5de8238b44c18c",
+          "left_title": "熏衣梅花香",
+          "right_title": "熏衣梅花香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.2033898305084746,
+          "material_set_jaccard": 0.8333333333333334,
+          "composition_cosine": 0.9182166377418889,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-03e8aa2123da",
+      "selected_reference_id": "xjfr-f8557fe5b9bd2a5a",
+      "selected_candidate_id": "f8557fe5b9bd2a5a",
+      "member_count": 3,
+      "member_candidate_ids": [
+        "32c10bc709d6c0a4",
+        "7fb111936d22fd50",
+        "f8557fe5b9bd2a5a"
+      ],
+      "member_titles": [
+        "蜀主熏御衣香",
+        "蜀主熏御衣香",
+        "蜀王薰御衣法"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng",
+        "hong_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.8571428571428572,
+      "audit_flags": [
+        "connected_non_clique_cluster",
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "32c10bc709d6c0a4",
+          "right_candidate_id": "7fb111936d22fd50",
+          "left_title": "蜀主熏御衣香",
+          "right_title": "蜀主熏御衣香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.16417910447761194,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.8571428571428572,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_distinctive_title"
+        },
+        {
+          "left_candidate_id": "32c10bc709d6c0a4",
+          "right_candidate_id": "f8557fe5b9bd2a5a",
+          "left_title": "蜀主熏御衣香",
+          "right_title": "蜀王薰御衣法",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "hong_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.21739130434782608,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        },
+        {
+          "left_candidate_id": "7fb111936d22fd50",
+          "right_candidate_id": "f8557fe5b9bd2a5a",
+          "left_title": "蜀主熏御衣香",
+          "right_title": "蜀王薰御衣法",
+          "left_collection": "xiangcheng",
+          "right_collection": "hong_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.011235955056179775,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.8571428571428572,
+          "direct_candidate_edge": false,
+          "direct_edge_reason": null
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-fad396a416c0",
+      "selected_reference_id": "xjfr-18695fb987d1abda",
+      "selected_candidate_id": "18695fb987d1abda",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "18695fb987d1abda",
+        "71714727431f1e37"
+      ],
+      "member_titles": [
+        "延安郡公蘂香法",
+        "延安郡公蕊香"
+      ],
+      "member_collections": [
+        "hong_xiangpu",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0000000000000002,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "18695fb987d1abda",
+          "right_candidate_id": "71714727431f1e37",
+          "left_title": "延安郡公蘂香法",
+          "right_title": "延安郡公蕊香",
+          "left_collection": "hong_xiangpu",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.2768361581920904,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0000000000000002,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_distinctive_title"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-ca70af78c5e4",
+      "selected_reference_id": "xjfr-464a46c7bc7c0026",
+      "selected_candidate_id": "464a46c7bc7c0026",
+      "member_count": 3,
+      "member_candidate_ids": [
+        "464a46c7bc7c0026",
+        "5b1139b8d301fa11",
+        "a23dcbff88dd8107"
+      ],
+      "member_titles": [
+        "供佛濕香法",
+        "供佛温香",
+        "供佛濕香"
+      ],
+      "member_collections": [
+        "hong_xiangpu",
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9933604144213769,
+      "audit_flags": [
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "464a46c7bc7c0026",
+          "right_candidate_id": "5b1139b8d301fa11",
+          "left_title": "供佛濕香法",
+          "right_title": "供佛温香",
+          "left_collection": "hong_xiangpu",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.43902439024390244,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9933604144213769,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        },
+        {
+          "left_candidate_id": "464a46c7bc7c0026",
+          "right_candidate_id": "a23dcbff88dd8107",
+          "left_title": "供佛濕香法",
+          "right_title": "供佛濕香",
+          "left_collection": "hong_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.3850267379679144,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        },
+        {
+          "left_candidate_id": "5b1139b8d301fa11",
+          "right_candidate_id": "a23dcbff88dd8107",
+          "left_title": "供佛温香",
+          "right_title": "供佛濕香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.4327485380116959,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9933604144213769,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-f40c70f1c2cf",
+      "selected_reference_id": "xjfr-83b8df1ec6026189",
+      "selected_candidate_id": "83b8df1ec6026189",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "759fe8040187a82e",
+        "83b8df1ec6026189"
+      ],
+      "member_titles": [
+        "衙香",
+        "又牙香法"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "hong_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9959210716433798,
+      "audit_flags": [
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "759fe8040187a82e",
+          "right_candidate_id": "83b8df1ec6026189",
+          "left_title": "衙香",
+          "right_title": "又牙香法",
+          "left_collection": "xiangcheng",
+          "right_collection": "hong_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.15454545454545454,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9959210716433798,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-a113d1e7fc44",
+      "selected_reference_id": "xjfr-be21fa1ff351375e",
+      "selected_candidate_id": "be21fa1ff351375e",
+      "member_count": 3,
+      "member_candidate_ids": [
+        "331d546fdff0a912",
+        "b188422c6f076cd0",
+        "be21fa1ff351375e"
+      ],
+      "member_titles": [
+        "衙香",
+        "衙香",
+        "又牙香法"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng",
+        "hong_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9883351367840097,
+      "audit_flags": [
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "331d546fdff0a912",
+          "right_candidate_id": "b188422c6f076cd0",
+          "left_title": "衙香",
+          "right_title": "衙香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.3037974683544304,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9883351367840097,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        },
+        {
+          "left_candidate_id": "331d546fdff0a912",
+          "right_candidate_id": "be21fa1ff351375e",
+          "left_title": "衙香",
+          "right_title": "又牙香法",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "hong_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.5689655172413793,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9883351367840097,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        },
+        {
+          "left_candidate_id": "b188422c6f076cd0",
+          "right_candidate_id": "be21fa1ff351375e",
+          "left_title": "衙香",
+          "right_title": "又牙香法",
+          "left_collection": "xiangcheng",
+          "right_collection": "hong_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.2857142857142857,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-67dc492c62d9",
+      "selected_reference_id": "xjfr-526789359594ac3e",
+      "selected_candidate_id": "526789359594ac3e",
+      "member_count": 3,
+      "member_candidate_ids": [
+        "0563ed1ceceb346e",
+        "526789359594ac3e",
+        "cd211c1b1ca49521"
+      ],
+      "member_titles": [
+        "又方",
+        "印香法",
+        "又方"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "hong_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8333333333333334,
+      "minimum_pairwise_composition_cosine": 0.7802238127665361,
+      "audit_flags": [
+        "connected_non_clique_cluster",
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "0563ed1ceceb346e",
+          "right_candidate_id": "526789359594ac3e",
+          "left_title": "又方",
+          "right_title": "印香法",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "hong_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.36,
+          "material_set_jaccard": 0.9090909090909091,
+          "composition_cosine": 0.9885303193239865,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        },
+        {
+          "left_candidate_id": "0563ed1ceceb346e",
+          "right_candidate_id": "cd211c1b1ca49521",
+          "left_title": "又方",
+          "right_title": "又方",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.41346153846153844,
+          "material_set_jaccard": 0.8333333333333334,
+          "composition_cosine": 0.7802238127665361,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        },
+        {
+          "left_candidate_id": "526789359594ac3e",
+          "right_candidate_id": "cd211c1b1ca49521",
+          "left_title": "印香法",
+          "right_title": "又方",
+          "left_collection": "hong_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.304,
+          "material_set_jaccard": 0.9166666666666666,
+          "composition_cosine": 0.7999825195016487,
+          "direct_candidate_edge": false,
+          "direct_edge_reason": null
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-ab0ff871fcbb",
+      "selected_reference_id": "xjfr-0f012960fa28348d",
+      "selected_candidate_id": "0f012960fa28348d",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "0f012960fa28348d"
+      ],
+      "member_titles": [
+        "瑞和香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-5bd2a3114a63",
+      "selected_reference_id": "xjfr-d79a520ef7f2e41a",
+      "selected_candidate_id": "d79a520ef7f2e41a",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "d79a520ef7f2e41a"
+      ],
+      "member_titles": [
+        "龍涎香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-c573be91ba45",
+      "selected_reference_id": "xjfr-822a3816d20c7829",
+      "selected_candidate_id": "822a3816d20c7829",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "822a3816d20c7829"
+      ],
+      "member_titles": [
+        "翠屏香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-83dcc93c5040",
+      "selected_reference_id": "xjfr-57562ab780c1e1bf",
+      "selected_candidate_id": "57562ab780c1e1bf",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "57562ab780c1e1bf"
+      ],
+      "member_titles": [
+        "金絲香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-0afacb574a85",
+      "selected_reference_id": "xjfr-55d6d437322b1bc2",
+      "selected_candidate_id": "55d6d437322b1bc2",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "55d6d437322b1bc2"
+      ],
+      "member_titles": [
+        "代梅香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-b512f89cfa05",
+      "selected_reference_id": "xjfr-9b85cf68f5eb763a",
+      "selected_candidate_id": "9b85cf68f5eb763a",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "9b85cf68f5eb763a"
+      ],
+      "member_titles": [
+        "瑶華清露香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-c8c133401b97",
+      "selected_reference_id": "xjfr-b0c122d59a4c952d",
+      "selected_candidate_id": "b0c122d59a4c952d",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "b0c122d59a4c952d"
+      ],
+      "member_titles": [
+        "瑶池清味香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-979ba94d5f69",
+      "selected_reference_id": "xjfr-00e97cfc402c9e6a",
+      "selected_candidate_id": "00e97cfc402c9e6a",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "00e97cfc402c9e6a"
+      ],
+      "member_titles": [
+        "真全嘉瑞香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-4753e541b63f",
+      "selected_reference_id": "xjfr-2d8e738b7abd7d4d",
+      "selected_candidate_id": "2d8e738b7abd7d4d",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "2d8e738b7abd7d4d"
+      ],
+      "member_titles": [
+        "石泉香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-585d928c43d7",
+      "selected_reference_id": "xjfr-5047778caf2b3a13",
+      "selected_candidate_id": "5047778caf2b3a13",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "5047778caf2b3a13"
+      ],
+      "member_titles": [
+        "清鎮香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-2e1ee725989d",
+      "selected_reference_id": "xjfr-78c838a55bd55886",
+      "selected_candidate_id": "78c838a55bd55886",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "78c838a55bd55886"
+      ],
+      "member_titles": [
+        "慶真香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-d7e1da61e8c2",
+      "selected_reference_id": "xjfr-5831bd3a57d2d7d6",
+      "selected_candidate_id": "5831bd3a57d2d7d6",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "5831bd3a57d2d7d6"
+      ],
+      "member_titles": [
+        "萬春香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-495d605f4053",
+      "selected_reference_id": "xjfr-0d614ba2731d4e78",
+      "selected_candidate_id": "0d614ba2731d4e78",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "0d614ba2731d4e78"
+      ],
+      "member_titles": [
+        "臞仙神隠香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-ed18ac93ac77",
+      "selected_reference_id": "xjfr-912c844b97386bf3",
+      "selected_candidate_id": "912c844b97386bf3",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "912c844b97386bf3"
+      ],
+      "member_titles": [
+        "芙蓉香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-ac0c5748b35c",
+      "selected_reference_id": "xjfr-4fe4743a41aa0112",
+      "selected_candidate_id": "4fe4743a41aa0112",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "4fe4743a41aa0112"
+      ],
+      "member_titles": [
+        "撒䭱蘭香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-e1f29eeaf1ad",
+      "selected_reference_id": "xjfr-18db4dde5388488a",
+      "selected_candidate_id": "18db4dde5388488a",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "18db4dde5388488a"
+      ],
+      "member_titles": [
+        "窗前省讀香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-e1cb7ba6541d",
+      "selected_reference_id": "xjfr-c59770d457085209",
+      "selected_candidate_id": "c59770d457085209",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "c59770d457085209"
+      ],
+      "member_titles": [
+        "駕頭香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-d13ce3952a4e",
+      "selected_reference_id": "xjfr-046b60d84c2b5938",
+      "selected_candidate_id": "046b60d84c2b5938",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "046b60d84c2b5938"
+      ],
+      "member_titles": [
+        "藏春不下閣香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-6cec0cd81406",
+      "selected_reference_id": "xjfr-34b8adabfe45a015",
+      "selected_candidate_id": "34b8adabfe45a015",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "1cdc43866c1197b1",
+        "34b8adabfe45a015"
+      ],
+      "member_titles": [
+        "唐開元宫中方",
+        "唐開元宫中香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0000000000000002,
+      "audit_flags": [
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "1cdc43866c1197b1",
+          "right_candidate_id": "34b8adabfe45a015",
+          "left_title": "唐開元宫中方",
+          "right_title": "唐開元宫中香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.5087719298245614,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0000000000000002,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-53b4065670ef",
+      "selected_reference_id": "xjfr-ce5ff58e92411808",
+      "selected_candidate_id": "ce5ff58e92411808",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "a4ede62bc7f1a912",
+        "ce5ff58e92411808"
+      ],
+      "member_titles": [
+        "宫中香",
+        "宫中香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "a4ede62bc7f1a912",
+          "right_candidate_id": "ce5ff58e92411808",
+          "left_title": "宫中香",
+          "right_title": "宫中香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.47619047619047616,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-38e2df2ba019",
+      "selected_reference_id": "xjfr-4be998cb22b181ad",
+      "selected_candidate_id": "4be998cb22b181ad",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "159459c3065d6a17",
+        "4be998cb22b181ad"
+      ],
+      "member_titles": [
+        "趙清獻公香",
+        "趙清獻公香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "159459c3065d6a17",
+          "right_candidate_id": "4be998cb22b181ad",
+          "left_title": "趙清獻公香",
+          "right_title": "趙清獻公香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.3902439024390244,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-f140cf4f159e",
+      "selected_reference_id": "xjfr-a5d2f47b4ecd735a",
+      "selected_candidate_id": "a5d2f47b4ecd735a",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "57bcdaa6eea2e79c",
+        "a5d2f47b4ecd735a"
+      ],
+      "member_titles": [
+        "錢塘僧日休衙香",
+        "錢塘僧日休衙香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9999999999999999,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "57bcdaa6eea2e79c",
+          "right_candidate_id": "a5d2f47b4ecd735a",
+          "left_title": "錢塘僧日休衙香",
+          "right_title": "錢塘僧日休衙香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.46296296296296297,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9999999999999999,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_distinctive_title"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-6d81e7348e4d",
+      "selected_reference_id": "xjfr-74879092d2183530",
+      "selected_candidate_id": "74879092d2183530",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "74879092d2183530",
+        "db304f6913d431c3"
+      ],
+      "member_titles": [
+        "衙香",
+        "衙香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.917662935482247,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "74879092d2183530",
+          "right_candidate_id": "db304f6913d431c3",
+          "left_title": "衙香",
+          "right_title": "衙香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.48717948717948717,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.917662935482247,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-f983b8f37688",
+      "selected_reference_id": "xjfr-88d58aee9af2863c",
+      "selected_candidate_id": "88d58aee9af2863c",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "88d58aee9af2863c",
+        "9a97be4d6974afd9"
+      ],
+      "member_titles": [
+        "宣和貴妃王氏金香",
+        "宣和貴妃黄氏金香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0000000000000002,
+      "audit_flags": [
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "88d58aee9af2863c",
+          "right_candidate_id": "9a97be4d6974afd9",
+          "left_title": "宣和貴妃王氏金香",
+          "right_title": "宣和貴妃黄氏金香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.7073170731707317,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0000000000000002,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-affea311d425",
+      "selected_reference_id": "xjfr-ce2fcf4efc794da3",
+      "selected_candidate_id": "ce2fcf4efc794da3",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "ce2fcf4efc794da3",
+        "d859dfceb3da004f"
+      ],
+      "member_titles": [
+        "壓香",
+        "壓香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "ce2fcf4efc794da3",
+          "right_candidate_id": "d859dfceb3da004f",
+          "left_title": "壓香",
+          "right_title": "壓香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.25806451612903225,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-b63395c1c310",
+      "selected_reference_id": "xjfr-dde60b2409925731",
+      "selected_candidate_id": "dde60b2409925731",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "b7aef8be54a1b3bf",
+        "dde60b2409925731"
+      ],
+      "member_titles": [
+        "僧恵深温香",
+        "僧惠深濕香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0000000000000002,
+      "audit_flags": [
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "b7aef8be54a1b3bf",
+          "right_candidate_id": "dde60b2409925731",
+          "left_title": "僧恵深温香",
+          "right_title": "僧惠深濕香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.39361702127659576,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0000000000000002,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-4f08306ec245",
+      "selected_reference_id": "xjfr-82789f6e48dfcf30",
+      "selected_candidate_id": "82789f6e48dfcf30",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "82789f6e48dfcf30"
+      ],
+      "member_titles": [
+        "久窨濕香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-831a772ace2d",
+      "selected_reference_id": "xjfr-5131beb665d60838",
+      "selected_candidate_id": "5131beb665d60838",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "5131beb665d60838"
+      ],
+      "member_titles": [
+        "清逺濕香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-c8128235cc27",
+      "selected_reference_id": "xjfr-c1f7bfd868a92f54",
+      "selected_candidate_id": "c1f7bfd868a92f54",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "1e6a8c2ad56ec242",
+        "c1f7bfd868a92f54"
+      ],
+      "member_titles": [
+        "清逺香",
+        "清逺香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "1e6a8c2ad56ec242",
+          "right_candidate_id": "c1f7bfd868a92f54",
+          "left_title": "清逺香",
+          "right_title": "清逺香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.8461538461538461,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "high_text_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-a63b0d9cccad",
+      "selected_reference_id": "xjfr-311ddf42ff201c80",
+      "selected_candidate_id": "311ddf42ff201c80",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "311ddf42ff201c80"
+      ],
+      "member_titles": [
+        "王將明太宰龍涎香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-2a4e01dbcd27",
+      "selected_reference_id": "xjfr-cd3c56b236e8a027",
+      "selected_candidate_id": "cd3c56b236e8a027",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "2b66f4cc9dd327a1",
+        "cd3c56b236e8a027"
+      ],
+      "member_titles": [
+        "龍涎香",
+        "龍涎香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.8,
+      "minimum_pairwise_composition_cosine": 0.9969270776799195,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "2b66f4cc9dd327a1",
+          "right_candidate_id": "cd3c56b236e8a027",
+          "left_title": "龍涎香",
+          "right_title": "龍涎香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.45714285714285713,
+          "material_set_jaccard": 0.8,
+          "composition_cosine": 0.9969270776799195,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-7496f5d9ca2f",
+      "selected_reference_id": "xjfr-824af5aa7a988326",
+      "selected_candidate_id": "824af5aa7a988326",
+      "member_count": 4,
+      "member_candidate_ids": [
+        "08a80ef981e20828",
+        "7fc9b1f8caae9d5d",
+        "824af5aa7a988326",
+        "aff6a29955468d8a"
+      ],
+      "member_titles": [
+        "小龍涎香",
+        "龍涎香",
+        "小龍涎香",
+        "龍涎香四"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "chen_xiangpu",
+        "xiangcheng",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.75,
+      "minimum_pairwise_composition_cosine": 0.9941916530340654,
+      "audit_flags": [
+        "connected_non_clique_cluster",
+        "title_variant_reviewed"
+      ],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "08a80ef981e20828",
+          "right_candidate_id": "7fc9b1f8caae9d5d",
+          "left_title": "小龍涎香",
+          "right_title": "龍涎香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.010416666666666666,
+          "material_set_jaccard": 0.75,
+          "composition_cosine": 0.9990759329182098,
+          "direct_candidate_edge": false,
+          "direct_edge_reason": null
+        },
+        {
+          "left_candidate_id": "08a80ef981e20828",
+          "right_candidate_id": "824af5aa7a988326",
+          "left_title": "小龍涎香",
+          "right_title": "小龍涎香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.40963855421686746,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9960022582372767,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        },
+        {
+          "left_candidate_id": "08a80ef981e20828",
+          "right_candidate_id": "aff6a29955468d8a",
+          "left_title": "小龍涎香",
+          "right_title": "龍涎香四",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.009900990099009901,
+          "material_set_jaccard": 0.75,
+          "composition_cosine": 0.9990759329182098,
+          "direct_candidate_edge": false,
+          "direct_edge_reason": null
+        },
+        {
+          "left_candidate_id": "7fc9b1f8caae9d5d",
+          "right_candidate_id": "824af5aa7a988326",
+          "left_title": "龍涎香",
+          "right_title": "小龍涎香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.02912621359223301,
+          "material_set_jaccard": 0.75,
+          "composition_cosine": 0.9941916530340654,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        },
+        {
+          "left_candidate_id": "7fc9b1f8caae9d5d",
+          "right_candidate_id": "aff6a29955468d8a",
+          "left_title": "龍涎香",
+          "right_title": "龍涎香四",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.625,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 1.0000000000000002,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        },
+        {
+          "left_candidate_id": "824af5aa7a988326",
+          "right_candidate_id": "aff6a29955468d8a",
+          "left_title": "小龍涎香",
+          "right_title": "龍涎香四",
+          "left_collection": "xiangcheng",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": false,
+          "text_3gram_jaccard": 0.027777777777777776,
+          "material_set_jaccard": 0.75,
+          "composition_cosine": 0.9941916530340654,
+          "direct_candidate_edge": false,
+          "direct_edge_reason": null
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-b4ab0316c906",
+      "selected_reference_id": "xjfr-7647ccc0090c5c35",
+      "selected_candidate_id": "7647ccc0090c5c35",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "7647ccc0090c5c35"
+      ],
+      "member_titles": [
+        "呉侍中龍津香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-4a21a1d87c95",
+      "selected_reference_id": "xjfr-ccfa7ed09d928474",
+      "selected_candidate_id": "ccfa7ed09d928474",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "ccfa7ed09d928474",
+        "f5b2400339b55722"
+      ],
+      "member_titles": [
+        "假篤耨香",
+        "假篤耨香"
+      ],
+      "member_collections": [
+        "xiangcheng",
+        "chen_xiangpu"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9899494936611666,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "ccfa7ed09d928474",
+          "right_candidate_id": "f5b2400339b55722",
+          "left_title": "假篤耨香",
+          "right_title": "假篤耨香",
+          "left_collection": "xiangcheng",
+          "right_collection": "chen_xiangpu",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.375,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9899494936611666,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_material_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-9abc62114e64",
+      "selected_reference_id": "xjfr-a7c326d2236d7bc3",
+      "selected_candidate_id": "a7c326d2236d7bc3",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "4ff9774d4374dae0",
+        "a7c326d2236d7bc3"
+      ],
+      "member_titles": [
+        "小芬積香",
+        "小芬積香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 0.9973144535107564,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "4ff9774d4374dae0",
+          "right_candidate_id": "a7c326d2236d7bc3",
+          "left_title": "小芬積香",
+          "right_title": "小芬積香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.2608695652173913,
+          "material_set_jaccard": 1.0,
+          "composition_cosine": 0.9973144535107564,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-4f9309f82951",
+      "selected_reference_id": "xjfr-56970d0b281c18e2",
+      "selected_candidate_id": "56970d0b281c18e2",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "56970d0b281c18e2"
+      ],
+      "member_titles": [
+        "出塵香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-335767647a13",
+      "selected_reference_id": "xjfr-8fa8de6851ce0b73",
+      "selected_candidate_id": "8fa8de6851ce0b73",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "8fa8de6851ce0b73"
+      ],
+      "member_titles": [
+        "加减四和香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-ca786b6c0bcb",
+      "selected_reference_id": "xjfr-5b00513782be8008",
+      "selected_candidate_id": "5b00513782be8008",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "5b00513782be8008"
+      ],
+      "member_titles": [
+        "夾箋香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-b65c4ecbe2ac",
+      "selected_reference_id": "xjfr-3ede2fe2f6148885",
+      "selected_candidate_id": "3ede2fe2f6148885",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "3ede2fe2f6148885"
+      ],
+      "member_titles": [
+        "聞思香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-216db3f26504",
+      "selected_reference_id": "xjfr-e68a1592da31b6f9",
+      "selected_candidate_id": "e68a1592da31b6f9",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "e68a1592da31b6f9"
+      ],
+      "member_titles": [
+        "太洞真香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-52bc4a8ba8a8",
+      "selected_reference_id": "xjfr-cb8cdd754006b696",
+      "selected_candidate_id": "cb8cdd754006b696",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "151718eb592ae807",
+        "cb8cdd754006b696"
+      ],
+      "member_titles": [
+        "靈犀香",
+        "靈犀香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.5,
+      "minimum_pairwise_composition_cosine": 0.37360319846649837,
+      "audit_flags": [
+        "low_pairwise_composition_cosine_reviewed"
+      ],
+      "review_explanation": "The Chen witness compresses or corrupts the Linglingxiang/patchouli line; the selected Xiangcheng witness retains the complete quantified sequence. Same normalized title and shared opening quantities justify one conservative leakage group.",
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "151718eb592ae807",
+          "right_candidate_id": "cb8cdd754006b696",
+          "left_title": "靈犀香",
+          "right_title": "靈犀香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.34782608695652173,
+          "material_set_jaccard": 0.5,
+          "composition_cosine": 0.37360319846649837,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_and_text"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-bc6da489276b",
+      "selected_reference_id": "xjfr-49353de53da59354",
+      "selected_candidate_id": "49353de53da59354",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "49353de53da59354"
+      ],
+      "member_titles": [
+        "華葢香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-46aeb5ed5e42",
+      "selected_reference_id": "xjfr-c77237bc773e1117",
+      "selected_candidate_id": "c77237bc773e1117",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "c77237bc773e1117"
+      ],
+      "member_titles": [
+        "梅英香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-7fff2f60c53b",
+      "selected_reference_id": "xjfr-ac0e6620fd977ce4",
+      "selected_candidate_id": "ac0e6620fd977ce4",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "0f160fd9a3f1d3db",
+        "ac0e6620fd977ce4"
+      ],
+      "member_titles": [
+        "梅英香",
+        "梅英香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.6,
+      "minimum_pairwise_composition_cosine": 0.9460567059505681,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "0f160fd9a3f1d3db",
+          "right_candidate_id": "ac0e6620fd977ce4",
+          "left_title": "梅英香",
+          "right_title": "梅英香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.35353535353535354,
+          "material_set_jaccard": 0.6,
+          "composition_cosine": 0.9460567059505681,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_title_and_text"
+        }
+      ]
+    },
+    {
+      "formula_family_id": "ff-d3658aae5e35",
+      "selected_reference_id": "xjfr-19d194130266ba87",
+      "selected_candidate_id": "19d194130266ba87",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "19d194130266ba87"
+      ],
+      "member_titles": [
+        "杏花香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-79f25563e0f4",
+      "selected_reference_id": "xjfr-d3259c574715fa49",
+      "selected_candidate_id": "d3259c574715fa49",
+      "member_count": 1,
+      "member_candidate_ids": [
+        "d3259c574715fa49"
+      ],
+      "member_titles": [
+        "荔枝香"
+      ],
+      "member_collections": [
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 1.0,
+      "minimum_pairwise_composition_cosine": 1.0,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "singleton",
+      "pair_evidence": []
+    },
+    {
+      "formula_family_id": "ff-bcb53cb76bb8",
+      "selected_reference_id": "xjfr-b0c774aaa388a1e2",
+      "selected_candidate_id": "b0c774aaa388a1e2",
+      "member_count": 2,
+      "member_candidate_ids": [
+        "55a222ca6e39b23f",
+        "b0c774aaa388a1e2"
+      ],
+      "member_titles": [
+        "乳檀印香",
+        "乳檀印香"
+      ],
+      "member_collections": [
+        "chen_xiangpu",
+        "xiangcheng"
+      ],
+      "direct_edge_graph_connected": true,
+      "minimum_pairwise_material_set_jaccard": 0.9166666666666666,
+      "minimum_pairwise_composition_cosine": 0.9988018495134238,
+      "audit_flags": [],
+      "review_explanation": null,
+      "adjudication": "accepted_as_conservative_leakage_group",
+      "pair_evidence": [
+        {
+          "left_candidate_id": "55a222ca6e39b23f",
+          "right_candidate_id": "b0c774aaa388a1e2",
+          "left_title": "乳檀印香",
+          "right_title": "乳檀印香",
+          "left_collection": "chen_xiangpu",
+          "right_collection": "xiangcheng",
+          "same_normalized_title": true,
+          "text_3gram_jaccard": 0.4174757281553398,
+          "material_set_jaccard": 0.9166666666666666,
+          "composition_cosine": 0.9988018495134238,
+          "direct_candidate_edge": true,
+          "direct_edge_reason": "cross_witness_composition_similarity"
+        }
+      ]
+    }
+  ],
+  "source_hashes": {
+    "structured": "f7466a6aa512b44eccf61f4eb3467ef7a0db7834a5d214f49116de60ba9f6c37",
+    "genealogy": "861cf68c6f8e3c0374ad176df2e733c263bc9cdf817638eb2d095755fd3b2cbe",
+    "reference": "476e9078c4fe6b22cd1aa5e367461d68b6c6c99a0ef45e1a5de90e98900d15be"
+  }
+}

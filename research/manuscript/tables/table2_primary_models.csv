@@ -1,0 +1,4 @@
+model,hidden_f1_source_macro,weighted_jaccard_source_macro,aitchison_distance_source_macro,development_formula_count,held_out_work_groups,mask_seeds
+Frequency,0.3386314231241636,0.37880861819102574,7.890524747021504,85,5,5
+Directed graph,0.36541975977910646,0.3879966344368349,7.716927225587732,85,5,5
+Full decoder,0.3664678698662365,0.3871368821278717,7.723978147672447,85,5,5

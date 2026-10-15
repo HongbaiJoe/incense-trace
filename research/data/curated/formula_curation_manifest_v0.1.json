@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1",
+  "batch_sha256": "89909d380a9c93340be3e17a38b0140b2e303c007a5800d258f29183548a25ed",
+  "review_date": "2026-09-07",
+  "reviewer": "project_author_assisted_curation",
+  "review_mode": "two-pass source review by one analyst plus deterministic consistency checks; not independent double annotation",
+  "default_decision": "included_reference",
+  "default_review_notes": "Pass A checked formula boundary, title, materials, quantities, roles and use context against the preserved witness span. Pass B checked normalized composition, linked-family neighbours and release eligibility.",
+  "release_policy": "Only revision-addressable Wikisource witnesses are included in v0.1. CText-derived candidates remain internal until scan and redistribution checks are complete.",
+  "exclusions": {
+    "1158b2856da165fb": {
+      "curation_order": 5,
+      "expected_title": "丁晉公清真香",
+      "failed_gates": ["boundary_ok"],
+      "reason_codes": ["multiple_formulae_in_span"],
+      "review_notes": "The extracted span contains the beginning of a second Qingzhen formula and cannot serve as one exact target."
+    },
+    "51d7d37e8130b890": {
+      "curation_order": 8,
+      "expected_title": "王将眀太宰龍涎香",
+      "failed_gates": ["materials_ok", "quantities_ok"],
+      "reason_codes": ["collective_quantity_underspecified", "witness_segmentation_ambiguous"],
+      "review_notes": "The phrase 沉檀各一半 does not establish a stable mass unit in this extracted witness."
+    },
+    "e14d86f99e1f23d7": {
+      "curation_order": 16,
+      "expected_title": "清心降真香",
+      "failed_gates": ["quantities_ok"],
+      "reason_codes": ["post_processing_retained_mass_differs"],
+      "review_notes": "White maoxiang begins at thirty liang but the preparation note says only fifteen liang are retained; the automatic vector uses the pre-processing mass."
+    },
+    "a96edb49f66fdefb": {
+      "curation_order": 17,
+      "expected_title": "假降真香",
+      "failed_gates": ["roles_ok"],
+      "reason_codes": ["discarded_processing_material_in_target"],
+      "review_notes": "Gaoben is used during boiling and then discarded, so the automatic aromatic target is not the finished-incense composition."
+    },
+    "e82e59533f901d98": {
+      "curation_order": 23,
+      "expected_title": "肖梅香",
+      "failed_gates": ["boundary_ok"],
+      "reason_codes": ["alternative_variant_merged"],
+      "review_notes": "A separately marked variant adding agarwood is merged into the base extraction."
+    },
+    "3985d38af1338e82": {
+      "curation_order": 28,
+      "expected_title": "杏花香",
+      "failed_gates": ["materials_ok", "quantities_ok"],
+      "reason_codes": ["ingredient_text_ambiguous", "possible_omitted_material"],
+      "review_notes": "The sequence 附子 沉 is textually ambiguous and may contain a damaged or omitted agarwood expression."
+    },
+    "2e31a3a02608a137": {
+      "curation_order": 34,
+      "expected_title": "洪駒父百歩香",
+      "failed_gates": ["materials_ok", "quantities_ok"],
+      "reason_codes": ["unquantified_aromatic", "quantity_projection_error"],
+      "review_notes": "Lingling leaf is unquantified; the automatic parser projects a later group quantity onto it."
+    },
+    "9b850fd7a1530933": {
+      "curation_order": 38,
+      "expected_title": "廬陵香",
+      "failed_gates": ["quantities_ok"],
+      "reason_codes": ["optional_aromatic_component"],
+      "review_notes": "Storax is explicitly optional (不用亦可), so the witness does not define one exact composition."
+    },
+    "43f3ddb5a0de7ebe": {
+      "curation_order": 48,
+      "expected_title": "唐化度寺牙香法",
+      "failed_gates": ["scope_ok"],
+      "reason_codes": ["burning_or_fumigation_use_not_established"],
+      "review_notes": "The preserved span does not establish that the preparation is burned or used for fumigation."
+    },
+    "23da5f93d3689f69": {
+      "curation_order": 49,
+      "expected_title": "雍文徹郎中牙香法",
+      "failed_gates": ["scope_ok"],
+      "reason_codes": ["burning_or_fumigation_use_not_established"],
+      "review_notes": "The preserved span does not establish burned-incense or fumigation use."
+    },
+    "a92623440ae2168a": {
+      "curation_order": 54,
+      "expected_title": "又牙香法",
+      "failed_gates": ["scope_ok"],
+      "reason_codes": ["burning_or_fumigation_use_not_established"],
+      "review_notes": "The generic tooth-aromatic preparation is not explicitly linked to burning or fumigation in this span."
+    },
+    "6d34034d8697afde": {
+      "curation_order": 55,
+      "expected_title": "又牙香法",
+      "failed_gates": ["scope_ok"],
+      "reason_codes": ["burning_or_fumigation_use_not_established"],
+      "review_notes": "The generic tooth-aromatic preparation is not explicitly linked to burning or fumigation in this span."
+    },
+    "44ffce933b71c348": {
+      "curation_order": 64,
+      "expected_title": "真品清奇香",
+      "failed_gates": ["materials_ok", "quantities_ok"],
+      "reason_codes": ["unquantified_aromatic_premix", "incomplete_finished_composition"],
+      "review_notes": "The method adds doulou aromatic mud without a quantity, leaving the finished composition incomplete."
+    },
+    "f6f37f10daf429d7": {
+      "curation_order": 68,
+      "expected_title": "香牌扇",
+      "failed_gates": ["scope_ok"],
+      "reason_codes": ["decorative_aromatic_object"],
+      "review_notes": "The object is a scented plaque or fan; burned-incense use is not established."
+    },
+    "10a91e7a07dfdfe7": {
+      "curation_order": 73,
+      "expected_title": "黒香餅",
+      "failed_gates": ["quantities_ok"],
+      "reason_codes": ["unspecified_premix"],
+      "review_notes": "The formula calls for forty liang of unspecified material mixture, preventing reconstruction of an exact component vector."
+    },
+    "6909b1aa96595141": {
+      "curation_order": 75,
+      "expected_title": "金猊玉兔香",
+      "failed_gates": ["boundary_ok"],
+      "reason_codes": ["multiple_formulae_or_narrative_in_span"],
+      "review_notes": "The extraction covers multiple preparations and narrative text rather than one bounded formula."
+    },
+    "90e4a9c6ad1760a1": {
+      "curation_order": 77,
+      "expected_title": "劉真人幻烟瑞毬香",
+      "failed_gates": ["materials_ok"],
+      "reason_codes": ["multiple_unresolved_ingredients"],
+      "review_notes": "Several formula-defining historical materials remain unmapped, making the automatic target incomplete."
+    },
+    "68c50b5144889693": {
+      "curation_order": 79,
+      "expected_title": "紅緑軟香",
+      "failed_gates": ["scope_ok"],
+      "reason_codes": ["non_burned_waxed_aromatic"],
+      "review_notes": "The waxed soft aromatic is described as an object that can be smelled or tasted, not as burned incense."
+    },
+    "9b04350c67c32f37": {
+      "curation_order": 81,
+      "expected_title": "太饍香麯",
+      "failed_gates": ["scope_ok"],
+      "reason_codes": ["edible_aromatic_preparation"],
+      "review_notes": "This is a culinary fragrant ferment rather than burned or fumigating incense."
+    },
+    "01eb1c684c7a5a37": {
+      "curation_order": 84,
+      "expected_title": "宣和御製香",
+      "failed_gates": ["quantities_ok"],
+      "reason_codes": ["substitute_material_branch"],
+      "review_notes": "The witness permits duckweed in place of shade grass, so one unbranched exact vector is not uniquely defined."
+    },
+    "ecf58a649df2b824": {
+      "curation_order": 88,
+      "expected_title": "衙香",
+      "failed_gates": ["quantities_ok", "roles_ok"],
+      "reason_codes": ["count_based_material", "target_role_uncertain"],
+      "review_notes": "Five sour-jujube kernels are count-based and their retained target role is not secure."
+    },
+    "e7633e37842d9d2b": {
+      "curation_order": 96,
+      "expected_title": "汴梁太乙宮清逺香",
+      "failed_gates": ["materials_ok", "quantities_ok", "roles_ok"],
+      "reason_codes": ["carrier_identity_uncertain", "finished_composition_incomplete"],
+      "review_notes": "The functions of boling and pitch in the finished mixture are not sufficiently resolved for an aromatic-only exact label."
+    },
+    "fabaa398da073366": {
+      "curation_order": 99,
+      "expected_title": "龍涎香",
+      "failed_gates": ["materials_ok", "quantities_ok"],
+      "reason_codes": ["unquantified_aromatic", "unresolved_character_in_material"],
+      "review_notes": "A rose-flower ingredient is present in unrestricted quantity and includes an unresolved character template."
+    },
+    "26e0588ebc0bb637": {
+      "curation_order": 108,
+      "expected_title": "荔枝皮",
+      "failed_gates": ["title_ok", "materials_ok", "quantities_ok"],
+      "reason_codes": ["ingredient_line_misclassified_as_title", "count_based_major_material"],
+      "review_notes": "Lychee peel (one thousand fruits) is a major count-based ingredient misclassified as the formula title and omitted from the automatic target."
+    },
+    "fb5f883729326fd9": {
+      "curation_order": 109,
+      "expected_title": "五眞香",
+      "failed_gates": ["boundary_ok"],
+      "reason_codes": ["multiple_formulae_in_span"],
+      "review_notes": "The extraction merges Wuzhen incense with a following Chanyue formula."
+    },
+    "603249e56ef598da": {
+      "curation_order": 110,
+      "expected_title": "文英香",
+      "failed_gates": ["materials_ok", "roles_ok"],
+      "reason_codes": ["compound_material_segmentation_ambiguous"],
+      "review_notes": "麝檀香 may be a compound historical material name rather than separate musk and sandalwood mentions."
+    },
+    "9ae325172f6d6f17": {
+      "curation_order": 112,
+      "expected_title": "康漕紫瑞香",
+      "failed_gates": ["quantities_ok"],
+      "reason_codes": ["alternative_quantity_range"],
+      "review_notes": "Musk is explicitly allowed at either half a qian or one qian, so the formula has no single exact ratio."
+    },
+    "66d0d513221a0031": {
+      "curation_order": 94,
+      "expected_title": "黄太史清眞香",
+      "failed_gates": ["materials_ok"],
+      "reason_codes": ["quantified_aromatic_omitted_from_target"],
+      "review_notes": "Two liang of cypress kernel are present in the source but absent from the parsed aromatic target."
+    },
+    "b495ba7b6866c280": {
+      "curation_order": 119,
+      "expected_title": "雪中春泛",
+      "failed_gates": ["scope_ok"],
+      "reason_codes": ["burning_or_fumigation_use_not_established"],
+      "review_notes": "The preparation and storage instructions do not state burning or fumigation use."
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "formula_title_verbatim": "印香法",
+  "mass_constrained_weighted_jaccard": 0.48330011315000554,
+  "material_rows": [
+    {
+      "inclusion_probability": 1.0,
+      "label_zh": "沉香",
+      "material_id": "agarwood",
+      "outcome": "observed input",
+      "predicted_ratio": 0.06648936170212766,
+      "reference_ratio": 0.06648936170212766
+    },
+    {
+      "inclusion_probability": 0.1579713133268401,
+      "label_zh": "栈香",
+      "material_id": "agarwood_zhan_grade",
+      "outcome": "recovered hidden",
+      "predicted_ratio": 0.1170807281430485,
+      "reference_ratio": 0.3324468085106383
+    },
+    {
+      "inclusion_probability": 0.6169273386166794,
+      "label_zh": "龙脑",
+      "material_id": "borneol_family",
+      "outcome": "recovered hidden",
+      "predicted_ratio": 0.09916713200242623,
+      "reference_ratio": 0.013297872340425532
+    },
+    {
+      "inclusion_probability": 0.2841450773200888,
+      "label_zh": "丁香",
+      "material_id": "clove_bud",
+      "outcome": "false positive",
+      "predicted_ratio": 0.1059280314005388,
+      "reference_ratio": 0.0
+    },
+    {
+      "inclusion_probability": null,
+      "label_zh": "乳香",
+      "material_id": "frankincense",
+      "outcome": "missed hidden",
+      "predicted_ratio": null,
+      "reference_ratio": 0.06648936170212766
+    },
+    {
+      "inclusion_probability": null,
+      "label_zh": "甘草",
+      "material_id": "licorice",
+      "outcome": "missed hidden",
+      "predicted_ratio": null,
+      "reference_ratio": 0.06648936170212766
+    },
+    {
+      "inclusion_probability": 0.44027671710104416,
+      "label_zh": "零陵香",
+      "material_id": "linglingxiang",
+      "outcome": "false positive",
+      "predicted_ratio": 0.11995743581414034,
+      "reference_ratio": 0.0
+    },
+    {
+      "inclusion_probability": 1.0,
+      "label_zh": "茅香",
+      "material_id": "mao_aromatic_grass",
+      "outcome": "observed input",
+      "predicted_ratio": 0.26595744680851063,
+      "reference_ratio": 0.26595744680851063
+    },
+    {
+      "inclusion_probability": 1.0,
+      "label_zh": "麝香",
+      "material_id": "musk",
+      "outcome": "observed input",
+      "predicted_ratio": 0.05319148936170213,
+      "reference_ratio": 0.05319148936170213
+    },
+    {
+      "inclusion_probability": 1.0,
+      "label_zh": "甲香",
+      "material_id": "onycha",
+      "outcome": "observed input",
+      "predicted_ratio": 0.0013297872340425532,
+      "reference_ratio": 0.0013297872340425532
+    },
+    {
+      "inclusion_probability": 1.0,
+      "label_zh": "藿香",
+      "material_id": "patchouli",
+      "outcome": "observed input",
+      "predicted_ratio": 0.0013297872340425532,
+      "reference_ratio": 0.0013297872340425532
+    },
+    {
+      "inclusion_probability": 0.6953282835587735,
+      "label_zh": "白檀香",
+      "material_id": "sandalwood_white",
+      "outcome": "recovered hidden",
+      "predicted_ratio": 0.103079438597293,
+      "reference_ratio": 0.06648936170212766
+    },
+    {
+      "inclusion_probability": 1.0,
+      "label_zh": "甘松",
+      "material_id": "spikenard",
+      "outcome": "observed input",
+      "predicted_ratio": 0.06648936170212766,
+      "reference_ratio": 0.06648936170212766
+    }
+  ],
+  "median_hidden_f1": 0.6333333333333333,
+  "metrics": {
+    "aitchison_distance": 6.283132498327913,
+    "count_absolute_error": 0,
+    "full_f1": 0.8181818181818182,
+    "full_precision": 0.8181818181818182,
+    "full_recall": 0.8181818181818182,
+    "hidden_f1": 0.6,
+    "hidden_precision": 0.6,
+    "hidden_recall": 0.6,
+    "inclusion_brier_in_vocabulary": 0.03835827779464829,
+    "true_material_vocabulary_coverage": 1.0,
+    "union_ratio_mae": 0.05669044798202068,
+    "weighted_jaccard": 0.4614670561816372
+  },
+  "observed_materials": {
+    "agarwood": 0.06648936170212766,
+    "mao_aromatic_grass": 0.26595744680851063,
+    "musk": 0.05319148936170213,
+    "onycha": 0.0013297872340425532,
+    "patchouli": 0.0013297872340425532,
+    "spikenard": 0.06648936170212766
+  },
+  "ratio_output": "observed ratios fixed; hidden ratios closed to remaining mass",
+  "reference_id": "xjfr-526789359594ac3e",
+  "schema_version": "0.1",
+  "seed": 17,
+  "selection_rule": "seed 17 confirmation formula with hidden F1 closest to the six-formula median; reference ID breaks ties",
+  "source": {
+    "locator_end": 174,
+    "locator_start": 169,
+    "page_title": "香譜 (四庫全書本)/卷下",
+    "raw_wikitext_sha256": "c93cdae7bb6507e0e6497854b6ecc30c6d5d872be90cae4332e4cbd6089ca677",
+    "rights": "public-domain historical text; Wikisource transcription CC BY-SA 4.0",
+    "stable_revision_url": "https://zh.wikisource.org/wiki/%E9%A6%99%E8%AD%9C%20%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29/%E5%8D%B7%E4%B8%8B?oldid=794696"
+  },
+  "source_rows": [
+    {
+      "formula_count": 38,
+      "source_pages": "陳氏香譜 (四庫全書本)/卷2; 陳氏香譜 (四庫全書本)/卷3",
+      "work_id": "chen_xiangpu_compilation"
+    },
+    {
+      "formula_count": 6,
+      "source_pages": "香譜 (四庫全書本)/卷下",
+      "work_id": "hong_xiangpu_attributed"
+    },
+    {
+      "formula_count": 10,
+      "source_pages": "香乘 (四庫全書本)/卷23",
+      "work_id": "huizhai_xiangpu"
+    },
+    {
+      "formula_count": 6,
+      "source_pages": "香乘 (四庫全書本)/卷25",
+      "work_id": "liexiang_xinpu"
+    },
+    {
+      "formula_count": 2,
+      "source_pages": "香乘 (四庫全書本)/卷24",
+      "work_id": "moe_xiaolu_xiangpu"
+    },
+    {
+      "formula_count": 29,
+      "source_pages": "香乘 (四庫全書本)/卷14; 香乘 (四庫全書本)/卷15; 香乘 (四庫全書本)/卷16; 香乘 (四庫全書本)/卷17; 香乘 (四庫全書本)/卷18; 香乘 (四庫全書本)/卷21",
+      "work_id": "xiangcheng_compilation_unresolved_source"
+    }
+  ],
+  "work_id": "hong_xiangpu_attributed"
+}

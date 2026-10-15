@@ -1,0 +1,1098 @@
+{
+  "schema_version": "0.1",
+  "access_date": "2026-09-07",
+  "source_registry": "data/curated/material_compound_evidence_v0.1.json",
+  "record_count": 17,
+  "records": [
+    {
+      "source": {
+        "source_id": "ngan2020_agarwood",
+        "doi": "10.14233/ajchem.2020.22177",
+        "title": "Chemical Components of Agarwood (Aquilaria crassna) Essential Oils Grown in Various Regions of Asia",
+        "year": 2020,
+        "url": "https://doi.org/10.14233/ajchem.2020.22177",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "publisher_abstract"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.14233%2Fajchem.2020.22177",
+        "doi": "10.14233/ajchem.2020.22177",
+        "title": "Chemical Components of Agarwood (Aquilaria crassna)\nEssential Oils Grown in Various Regions of Asia",
+        "authors": [
+          {
+            "given": "Tran Thi",
+            "family": "Kim Ngan"
+          },
+          {
+            "given": "Dinh Thi",
+            "family": "Thu Thuy"
+          },
+          {
+            "given": "Tran Thi",
+            "family": "Tuyen"
+          },
+          {
+            "given": "Cam Thi",
+            "family": "Inh"
+          },
+          {
+            "given": "Hoang Thi",
+            "family": "Bich"
+          },
+          {
+            "given": "Pham Quoc",
+            "family": "Long"
+          },
+          {
+            "given": "Nguyen Quyet",
+            "family": "Chien"
+          },
+          {
+            "given": "Huynh Thi",
+            "family": "Kieu Linh"
+          },
+          {
+            "given": "Le Nguyen",
+            "family": "Yen Trung"
+          },
+          {
+            "given": "Nguyen Quang",
+            "family": "Tung"
+          },
+          {
+            "given": "Duy Chinh",
+            "family": "Nguyen"
+          },
+          {
+            "given": "Long Giang",
+            "family": "Bach"
+          },
+          {
+            "given": "Tran Quoc",
+            "family": "Toan"
+          }
+        ],
+        "published_date_parts": [
+          2019,
+          11,
+          18
+        ],
+        "journal": "Asian Journal of Chemistry",
+        "volume": "32",
+        "issue": "1",
+        "page": "36-40"
+      },
+      "verification": {
+        "source_id": "ngan2020_agarwood",
+        "identifier": "10.14233/ajchem.2020.22177",
+        "title_exact_after_normalization": true,
+        "source_year": 2020,
+        "metadata_year": 2019,
+        "year_match": false,
+        "status": "warning",
+        "warning": "Source uses issue/citation year while provider metadata records an earlier online-first year."
+      }
+    },
+    {
+      "source": {
+        "source_id": "fatima2019_sandalwood",
+        "doi": "10.1007/s13205-019-1758-9",
+        "title": "Assessment of morphological and genetic variability through genic microsatellite markers for essential oil in Sandalwood (Santalum album L.)",
+        "year": 2019,
+        "url": "https://doi.org/10.1007/s13205-019-1758-9",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1007%2Fs13205-019-1758-9",
+        "doi": "10.1007/s13205-019-1758-9",
+        "title": "Assessment of morphological and genetic variability through genic microsatellite markers for essential oil in Sandalwood (Santalum album L.)",
+        "authors": [
+          {
+            "given": "Tanzeem",
+            "family": "Fatima"
+          },
+          {
+            "given": "Ashutosh",
+            "family": "Srivastava"
+          },
+          {
+            "given": "P. V.",
+            "family": "Somashekar"
+          },
+          {
+            "given": "Vageeshbabu S.",
+            "family": "Hanur"
+          },
+          {
+            "given": "M. Srinivasa",
+            "family": "Rao"
+          },
+          {
+            "given": "Surendra Singh",
+            "family": "Bisht"
+          }
+        ],
+        "published_date_parts": [
+          2019,
+          6,
+          7
+        ],
+        "journal": "3 Biotech",
+        "volume": "9",
+        "issue": "7",
+        "page": "252"
+      },
+      "verification": {
+        "source_id": "fatima2019_sandalwood",
+        "identifier": "10.1007/s13205-019-1758-9",
+        "title_exact_after_normalization": true,
+        "source_year": 2019,
+        "metadata_year": 2019,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "distefano2020_frankincense",
+        "doi": "10.3390/antibiotics9040195",
+        "title": "In Vitro Antimicrobial Activity of Frankincense Oils from Boswellia sacra Grown in Different Locations of the Dhofar Region (Oman)",
+        "year": 2020,
+        "url": "https://doi.org/10.3390/antibiotics9040195",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.3390%2Fantibiotics9040195",
+        "doi": "10.3390/antibiotics9040195",
+        "title": "In Vitro Antimicrobial Activity of Frankincense Oils from Boswellia sacra Grown in Different Locations of the Dhofar Region (Oman)",
+        "authors": [
+          {
+            "given": "Vita",
+            "family": "Di Stefano"
+          },
+          {
+            "given": "Domenico",
+            "family": "Schillaci"
+          },
+          {
+            "given": "Maria Grazia",
+            "family": "Cusimano"
+          },
+          {
+            "given": "Mohammed",
+            "family": "Rishan"
+          },
+          {
+            "given": "Luay",
+            "family": "Rashan"
+          }
+        ],
+        "published_date_parts": [
+          2020,
+          4,
+          20
+        ],
+        "journal": "Antibiotics",
+        "volume": "9",
+        "issue": "4",
+        "page": "195"
+      },
+      "verification": {
+        "source_id": "distefano2020_frankincense",
+        "identifier": "10.3390/antibiotics9040195",
+        "title_exact_after_normalization": true,
+        "source_year": 2020,
+        "metadata_year": 2020,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "benhassine2021_clove",
+        "doi": "10.1155/2021/9940591",
+        "title": "Clove Buds Essential Oil: The Impact of Grinding on the Chemical Composition and Its Biological Activities Involved in Consumer's Health Security",
+        "year": 2021,
+        "url": "https://doi.org/10.1155/2021/9940591",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1155%2F2021%2F9940591",
+        "doi": "10.1155/2021/9940591",
+        "title": "Clove Buds Essential Oil: The Impact of Grinding on the Chemical Composition and Its Biological Activities Involved in Consumer’s Health Security",
+        "authors": [
+          {
+            "given": "Dorsaf",
+            "family": "Ben Hassine"
+          },
+          {
+            "given": "Salma",
+            "family": "Kammoun El Euch"
+          },
+          {
+            "given": "Rami",
+            "family": "Rahmani"
+          },
+          {
+            "given": "Nessrine",
+            "family": "Ghazouani"
+          },
+          {
+            "given": "Rouguiata",
+            "family": "Kane"
+          },
+          {
+            "given": "Manef",
+            "family": "Abderrabba"
+          },
+          {
+            "given": "Jalloul",
+            "family": "Bouajila"
+          }
+        ],
+        "published_date_parts": [
+          2021,
+          1
+        ],
+        "journal": "BioMed Research International",
+        "volume": "2021",
+        "issue": "1",
+        "page": "9940591"
+      },
+      "verification": {
+        "source_id": "benhassine2021_clove",
+        "identifier": "10.1155/2021/9940591",
+        "title_exact_after_normalization": true,
+        "source_year": 2021,
+        "metadata_year": 2021,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "firmino2018_cassia",
+        "doi": "10.1155/2018/7405736",
+        "title": "Antibacterial and Antibiofilm Activities of Cinnamomum Sp. Essential Oil and Cinnamaldehyde: Antimicrobial Activities",
+        "year": 2018,
+        "url": "https://doi.org/10.1155/2018/7405736",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1155%2F2018%2F7405736",
+        "doi": "10.1155/2018/7405736",
+        "title": "Antibacterial and Antibiofilm Activities of\n                    <i>Cinnamomum</i>\n                    Sp. Essential Oil and Cinnamaldehyde: Antimicrobial Activities",
+        "authors": [
+          {
+            "given": "Diego F.",
+            "family": "Firmino"
+          },
+          {
+            "given": "Theodora T. A.",
+            "family": "Cavalcante"
+          },
+          {
+            "given": "Geovany A.",
+            "family": "Gomes"
+          },
+          {
+            "given": "Nairley C. S.",
+            "family": "Firmino"
+          },
+          {
+            "given": "Lucas D.",
+            "family": "Rosa"
+          },
+          {
+            "given": "Mário G.",
+            "family": "de Carvalho"
+          },
+          {
+            "given": "Francisco E. A.",
+            "family": "Catunda Jr"
+          }
+        ],
+        "published_date_parts": [
+          2018,
+          6,
+          6
+        ],
+        "journal": "The Scientific World Journal",
+        "volume": "2018",
+        "issue": null,
+        "page": "1-9"
+      },
+      "verification": {
+        "source_id": "firmino2018_cassia",
+        "identifier": "10.1155/2018/7405736",
+        "title_exact_after_normalization": true,
+        "source_year": 2018,
+        "metadata_year": 2018,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "hu2017_cyperus",
+        "doi": "10.1038/srep45231",
+        "title": "Chemical Composition, Antioxidant, DNA Damage Protective, Cytotoxic and Antibacterial Activities of Cyperus rotundus Rhizomes Essential Oil against Foodborne Pathogens",
+        "year": 2017,
+        "url": "https://doi.org/10.1038/srep45231",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1038%2Fsrep45231",
+        "doi": "10.1038/srep45231",
+        "title": "Chemical Composition, Antioxidant, DNA Damage Protective, Cytotoxic and Antibacterial Activities of Cyperus rotundus Rhizomes Essential Oil against Foodborne Pathogens",
+        "authors": [
+          {
+            "given": "Qing-Ping",
+            "family": "Hu"
+          },
+          {
+            "given": "Xin-Ming",
+            "family": "Cao"
+          },
+          {
+            "given": "Dong-Lin",
+            "family": "Hao"
+          },
+          {
+            "given": "Liang-Liang",
+            "family": "Zhang"
+          }
+        ],
+        "published_date_parts": [
+          2017,
+          3,
+          24
+        ],
+        "journal": "Scientific Reports",
+        "volume": "7",
+        "issue": "1",
+        "page": "45231"
+      },
+      "verification": {
+        "source_id": "hu2017_cyperus",
+        "identifier": "10.1038/srep45231",
+        "title_exact_after_normalization": true,
+        "source_year": 2017,
+        "metadata_year": 2017,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "han2017_ten_oils",
+        "doi": "10.1016/j.biopen.2017.04.001",
+        "title": "Chemical composition analysis and in vitro biological activities of ten essential oils in human skin cells",
+        "year": 2017,
+        "url": "https://doi.org/10.1016/j.biopen.2017.04.001",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1016%2Fj.biopen.2017.04.001",
+        "doi": "10.1016/j.biopen.2017.04.001",
+        "title": "Chemical composition analysis and in vitro biological activities of ten essential oils in human skin cells",
+        "authors": [
+          {
+            "given": "Xuesheng",
+            "family": "Han"
+          },
+          {
+            "given": "Cody",
+            "family": "Beaumont"
+          },
+          {
+            "given": "Nicole",
+            "family": "Stevens"
+          }
+        ],
+        "published_date_parts": [
+          2017,
+          12
+        ],
+        "journal": "Biochimie Open",
+        "volume": "5",
+        "issue": null,
+        "page": "1-7"
+      },
+      "verification": {
+        "source_id": "han2017_ten_oils",
+        "identifier": "10.1016/j.biopen.2017.04.001",
+        "title_exact_after_normalization": true,
+        "source_year": 2017,
+        "metadata_year": 2017,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "li2019_angelica_aroma",
+        "doi": "10.3390/molecules24234352",
+        "title": "Comparison and Identification of the Aroma-Active Compounds in the Root of Angelica dahurica",
+        "year": 2019,
+        "url": "https://doi.org/10.3390/molecules24234352",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.3390%2Fmolecules24234352",
+        "doi": "10.3390/molecules24234352",
+        "title": "Comparison and Identification of the Aroma-Active Compounds in the Root of Angelica dahurica",
+        "authors": [
+          {
+            "given": "Die",
+            "family": "Hu"
+          },
+          {
+            "given": "Junrui",
+            "family": "Guo"
+          },
+          {
+            "given": "Ting",
+            "family": "Li"
+          },
+          {
+            "given": "Mu",
+            "family": "Zhao"
+          },
+          {
+            "given": "Tingting",
+            "family": "Zou"
+          },
+          {
+            "given": "Huanlu",
+            "family": "Song"
+          },
+          {
+            "given": "Aygul",
+            "family": "Alim"
+          }
+        ],
+        "published_date_parts": [
+          2019,
+          11,
+          28
+        ],
+        "journal": "Molecules",
+        "volume": "24",
+        "issue": "23",
+        "page": "4352"
+      },
+      "verification": {
+        "source_id": "li2019_angelica_aroma",
+        "identifier": "10.3390/molecules24234352",
+        "title_exact_after_normalization": true,
+        "source_year": 2019,
+        "metadata_year": 2019,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "gwari2013_costus",
+        "doi": "10.4103/0974-8490.112424",
+        "title": "Volatile constituents of Saussurea costus roots cultivated in Uttarakhand Himalayas, India",
+        "year": 2013,
+        "url": "https://doi.org/10.4103/0974-8490.112424",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.4103%2F0974-8490.112424",
+        "doi": "10.4103/0974-8490.112424",
+        "title": "Volatile constituents of Saussurea costus roots cultivated in Uttarakhand Himalayas, India",
+        "authors": [
+          {
+            "given": "HarishChandra",
+            "family": "Andola"
+          },
+          {
+            "given": "Hema",
+            "family": "Lohani"
+          },
+          {
+            "given": "Nirpendra",
+            "family": "Chauhan"
+          },
+          {
+            "given": "Garima",
+            "family": "Gwari"
+          },
+          {
+            "given": "Ujjwal",
+            "family": "Bhandari"
+          }
+        ],
+        "published_date_parts": [
+          2013
+        ],
+        "journal": "Pharmacognosy Research",
+        "volume": "5",
+        "issue": "3",
+        "page": "179"
+      },
+      "verification": {
+        "source_id": "gwari2013_costus",
+        "identifier": "10.4103/0974-8490.112424",
+        "title_exact_after_normalization": true,
+        "source_year": 2013,
+        "metadata_year": 2013,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "zou2017_borneol",
+        "doi": "10.3390/molecules22091446",
+        "title": "Comparison of Chemical Profiles, Anti-Inflammatory Activity, and UPLC-Q-TOF/MS-Based Metabolomics in Endotoxic Fever Rats between Synthetic Borneol and Natural Borneol",
+        "year": 2017,
+        "url": "https://doi.org/10.3390/molecules22091446",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.3390%2Fmolecules22091446",
+        "doi": "10.3390/molecules22091446",
+        "title": "Comparison of Chemical Profiles, Anti-Inflammatory Activity, and UPLC-Q-TOF/MS-Based Metabolomics in Endotoxic Fever Rats between Synthetic Borneol and Natural Borneol",
+        "authors": [
+          {
+            "given": "Liang",
+            "family": "Zou"
+          },
+          {
+            "given": "Yan",
+            "family": "Zhang"
+          },
+          {
+            "given": "Wei",
+            "family": "Li"
+          },
+          {
+            "given": "Jinming",
+            "family": "Zhang"
+          },
+          {
+            "given": "Dan",
+            "family": "Wang"
+          },
+          {
+            "given": "Jia",
+            "family": "Fu"
+          },
+          {
+            "given": "Ping",
+            "family": "Wang"
+          }
+        ],
+        "published_date_parts": [
+          2017,
+          8,
+          31
+        ],
+        "journal": "Molecules",
+        "volume": "22",
+        "issue": "9",
+        "page": "1446"
+      },
+      "verification": {
+        "source_id": "zou2017_borneol",
+        "identifier": "10.3390/molecules22091446",
+        "title_exact_after_normalization": true,
+        "source_year": 2017,
+        "metadata_year": 2017,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "li2016_musk",
+        "doi": "10.1038/srep18975",
+        "title": "The musk chemical composition and microbiota of Chinese forest musk deer males",
+        "year": 2016,
+        "url": "https://doi.org/10.1038/srep18975",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1038%2Fsrep18975",
+        "doi": "10.1038/srep18975",
+        "title": "The musk chemical composition and microbiota of Chinese forest musk deer males",
+        "authors": [
+          {
+            "given": "Diyan",
+            "family": "Li"
+          },
+          {
+            "given": "Binlong",
+            "family": "Chen"
+          },
+          {
+            "given": "Long",
+            "family": "Zhang"
+          },
+          {
+            "given": "Uma",
+            "family": "Gaur"
+          },
+          {
+            "given": "Tianyuan",
+            "family": "Ma"
+          },
+          {
+            "given": "Hang",
+            "family": "Jie"
+          },
+          {
+            "given": "Guijun",
+            "family": "Zhao"
+          },
+          {
+            "given": "Nan",
+            "family": "Wu"
+          },
+          {
+            "given": "Zhongxian",
+            "family": "Xu"
+          },
+          {
+            "given": "Huailiang",
+            "family": "Xu"
+          },
+          {
+            "given": "Yongfang",
+            "family": "Yao"
+          },
+          {
+            "given": "Ting",
+            "family": "Lian"
+          },
+          {
+            "given": "Xiaolan",
+            "family": "Fan"
+          },
+          {
+            "given": "Deying",
+            "family": "Yang"
+          },
+          {
+            "given": "Mingyao",
+            "family": "Yang"
+          },
+          {
+            "given": "Qing",
+            "family": "Zhu"
+          },
+          {
+            "given": "Jessica",
+            "family": "Satkoski Trask"
+          }
+        ],
+        "published_date_parts": [
+          2016,
+          1,
+          8
+        ],
+        "journal": "Scientific Reports",
+        "volume": "6",
+        "issue": "1",
+        "page": "18975"
+      },
+      "verification": {
+        "source_id": "li2016_musk",
+        "identifier": "10.1038/srep18975",
+        "title_exact_after_normalization": true,
+        "source_year": 2016,
+        "metadata_year": 2016,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "xue2014_scrophularia",
+        "doi": null,
+        "pmid": "25857160",
+        "title": "[Chemical constituents of Scrophularia ningpoensis root].",
+        "year": 2014,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25857160/",
+        "metadata_status": "europe_pmc_verified_2026-09-07",
+        "evidence_access": "indexed_abstract"
+      },
+      "metadata": {
+        "provider": "Europe PMC",
+        "query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25857160&format=json&pageSize=3&resultType=core",
+        "doi": null,
+        "pmid": "25857160",
+        "pmcid": null,
+        "title": "[Chemical constituents of Scrophularia ningpoensis root].",
+        "authors": "Xue GQ, Du J, Pan XY, Gao H, Sun ZY, Zhang Y, Gao SL.",
+        "published_date_parts": [
+          2014
+        ],
+        "journal": null,
+        "volume": null,
+        "issue": null,
+        "page": "1597-1599"
+      },
+      "verification": {
+        "source_id": "xue2014_scrophularia",
+        "identifier": "PMID:25857160",
+        "title_exact_after_normalization": true,
+        "source_year": 2014,
+        "metadata_year": 2014,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "farag2012_licorice",
+        "doi": "10.1111/j.1750-3841.2012.02927.x",
+        "title": "Volatiles Profiling in Medicinal Licorice Roots Using Steam Distillation and Solid-Phase Microextraction (SPME) Coupled to Chemometrics",
+        "year": 2012,
+        "url": "https://doi.org/10.1111/j.1750-3841.2012.02927.x",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "author_hosted_full_text"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1111%2Fj.1750-3841.2012.02927.x",
+        "doi": "10.1111/j.1750-3841.2012.02927.x",
+        "title": "Volatiles Profiling in Medicinal Licorice Roots Using Steam Distillation and Solid‐Phase Microextraction (SPME) Coupled to Chemometrics",
+        "authors": [
+          {
+            "given": "Mohamed A.",
+            "family": "Farag"
+          },
+          {
+            "given": "Ludger A.",
+            "family": "Wessjohann"
+          }
+        ],
+        "published_date_parts": [
+          2012,
+          11
+        ],
+        "journal": "Journal of Food Science",
+        "volume": "77",
+        "issue": "11",
+        "page": null
+      },
+      "verification": {
+        "source_id": "farag2012_licorice",
+        "identifier": "10.1111/j.1750-3841.2012.02927.x",
+        "title_exact_after_normalization": true,
+        "source_year": 2012,
+        "metadata_year": 2012,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "fernandez2005_storax",
+        "doi": "10.1002/ffj.1370",
+        "title": "Chemical composition of the essential oils from Turkish and Honduras Styrax",
+        "year": 2005,
+        "url": "https://doi.org/10.1002/ffj.1370",
+        "metadata_status": "crossref_verified_2026-09-07; online_first_2004",
+        "evidence_access": "publisher_abstract"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1002%2Fffj.1370",
+        "doi": "10.1002/ffj.1370",
+        "title": "Chemical composition of the essential oils from Turkish and Honduras Styrax",
+        "authors": [
+          {
+            "given": "Xavier",
+            "family": "Fernandez"
+          },
+          {
+            "given": "Louisette",
+            "family": "Lizzani‐Cuvelier"
+          },
+          {
+            "given": "André‐Michel",
+            "family": "Loiseau"
+          },
+          {
+            "given": "Christine",
+            "family": "Perichet"
+          },
+          {
+            "given": "Claire",
+            "family": "Delbecque"
+          },
+          {
+            "given": "Jean‐François",
+            "family": "Arnaudo"
+          }
+        ],
+        "published_date_parts": [
+          2004,
+          7,
+          27
+        ],
+        "journal": "Flavour and Fragrance Journal",
+        "volume": "20",
+        "issue": "1",
+        "page": "70-73"
+      },
+      "verification": {
+        "source_id": "fernandez2005_storax",
+        "identifier": "10.1002/ffj.1370",
+        "title_exact_after_normalization": true,
+        "source_year": 2005,
+        "metadata_year": 2004,
+        "year_match": false,
+        "status": "warning",
+        "warning": "Source uses issue/citation year while provider metadata records an earlier online-first year."
+      }
+    },
+    {
+      "source": {
+        "source_id": "raza2024_fennel",
+        "doi": "10.1002/fsn3.4593",
+        "pmcid": "PMC11667025",
+        "title": "Comparative Study of Essential Oils Extracted From Foeniculum vulgare Miller Seeds Using Hydrodistillation, Steam Distillation, and Superheated Steam Distillation",
+        "year": 2024,
+        "url": "https://doi.org/10.1002/fsn3.4593",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1002%2Ffsn3.4593",
+        "doi": "10.1002/fsn3.4593",
+        "title": "Comparative Study of Essential Oils Extracted From\n                    <i>Foeniculum vulgare</i>\n                    Miller Seeds Using Hydrodistillation, Steam Distillation, and Superheated Steam Distillation",
+        "authors": [
+          {
+            "given": "Muhammad Haseeb",
+            "family": "Raza"
+          },
+          {
+            "given": "Muhammad Adnan",
+            "family": "Ayub"
+          },
+          {
+            "given": "Muhammad",
+            "family": "Zubair"
+          },
+          {
+            "given": "Amjad",
+            "family": "Hussain"
+          },
+          {
+            "given": "Samreen",
+            "family": "Saleem"
+          },
+          {
+            "given": "Muhammad Tauseef",
+            "family": "Azam"
+          },
+          {
+            "given": "Muzzamal",
+            "family": "Hussain"
+          },
+          {
+            "given": "Anjuman Gul",
+            "family": "Memon"
+          },
+          {
+            "given": "Mohamed A.",
+            "family": "Abdelgawad"
+          },
+          {
+            "given": "Mohammed M.",
+            "family": "Ghoneim"
+          },
+          {
+            "given": "Ahmed H.",
+            "family": "El‐Ghorab"
+          },
+          {
+            "given": "Ehab M.",
+            "family": "Mostafa"
+          },
+          {
+            "given": "Entessar",
+            "family": "Al Jbawi"
+          }
+        ],
+        "published_date_parts": [
+          2024,
+          11,
+          13
+        ],
+        "journal": "Food Science &amp; Nutrition",
+        "volume": "12",
+        "issue": "12",
+        "page": "10535-10549"
+      },
+      "verification": {
+        "source_id": "raza2024_fennel",
+        "identifier": "10.1002/fsn3.4593",
+        "title_exact_after_normalization": true,
+        "source_year": 2024,
+        "metadata_year": 2024,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "guo2016_camphor_tree",
+        "doi": "10.3390/ijms17111836",
+        "pmcid": "PMC5133837",
+        "title": "The Chemical Composition of Essential Oils from Cinnamomum camphora and Their Insecticidal Activity against the Stored Product Pests",
+        "year": 2016,
+        "url": "https://doi.org/10.3390/ijms17111836",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "full_text_pmc"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.3390%2Fijms17111836",
+        "doi": "10.3390/ijms17111836",
+        "title": "The Chemical Composition of Essential Oils from Cinnamomum camphora and Their Insecticidal Activity against the Stored Product Pests",
+        "authors": [
+          {
+            "given": "Shanshan",
+            "family": "Guo"
+          },
+          {
+            "given": "Zhufeng",
+            "family": "Geng"
+          },
+          {
+            "given": "Wenjuan",
+            "family": "Zhang"
+          },
+          {
+            "given": "Junyu",
+            "family": "Liang"
+          },
+          {
+            "given": "Chengfang",
+            "family": "Wang"
+          },
+          {
+            "given": "Zhiwei",
+            "family": "Deng"
+          },
+          {
+            "given": "Shushan",
+            "family": "Du"
+          }
+        ],
+        "published_date_parts": [
+          2016,
+          11,
+          4
+        ],
+        "journal": "International Journal of Molecular Sciences",
+        "volume": "17",
+        "issue": "11",
+        "page": "1836"
+      },
+      "verification": {
+        "source_id": "guo2016_camphor_tree",
+        "identifier": "10.3390/ijms17111836",
+        "title_exact_after_normalization": true,
+        "source_year": 2016,
+        "metadata_year": 2016,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    },
+    {
+      "source": {
+        "source_id": "miyazawa1996_rhubarb",
+        "doi": "10.1002/(SICI)1099-1026(199601)11:1<57::AID-FFJ549>3.0.CO;2-K",
+        "title": "Volatile components of the Rhizomes of Rheum palmatum L.",
+        "year": 1996,
+        "url": "https://doi.org/10.1002/(SICI)1099-1026(199601)11:1%3C57::AID-FFJ549%3E3.0.CO;2-K",
+        "metadata_status": "crossref_verified_2026-09-07",
+        "evidence_access": "publisher_abstract"
+      },
+      "metadata": {
+        "provider": "Crossref",
+        "query_url": "https://api.crossref.org/works/10.1002%2F%28SICI%291099-1026%28199601%2911%3A1%3C57%3A%3AAID-FFJ549%3E3.0.CO%3B2-K",
+        "doi": "10.1002/(sici)1099-1026(199601)11:1<57::aid-ffj549>3.0.co;2-k",
+        "title": "Volatile components of the Rhizomes ofRheum palmatum L.",
+        "authors": [
+          {
+            "given": "Mitsuo",
+            "family": "Miyazawa"
+          },
+          {
+            "given": "Yukiko",
+            "family": "Minamino"
+          },
+          {
+            "given": "Hiromu",
+            "family": "Kameoka"
+          }
+        ],
+        "published_date_parts": [
+          1996,
+          1
+        ],
+        "journal": "Flavour and Fragrance Journal",
+        "volume": "11",
+        "issue": "1",
+        "page": "57-60"
+      },
+      "verification": {
+        "source_id": "miyazawa1996_rhubarb",
+        "identifier": "10.1002/(SICI)1099-1026(199601)11:1<57::AID-FFJ549>3.0.CO;2-K",
+        "title_exact_after_normalization": true,
+        "source_year": 1996,
+        "metadata_year": 1996,
+        "year_match": true,
+        "status": "verified",
+        "warning": null
+      }
+    }
+  ]
+}

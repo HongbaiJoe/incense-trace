@@ -1,0 +1,190 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bembibre and Strlič(2017)]{bembibre2017_smell_heritage}
+Cecilia Bembibre and Matija Strlič.
+\newblock Smell of heritage: a framework for the identification, analysis and
+  archival of historic odours.
+\newblock \emph{Heritage Science}, 5\penalty0 (1):\penalty0 2, 2017.
+\newblock \doi{10.1186/s40494-016-0114-1}.
+
+\bibitem[Lisena et~al.(2022)Lisena, Schwabe, van Erp, Troncy, Tullett, Leemans,
+  Marx, and Ehrich]{lisena2022_odeuropa}
+Pasquale Lisena, Daniel Schwabe, Marieke van Erp, Raphaël Troncy, William
+  Tullett, Inger Leemans, Lizzie Marx, and Sofia~Colette Ehrich.
+\newblock Capturing the semantics of smell: The odeuropa data model for
+  olfactory heritage information.
+\newblock In \emph{The Semantic Web}, pages 387--405. Springer, 2022.
+\newblock \doi{10.1007/978-3-031-06981-9_23}.
+
+\bibitem[Paolin et~al.(2026)Paolin, Gianvincenzo, Torres-Elguera, Ramšak,
+  Cigić, Sawoszczuk, and Strlič]{paolin2026_historical_smells}
+Emma Paolin, Fabiana~Di Gianvincenzo, Julio~Cesar Torres-Elguera, Mojca
+  Ramšak, Irena~Kralj Cigić, Tomasz Sawoszczuk, and Matija Strlič.
+\newblock A systematic approach to the scientific reproduction of historical
+  smells: case study of a 20th-century perfume flask.
+\newblock \emph{npj Heritage Science}, 2026.
+\newblock \doi{10.1038/s40494-026-02699-x}.
+
+\bibitem[Keller et~al.(2017)Keller, Gerkin, Guan, Dhurandhar, Turu, Szalai,
+  Mainland, Ihara, Yu, Wolfinger, Vens, Schietgat, Grave, Norel, Stolovitzky,
+  Cecchi, Vosshall, and Meyer]{keller2017_dream}
+Andreas Keller, Richard~C. Gerkin, Yuanfang Guan, Amit Dhurandhar, Gabor Turu,
+  Bence Szalai, Joel~D. Mainland, Yusuke Ihara, Chung~Wen Yu, Russ Wolfinger,
+  Celine Vens, Leander Schietgat, Kurt~De Grave, Raquel Norel, Gustavo
+  Stolovitzky, Guillermo~A. Cecchi, Leslie~B. Vosshall, and Pablo Meyer.
+\newblock Predicting human olfactory perception from chemical features of odor
+  molecules.
+\newblock \emph{Science}, 355\penalty0 (6327):\penalty0 820--826, 2017.
+\newblock \doi{10.1126/science.aal2014}.
+
+\bibitem[Gutiérrez et~al.(2018)Gutiérrez, Dhurandhar, Keller, Meyer, and
+  Cecchi]{gutierrez2018_semantic}
+E.~Darío Gutiérrez, Amit Dhurandhar, Andreas Keller, Pablo Meyer, and
+  Guillermo~A. Cecchi.
+\newblock Predicting natural language descriptions of mono-molecular odorants.
+\newblock \emph{Nature Communications}, 9\penalty0 (1):\penalty0 4979, 2018.
+\newblock \doi{10.1038/s41467-018-07439-9}.
+
+\bibitem[Lee et~al.(2023)Lee, Mayhew, Sanchez-Lengeling, Wei, Qian, Little,
+  Andres, Nguyen, Moloy, Yasonik, Parker, Gerkin, Mainland, and
+  Wiltschko]{lee2023_pom}
+Brian~K. Lee, Emily~J. Mayhew, Benjamin Sanchez-Lengeling, Jennifer~N. Wei,
+  Wesley~W. Qian, Kelsie~A. Little, Matthew Andres, Britney~B. Nguyen, Theresa
+  Moloy, Jacob Yasonik, Jane~K. Parker, Richard~C. Gerkin, Joel~D. Mainland,
+  and Alexander~B. Wiltschko.
+\newblock A principal odor map unifies diverse tasks in olfactory perception.
+\newblock \emph{Science}, 381\penalty0 (6661):\penalty0 999--1006, 2023.
+\newblock \doi{10.1126/science.ade4401}.
+
+\bibitem[Sisson et~al.(2025)Sisson, Barsainyan, Sharma, and
+  Kumar]{sisson2025_blends}
+Laura Sisson, Aryan~Amit Barsainyan, Mrityunjay Sharma, and Ritesh Kumar.
+\newblock Deep learning for odor prediction on aroma-chemical blends.
+\newblock \emph{ACS Omega}, 10\penalty0 (9):\penalty0 8980--8992, 2025.
+\newblock \doi{10.1021/acsomega.4c07078}.
+
+\bibitem[Aleixandre et~al.(2024)Aleixandre, Prasetyawan, and
+  Nakamoto]{aleixandre2024_scent_creation}
+Manuel Aleixandre, Dani Prasetyawan, and Takamichi Nakamoto.
+\newblock Automatic scent creation by cheminformatics method.
+\newblock \emph{Scientific Reports}, 14\penalty0 (1):\penalty0 31284, 2024.
+\newblock \doi{10.1038/s41598-024-82654-7}.
+
+\bibitem[Hamel et~al.(2024)Hamel, Castro, Gould, Pellegrino, Liang, Coleman,
+  Patel, Wallace, Bhatnagar, Mainland, and Gerkin]{hamel2024_pyrfume}
+Elizabeth~A. Hamel, Jason~B. Castro, Travis~J. Gould, Robert Pellegrino, Zhiwei
+  Liang, Liyah~A. Coleman, Famesh Patel, Derek~S. Wallace, Tanushri Bhatnagar,
+  Joel~D. Mainland, and Richard~C. Gerkin.
+\newblock Pyrfume: A window to the world's olfactory data.
+\newblock \emph{Scientific Data}, 11\penalty0 (1):\penalty0 1220, 2024.
+\newblock \doi{10.1038/s41597-024-04051-z}.
+
+\bibitem[Thomas-Danguin et~al.(2014)Thomas-Danguin, Sinding, Romagny,
+  Mountassir, Atanasova, Berre, Bon, and Coureaud]{thomasdanguin2014_mixtures}
+Thierry Thomas-Danguin, Charlotte Sinding, Sébastien Romagny, Fouzia~El
+  Mountassir, Boriana Atanasova, Elodie~Le Berre, Anne-Marie~Le Bon, and
+  Gérard Coureaud.
+\newblock The perception of odor objects in everyday life: a review on the
+  processing of odor mixtures.
+\newblock \emph{Frontiers in Psychology}, 5:\penalty0 504, 2014.
+\newblock \doi{10.3389/fpsyg.2014.00504}.
+
+\bibitem[Wu et~al.(2015)Wu, Lyu, and Ghanem]{wu2015mlmg}
+Baoyuan Wu, Siwei Lyu, and Bernard Ghanem.
+\newblock {ML-MG}: Multi-label learning with missing labels using a mixed
+  graph.
+\newblock In \emph{2015 IEEE International Conference on Computer Vision},
+  pages 4157--4165, 2015.
+\newblock \doi{10.1109/ICCV.2015.473}.
+
+\bibitem[Zhao et~al.(2018)Zhao, Rai, Du, and
+  Buntine]{zhao2018_bayesian_multilabel}
+He~Zhao, Piyush Rai, Lan Du, and Wray Buntine.
+\newblock Bayesian multi-label learning with sparse features and labels, and
+  label co-occurrences.
+\newblock In \emph{Proceedings of the Twenty-First International Conference on
+  Artificial Intelligence and Statistics}, volume~84 of \emph{Proceedings of
+  Machine Learning Research}, pages 1943--1951. PMLR, 2018.
+\newblock URL \url{https://proceedings.mlr.press/v84/zhao18b.html}.
+
+\bibitem[Steck(2019)]{steck2019ease}
+Harald Steck.
+\newblock Embarrassingly shallow autoencoders for sparse data.
+\newblock \emph{Proceedings of the Web Conference}, pages 285--294, 2019.
+\newblock \doi{10.1145/3308558.3313710}.
+
+\bibitem[Ning and Karypis(2011)]{ning2011slim}
+Xia Ning and George Karypis.
+\newblock {SLIM}: Sparse linear methods for top-{N} recommender systems.
+\newblock In \emph{2011 IEEE 11th International Conference on Data Mining},
+  pages 497--506, 2011.
+\newblock \doi{10.1109/ICDM.2011.134}.
+
+\bibitem[Cover and Hart(1967)]{cover1967_nearest_neighbor}
+Thomas~M. Cover and Peter~E. Hart.
+\newblock Nearest neighbor pattern classification.
+\newblock \emph{IEEE Transactions on Information Theory}, 13\penalty0
+  (1):\penalty0 21--27, 1967.
+\newblock \doi{10.1109/TIT.1967.1053964}.
+\newblock URL \url{https://doi.org/10.1109/TIT.1967.1053964}.
+
+\bibitem[Cremonesi et~al.(2010)Cremonesi, Koren, and
+  Turrin]{cremonesi2010_topn}
+Paolo Cremonesi, Yehuda Koren, and Roberto Turrin.
+\newblock Performance of recommender algorithms on top-n recommendation tasks.
+\newblock In \emph{Proceedings of the Fourth ACM Conference on Recommender
+  Systems}, pages 39--46, 2010.
+\newblock \doi{10.1145/1864708.1864721}.
+\newblock URL \url{https://doi.org/10.1145/1864708.1864721}.
+
+\bibitem[Koh et~al.(2021)Koh, Sagawa, Marklund, Xie, Zhang, Balsubramani, Hu,
+  Yasunaga, Phillips, Gao, Lee, David, Stavness, Guo, Earnshaw, Haque, Beery,
+  Leskovec, Kundaje, Pierson, Levine, Finn, and Liang]{koh2021_wilds}
+Pang~Wei Koh, Shiori Sagawa, Henrik Marklund, Sang~Michael Xie, Marvin Zhang,
+  Akshay Balsubramani, Weihua Hu, Michihiro Yasunaga, Richard~Lanas Phillips,
+  Irena Gao, Tony Lee, Etienne David, Ian Stavness, Wei Guo, Berton Earnshaw,
+  Imran Haque, Sara~M. Beery, Jure Leskovec, Anshul Kundaje, Emma Pierson,
+  Sergey Levine, Chelsea Finn, and Percy Liang.
+\newblock {WILDS}: A benchmark of in-the-wild distribution shifts.
+\newblock In \emph{Proceedings of the 38th International Conference on Machine
+  Learning}, volume 139 of \emph{Proceedings of Machine Learning Research},
+  pages 5637--5664. PMLR, 2021.
+\newblock URL \url{https://proceedings.mlr.press/v139/koh21a.html}.
+
+\bibitem[Wu et~al.(2023)Wu, He, and Ainsworth]{wu2023noniid}
+Jun Wu, Jingrui He, and Elizabeth Ainsworth.
+\newblock Non-{IID} transfer learning on graphs.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~37, pages 10342--10350, 2023.
+\newblock \doi{10.1609/aaai.v37i9.26231}.
+
+\bibitem[Guo et~al.(2017)Guo, Pleiss, Sun, and Weinberger]{guo2017_calibration}
+Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
+\newblock On calibration of modern neural networks.
+\newblock In \emph{Proceedings of the 34th International Conference on Machine
+  Learning}, volume~70 of \emph{Proceedings of Machine Learning Research},
+  pages 1321--1330. PMLR, 2017.
+\newblock URL \url{https://proceedings.mlr.press/v70/guo17a.html}.
+
+\bibitem[Nixon et~al.(2019)Nixon, Dusenberry, Zhang, Jerfel, and
+  Tran]{nixon2019calibration}
+Jeremy Nixon, Michael~W. Dusenberry, Linchuan Zhang, Ghassen Jerfel, and Dustin
+  Tran.
+\newblock Measuring calibration in deep learning.
+\newblock In \emph{2019 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition Workshops}, pages 38--41, 2019.
+\newblock \doi{10.1109/CVPRW.2019.00018}.
+
+\bibitem[Rogers and Hahn(2010)]{rogers2010_morgan}
+David Rogers and Mathew Hahn.
+\newblock Extended-connectivity fingerprints.
+\newblock \emph{Journal of Chemical Information and Modeling}, 50\penalty0
+  (5):\penalty0 742--754, 2010.
+\newblock \doi{10.1021/ci100050t}.
+
+\end{thebibliography}

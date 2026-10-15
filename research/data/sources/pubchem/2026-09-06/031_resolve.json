@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        445070
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 445070,
+          "SMILES": "CC(=CCC/C(=C/CC/C(=C/CO)/C)/C)C",
+          "ConnectivitySMILES": "CC(=CCCC(=CCCC(=CCO)C)C)C",
+          "InChIKey": "CRDAMVZIKSXKFV-YFVJMOTDSA-N"
+        }
+      ]
+    }
+  }
+}

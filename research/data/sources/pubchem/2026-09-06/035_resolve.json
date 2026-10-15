@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        5281437
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 5281437,
+          "SMILES": "C/C/1=C\\CC/C(=C/[C@@H]2[C@@H](CC1)C(=C)C(=O)O2)/C",
+          "ConnectivitySMILES": "CC1=CCCC(=CC2C(CC1)C(=C)C(=O)O2)C",
+          "InChIKey": "HRYLQFBHBWLLLL-AHNJNIBGSA-N"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "2.0",
+  "release_date": "2026-09-09",
+  "manuscript": {
+    "tex": {
+      "path": "submission/latex/xiangji_source_stable_v2.tex",
+      "sha256": "09e68c1dfd2a9cd2bc5385b347ea782b5b2af35f5261826fc2d1903cdeb845b6"
+    },
+    "pdf": {
+      "path": "submission/latex/xiangji_source_stable_v2.pdf",
+      "sha256": "43be0d4086b7f38a91f033ac428fe9bbaafc7cca32f2726e5beecf3d29903f1d",
+      "pages": 14
+    },
+    "v2_bibliography": {
+      "path": "submission/latex/xiangji_cgir_v2_methods.bib",
+      "sha256": "e47c20f13fb44d8517635ed65c94325cf3c56c3b19121dd5c5a854c1d648d0ef"
+    }
+  },
+  "experiments": {
+    "nested_cross_work_sha256": "36e487fb2d4209c0df20e338f2d474085788c0acc85474495eeb19f8d779ecfe",
+    "missingness_stress_sha256": "f02c93254dd0bd16043b4dc8da2cfef8ffa1f56bbcb062743a26214e0ed8b54a",
+    "calibration_sha256": "98921f4c13c923e28d62ad81d7d231760e3fbc905085074734acb9f5d5b65e4c"
+  },
+  "figures": {
+    "manifest_sha256": "4d86ea8160d04737e6aecf70331c56a22e6688a5a2a6727a9b62f4793288446e",
+    "count": 4,
+    "formats": ["pdf", "svg", "tiff", "png"],
+    "source_data_format": "csv"
+  },
+  "verification": {
+    "pytest": "134 passed",
+    "figure_static_preflight": "14 passed, 0 warnings, 0 failures",
+    "numeric_consistency": "passed",
+    "notation_math_mode": "passed",
+    "prose_pattern_gate": "passed",
+    "latex_warning_gate": "passed",
+    "visual_page_review": "14 pages inspected"
+  }
+}

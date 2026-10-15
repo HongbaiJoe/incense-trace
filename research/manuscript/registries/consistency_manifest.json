@@ -1,0 +1,210 @@
+{
+  "manuscript_sha256": "5745bb667c8e35ca809318157c854e739ca94ed81a27904de5740c122b9d19d5",
+  "numeric_facts": [
+    {
+      "concept": "corpus_formula_count",
+      "evidence_ids": "E001",
+      "fact_id": "N001",
+      "rendered_value": "91"
+    },
+    {
+      "concept": "screened_candidate_count",
+      "evidence_ids": "E001",
+      "fact_id": "N002",
+      "rendered_value": "120"
+    },
+    {
+      "concept": "excluded_candidate_count",
+      "evidence_ids": "E001",
+      "fact_id": "N003",
+      "rendered_value": "29"
+    },
+    {
+      "concept": "corpus_work_count",
+      "evidence_ids": "E001",
+      "fact_id": "N004",
+      "rendered_value": "six work groups"
+    },
+    {
+      "concept": "corpus_material_count",
+      "evidence_ids": "E001",
+      "fact_id": "N005",
+      "rendered_value": "81 canonical aromatic materials"
+    },
+    {
+      "concept": "development_formula_count",
+      "evidence_ids": "E001,E002",
+      "fact_id": "N006",
+      "rendered_value": "85 formulas"
+    },
+    {
+      "concept": "development_material_count",
+      "evidence_ids": "E001,E002",
+      "fact_id": "N007",
+      "rendered_value": "80 materials"
+    },
+    {
+      "concept": "primary_frequency_hidden_f1",
+      "evidence_ids": "E003",
+      "fact_id": "N008",
+      "rendered_value": "0.339"
+    },
+    {
+      "concept": "primary_graph_hidden_f1",
+      "evidence_ids": "E003",
+      "fact_id": "N009",
+      "rendered_value": "0.365"
+    },
+    {
+      "concept": "primary_full_hidden_f1",
+      "evidence_ids": "E003",
+      "fact_id": "N010",
+      "rendered_value": "0.366"
+    },
+    {
+      "concept": "full_minus_frequency_f1",
+      "evidence_ids": "E003",
+      "fact_id": "N011",
+      "rendered_value": "0.0278"
+    },
+    {
+      "concept": "full_minus_graph_f1",
+      "evidence_ids": "E003",
+      "fact_id": "N012",
+      "rendered_value": "0.0010"
+    },
+    {
+      "concept": "brier",
+      "evidence_ids": "E003",
+      "fact_id": "N013",
+      "rendered_value": "0.0429"
+    },
+    {
+      "concept": "ece",
+      "evidence_ids": "E003",
+      "fact_id": "N014",
+      "rendered_value": "0.0236"
+    },
+    {
+      "concept": "count_mae",
+      "evidence_ids": "E003",
+      "fact_id": "N015",
+      "rendered_value": "1.190"
+    },
+    {
+      "concept": "count_bias",
+      "evidence_ids": "E003",
+      "fact_id": "N016",
+      "rendered_value": "0.883"
+    },
+    {
+      "concept": "count_interval_coverage",
+      "evidence_ids": "E003",
+      "fact_id": "N017",
+      "rendered_value": "64.2%"
+    },
+    {
+      "concept": "ratio_interval_coverage",
+      "evidence_ids": "E003",
+      "fact_id": "N018",
+      "rendered_value": "91.2%"
+    },
+    {
+      "concept": "common_material_recall",
+      "evidence_ids": "E004",
+      "fact_id": "N019",
+      "rendered_value": "0.573"
+    },
+    {
+      "concept": "rare_material_recall",
+      "evidence_ids": "E004",
+      "fact_id": "N020",
+      "rendered_value": "0.056"
+    },
+    {
+      "concept": "hong_full_hidden_f1",
+      "evidence_ids": "E005",
+      "fact_id": "N021",
+      "rendered_value": "0.577"
+    },
+    {
+      "concept": "t2_odor_knn_wj",
+      "evidence_ids": "E007",
+      "fact_id": "N022",
+      "rendered_value": "0.2913"
+    },
+    {
+      "concept": "t2_model_wj",
+      "evidence_ids": "E007",
+      "fact_id": "N023",
+      "rendered_value": "0.2824"
+    },
+    {
+      "concept": "laplace_mh_mae",
+      "evidence_ids": "E008",
+      "fact_id": "N024",
+      "rendered_value": "0.0016"
+    },
+    {
+      "concept": "fit_median_seconds",
+      "evidence_ids": "E009",
+      "fact_id": "N025",
+      "rendered_value": "0.115 s"
+    },
+    {
+      "concept": "prediction_median_ms",
+      "evidence_ids": "E009",
+      "fact_id": "N026",
+      "rendered_value": "1.70 ms"
+    },
+    {
+      "concept": "formula_knn_hidden_f1",
+      "evidence_ids": "E014",
+      "fact_id": "N027",
+      "rendered_value": "0.343"
+    },
+    {
+      "concept": "puresvd_hidden_f1",
+      "evidence_ids": "E014",
+      "fact_id": "N028",
+      "rendered_value": "0.334"
+    },
+    {
+      "concept": "high_similarity_excluded_count",
+      "evidence_ids": "E014",
+      "fact_id": "N029",
+      "rendered_value": "Nine formulas"
+    },
+    {
+      "concept": "sensitivity_graph_hidden_f1",
+      "evidence_ids": "E014",
+      "fact_id": "N030",
+      "rendered_value": "0.348"
+    },
+    {
+      "concept": "sensitivity_frequency_hidden_f1",
+      "evidence_ids": "E014",
+      "fact_id": "N031",
+      "rendered_value": "0.322"
+    },
+    {
+      "concept": "calibrated_count_coverage",
+      "evidence_ids": "E014",
+      "fact_id": "N032",
+      "rendered_value": "82.5%"
+    },
+    {
+      "concept": "mass_constrained_weighted_jaccard",
+      "evidence_ids": "E014",
+      "fact_id": "N033",
+      "rendered_value": "0.427"
+    },
+    {
+      "concept": "case_hidden_f1",
+      "evidence_ids": "E015",
+      "fact_id": "N034",
+      "rendered_value": "0.600"
+    }
+  ],
+  "schema_version": "0.1"
+}

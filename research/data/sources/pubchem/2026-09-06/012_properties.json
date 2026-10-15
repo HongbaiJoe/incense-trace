@@ -1,0 +1,17 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 2758,
+        "MolecularFormula": "C10H18O",
+        "MolecularWeight": "154.25",
+        "XLogP": 2.5,
+        "ExactMass": "154.135765193",
+        "TPSA": 9.2,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 1,
+        "RotatableBondCount": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+source_id,stream,task,method,historical_text,chemistry,name_uncertainty,posterior_output,source_shift
+aleixandre2024_scent_creation,inverse_scent_design,odor descriptors to essential-oil component ratios,"mass-spectral components, forward DNN and gradient inverse optimization",0,1,0,0,0
+sisson2025_blends,odor_mixtures,two molecular graphs to blend descriptors,permutation-invariant graph neural networks,0,1,0,0,0
+lee2023_pom,computational_olfaction,molecular graph to perceptual embedding and descriptors,message-passing graph neural network with prospective validation,0,1,0,0,0
+hamel2024_pyrfume,olfactory_data,heterogeneous olfactory datasets to standardized archive,"data model, provenance and curation",0,1,0,0,0
+gutierrez2018_semantic,computational_olfaction,molecular features to natural-language odor descriptions,semantic and psychophysical prediction,0,1,0,0,0
+keller2017_dream,computational_olfaction,molecular features to perceptual ratings,crowdsourced challenge and ensemble prediction,0,1,0,0,0
+debnath2021_mass_spectra,computational_olfaction,mass spectra to odor descriptors,spectral feature prediction,0,1,0,0,0
+thomasdanguin2014_mixtures,odor_mixtures,odor-mixture perception synthesis,review of configural and elemental mixture processing,0,0,0,0,0
+sorbi2026_historical_ner,historical_nlp,low-resource historical text to entity spans,weak supervision for historical named-entity recognition,1,0,0,0,1
+goel2024_recipe_ner,recipe_information_extraction,"recipe phrases to ingredient, quantity, unit and state entities",supervised NER with augmented annotations,0,0,0,0,0
+tyagi2023_conformal,uncertainty_quantification,multilabel scores to calibrated prediction sets,split conformal inference with hierarchical testing,0,0,0,1,0
+ngan2020_agarwood,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+fatima2019_sandalwood,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+distefano2020_frankincense,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+benhassine2021_clove,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+firmino2018_cassia,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+hu2017_cyperus,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+han2017_ten_oils,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+li2019_angelica_aroma,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+gwari2013_costus,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+zou2017_borneol,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+li2016_musk,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+xue2014_scrophularia,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+farag2012_licorice,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+fernandez2005_storax,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+raza2024_fennel,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+guo2016_camphor_tree,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0
+miyazawa1996_rhubarb,material_analytical_chemistry,material specimen to identified volatile components,"source-specific GC-MS, GC-O or isolation evidence; see evidence registry",0,1,0,0,0

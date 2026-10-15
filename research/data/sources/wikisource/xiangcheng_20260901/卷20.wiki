@@ -1,0 +1,160 @@
+<!--
+
+請根據四庫全書掃描版校對本頁，標準見[[Wikisource:四庫全書原文]]。加標點請另外建立頁面。
+
+
+-->{{SKQS header|title=香乘|section=卷二十|prev=卷十九|prev_link=卷19|next=卷二十一|next_link=卷21|type=子}}<onlyinclude><poem>　　欽定四庫全書
+　　{{SK anchor|香乗卷二十}}
+　　明　周嘉胄　撰
+　　香屬　{{SK notes|香餅　香煤　香灰香珠　香藥　香茶}}
+　　{{SK anchor|燒香用香餅}}
+　　凡燒香用餅子須先燒令通紅置香爐内{{SKchar|1974}}有黄衣生方徐徐以灰覆之仍手試火氣{{SKchar|1606}}慢{{SK notes|沈譜}}
+　　{{SK anchor|香餅}}{{SK notes|一}}
+　　{{SK anchor|堅硬羊脛骨炭}}{{SK notes|三觔末}}　　　黄丹五{{SK notes|兩}}
+　　{{SK anchor|定粉}}{{SK notes|五兩}}　　針砂{{SK notes|五兩}}　　牙硝{{SK notes|五兩}}
+　　{{SK anchor|棗}}{{SK notes|一升煮爛去皮核}}
+　　右同搗拌勻以棗膏和劑隨意捻作餅子
+　　{{SK anchor|香餅}}{{SK notes|二}}
+　　{{SK anchor|木炭}}{{SK notes|三觔末}}　定粉{{SK notes|三兩}}　　黄丹{{SK notes|二兩}}
+　　右拌勻用糯米為糊和成入鐡臼内細杵以圈子脱作餅晒乾用之
+　　{{SK anchor|香餅}}{{SK notes|三}}
+　　用櫟炭和柏葉葵菜橡實為之純用櫟炭則難熟而易碎石餅太酷不用
+　　{{SK anchor|香餅}}{{SK notes|沈}}
+　　{{SK anchor|輭炭}}{{SK notes|三觔末}}　蜀葵葉{{SK notes|或花一觔半}}
+　　右同搗令粘勻作劑如乾更入薄糊少許彈子大捻餅晒乾貯磁器内燒香旋取用如無葵則炭末中拌入紅花滓同搗以薄糊和之亦可
+　　{{SK anchor|耐久香餅}}
+　　硬炭末{{SK notes|五兩}}　胡粉{{SK notes|一兩}}　　黄丹{{SK notes|一兩}}
+　　右用搗細末煮糯米膠和勻捻餅晒乾毎用燒令赤炷香經久或以針砂代胡粉煮棗代糯膠
+　　{{SK anchor|長生香餅}}
+　　黄丹{{SK notes|四兩}}　　乾蜀葵花{{SK notes|二兩燒灰}}乾茄根{{SK notes|二兩燒灰}}棗肉{{SK notes|半觔去核}}
+　　右為粗末以棗肉研作膏同和勻捻作餅子晒乾置爐内大可耐久而不息
+　　{{SK anchor|終日香餅}}
+　　羊脛炭{{SK notes|一觔末}}黄丹{{SK notes|一分}}　　定粉{{SK notes|一分}}
+　　{{SK anchor|針砂}}{{SK notes|少許研勻}}黒石脂{{SK notes|一分　分字去聲}}
+　　右煮棗肉拌勻捻作餅子窨二日便於日中晒乾如燒香畢水中蘸滅可再用
+　　{{SK anchor|丁晉公文房七寳香餅}}
+　　青州棗{{SK notes|一斤去核}}木炭{{SK notes|二斤末}}　黄丹{{SK notes|半兩}}
+　　{{SK anchor|鐵屑}}{{SK notes|二兩}}　　定粉{{SK notes|一兩}}　　細墨{{SK notes|一兩}}
+　　{{SK anchor|丁香}}{{SK notes|二十粒}}
+　　右用搗為膏如乾時再入棗以模子脱作餅如錢許每一餅可經晝夜
+　　{{SK anchor|内府香餅}}
+　　木炭末{{SK notes|一觔}}　黄丹{{SK notes|三兩}}　　定粉{{SK notes|三兩}}
+　　{{SK anchor|針砂}}{{SK notes|二兩}}　　棗{{SK notes|半觔}}
+　　右同末熟棗肉杵作餅晒乾用如常法毎一餅可度終日
+　　{{SK anchor|賈清泉香餅}}
+　　羊脛炭{{SK notes|一觔}}　定粉{{SK notes|四兩}}　　黄丹{{SK notes|四兩}}
+　　右用糯粥或棗肉和作餅晒乾用如常法或茄葉燒灰存性用棗肉同杵捻餅晒乾用之
+　　{{SK anchor|用香煤}}
+　　近來焚香取火非竈下即踏中者以之供神佛格祖先其不潔多矣故用煤以扶接火餅{{SK notes|香史補遺}}
+　　{{SK anchor|香煤}}{{SK notes|一}}
+　　{{SK anchor|茄蒂}}{{SK notes|不計多少燒存性取四兩}}定粉{{SK notes|三錢}}
+　　{{SK anchor|黄丹}}{{SK notes|二錢}}　　海金砂{{SK notes|二錢}}
+　　右同末拌勻置爐上燒紙{{SKchar|3295}}可終日
+　　{{SK anchor|香煤}}{{SK notes|二}}
+　　枯茄荄燒成炭於瓶内{{SKchar|1974}}冷為末毎一兩入鉛粉二錢黄丹二錢半拌勻和裝灰中
+　　{{SK anchor|香煤}}{{SK notes|三}}
+　　熖硝　　　黄丹　　　杉木炭
+　　右各等分糝爐中以紙燼{{SKchar|3295}}
+　　{{SK anchor|香煤}}{{SK notes|四}}
+　　黑石脂一名石墨一名石湼古者擣之以為香煤張正見詩香散綺幕室石墨雕金爐
+　　{{SK anchor|香煤}}{{SK notes|沈}}
+　　乾竹筒　　乾桞枝{{SK notes|燒黒灰各二兩}}
+　　{{SK anchor|鉛粉}}{{SK notes|二錢}}　黄丹{{SK notes|三兩}}　熖硝{{SK notes|六錢}}
+　　右同為末毎用{{SKchar2|26}}許以燈爇著於上焚香
+　　{{SK anchor|月禪師香煤}}
+　　杉木烰炭{{SK notes|四兩}}硬羊脛炭{{SK notes|二兩}}竹烰炭{{SK notes|一兩}}
+　　{{SK anchor|黄丹}}{{SK notes|半兩}}　　海金砂{{SK notes|半兩}}
+　　右同為末拌勻毎用二錢置爐紙燈{{SKchar|3295}}{{SKchar|1974}}透紅以冷灰薄覆
+　　{{SK anchor|閻資欽香煤}}
+　　柏葉多採之摘去枝梗洗浄日中曝乾剉碎不用墳墓間者入浄罐内以鹽泥固濟炭火煆之石剉細研毎用一二錢置香爐灰上以紙燈{{SKchar|3295}}{{SKchar|1974}}勻遍焚香時時添之可以終日
+　　香餅香煤好事者為之其實用只須櫟炭一塊製香灰
+　　{{SK anchor|香灰}}{{SK notes|新}}
+　　細葉杉木枝燒灰用火一二塊養之經宿羅過裝爐毎秋間採松鬚曝乾燒灰用養香餅　未化石灰搥碎羅過鍋内炒令紅{{SKchar|1974}}冷又研又羅一再為之作養爐灰潔白可愛日夜常以火一塊養之仍須用葢若塵埃則黑矣　礦灰六分爐灰四分和勻大火養灰焚炷香蒲燒灰裝爐如雪　紙石灰杉木灰各等分以米湯同和煆過用　頭青朱紅黑煤土黄各等分雜於紙中裝爐名錦灰　紙灰炒通紅羅過或稻梁燒灰皆可用乾松花燒灰裝香爐最潔　茄灰亦可藏火火久不息蜀葵枯時燒灰妙
+　　爐灰鬆則養火久實則退今惟用千張紙灰最妙爐中晝夜火不絶灰毎月一易佳他無需也
+　　{{SK anchor|香珠}}
+　　香珠之法見諸道家者流其來尚矣若夫茶藥之屬豈亦漢人含雞舌香之遺製乎茲故録之以備見聞庶幾耻一物不知之意云
+　　{{SK anchor|孫功甫亷訪木犀香珠}}
+　　木犀花蓓蕾未全開者開則無香矣露未晞時用布幔鋪如無幔浄掃樹下地靣令人登梯上樹打下花蕊擇去梗葉精揀花蕊用中様石磨磨成漿次以布複包裹榨壓去水將已乾花料盛貯新磁器内逐旋取出於乳鉢内研令細輭用小竹筒為則度築劑或以滑石平片刻竅取則手搓員如小錢大竹簽穿孔置盤中以紙四五重襯藉日傍隂乾稍健可百顆作一串山竹弓絣挂當風處吹八九分乾取下毎十五顆以潔浄水畧畧揉洗去皮邉青黑色又用盤盛於日影中映乾如天隂晦紙隔之於慢火上焙乾新綿裹收時時觀則香味可數年不失其磨乳啚洗之際忌穢汚婦鐵器油鹽等觸犯{{SKchar|1216}}碎録云木犀香念珠湏少入西木香
+　　{{SK anchor|龍涎香珠}}
+　　大黄{{SK notes|一兩半}}　甘松{{SK notes|一兩二}}錢川芎{{SK notes|一兩半}}
+　　{{SK anchor|牡丹皮}}{{SK notes|一兩二錢}}藿香{{SK notes|一兩二錢}}柰子{{SK notes|一兩一錢}}
+　　以上六味並用酒潑留一宿次日五更以後藥一處拌勻於露天安頓待日出晒乾
+　　{{SK anchor|白芷}}{{SK notes|二兩}}　　零陵香{{SK notes|一兩半}}丁皮{{SK notes|一兩二錢}}
+　　{{SK anchor|檀香}}{{SK notes|三兩}}　　滑石{{SK notes|一兩二錢另研}}白芨{{SK notes|六兩煮糊}}
+　　{{SK anchor|均香}}{{SK notes|二兩洗乾另研}}白礬{{SK notes|一兩二錢另研}}好{{SKchar|202}}香{{SK notes|二兩}}
+　　{{SK anchor|春皮}}{{SK notes|一兩二錢}}樟腦{{SK notes|一兩}}　　麝香{{SK notes|半字}}
+　　{{SK anchor|圓晒如前法旋入龍涎腦麝}}
+　　香珠{{SK notes|一}}
+　　{{SK anchor|天寳香}}{{SK notes|一兩}}　土光香{{SK notes|半兩}}　　速香{{SK notes|一兩}}
+　　{{SK anchor|蘇合香}}{{SK notes|半兩}}　牡丹皮{{SK notes|二兩}}　　降眞香{{SK notes|半兩}}
+　　{{SK anchor|茅香}}{{SK notes|一錢半}}　草香{{SK notes|一錢}}　　白芷{{SK notes|二錢豆腐蒸過}}三柰{{SK notes|二錢同上}}丁香{{SK notes|半兩}}　　藿香{{SK notes|五錢}}
+　　{{SK anchor|丁皮}}{{SK notes|一兩}}　　槀本{{SK notes|半兩}}　　細辛{{SK notes|二分}}
+　　{{SK anchor|白檀}}{{SK notes|一兩}}　　麝香檀{{SK notes|一兩}}　零陵香{{SK notes|二兩}}
+　　{{SK anchor|甘松}}{{SK notes|半兩}}　　大黄{{SK notes|二兩}}　　荔枝殻{{SK notes|二錢}}
+　　{{SK anchor|麝香}}{{SK notes|一拘}}　　黄蠟{{SK notes|一兩}}　　滑石{{SK notes|量用}}
+　　{{SK anchor|石羔}}{{SK notes|五錢}}　　白芨{{SK notes|一兩}}
+　　右料蜜梅酒松子三柰白芷　糊夏白芨春秋瓊枝冬阿膠　黑色竹葉灰石羔　黄色檀香蒲黄　白色滑石麝檀　菩提色細辛牡丹皮檀香麝檀大黄石羔　沉香噀濕用蠟圓打輕者用水噀打
+　　{{SK anchor|香珠}}{{SK notes|二}}
+　　{{SK anchor|零陵香}}{{SK notes|酒洗}}　甘松{{SK notes|酒洗}}　木香{{SK notes|少許}}
+　　{{SK anchor|茴香}}{{SK notes|等分}}　　丁香{{SK notes|等分}}　　茅香{{SK notes|酒洗}}
+　　{{SK anchor|川芎}}{{SK notes|少許}}　　藿香{{SK notes|酒洗此物奪香味少用}}
+　　{{SK anchor|桂心}}{{SK notes|少許}}　　檀香{{SK notes|等分}}　　白芷{{SK notes|麫裹煨熟去麫}}牡丹皮{{SK notes|酒浸一日晒乾}}　　　三柰子{{SK notes|如白芷製少許}}大黄{{SK notes|蒸過此項收香味且又染色多用無妨}}
+　　右件圈者少用不圈等分如前製度晒乾和合為細末用白芨和麪打糊為劑隨大小圓趂濕穿孔半乾用麝香檀稠調水為衣
+　　{{SK anchor|收香珠法}}
+　　凡香環佩帶念珠之屬過夏後湏用木賊草擦去汗垢庶不蒸壊若蒸損者以温湯洗過晒乾其香如初{{SK notes|温子皮}}
+　　{{SK anchor|香珠燒之香徹天}}
+　　香珠以雜香擣之丸如桐子大青䋲穿此三皇眞元之香珠也燒之香徹天{{SK notes|三洞珠{{SKchar|3615}}}}
+　　{{SK anchor|交趾香珠}}
+　　交趾以泥香揑成小巴豆狀琉璃珠間之綵絲貫之作道人數珠入省地賣南中婦人好帶之
+　　余曾見交趾珠外用朱砂為衣内用小銅管穿繩製極精嚴
+　　{{SK anchor|香藥}}
+　　丁沉煎圓
+　　{{SK anchor|丁香}}{{SK notes|二兩半}}　沉香{{SK notes|四錢}}　　木香{{SK notes|一錢}}
+　　{{SK anchor|白荳䓻}}{{SK notes|二兩}}　檀香{{SK notes|二兩}}　　甘松{{SK notes|四兩}}
+　　右為細末以甘草和膏研勻為圓如芡{{SKchar|622}}大每用一圓噙化常服調順三焦和養榮衛治心胸痞滿
+　　{{SK anchor|木香餅子}}
+　　木香　　　　檀香　　　　丁香
+　　甘草　　　　肉桂　　　　甘松
+　　{{SKchar|394}}砂　　　　丁皮　　　　莪术{{SK notes|各等分}}
+　　莪木醋煮過用鹽水浸出醋漿水浸三日為末蜜和同甘草膏為餅每服三五枚
+　　{{SK anchor|荳䓻香身丸}}
+　　丁香　　　　青木香　　　藿香
+　　{{SK anchor|甘松}}{{SK notes|各一兩}}　白芷　　　　香附子
+　　當歸　　　　桂心　　　　㯽榔
+　　{{SK anchor|荳䓻}}{{SK notes|各半兩}}　麝香{{SK notes|少許}}
+　　右為細末煉蜜為劑入少酥油丸如梧桐子大每服二十丸逐旋噙化咽津久服令人身香
+　　{{SK anchor|透體麝臍丹}}
+　　川芎　　　　松子仁　　　柏子仁
+　　菊花　　　　當歸　　　　白茯苓
+　　{{SK anchor|藿香葉}}{{SK notes|各一兩}}
+　　右為細末煉蜜為丸如桐子大每服五七丸温酒茶清任下去諸風明目輕身辟邪少夢悦澤顔彩令人身香
+　　{{SK anchor|獨醒香}}
+　　亁葛　　　　烏梅　　　　甘草
+　　{{SKchar|394}}砂{{SK notes|各二兩}}　枸杞子{{SK notes|四兩}}　檀香{{SK notes|半兩}}
+　　{{SK anchor|百藥煎}}{{SK notes|半觔}}
+　　右為極細末滴水為丸如雞頭大酒後三二丸細嚼之醉而立醒
+　　{{SK anchor|香茶}}
+　　經進龍麝香茶
+　　{{SK anchor|白荳䓻}}{{SK notes|一兩去皮}}白檀末{{SK notes|七錢}}　百藥煎{{SK notes|五錢}}
+　　{{SK anchor|寒水石}}{{SK notes|五錢薄荷汁製}}麝香{{SK notes|四分}}　　沉香{{SK notes|三錢}}
+　　{{SK anchor|片腦}}{{SK notes|二錢}}　　甘草末{{SK notes|三錢}}　上等髙茶{{SK notes|一觔}}
+　　右為極細末用浄糯米半升煮粥以宻布絞取汁置浄盌内放冷和劑不可稀軟以硬為度於石板上杵一二時辰如粘黏用小油二兩煎沸入白檀香三五片脱印時以小竹刀刮背上令平{{SK notes|衛州韓家方}}
+　　{{SK anchor|孩兒香茶}}
+　　孩兒香{{SK notes|一觔}}　髙茶末{{SK notes|三兩}}　麝香{{SK notes|四錢}}
+　　{{SK anchor|片腦}}{{SK notes|二錢五分或糠米者韶腦不用}}薄荷霜{{SK notes|五錢}}
+　　{{SK anchor|川百藥煎}}{{SK notes|一兩研極細}}
+　　右六件一處和匀用熟白糯米一升半淘洗令浄入鍋内放冷水髙四指煮作糕糜取出十分冷定於磁盆内揉和成劑却於平石砧上杵千餘轉以多為妙然後將花脱洒油少許入劑作餅於潔浄透風篩子頓放陰亁貯磁器内青紙襯裏宻封
+　　{{SK anchor|香茶}}{{SK notes|一}}
+　　{{SK anchor|上等細茶}}{{SK notes|一觔}}片腦{{SK notes|半兩}}　　檀香{{SK notes|三兩}}
+　　{{SK anchor|沉香}}{{SK notes|一兩}}　　{{SKchar|394}}砂{{SK notes|三兩}}　　舊龍涎餅{{SK notes|一兩}}
+　　右為細末以甘草半觔剉水一盌半煎取浄汁一盌入麝香米三錢和勻隨意作餅
+　　{{SK anchor|香茶}}{{SK notes|二}}
+　　龍腦　　　　麝香{{SK notes|雪梨製}}　百藥煎
+　　揀草　　　　寒水石{{SK notes|各三錢}}髙茶{{SK notes|一觔}}
+　　{{SK anchor|硼砂}}{{SK notes|一錢}}　　白荳䓻{{SK notes|二錢}}
+　　右同碾細末以熬過熟糯米粥浄布巾絞取濃汁勻和石上杵千餘方脱花様
+
+
+　　{{SK anchor|香乗卷二十}}
+<子部,譜錄類,器物之屬,香乘>
+</poem></onlyinclude>{{SKQS footer|title=香乘|section=卷二十|prev=卷十九|prev_link=卷19|next=卷二十一|next_link=卷21|type=子}}{{PD-old}}

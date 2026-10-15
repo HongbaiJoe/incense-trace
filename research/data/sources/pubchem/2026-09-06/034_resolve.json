@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        17355
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 17355,
+          "SMILES": "CC(=O)CCC1=CC=CC=C1",
+          "ConnectivitySMILES": "CC(=O)CCC1=CC=CC=C1",
+          "InChIKey": "AKGGYBADQZYZPD-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

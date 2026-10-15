@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.1",
+  "checkpoint": "cycle4_cross_source_evaluation",
+  "model_parameters_changed": false,
+  "primary_two_work_folds_accessed": true,
+  "Hong_source_accessed_for_confirmation": true,
+  "investigator_blinded": false,
+  "files": [
+    {
+      "path": "src/xiangji/evaluation/primary.py",
+      "sha256": "a223167f2aa7b1680f964bfc3290e5c340a5b61f6411cc21f2bfdbd8b904d52f"
+    },
+    {
+      "path": "src/xiangji/evaluation/robustness.py",
+      "sha256": "9e003d7f317e7923b4d30e698814b82b2dfab441a3bd9de1b1e6a398ff0e6a85"
+    },
+    {
+      "path": "src/xiangji/evaluation/hong_confirmation.py",
+      "sha256": "d5e912e18177ac009d55a2255c681917ba1a2cec3cd0d3b06f1887c2e5c32215"
+    },
+    {
+      "path": "experiments/cycle4_primary_evaluation.json",
+      "sha256": "5d89086151a8d84c43738a9a732fc785355a24db12ec6bd01e622cf21679d211"
+    },
+    {
+      "path": "experiments/cycle4_primary_records.json.gz",
+      "sha256": "a0bef531dc2430af5d907eecab75686d2f085e56b003133032d72af9a98c632d"
+    },
+    {
+      "path": "experiments/cycle4_robustness.json",
+      "sha256": "69c4721259fde6be15fcaae8a2dc3dfcd6d19fa8ae816b6e32cc3bdd3a024953"
+    },
+    {
+      "path": "experiments/cycle4_hong_confirmation.json",
+      "sha256": "5c2edbbf081549ba19f02fea6321298b638ea9f07c9c830bfc638f976ee83adb"
+    },
+    {
+      "path": "experiments/cycle4_hong_records.json.gz",
+      "sha256": "f82bb0e121c36588f602c0aca0dd91ffdeb81deee483e2170b4d806eb53d6b2a"
+    },
+    {
+      "path": "reports/cycle4_completion.md",
+      "sha256": "f88d944fd9d7f063a539de23bcfc93800b3e154c4ed62489c368eaabc8b4e243"
+    }
+  ]
+}

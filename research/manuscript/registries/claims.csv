@@ -1,0 +1,14 @@
+claim_id,claim_sha256,anchor,evidence_ids,analysis_intent
+C001,d3398428b199af7b6e390bb0725ed2795e471e1c9a579a2de229d79c33562a39,The curation pipeline screened 120 candidate formulas,E001,descriptive
+C002,e57867af4fb02656e5967281823609ea83ea1b1f2580f16e9315f3a49f309822,The directed graph reached F1 0.365,E003,primary
+C003,c6d33388b1c01933a53635f3eaa744625b634206c5f760fc141bcfc6655b680f,The full decoder and graph-only scores were nearly identical,E003,primary
+C004,406d329dd2799d3396e361b164c2711f99df817e8af5e1896df2dab625804635,Training frequency set a sharp recovery frontier,E004,secondary
+C005,883e2345c9fcea0b468800538c364cf1f52c1588cc888c785d4a434a157543eb,the highest bin had mean probability 0.931,E003,descriptive
+C006,3270e3b4f8a78e18bfe0f9a56ed84b6c45e2a57d10347be2b3869fc446177e17,Pairwise chemical resemblance did not encode historical co-formulation,"E006,E007",negative_control
+C007,6a436d8e8c9d5a3bff33da23086b7898b501ffc0649408c7138e241b680633f8,frequency reached hidden F1 0.469,E005,confirmation
+C008,a9688b080d91c99a82a96159bbdbca5854203ad2bd3b55dd1eccbee29a46f115,Training the locked decoder on all 85 development formulas,E009,descriptive
+C009,953d6c8ed5919cc0fae8432533ad4135eb14c8614d42dd092328093ecb3f7e39,"A separate 20,000-step Metropolis-Hastings check",E008,diagnostic
+C010,48ce65ac203a1e5ddd19946a1d78ab01ecbaa1ffb9be3fbbad14b4787aaa51fe,Formula k-nearest neighbours reached primary hidden F1 0.343,E014,post_freeze_baseline
+C011,2409196a4033feebe22aa03f96ee0e1cfac992dda4e8ff4c9bc976be3ce47c97,Removing all nine reduced graph F1 to 0.348,E014,sensitivity
+C012,14e5ea673ab077066ead9b125147ef3ab81cf25fd6f2ddfa06032da83c9f4040,The expanded interval covered 82.5%,E014,recalibration
+C013,c55944f1429c6e2f06a58784d72756a86ec1a28d7621e0ad663b08d8232605e4,"For *Yinxiang fa*, six of eleven reference materials were observed",E015,case_study

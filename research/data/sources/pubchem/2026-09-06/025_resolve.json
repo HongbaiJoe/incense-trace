@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        4133
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 4133,
+          "SMILES": "COC(=O)C1=CC=CC=C1O",
+          "ConnectivitySMILES": "COC(=O)C1=CC=CC=C1O",
+          "InChIKey": "OSWPMRLSEDHDFF-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

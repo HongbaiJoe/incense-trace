@@ -1,0 +1,17 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 798,
+        "MolecularFormula": "C8H7N",
+        "MolecularWeight": "117.15",
+        "XLogP": 2.1,
+        "ExactMass": "117.057849228",
+        "TPSA": 15.8,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 0,
+        "RotatableBondCount": 0
+      }
+    ]
+  }
+}

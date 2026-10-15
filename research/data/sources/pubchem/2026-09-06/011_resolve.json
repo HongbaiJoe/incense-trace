@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        2537
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 2537,
+          "SMILES": "CC1(C2CCC1(C(=O)C2)C)C",
+          "ConnectivitySMILES": "CC1(C2CCC1(C(=O)C2)C)C",
+          "InChIKey": "DSSYKIVIOFKYAU-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

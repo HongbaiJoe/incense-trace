@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        444539
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 444539,
+          "SMILES": "C1=CC=C(C=C1)/C=C/C(=O)O",
+          "ConnectivitySMILES": "C1=CC=C(C=C1)C=CC(=O)O",
+          "InChIKey": "WBYWAXJHAXSJNI-VOTSOKGWSA-N"
+        }
+      ]
+    }
+  }
+}

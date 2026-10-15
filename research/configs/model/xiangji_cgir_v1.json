@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1",
+  "model": "xiangji-cgir-v1",
+  "random_seeds": [17, 29, 43, 71, 101],
+  "task": {
+    "primary": "source_shifted_partial_formula_completion",
+    "auxiliary": "family_blocked_odor_conditioned_inverse_formulation",
+    "mask_fractions": [0.25, 0.5, 0.75],
+    "training_masks_per_formula": 3
+  },
+  "title_encoder": {
+    "analyzer": "char",
+    "ngram_range": [1, 2],
+    "sublinear_tf": true,
+    "norm": "l2"
+  },
+  "inclusion_decoder": {
+    "C_grid": [0.03, 0.1, 0.3, 1.0, 3.0],
+    "class_weight": "balanced",
+    "maximum_iterations": 2000
+  },
+  "selection": {
+    "group_dro_iterations_grid": [0, 8],
+    "graph_reducer_grid": ["weighted_mean", "mean", "max"],
+    "primary_metric": "source_macro_hidden_component_f1",
+    "secondary_metric": "source_macro_weighted_jaccard",
+    "tertiary_metric": "source_macro_aitchison_distance"
+  },
+  "group_dro": {
+    "enabled": true,
+    "iterations": 8,
+    "eta": 0.2,
+    "minimum_source_weight": 0.02
+  },
+  "priors": {
+    "global_beta_alpha": 0.5,
+    "global_beta_beta": 0.5,
+    "source_prior_strength": 5.0,
+    "count_prior_strength": 3.0,
+    "ratio_pseudocount": 0.1
+  },
+  "chemistry_kernel": {
+    "morgan_weight": 0.5,
+    "physicochemical_weight": 0.25,
+    "odor_tag_weight": 0.25,
+    "profile_pair_reducer": "maximum",
+    "grade_proxy_map": {
+      "agarwood_raw_resin": "agarwood",
+      "agarwood_soku_grade": "agarwood",
+      "agarwood_yellow_grade": "agarwood",
+      "agarwood_zhan_grade": "agarwood",
+      "agarwood_zhala_grade": "agarwood",
+      "agarwood_qinan_grade": "agarwood",
+      "clove_bark": "clove_bud"
+    }
+  },
+  "sealed_source": "hong_xiangpu_attributed",
+  "selection_metric": "source_macro_hidden_component_f1"
+}

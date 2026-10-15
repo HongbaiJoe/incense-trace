@@ -1,0 +1,1 @@
+ALTER TABLE `custom_entries` ADD `owner` text;

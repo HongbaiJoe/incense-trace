@@ -1,0 +1,320 @@
+\begin{thebibliography}{34}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bembibre and Strlič(2017)]{bembibre2017_smell_heritage}
+Cecilia Bembibre and Matija Strlič.
+\newblock Smell of heritage: a framework for the identification, analysis and
+  archival of historic odours.
+\newblock \emph{Heritage Science}, 5\penalty0 (1):\penalty0 2, 2017.
+\newblock \doi{10.1186/s40494-016-0114-1}.
+
+\bibitem[Lisena et~al.(2022)Lisena, Schwabe, van Erp, Troncy, Tullett, Leemans,
+  Marx, and Ehrich]{lisena2022_odeuropa}
+Pasquale Lisena, Daniel Schwabe, Marieke van Erp, Raphaël Troncy, William
+  Tullett, Inger Leemans, Lizzie Marx, and Sofia~Colette Ehrich.
+\newblock Capturing the semantics of smell: The odeuropa data model for
+  olfactory heritage information.
+\newblock In \emph{The Semantic Web}, pages 387--405. Springer, 2022.
+\newblock \doi{10.1007/978-3-031-06981-9_23}.
+
+\bibitem[Paolin et~al.(2026)Paolin, Gianvincenzo, Torres-Elguera, Ramšak,
+  Cigić, Sawoszczuk, and Strlič]{paolin2026_historical_smells}
+Emma Paolin, Fabiana~Di Gianvincenzo, Julio~Cesar Torres-Elguera, Mojca
+  Ramšak, Irena~Kralj Cigić, Tomasz Sawoszczuk, and Matija Strlič.
+\newblock A systematic approach to the scientific reproduction of historical
+  smells: case study of a 20th-century perfume flask.
+\newblock \emph{npj Heritage Science}, 2026.
+\newblock \doi{10.1038/s40494-026-02699-x}.
+
+\bibitem[Keller et~al.(2017)Keller, Gerkin, Guan, Dhurandhar, Turu, Szalai,
+  Mainland, Ihara, Yu, Wolfinger, Vens, Schietgat, Grave, Norel, Stolovitzky,
+  Cecchi, Vosshall, and Meyer]{keller2017_dream}
+Andreas Keller, Richard~C. Gerkin, Yuanfang Guan, Amit Dhurandhar, Gabor Turu,
+  Bence Szalai, Joel~D. Mainland, Yusuke Ihara, Chung~Wen Yu, Russ Wolfinger,
+  Celine Vens, Leander Schietgat, Kurt~De Grave, Raquel Norel, Gustavo
+  Stolovitzky, Guillermo~A. Cecchi, Leslie~B. Vosshall, and Pablo Meyer.
+\newblock Predicting human olfactory perception from chemical features of odor
+  molecules.
+\newblock \emph{Science}, 355\penalty0 (6327):\penalty0 820--826, 2017.
+\newblock \doi{10.1126/science.aal2014}.
+
+\bibitem[Gutiérrez et~al.(2018)Gutiérrez, Dhurandhar, Keller, Meyer, and
+  Cecchi]{gutierrez2018_semantic}
+E.~Darío Gutiérrez, Amit Dhurandhar, Andreas Keller, Pablo Meyer, and
+  Guillermo~A. Cecchi.
+\newblock Predicting natural language descriptions of mono-molecular odorants.
+\newblock \emph{Nature Communications}, 9\penalty0 (1):\penalty0 4979, 2018.
+\newblock \doi{10.1038/s41467-018-07439-9}.
+
+\bibitem[Lee et~al.(2023)Lee, Mayhew, Sanchez-Lengeling, Wei, Qian, Little,
+  Andres, Nguyen, Moloy, Yasonik, Parker, Gerkin, Mainland, and
+  Wiltschko]{lee2023_pom}
+Brian~K. Lee, Emily~J. Mayhew, Benjamin Sanchez-Lengeling, Jennifer~N. Wei,
+  Wesley~W. Qian, Kelsie~A. Little, Matthew Andres, Britney~B. Nguyen, Theresa
+  Moloy, Jacob Yasonik, Jane~K. Parker, Richard~C. Gerkin, Joel~D. Mainland,
+  and Alexander~B. Wiltschko.
+\newblock A principal odor map unifies diverse tasks in olfactory perception.
+\newblock \emph{Science}, 381\penalty0 (6661):\penalty0 999--1006, 2023.
+\newblock \doi{10.1126/science.ade4401}.
+
+\bibitem[Sisson et~al.(2025)Sisson, Barsainyan, Sharma, and
+  Kumar]{sisson2025_blends}
+Laura Sisson, Aryan~Amit Barsainyan, Mrityunjay Sharma, and Ritesh Kumar.
+\newblock Deep learning for odor prediction on aroma-chemical blends.
+\newblock \emph{ACS Omega}, 10\penalty0 (9):\penalty0 8980--8992, 2025.
+\newblock \doi{10.1021/acsomega.4c07078}.
+
+\bibitem[Aleixandre et~al.(2024)Aleixandre, Prasetyawan, and
+  Nakamoto]{aleixandre2024_scent_creation}
+Manuel Aleixandre, Dani Prasetyawan, and Takamichi Nakamoto.
+\newblock Automatic scent creation by cheminformatics method.
+\newblock \emph{Scientific Reports}, 14\penalty0 (1):\penalty0 31284, 2024.
+\newblock \doi{10.1038/s41598-024-82654-7}.
+
+\bibitem[Debnath et~al.(2021)Debnath, Prasetyawan, and
+  Nakamoto]{debnath2021_mass_spectra}
+Tanoy Debnath, Dani Prasetyawan, and Takamichi Nakamoto.
+\newblock Predicting odor perception of mixed scent from mass spectrometry.
+\newblock \emph{Journal of The Electrochemical Society}, 168\penalty0
+  (11):\penalty0 117505, 2021.
+\newblock \doi{10.1149/1945-7111/ac33e0}.
+
+\bibitem[Hamel et~al.(2024)Hamel, Castro, Gould, Pellegrino, Liang, Coleman,
+  Patel, Wallace, Bhatnagar, Mainland, and Gerkin]{hamel2024_pyrfume}
+Elizabeth~A. Hamel, Jason~B. Castro, Travis~J. Gould, Robert Pellegrino, Zhiwei
+  Liang, Liyah~A. Coleman, Famesh Patel, Derek~S. Wallace, Tanushri Bhatnagar,
+  Joel~D. Mainland, and Richard~C. Gerkin.
+\newblock Pyrfume: A window to the world's olfactory data.
+\newblock \emph{Scientific Data}, 11\penalty0 (1):\penalty0 1220, 2024.
+\newblock \doi{10.1038/s41597-024-04051-z}.
+
+\bibitem[Thomas-Danguin et~al.(2014)Thomas-Danguin, Sinding, Romagny,
+  Mountassir, Atanasova, Berre, Bon, and Coureaud]{thomasdanguin2014_mixtures}
+Thierry Thomas-Danguin, Charlotte Sinding, Sébastien Romagny, Fouzia~El
+  Mountassir, Boriana Atanasova, Elodie~Le Berre, Anne-Marie~Le Bon, and
+  Gérard Coureaud.
+\newblock The perception of odor objects in everyday life: a review on the
+  processing of odor mixtures.
+\newblock \emph{Frontiers in Psychology}, 5:\penalty0 504, 2014.
+\newblock \doi{10.3389/fpsyg.2014.00504}.
+
+\bibitem[Wu et~al.(2015)Wu, Lyu, and Ghanem]{wu2015mlmg}
+Baoyuan Wu, Siwei Lyu, and Bernard Ghanem.
+\newblock {ML-MG}: Multi-label learning with missing labels using a mixed
+  graph.
+\newblock In \emph{2015 IEEE International Conference on Computer Vision},
+  pages 4157--4165, 2015.
+\newblock \doi{10.1109/ICCV.2015.473}.
+
+\bibitem[Zhao et~al.(2018)Zhao, Rai, Du, and
+  Buntine]{zhao2018_bayesian_multilabel}
+He~Zhao, Piyush Rai, Lan Du, and Wray Buntine.
+\newblock Bayesian multi-label learning with sparse features and labels, and
+  label co-occurrences.
+\newblock In \emph{Proceedings of the Twenty-First International Conference on
+  Artificial Intelligence and Statistics}, volume~84 of \emph{Proceedings of
+  Machine Learning Research}, pages 1943--1951. PMLR, 2018.
+\newblock URL \url{https://proceedings.mlr.press/v84/zhao18b.html}.
+
+\bibitem[Steck(2019)]{steck2019ease}
+Harald Steck.
+\newblock Embarrassingly shallow autoencoders for sparse data.
+\newblock \emph{Proceedings of the Web Conference}, pages 285--294, 2019.
+\newblock \doi{10.1145/3308558.3313710}.
+
+\bibitem[Ning and Karypis(2011)]{ning2011slim}
+Xia Ning and George Karypis.
+\newblock {SLIM}: Sparse linear methods for top-{N} recommender systems.
+\newblock In \emph{2011 IEEE 11th International Conference on Data Mining},
+  pages 497--506, 2011.
+\newblock \doi{10.1109/ICDM.2011.134}.
+
+\bibitem[Cover and Hart(1967)]{cover1967_nearest_neighbor}
+Thomas~M. Cover and Peter~E. Hart.
+\newblock Nearest neighbor pattern classification.
+\newblock \emph{IEEE Transactions on Information Theory}, 13\penalty0
+  (1):\penalty0 21--27, 1967.
+\newblock \doi{10.1109/TIT.1967.1053964}.
+\newblock URL \url{https://doi.org/10.1109/TIT.1967.1053964}.
+
+\bibitem[Cremonesi et~al.(2010)Cremonesi, Koren, and
+  Turrin]{cremonesi2010_topn}
+Paolo Cremonesi, Yehuda Koren, and Roberto Turrin.
+\newblock Performance of recommender algorithms on top-n recommendation tasks.
+\newblock In \emph{Proceedings of the Fourth ACM Conference on Recommender
+  Systems}, pages 39--46, 2010.
+\newblock \doi{10.1145/1864708.1864721}.
+\newblock URL \url{https://doi.org/10.1145/1864708.1864721}.
+
+\bibitem[Sorbi et~al.(2026)Sorbi, Moccozet, and
+  Marchand-Maillet]{sorbi2026_historical_ner}
+Marco Sorbi, Laurent Moccozet, and Stephane Marchand-Maillet.
+\newblock Weakly supervised named entity recognition for low-resource
+  historical texts.
+\newblock In \emph{Proceedings of the 10th Joint SIGHUM Workshop on
+  Computational Linguistics for Cultural Heritage, Social Sciences, Humanities
+  and Literature}, pages 48--65. Association for Computational Linguistics,
+  2026.
+\newblock \doi{10.18653/v1/2026.latechclfl-1.6}.
+\newblock URL \url{https://aclanthology.org/2026.latechclfl-1.6/}.
+
+\bibitem[Goel et~al.(2024)Goel, Agarwal, Agrawal, Kapuriya, Konam, Gupta,
+  Rastogi, Niharika, and Bagler]{goel2024_recipe_ner}
+Mansi Goel, Ayush Agarwal, Shubham Agrawal, Janak Kapuriya, Akhil~Vamshi Konam,
+  Rishabh Gupta, Shrey Rastogi, Niharika, and Ganesh Bagler.
+\newblock Deep learning based named entity recognition models for recipes.
+\newblock In \emph{Proceedings of LREC-COLING 2024}, pages 4542--4554. ELRA and
+  ICCL, 2024.
+\newblock URL \url{https://aclanthology.org/2024.lrec-main.406/}.
+
+\bibitem[Koh et~al.(2021)Koh, Sagawa, Marklund, Xie, Zhang, Balsubramani, Hu,
+  Yasunaga, Phillips, Gao, Lee, David, Stavness, Guo, Earnshaw, Haque, Beery,
+  Leskovec, Kundaje, Pierson, Levine, Finn, and Liang]{koh2021_wilds}
+Pang~Wei Koh, Shiori Sagawa, Henrik Marklund, Sang~Michael Xie, Marvin Zhang,
+  Akshay Balsubramani, Weihua Hu, Michihiro Yasunaga, Richard~Lanas Phillips,
+  Irena Gao, Tony Lee, Etienne David, Ian Stavness, Wei Guo, Berton Earnshaw,
+  Imran Haque, Sara~M. Beery, Jure Leskovec, Anshul Kundaje, Emma Pierson,
+  Sergey Levine, Chelsea Finn, and Percy Liang.
+\newblock {WILDS}: A benchmark of in-the-wild distribution shifts.
+\newblock In \emph{Proceedings of the 38th International Conference on Machine
+  Learning}, volume 139 of \emph{Proceedings of Machine Learning Research},
+  pages 5637--5664. PMLR, 2021.
+\newblock URL \url{https://proceedings.mlr.press/v139/koh21a.html}.
+
+\bibitem[Wu et~al.(2023)Wu, He, and Ainsworth]{wu2023noniid}
+Jun Wu, Jingrui He, and Elizabeth Ainsworth.
+\newblock Non-{IID} transfer learning on graphs.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~37, pages 10342--10350, 2023.
+\newblock \doi{10.1609/aaai.v37i9.26231}.
+
+\bibitem[Guo et~al.(2017)Guo, Pleiss, Sun, and Weinberger]{guo2017_calibration}
+Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
+\newblock On calibration of modern neural networks.
+\newblock In \emph{Proceedings of the 34th International Conference on Machine
+  Learning}, volume~70 of \emph{Proceedings of Machine Learning Research},
+  pages 1321--1330. PMLR, 2017.
+\newblock URL \url{https://proceedings.mlr.press/v70/guo17a.html}.
+
+\bibitem[Nixon et~al.(2019)Nixon, Dusenberry, Zhang, Jerfel, and
+  Tran]{nixon2019calibration}
+Jeremy Nixon, Michael~W. Dusenberry, Linchuan Zhang, Ghassen Jerfel, and Dustin
+  Tran.
+\newblock Measuring calibration in deep learning.
+\newblock In \emph{2019 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition Workshops}, pages 38--41, 2019.
+\newblock \doi{10.1109/CVPRW.2019.00018}.
+
+\bibitem[Ratner et~al.(2017)Ratner, Bach, Ehrenberg, Fries, Wu, and
+  R\'{e}]{ratner2017_snorkel}
+Alexander Ratner, Stephen~H. Bach, Henry Ehrenberg, Jason Fries, Sen Wu, and
+  Christopher R\'{e}.
+\newblock Snorkel: Rapid training data creation with weak supervision.
+\newblock \emph{Proceedings of the VLDB Endowment}, 11\penalty0 (3):\penalty0
+  269--282, 2017.
+\newblock \doi{10.14778/3157794.3157797}.
+
+\bibitem[Aitchison(1982)]{aitchison1982_compositional}
+J.~Aitchison.
+\newblock The statistical analysis of compositional data.
+\newblock \emph{Journal of the Royal Statistical Society Series B: Statistical
+  Methodology}, 44\penalty0 (2):\penalty0 139--160, 1982.
+\newblock \doi{10.1111/j.2517-6161.1982.tb01195.x}.
+
+\bibitem[Ngan et~al.(2020)Ngan, Thuy, Tuyen, Inh, Bich, Long, Chien, Linh,
+  Trung, Tung, Nguyen, Bach, and Toan]{ngan2020_agarwood}
+Tran Thi~Kim Ngan, Dinh Thi~Thu Thuy, Tran~Thi Tuyen, Cam~Thi Inh, Hoang~Thi
+  Bich, Pham~Quoc Long, Nguyen~Quyet Chien, Huynh Thi~Kieu Linh, Le~Nguyen~Yen
+  Trung, Nguyen~Quang Tung, Duy~Chinh Nguyen, Long~Giang Bach, and Tran~Quoc
+  Toan.
+\newblock Chemical components of agarwood (aquilaria crassna) essential oils
+  grown in various regions of asia.
+\newblock \emph{Asian Journal of Chemistry}, 32\penalty0 (1):\penalty0 36--40,
+  2020.
+\newblock \doi{10.14233/ajchem.2020.22177}.
+\newblock URL \url{https://doi.org/10.14233/ajchem.2020.22177}.
+
+\bibitem[Fatima et~al.(2019)Fatima, Srivastava, Somashekar, Hanur, Rao, and
+  Bisht]{fatima2019_sandalwood}
+Tanzeem Fatima, Ashutosh Srivastava, P.~V. Somashekar, Vageeshbabu~S. Hanur,
+  M.~Srinivasa Rao, and Surendra~Singh Bisht.
+\newblock Assessment of morphological and genetic variability through genic
+  microsatellite markers for essential oil in sandalwood (santalum album l.).
+\newblock \emph{3 Biotech}, 9\penalty0 (7):\penalty0 252, 2019.
+\newblock \doi{10.1007/s13205-019-1758-9}.
+\newblock URL \url{https://doi.org/10.1007/s13205-019-1758-9}.
+
+\bibitem[Stefano et~al.(2020)Stefano, Schillaci, Cusimano, Rishan, and
+  Rashan]{distefano2020_frankincense}
+Vita~Di Stefano, Domenico Schillaci, Maria~Grazia Cusimano, Mohammed Rishan,
+  and Luay Rashan.
+\newblock In vitro antimicrobial activity of frankincense oils from boswellia
+  sacra grown in different locations of the dhofar region (oman).
+\newblock \emph{Antibiotics}, 9\penalty0 (4):\penalty0 195, 2020.
+\newblock \doi{10.3390/antibiotics9040195}.
+\newblock URL \url{https://doi.org/10.3390/antibiotics9040195}.
+
+\bibitem[Hassine et~al.(2021)Hassine, Euch, Rahmani, Ghazouani, Kane,
+  Abderrabba, and Bouajila]{benhassine2021_clove}
+Dorsaf~Ben Hassine, Salma Kammoun~El Euch, Rami Rahmani, Nessrine Ghazouani,
+  Rouguiata Kane, Manef Abderrabba, and Jalloul Bouajila.
+\newblock Clove buds essential oil: The impact of grinding on the chemical
+  composition and its biological activities involved in consumer's health
+  security.
+\newblock \emph{BioMed Research International}, 2021\penalty0 (1):\penalty0
+  9940591, 2021.
+\newblock \doi{10.1155/2021/9940591}.
+\newblock URL \url{https://doi.org/10.1155/2021/9940591}.
+
+\bibitem[Firmino et~al.(2018)Firmino, Cavalcante, Gomes, Firmino, Rosa,
+  de~Carvalho, and Jr]{firmino2018_cassia}
+Diego~F. Firmino, Theodora T.~A. Cavalcante, Geovany~A. Gomes, Nairley C.~S.
+  Firmino, Lucas~D. Rosa, Mário~G. de~Carvalho, and Francisco E. A.~Catunda
+  Jr.
+\newblock Antibacterial and antibiofilm activities of cinnamomum sp. essential
+  oil and cinnamaldehyde: Antimicrobial activities.
+\newblock \emph{The Scientific World Journal}, 2018:\penalty0 1--9, 2018.
+\newblock \doi{10.1155/2018/7405736}.
+\newblock URL \url{https://doi.org/10.1155/2018/7405736}.
+
+\bibitem[Hu et~al.(2017)Hu, Cao, Hao, and Zhang]{hu2017_cyperus}
+Qing-Ping Hu, Xin-Ming Cao, Dong-Lin Hao, and Liang-Liang Zhang.
+\newblock Chemical composition, antioxidant, dna damage protective, cytotoxic
+  and antibacterial activities of cyperus rotundus rhizomes essential oil
+  against foodborne pathogens.
+\newblock \emph{Scientific Reports}, 7\penalty0 (1):\penalty0 45231, 2017.
+\newblock \doi{10.1038/srep45231}.
+\newblock URL \url{https://doi.org/10.1038/srep45231}.
+
+\bibitem[Rogers and Hahn(2010)]{rogers2010_morgan}
+David Rogers and Mathew Hahn.
+\newblock Extended-connectivity fingerprints.
+\newblock \emph{Journal of Chemical Information and Modeling}, 50\penalty0
+  (5):\penalty0 742--754, 2010.
+\newblock \doi{10.1021/ci100050t}.
+
+\bibitem[Angelopoulos and Bates(2023)]{angelopoulos2023_conformal}
+Anastasios~N. Angelopoulos and Stephen Bates.
+\newblock Conformal prediction: A gentle introduction.
+\newblock \emph{Foundations and Trends in Machine Learning}, 16\penalty0
+  (4):\penalty0 494--591, 2023.
+\newblock \doi{10.1561/2200000101}.
+\newblock URL \url{https://doi.org/10.1561/2200000101}.
+
+\bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion,
+  Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
+  Cournapeau, Brucher, Perrot, and Édouard Duchesnay]{pedregosa2011_scikit}
+Fabian Pedregosa, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand
+  Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron Weiss,
+  Vincent Dubourg, Jake Vanderplas, Alexandre Passos, David Cournapeau,
+  Matthieu Brucher, Matthieu Perrot, and Édouard Duchesnay.
+\newblock Scikit-learn: Machine learning in python.
+\newblock \emph{Journal of Machine Learning Research}, 12:\penalty0 2825--2830,
+  2011.
+\newblock URL \url{https://jmlr.org/papers/v12/pedregosa11a.html}.
+
+\end{thebibliography}

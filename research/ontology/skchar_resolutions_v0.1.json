@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.1",
+  "scope": "Parser-time resolutions for Wikisource Shujing Character template identifiers. Raw source snapshots remain byte-for-byte unchanged.",
+  "resolutions": [
+    {
+      "template_id": "202",
+      "character": "箋",
+      "status": "contextually_resolved_pending_scan_check",
+      "evidence": [
+        "Recurrent construction {{SKchar|202}}香 in Xiangcheng formula ingredient lists.",
+        "Parallel formula witnesses render the material as 棧香 or related zhan-grade agarwood spellings."
+      ],
+      "intended_normalization": "agarwood_zhan_grade"
+    },
+    {
+      "template_id": "3587",
+      "character": "蔻",
+      "status": "contextually_resolved_pending_scan_check",
+      "evidence": [
+        "Template occurs inside 白荳{{SKchar|3587}}仁 and 肉荳{{SKchar|3587}}.",
+        "The resolved strings are attested ingredient names 白荳蔻仁 and 肉荳蔻."
+      ],
+      "intended_normalization": "cardamom"
+    },
+    {
+      "template_id": "3737",
+      "character": "巡",
+      "status": "contextually_resolved_pending_scan_check",
+      "evidence": [
+        "The formula heading appears as {{SKchar|3737}}筵香 in one witness.",
+        "A parallel witness transcribes the same title and closely corresponding formula as 巡筵香."
+      ],
+      "intended_normalization": null
+    },
+    {
+      "template_id": "3609",
+      "character": "爇",
+      "status": "contextually_resolved_pending_scan_check",
+      "evidence": [
+        "The template recurs in terminal constructions such as 窨過{{SKchar|3609}}之.",
+        "Parallel formula witnesses use 爇之 in the same preparation-and-burning context."
+      ],
+      "intended_normalization": null
+    }
+  ]
+}

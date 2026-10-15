@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        10955174
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 10955174,
+          "SMILES": "C[C@H]1CC[C@@]2([C@@]3([C@H]1C[C@H](C2(C)C)CC3)C)O",
+          "ConnectivitySMILES": "CC1CCC2(C(C3CCC2(C1C3)C)(C)C)O",
+          "InChIKey": "GGHMUJBZYLPWFD-CUZKYEQNSA-N"
+        }
+      ]
+    }
+  }
+}

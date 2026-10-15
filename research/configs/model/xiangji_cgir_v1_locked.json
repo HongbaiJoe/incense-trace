@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.1",
+  "locked_after": "development-only model selection",
+  "primary_task": "source-shifted partial-formula completion",
+  "model": "xiangji-cgir-v1",
+  "channels": [
+    "global_prevalence_logit",
+    "source_prevalence_logit",
+    "title_material_similarity",
+    "hypergraph_affinity",
+    "legacy_odor_similarity",
+    "observed_material",
+    "observed_log_weight"
+  ],
+  "inactive_without_odor_target": ["legacy_odor_similarity"],
+  "C": 3.0,
+  "group_dro_iterations": 0,
+  "graph_reducer": "mean",
+  "mask_fractions_training": [0.25, 0.5, 0.75],
+  "evaluation_observed_fraction": 0.5,
+  "count_decision": "posterior median under absolute error",
+  "count_observation_model": "registered deterministic masking rule",
+  "inclusion_posterior": "Gaussian-prior generalized Bayesian logistic; Laplace approximation",
+  "composition_uncertainty": "Ridge log-ratio mean plus residual-scaled Dirichlet distribution conditional on the selected set",
+  "chemistry_in_primary_task": "disabled by development selection",
+  "chemistry_rationale": "pairwise chemical similarity did not improve held-out-work completion and represents substitutability more naturally than complementarity",
+  "sealed_source_status": "quarantined_from_model_statistics_not_investigator_blinded",
+  "selection_artifact": "experiments/cycle3_model_selection.json"
+}

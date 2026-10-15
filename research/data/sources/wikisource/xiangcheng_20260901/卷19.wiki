@@ -1,0 +1,272 @@
+<!--
+
+請根據四庫全書掃描版校對本頁，標準見[[Wikisource:四庫全書原文]]。加標點請另外建立頁面。
+
+
+-->{{SKQS header|title=香乘|section=卷十九|prev=卷十八|prev_link=卷18|next=卷二十|next_link=卷20|type=子}}<onlyinclude><poem>　　欽定四庫全書
+　　{{SK anchor|香乘卷十九}}
+　　明　周嘉胄　撰
+　　{{SK anchor|熏佩之香}}
+　　篤耨佩香{{SK notes|武}}
+　　{{SK anchor|沉香末}}{{SK notes|一觔}}　金顔香末{{SK notes|十兩}}大食梔子花{{SK notes|一兩}}龍涎{{SK notes|一兩}}　　龍腦{{SK notes|五錢}}
+　　右為細末薔薇水細細和之得所臼杵極細脱範子
+　　{{SK anchor|梅蕊香}}
+　　丁香{{SK notes|半兩}}　　甘松{{SK notes|半兩}}　　藿香葉{{SK notes|半兩}}
+　　{{SK anchor|香白芷}}{{SK notes|半兩}}　牡丹皮{{SK notes|一錢}}　零陵香{{SK notes|一兩半}}
+　　{{SK anchor|舶上茴香}}{{SK notes|五分㣲炒}}
+　　{{SK anchor|同㕮咀貯絹袋佩之}}
+　　荀令十里香{{SK notes|沈}}
+　　{{SK anchor|丁香}}{{SK notes|半兩强}}　檀香{{SK notes|一兩}}　　甘松{{SK notes|一兩}}
+　　{{SK anchor|零陵香}}{{SK notes|一兩}}　生龍腦{{SK notes|少許}}　茴香{{SK notes|五分畧炒}}
+　　右為末薄紙貼紗囊盛佩之其茴香生則不香過炒則焦氣多則藥氣太少則不類花香逐旋斟酌添使旖旎
+　　{{SK anchor|洗衣香}}{{SK notes|武}}
+　　{{SK anchor|牡丹皮}}{{SK notes|一兩}}　甘松{{SK notes|一錢}}
+　　右為末每洗衣最後澤水入一錢
+　　{{SK anchor|假薔薇靣花香}}
+　　甘松{{SK notes|一兩}}　　檀香{{SK notes|一兩}}　　零陵香{{SK notes|一兩}}
+　　{{SK anchor|藿香葉}}{{SK notes|半兩}}　丁香{{SK notes|半兩}}　　黄丹{{SK notes|二分}}
+　　{{SK anchor|白芷}}{{SK notes|五分}}　　香墨{{SK notes|一分}}　　茴香{{SK notes|三分}}
+　　{{SK anchor|腦麝為衣}}
+　　右為細末以熟蜜和稀稠拌得所隨意脱花
+　　{{SK anchor|玊華醒醉香}}
+　　採牡丹蕊與酴醿花清酒拌浥潤得所當風陰一宿杵細捻作餅子隂乾龍腦為衣置枕間
+　　{{SK anchor|衣香}}{{SK notes|洪}}
+　　{{SK anchor|零陵香}}{{SK notes|一觔}}　甘松{{SK notes|十兩}}　　檀香{{SK notes|十兩}}
+　　{{SK anchor|丁香皮}}{{SK notes|五兩}}　辛夷{{SK notes|二兩}}　　茴香{{SK notes|二錢炒}}
+　　右搗粗末入龍腦少許貯囊佩之
+　　{{SK anchor|薔薇衣香}}{{SK notes|武}}
+　　{{SK anchor|茅香}}{{SK notes|一兩}}　　丁香皮{{SK notes|一兩剉碎微炒}}零陵香{{SK notes|一兩}}
+　　{{SK anchor|白芷}}{{SK notes|半兩}}　　細辛半{{SK notes|兩}}　　白檀{{SK notes|半兩}}
+　　{{SK anchor|茴香}}{{SK notes|三分微炒}}
+　　{{SK anchor|同為粗末可佩可爇}}
+　　牡丹衣香
+　　{{SK anchor|丁香}}{{SK notes|一兩}}　　牡丹皮{{SK notes|一兩}}　甘松{{SK notes|一兩為末}}
+　　{{SK anchor|龍腦}}{{SK notes|二錢另研}}麝香{{SK notes|一錢另研}}
+　　{{SK anchor|右同和以花葉紙貼佩之}}
+　　芙蕖衣香{{SK notes|補}}
+　　{{SK anchor|丁香}}{{SK notes|一兩}}　　檀香{{SK notes|一兩}}　　甘松{{SK notes|一兩}}
+　　{{SK anchor|零陵香}}{{SK notes|半兩}}　牡丹皮{{SK notes|半兩}}　茴香{{SK notes|二分微炒}}
+　　右為末入麝香少許研勻薄紙貼之用新帕子裹著肉其香如新開蓮花臨時更入麝龍腦各少許更佳不可火焙汗浥愈香
+　　{{SK anchor|御愛梅花衣香}}{{SK notes|售}}
+　　{{SK anchor|零陵香葉}}{{SK notes|四兩}}藿香葉{{SK notes|三兩}}　沉香{{SK notes|一兩剉}}
+　　{{SK anchor|甘松}}{{SK notes|三兩去土洗浄秤}}檀香{{SK notes|二兩}}　　丁香{{SK notes|半兩搗}}
+　　{{SK anchor|米腦}}{{SK notes|半兩另研}}白梅霜{{SK notes|一兩搗細浄秤}}麝香{{SK notes|三錢另研}}
+　　以上諸香並湏日乾不可見火除腦麝梅霜外一處同為粗末次入腦麝梅霜拌勻入絹袋佩之
+　　{{SK anchor|此乃内侍韓憲所傳}}
+　　梅花衣香{{SK notes|武}}
+　　零陵香　　　甘松　　　　白檀
+　　{{SK anchor|茴香}}{{SK notes|已上各五錢}}丁香　　　　木香{{SK notes|各一錢}}
+　　右同為粗末入龍腦少許貯囊中
+　　{{SK anchor|梅蕚衣香}}{{SK notes|補}}
+　　{{SK anchor|丁香}}{{SK notes|二錢}}　　零陵香{{SK notes|一錢}}　檀香{{SK notes|一錢}}
+　　{{SK anchor|舶上茴香}}{{SK notes|五分㣲炒}}木香{{SK notes|五分}}　　甘松{{SK notes|一錢半}}
+　　{{SK anchor|白芷}}{{SK notes|一錢半}}　腦麝{{SK notes|各少許}}
+　　右同剉{{SKchar|1974}}梅花盛開晴明無風雨於黄昏前擇未開含蕊者以紅線繫定至清晨日未出時連梅蒂摘下將前藥同拌隂乾以紙裹貯紗囊佩之旖旎可愛
+　　{{SK anchor|蓮蕊衣香}}
+　　蓮蕊{{SK notes|一錢乾研}}零陵香{{SK notes|半兩}}　甘松{{SK notes|四錢}}
+　　{{SK anchor|藿香}}{{SK notes|三錢}}　　檀香{{SK notes|三錢}}　　丁香{{SK notes|三錢}}
+　　{{SK anchor|茴香}}{{SK notes|二分㣲炒}}白梅肉{{SK notes|三分}}　龍腦{{SK notes|少許}}
+　　右為細末入龍腦研勻薄紙貼紗{{SKchar|3615}}貯之
+　　{{SK anchor|濃梅衣香}}
+　　藿香葉{{SK notes|二錢}}　早春芽茶{{SK notes|二錢}}丁香{{SK notes|十枚}}
+　　{{SK anchor|茴香}}{{SK notes|半字}}　　甘松{{SK notes|三分}}　　白芷{{SK notes|三分}}
+　　{{SK anchor|零陵香}}{{SK notes|三分}}
+　　{{SK anchor|同剉貯絹袋佩之}}
+　　裛衣香{{SK notes|武}}
+　　{{SK anchor|丁香}}{{SK notes|十兩另研}}欝金{{SK notes|十兩}}　　零陵香{{SK notes|六兩}}
+　　{{SK anchor|藿香}}{{SK notes|四兩}}　　白芷{{SK notes|四兩}}　　蘇合油{{SK notes|三兩}}
+　　{{SK anchor|甘松}}{{SK notes|三兩}}　　杜蘅{{SK notes|三兩}}　　麝香{{SK notes|少許}}
+　　{{SK anchor|右為末袋盛佩之}}
+　　裛衣香{{SK notes|{{SKchar|1216}}碎録}}
+　　{{SK anchor|零陵香}}{{SK notes|一觔}}　丁香{{SK notes|半觔}}　　蘇合油{{SK notes|半觔}}
+　　{{SK anchor|甘松}}{{SK notes|三兩}}　　鬰金{{SK notes|二兩}}　　龍腦{{SK notes|二兩}}
+　　{{SK anchor|麝香}}{{SK notes|半兩}}
+　　右並須精好者若一味惡即損諸香同搗如麻豆大小以夾絹袋貯之
+　　{{SK anchor|貴人浥汗香}}{{SK notes|武}}
+　　{{SK anchor|丁香}}{{SK notes|一兩為粗末}}　川椒{{SK notes|六十粒}}
+　　右以二味相和絹袋盛而佩之辟絶汗氣
+　　{{SK anchor|内苑蕊心衣香}}{{SK notes|事林}}
+　　{{SK anchor|藿香}}{{SK notes|半兩}}　　益智仁{{SK notes|半兩}}　白芷{{SK notes|半兩}}
+　　{{SK anchor|蜘蛛香}}{{SK notes|半兩}}　檀香{{SK notes|二錢}}　　丁香{{SK notes|三錢}}
+　　{{SK anchor|木香}}{{SK notes|二錢}}
+　　{{SK anchor|同為粗末裹置衣笥中}}
+　　勝蘭衣香
+　　{{SK anchor|零陵香}}{{SK notes|二錢}}　茅香{{SK notes|二錢}}　　藿香{{SK notes|二錢}}
+　　{{SK anchor|獨活}}{{SK notes|一錢}}　　甘松{{SK notes|一錢半}}　大黄{{SK notes|一錢}}
+　　{{SK anchor|牡丹皮}}{{SK notes|半錢}}　白芷{{SK notes|半錢}}　　丁香{{SK notes|半錢}}
+　　{{SK anchor|桂皮}}{{SK notes|半錢}}
+　　以上先洗浄亁再用酒略噴碗盛蒸少時入三頼子二錢豆腐漿水蒸以琖葢定檀香一錢右為細末剉合和勻入麝香少許
+　　{{SK anchor|香㸑}}
+　　零陵香　　茅香　　　藿香　　　甘松
+　　{{SK anchor|松子}}{{SK notes|搥碎}}　茴香　　　三柰子{{SK notes|豆腐蒸}}檀香
+　　木香　　　白芷　　　土白芷　　桂肉
+　　丁香　　　丁皮　　　牡丹皮　　沉香{{SK notes|各等分}}麝香{{SK notes|少許}}
+　　右用好酒噴過日晒令乾以刀切碎碾為生料篩羅粗末瓦罈收頓
+　　{{SK anchor|輭香}}{{SK notes|一}}
+　　{{SK anchor|篤耨香}}{{SK notes|半兩}}　檀香末{{SK notes|半兩}}　蘇合油{{SK notes|三兩}}
+　　{{SK anchor|金顔香}}{{SK notes|五兩牙子者}}銀硃{{SK notes|一兩}}　　麝香{{SK notes|半兩}}
+　　{{SK anchor|龍腦}}{{SK notes|二錢}}
+　　右為細末用銀器或磁器於沸湯鍋釡内頓放逐旋傾出蘇合油内攪勻和停為度取出㵼入冷水中隨意作劑
+　　{{SK anchor|輭香}}{{SK notes|二}}
+　　{{SK anchor|沉香}}{{SK notes|十兩}}　　金顔香{{SK notes|二兩}}　{{SKchar|202}}香{{SK notes|二兩}}
+　　{{SK anchor|丁香}}{{SK notes|一兩}}　　乳香{{SK notes|半兩}}　　龍腦{{SK notes|五錢}}
+　　{{SK anchor|麝香}}{{SK notes|六錢}}
+　　右為細末以蘇合油和納磁器内重湯煮半日以稀稠得中為度入臼擣成劑
+　　{{SK anchor|輭香}}{{SK notes|三}}
+　　{{SK anchor|金顔香}}{{SK notes|半觔極好者於銀器湯煮化細布扭浄汁}}蘇合油{{SK notes|四兩絹扭過}}龍腦{{SK notes|一錢研細}}心紅{{SK notes|不計多少色紅為度}}麝香{{SK notes|半錢研細}}
+　　右先將金顔香搦去水銀石器内化開次入蘓合油麝香拌匀續入龍腦心紅移銚去火攪勻取出作{{SKchar|3902}}如常法
+　　{{SK anchor|輭香}}{{SK notes|四}}
+　　{{SK anchor|黄蠟}}{{SK notes|半觔溶成汁濾浄却以浄銅銚内下紫草煎令紅濾去草滓}}金顔香{{SK notes|三兩㨂浄秤别研細作一處}}檀香{{SK notes|一兩碾令細却篩過}}沉香{{SK notes|半兩極細末}}　　　銀朱{{SK notes|隨意加入以紅為度}}滴乳香{{SK notes|三兩㨂明塊者用茅香煎水煮過令浮成片如膏傾冷水中取出待水乾入乳鉢研細如粘鉢則用煆醋淬的赭石二錢入内同研則不粘矣}}
+　　{{SK anchor|蘇合香油}}{{SK notes|三錢如臨合時先以生蘿蔔擦了乳鉢則不粘如無則以子代之}}生麝香{{SK notes|三錢浄鉢内以茶清滴研細却以其餘香拌起一處}}右以蠟入甆器大盌内坐重湯中溶成汁入蘇合油和了停匀却入衆香以桞棒頻攪極匀即香成矣欲輭用松子仁三兩揉汁於内雖大雪亦輭
+　　{{SK anchor|輭香}}{{SK notes|五}}
+　　{{SK anchor|檀香}}{{SK notes|一兩為末}}沉香{{SK notes|半兩}}　　丁香{{SK notes|三錢}}
+　　{{SK anchor|蘇合香油}}{{SK notes|半兩}}
+　　以三種香拌蘇合油如不滓再加合油
+　　{{SK anchor|輭香}}{{SK notes|六}}
+　　{{SK anchor|上等沉香五}}{{SK notes|兩}}金顔香{{SK notes|二兩半}}龍腦{{SK notes|一兩}}
+　　右為末入蘇合油六兩半用綿濾過取浄油和香旋旋看稀稠得所入油如欲黑色加百草霜少許
+　　{{SK anchor|輭香}}{{SK notes|七}}
+　　{{SK anchor|沉香}}{{SK notes|三兩}}　　{{SKchar|202}}香{{SK notes|三兩末}}　檀香{{SK notes|三兩}}
+　　{{SK anchor|亞息香}}{{SK notes|半兩末}}梅花龍腦{{SK notes|半兩}}甲香{{SK notes|半兩製}}
+　　{{SK anchor|松子仁}}{{SK notes|半兩}}　金顔香{{SK notes|一錢}}　龍涎{{SK notes|一錢}}
+　　{{SK anchor|篤耨油}}{{SK notes|随分}}　麝香{{SK notes|一錢}}　　杉木炭{{SK notes|以黑為度}}右除龍腦松仁麝香耨油外餘皆取極細末以篤耨油與諸香和勻作劑
+　　{{SK anchor|輭香}}{{SK notes|八}}
+　　{{SK anchor|金顔香}}{{SK notes|三兩}}　蘇合油{{SK notes|三兩}}　篤耨油{{SK notes|一兩二錢}}龍腦{{SK notes|四錢}}　　麝香{{SK notes|一錢}}
+　　先將金顔香碾為細末去滓用蘇合油坐熟入黄蠟一兩坐化逐旋入金顔坐過了入腦麝篤耨油銀硃打和以軟筍籜毛縛收欲黄入蒲黄緑入石緑黑入墨欲紫入紫草各量多少加入以勻為度
+　　{{SK anchor|輭香}}{{SK notes|沈}}
+　　{{SK anchor|丁香}}{{SK notes|一兩加木香少許同炒}}　沉香{{SK notes|一兩}}
+　　{{SK anchor|白檀}}{{SK notes|二兩}}　　金顔香{{SK notes|二兩}}　黄蠟{{SK notes|二兩}}
+　　{{SK anchor|三柰子}}{{SK notes|二兩}}　心子紅{{SK notes|二兩作黒不用}}龍腦{{SK notes|半兩或三錢可}}蘇合油{{SK notes|不計多少}}生油{{SK notes|不計多少}}白膠香{{SK notes|半觔灰水於沙鍋内煮候浮上掠入凉水搦塊再用皁角水三四盌復煮以香白為度秤二兩香用}}右先將蠟於定磁盌内溶開次下白膠香次生油次蘇合攪勻取盌置地候温入衆香毎一兩作一丸更加烏篤耨一兩尤妙如造黑色者不用心子紅入香墨二兩燒紅為末和劑如常法可懐可佩置扇柄把握極佳
+　　{{SK anchor|輭香}}{{SK notes|武}}
+　　{{SK anchor|沉香}}{{SK notes|半觔為細末}}金顔香{{SK notes|二兩}}　龍腦{{SK notes|一錢研細}}
+　　{{SK anchor|蘇合油}}{{SK notes|四兩}}
+　　右先將沉香末和蘇合油仍入冷水和成{{SKchar|3902}}却搦去水入金顔香龍腦又以水和成{{SKchar|3902}}再搦去水入臼杵三五千下時時搦去水以水盡杵成團有光色為度如欲硬加金顔香如欲輭加蘇合油
+　　{{SK anchor|寳梵院主輭香}}
+　　沉香{{SK notes|三兩}}　　金顔香五錢　龍腦{{SK notes|四錢}}
+　　{{SK anchor|麝香}}{{SK notes|五錢}}　　蘇合油{{SK notes|二兩半}}黄蠟{{SK notes|一兩半}}
+　　右細末蘇合油與蠟重湯溶和搗諸香入腦子更杵千下用
+　　{{SK anchor|廣州呉家輭香}}{{SK notes|新}}
+　　{{SK anchor|金顔香}}{{SK notes|半觔研細}}蘇合油{{SK notes|二兩}}　沉香{{SK notes|一兩末}}
+　　{{SK anchor|腦麝}}{{SK notes|各一錢另研}}黄蠟{{SK notes|二錢}}　　芝麻油{{SK notes|一錢臘月經年者尤佳}}右將油蠟同銷鎔放微温和金顔沉末令匀次入腦麝與合油同捜仍於浄石板上以木槌擊數百下如常法用之
+　　{{SK anchor|翟仁仲運使輭香}}
+　　金顔香{{SK notes|半觔}}　蘇合油{{SK notes|以拌勻諸香為度}}
+　　{{SK anchor|龍腦}}{{SK notes|一字}}　　麝香{{SK notes|一字}}　　烏梅肉{{SK notes|二錢半焙乾}}先以金顔腦麝烏梅肉為細末後以蘇合油相和合臨時相度硬軟得所欲紅色加銀硃二兩半欲黑色加皁兒灰三錢存性
+　　{{SK anchor|熏衣香}}
+　　茅香{{SK notes|四兩細剉酒洗㣲蒸}}零陵香{{SK notes|半兩}}　甘松{{SK notes|半兩}}
+　　{{SK anchor|白檀}}{{SK notes|二錢}}　　丁香{{SK notes|二錢半}}　白梅{{SK notes|三箇焙乾取末}}右共為粗末入米腦少許薄紙貼佩之
+　　{{SK anchor|熏衣香}}{{SK notes|二}}
+　　{{SK anchor|沉香}}{{SK notes|四兩}}　　{{SKchar|202}}香{{SK notes|三兩}}　　檀香一{{SK notes|兩半}}
+　　{{SK anchor|龍腦}}{{SK notes|半兩}}　　牙硝{{SK notes|二錢}}　　麝香{{SK notes|二錢}}
+　　{{SK anchor|甲香}}{{SK notes|四錢灰水浸一宿次用新水洗過後以蜜水爁黄}}右除龍腦麝香别研外同為粗末煉蜜半觔和勻候冷入龍腦麝香
+　　{{SK anchor|蜀主熏御衣香}}{{SK notes|洪}}
+　　{{SK anchor|丁香}}{{SK notes|一兩}}　　{{SKchar|202}}香{{SK notes|一兩}}　　沉香{{SK notes|一兩}}
+　　{{SK anchor|檀香}}{{SK notes|一兩}}　　麝香{{SK notes|二錢}}　　甲香{{SK notes|一兩製}}
+　　右為末煉蜜放冷温令勻入窨月餘用
+　　{{SK anchor|南陽公主熏衣香}}{{SK notes|事林}}
+　　{{SK anchor|蜘蛛香}}{{SK notes|一兩}}　白芷{{SK notes|半兩}}　　零陵香{{SK notes|半兩}}
+　　{{SK anchor|砂仁}}{{SK notes|半兩}}　　丁香{{SK notes|三錢}}　　麝香{{SK notes|五分}}
+　　{{SK anchor|當歸}}{{SK notes|一錢}}　　荳䓻{{SK notes|一錢}}
+　　{{SK anchor|共為末囊盛佩之}}
+　　新料熏衣香
+　　{{SK anchor|沉香}}{{SK notes|一兩}}　　{{SKchar|202}}香{{SK notes|七錢}}　　檀香{{SK notes|五錢}}
+　　{{SK anchor|牙硝}}{{SK notes|一錢}}　　米腦{{SK notes|四錢}}　　甲香{{SK notes|一錢}}
+　　右先將沉香{{SKchar|202}}檀為粗散次入麝拌勻次入甲香牙硝銀硃一字再拌煉蜜和勻上掺腦子用如常
+　　{{SK anchor|千金月令熏衣香}}
+　　沉香{{SK notes|二兩}}　　丁香皮{{SK notes|二兩}}　欝金香{{SK notes|二兩細剉}}蘇合油{{SK notes|一兩}}　詹糖香{{SK notes|一兩同蘇合香油和作餅子}}小甲香{{SK notes|四兩半以新牛糞汁三升水三升火煮三分去二取岀淨水淘刮去上肉焙乾又以清酒二升蜜半合火煮令酒盡以物撓{{SKchar|1974}}乾以水淘去蜜暴乾别末}}右將諸香末和勻燒熏如常法
+　　{{SK anchor|熏衣梅花香}}
+　　甘松{{SK notes|一兩}}　　木香{{SK notes|一兩}}　　丁香{{SK notes|半兩}}
+　　{{SK anchor|舶上茴香}}{{SK notes|三錢}}龍腦{{SK notes|五錢}}
+　　{{SK anchor|右拌擣合粗末如常法燒熏}}
+　　熏衣芬積香{{SK notes|和劑}}
+　　{{SK anchor|沉香}}{{SK notes|二十五兩剉}}{{SKchar|202}}香{{SK notes|二十兩}}　藿香{{SK notes|十兩}}
+　　{{SK anchor|檀香}}{{SK notes|二十兩臈茶清炒黄}}零陵香葉{{SK notes|十兩}}丁香{{SK notes|十兩}}
+　　{{SK anchor|牙硝}}{{SK notes|十兩}}　　米腦{{SK notes|三兩研}}　麝香{{SK notes|一兩五錢}}
+　　{{SK anchor|梅花龍腦}}{{SK notes|一兩研}}杉木麩炭{{SK notes|二十兩}}
+　　{{SK anchor|甲香}}{{SK notes|二十兩炭灰煮兩日洗以蜜酒同煮令乾}}蜜{{SK notes|煉和香}}
+　　右為細末研腦麝用蜜和捜令勻燒熏如常法
+　　{{SK anchor|熏衣衙香}}
+　　生沉香{{SK notes|六兩剉}}{{SKchar|202}}香{{SK notes|六兩}}　　生牙硝{{SK notes|六兩}}
+　　{{SK anchor|檀香}}{{SK notes|十二兩臈茶清炒}}生龍腦{{SK notes|二兩研}}麝香{{SK notes|二兩研}}
+　　{{SK anchor|蜜比香}}{{SK notes|觔兩加倍煉熟}}甲香{{SK notes|一兩}}
+　　右為末研入腦麝以蜜捜和令勻燒熏如常法
+　　{{SK anchor|熏衣笑蘭香}}{{SK notes|事林}}
+　　藿零甘芷木茴香茅賴芎黄和桂心檀麝牡皮加減用酒噴日晒綘囊盛
+　　零以蘇合香油和勻松茅酒洗三賴米泔浸大黄蜜蒸麝香逐旋添入熏衣加檀殭蠶常帶加白梅肉塗傅之香
+　　{{SK anchor|傅身香粉}}{{SK notes|洪}}
+　　{{SK anchor|英粉}}{{SK notes|另研}}　青木香　　麻黄根　　附子{{SK notes|炮}}
+　　甘松　　　藿香　　　零陵香{{SK notes|各等分}}
+　　右件除英粉外同搗羅為末以生絹袋盛浴罷傅身
+　　{{SK anchor|和粉香}}
+　　官粉{{SK notes|十兩}}　　蜜陀僧{{SK notes|一兩}}　白檀香{{SK notes|一兩}}
+　　{{SK anchor|黄連}}{{SK notes|五錢}}　　腦麝{{SK notes|各少許}}　蛤粉{{SK notes|五兩}}
+　　{{SK anchor|輕粉}}{{SK notes|二錢}}　　朱砂{{SK notes|二錢}}　　金箔{{SK notes|五箇}}
+　　{{SK anchor|鷹條}}{{SK notes|一錢}}
+　　{{SK anchor|右件為細末和勻傅面}}
+　　十和香粉
+　　{{SK anchor|官粉}}{{SK notes|一袋水飛}}朱砂{{SK notes|三錢}}　　蛤粉{{SK notes|白熟者水飛}}鷹條{{SK notes|二錢}}　　蜜陀僧{{SK notes|五錢}}　檀香{{SK notes|五錢}}
+　　{{SK anchor|腦麝}}{{SK notes|各少許}}　紫粉{{SK notes|少許}}　　寒水石{{SK notes|和腦麝同研}}右件各為飛塵和勻入腦麝調色似桃花為度
+　　{{SK anchor|利汗紅粉香}}
+　　滑石{{SK notes|一觔極白無石者水飛過}}心紅{{SK notes|三錢}}
+　　{{SK anchor|輕粉}}{{SK notes|五錢}}　　麝香{{SK notes|少許}}
+　　右件同研極細用之調粉如肉色為度塗身體香肌利汗
+　　{{SK anchor|香身丸}}
+　　丁香{{SK notes|一兩半}}　藿香葉　　　零陵香
+　　{{SK anchor|甘松}}{{SK notes|各三兩}}　香附子　　　白芷
+　　當歸　　　　桂心　　　　㯽榔
+　　{{SK anchor|益智仁}}{{SK notes|各一兩}}麝香{{SK notes|二錢}}　　白荳䓻仁{{SK notes|二兩}}
+　　右件為細末煉蜜為劑杵千下丸如桐子大噙化一丸便覺口香五日身香十日衣香十五日他人皆聞得香又治遍身熾氣惡氣及口齒氣
+　　{{SK anchor|拂手香}}{{SK notes|武}}
+　　{{SK anchor|白檀}}{{SK notes|三兩滋潤者剉末用蜜三錢化湯用一盞炒令氷乾稍覺浥濕焙乾杵羅極細}}米腦{{SK notes|五錢研}}　阿膠{{SK notes|一片}}
+　　右將阿膠化湯打糊入香末搜拌令匀於木臼中搗三五百揑作餅子或脱花窨乾中穿一穴用綵線懸胸前
+　　{{SK anchor|梅眞香}}
+　　零陵香葉{{SK notes|半兩}}甘松{{SK notes|半兩}}　　白檀香{{SK notes|半兩}}
+　　{{SK anchor|丁香}}{{SK notes|半兩}}　　白梅末{{SK notes|半兩}}　腦麝{{SK notes|各少許}}
+　　{{SK anchor|右為細末糝衣傅身皆可用之}}
+　　香髮木犀香油事{{SK notes|林}}
+　　凌晨摘木犀花半開者㨂去莖蒂令浄髙量一斗取清麻油一觔輕手拌勻置磁罌中厚以油紙宻封罌口坐於釜内重湯煮一餉久取出安頓穏燥處十日後傾出以手泚其青液收之最要封閉{{SKchar|1606}}宻久而愈香如以油勻入黄蠟為靣脂尤馨香也
+　　{{SK anchor|烏髮香油}}{{SK notes|此油洗髪後用最妙}}
+　　{{SK anchor|香油}}{{SK notes|二觔}}　　柏油{{SK notes|二兩另放}}訶子皮{{SK notes|一兩半}}
+　　{{SK anchor|没石子}}{{SK notes|六箇}}　五棓子{{SK notes|半兩}}　真膽礬{{SK notes|一錢}}
+　　{{SK anchor|川百藥煎}}{{SK notes|三兩}}酸榴皮{{SK notes|半兩}}　猪膽{{SK notes|二箇另放}}
+　　{{SK anchor|旱蓮臺}}{{SK notes|半兩}}
+　　右件為粗末先將香油熬數沸然後將藥末入油同熬少時傾油入罐子内微温入柏油攪漸入猪膽又攪令極冷入後藥
+　　零陵香　　　藿香葉　　　香白芷
+　　{{SK anchor|甘松}}{{SK notes|各三錢}}　麝香{{SK notes|一錢}}
+　　再攪勻用厚紙封罐口每日早午晩各攪一次仍封之如此十日後先晩洗髪浄次早髪亁搽之不待數日其髪黒紺光澤香滑永不染塵垢更不須再洗用之後自見也黄者轉黒旱蓮臺諸處有之科生一二尺髙小花如菊折斷有黒汁名猢猻頭
+　　{{SK anchor|又}}{{SK notes|此油最能黒髮}}
+　　每香油一觔棗枝一根剉碎新竹片一根截作小片不拘多少用荷葉四兩入油同煎至一半去前物加百藥煎四兩與油再熬冷定加丁香排草檀香辟塵茄每浄油一觔大約入香料兩餘
+　　{{SK anchor|合香澤法}}
+　　清酒浸香{{SK notes|夏用令酒冷春秋酒令暖冬則小熱}}雞舌香{{SK notes|俗人以其似丁子故為丁子香也}}藿香苜蓿蘭香凡四種以新綿裹而浸之{{SK notes|夏一宿春秋二宿冬三宿}}用胡麻油兩分猪膽一分内銅鐺中即以浸香酒和之煎數沸後便緩火微煎然後下所浸香煎緩火至暮水盡沸定乃熟{{SK notes|以火頭内浸中作聲者水未盡有烟出無聲者水盡也}}澤欲熟時下少許青蒿以發色緜羃鐺嘴瓶口瀉{{SK notes|賈思勰齊民要術}}香澤者人髮恒枯瘁此以濡澤之也唇脂以丹作之象唇赤也{{SK notes|釋名}}
+　　{{SK anchor|香粉}}
+　　法惟多着丁香於粉盒中自然芬馥{{SK notes|同上}}
+　　{{SK anchor|靣脂香}}
+　　牛髓{{SK notes|牛髓少者用牛脂和之若無髓只用脂亦得}}温酒浸丁香藿香二種{{SK notes|浸法如煎澤法}}煎法一同合脂亦着青蒿以發色綿濾着磁漆盞中令凝若作唇脂者以熟朱調和青油裹之{{SK notes|同上}}
+　　{{SK anchor|八白香}}{{SK notes|金章宗宫中洗靣散}}
+　　白丁香　　白僵蠶　　白附子　　白牽牛
+　　白茯苓　　白蒺䔧　　白芷　　　白芨
+　　右等分入皁角去皮{{SKchar|2959}}共為末菉豆粉半之日用靣如玊矣
+　　{{SK anchor|金主緑雲香}}
+　　沉香　　　蔓荆子　　白芷　　　南没石子躑躅花　　生地黄　　苓苓香　　附子
+　　防風　　　覆盆子　　訶子肉　　蓮子草
+　　芒硝　　　丁皮
+　　右件各等分入卷柏三錢洗浄曬乾各細剉炒黑色以絹袋盛入磁罐内每用藥三錢以清香油浸藥厚紙封口七日每遇梳頭浄手蘸油摩頂心令熱入髮竅不十日髮黑如漆黄赤者變黑秃者生髮
+　　{{SK anchor|蓮香散}}{{SK notes|金主宫中方}}
+　　{{SK anchor|丁香}}{{SK notes|三錢}}　　黄丹{{SK notes|三錢}}　　枯礬末{{SK notes|一兩}}
+　　共為細末閨閣中以之敷足久則香入膚骨雖足紈常經浣濯香氣不散
+　　金章宗文房精鑒至用蘇合香油{{SKchar|3295}}烟製墨可謂窮幽極勝矣茲復致力於粉澤香膏使嬪妃輩雲鬢益芳蓮踪增馥想見當時人盡如花花盡皆香風流旖旎陳主隋{{SKchar2|823}}後一人也
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+　　香乗卷十九
+</poem></onlyinclude>{{SKQS footer|title=香乘|section=卷十九|prev=卷十八|prev_link=卷18|next=卷二十|next_link=卷20|type=子}}{{PD-old}}

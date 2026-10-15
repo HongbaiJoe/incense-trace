@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        1183
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 1183,
+          "SMILES": "COC1=C(C=CC(=C1)C=O)O",
+          "ConnectivitySMILES": "COC1=C(C=CC(=C1)C=O)O",
+          "InChIKey": "MWOOGOJBHIARFG-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

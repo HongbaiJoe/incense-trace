@@ -1,0 +1,1642 @@
+\documentclass[UTF8,11pt,openany,fontset=none]{ctexbook}
+
+\usepackage[a4paper,top=24mm,bottom=24mm,left=25mm,right=25mm]{geometry}
+\usepackage{fontspec}
+\usepackage{amsmath,mathtools}
+\usepackage{unicode-math}
+\setmainfont{Times New Roman.ttf}[
+  Path=/System/Library/Fonts/Supplemental/,
+  BoldFont={Times New Roman Bold.ttf},
+  ItalicFont={Times New Roman Italic.ttf},
+  BoldItalicFont={Times New Roman Bold Italic.ttf}
+]
+\setCJKmainfont{Songti.ttc}[
+  Path=/System/Library/Fonts/Supplemental/,
+  FontIndex=6,
+  BoldFont={Songti.ttc},
+  BoldFeatures={FontIndex=1}
+]
+\setCJKsansfont{Songti.ttc}[
+  Path=/System/Library/Fonts/Supplemental/,
+  FontIndex=6,
+  BoldFont={Songti.ttc},
+  BoldFeatures={FontIndex=1}
+]
+\setCJKmonofont{Songti.ttc}[
+  Path=/System/Library/Fonts/Supplemental/,
+  FontIndex=6,
+  BoldFont={Songti.ttc},
+  BoldFeatures={FontIndex=1}
+]
+\setmonofont{lmmono10-regular.otf}[Scale=0.82]
+\setmathfont{latinmodern-math.otf}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs,longtable,tabularx,array,multirow}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{needspace}
+\usepackage{framed}
+\usepackage{enumitem}
+
+\definecolor{lightgray}{gray}{0.94}
+\definecolor{midgray}{gray}{0.42}
+\definecolor{darkgray}{gray}{0.18}
+\graphicspath{{../../guide/figures/}}
+\hypersetup{pdfauthor={香迹项目},pdftitle={香迹·论文阅读指南},pdfsubject={历史香方计算复原论文的中文教材}}
+\captionsetup{font=small,labelfont=bf,labelsep=quad,justification=justified,singlelinecheck=false}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.25em}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\baselinestretch}{1.18}
+\renewcommand{\arraystretch}{1.18}
+\setlist[itemize]{leftmargin=2em,itemsep=0.25em,topsep=0.35em}
+\setlist[enumerate]{leftmargin=2.2em,itemsep=0.25em,topsep=0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\small 香迹·论文阅读指南}
+\fancyhead[RO]{\small \nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\titleformat{\chapter}[display]{\normalfont\bfseries\Large}{第\,\thechapter\,章}{0.7em}{\Huge}
+\titleformat{\section}{\normalfont\bfseries\Large}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\normalfont\bfseries\large}{\thesubsection}{0.7em}{}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  keywordstyle=\bfseries,
+  commentstyle=\itshape,
+  stringstyle=\ttfamily,
+  backgroundcolor=\color{lightgray},
+  frame=single,
+  rulecolor=\color{midgray},
+  breaklines=true,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  xleftmargin=0.8em,
+  xrightmargin=0.8em,
+  aboveskip=0.8em,
+  belowskip=0.8em
+}
+
+\newcommand{\SSCL}{\textsc{SSCL}}
+\newcommand{\paper}{\href{run:xiangji_source_stable_v3.pdf}{V3 论文}}
+\newcommand{\paperpage}[2]{\href{run:xiangji_source_stable_v3.pdf\#page=#1}{#2}}
+\newcommand{\paperformula}[2]{\paperpage{#2}{论文公式（#1）}}
+\newcommand{\papertable}[2]{\paperpage{#2}{论文表 #1}}
+\newcommand{\paperfigure}[2]{\paperpage{#2}{论文图 #1}}
+\newcommand{\codepath}[1]{\path{#1}}
+\newenvironment{keybox}{\begin{leftbar}\small\noindent}{\end{leftbar}}
+\newenvironment{formulacard}[3]{%
+  \needspace{8\baselineskip}
+  \subsection*{公式（#1）\quad #2\hfill\normalfont\small\paperformula{#1}{#3}}
+  \addcontentsline{toc}{subsection}{公式（#1） #2}
+}{\vspace{0.4em}}
+\newcommand{\answercheck}[1]{\par\smallskip\noindent\textbf{答辩检查：}#1\par}
+\newcommand{\codelocate}[1]{\par\smallskip\noindent\textbf{代码定位：}\begingroup\small\raggedright\detokenize{#1}\endgroup\par}
+\newcommand{\concept}[1]{\textbf{#1}}
+
+\begin{document}
+
+\begin{titlepage}
+\thispagestyle{empty}
+\vspace*{0.28\textheight}
+\begin{center}
+{\fontsize{36}{48}\selectfont 香迹·论文阅读指南}\par
+\vspace{1.4em}
+{\large 历史香方计算复原的数学、计算机与化学基础}\par
+\vfill
+{\small 对应论文 V3\quad 2026 年 9 月}\par
+\end{center}
+\end{titlepage}
+
+\frontmatter
+
+\chapter*{编写说明}
+\addcontentsline{toc}{chapter}{编写说明}
+
+这本书服务于一个明确目标：使读者能够独立解释、复算、复现并质询《Recovering Historical Chinese Incense Formulas under Source and Missingness Shift》V3 的每一步。读者不需要编程经验。预备知识按 AP Statistics 和微积分起点组织，化学部分默认读者熟悉结构式、官能团、分子间作用力和基本仪器分析。
+
+教材采用问题驱动体例。每个新概念先回答“它解决什么问题”，再给数学式、最小例子和代码位置。重要结论回到原论文中的图、表和公式。文中的“\paperformula{10}{6}”等黑色文字均为可点击链接，可直接跳到同目录下的 V3 论文 PDF。若阅读器不允许打开本地链接，可按所标页码手动定位。
+
+体例参考了北京大学本科教学改革材料中关于教学目标、内容组织和考核闭环的要求，也参考了清华大学出版社公开教材前言所强调的系统结构、循序渐进、案例导入和实践操作。相关公开材料列于本书末尾。全书保持黑色文字与灰度图形，中文使用宋体，英文专有名词使用 Times New Roman。
+
+\section*{三种读法}
+
+\begin{enumerate}
+\item \textbf{两小时总览：}读第 1、2、4、14、23、24、27、29 章。
+\item \textbf{完整掌握：}按目录顺序阅读，亲手完成每章的“答辩检查”。
+\item \textbf{复现优先：}先读第 5、10 至 15、21、22、26 章，再回到公式篇。
+\end{enumerate}
+
+\tableofcontents
+
+\chapter*{全书路线图}
+\addcontentsline{toc}{chapter}{全书路线图}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{c}
+古籍固定版本与来源定位\\
+$\downarrow$\\
+候选香方切分、香材识别、数量换算\\
+$\downarrow$\\
+谱系去重与七道人工审校门\\
+$\downarrow$\\
+91 条金标准 $+$ 146 条弱记录\\
+$\downarrow$\\
+部分配方遮蔽 $\rightarrow$ 图模型排序 $\rightarrow$ 数量与比例恢复\\
+$\downarrow$\\
+按著作分块的嵌套评估、校准与压力测试\\
+$\downarrow$\\
+可复现结果、失败实验和下一步化学建模
+\end{tabular}
+\end{center}
+
+\begin{keybox}
+全书最重要的一句话是：这篇论文没有从香名或气味描写直接“猜出唯一古方”。它研究的是一个可检验的子问题。已知某张历史配方的一部分香材及比例，模型能否在未见过的历史著作中恢复被隐藏的香材、总材料数和相对配比？
+\end{keybox}
+
+\mainmatter
+
+\part{先把整篇论文看懂}
+
+\chapter{论文究竟解决了什么问题}
+
+\section{输入与输出}
+
+设一张香方原本有六味香材，其中三味已知。模型的输入是这三味香材的名称和它们在完整香方中的原始质量比例。模型输出四项内容：
+
+\begin{enumerate}
+\item 对词表中每一种未观察香材给出一个排序分数，校准后可解释为出现概率；
+\item 预测完整香方共有多少味香材；
+\item 选出应补入的香材集合；
+\item 保留已知比例，并把剩余质量分配给补入香材，使所有比例之和重新等于 1。
+\end{enumerate}
+
+这是\concept{加权集合补全}。集合补全回答“缺哪几味”，加权部分回答“每味大约占多少”。历史著作被当作不同的数据来源。测试时，整部目标著作从训练中移除，因此问题带有\concept{来源偏移}。
+
+\section{研究问题拆成五问}
+
+\begin{enumerate}
+\item 只按香材的总体常见程度排序，效果有多好？
+\item 已知香材之间的共现关系后，能否更准确地恢复缺失香材？
+\item 不同古籍的用香习惯不同，能否学习跨著作较稳定的关系？
+\item 自动解析但未逐条审校的香方能否安全地扩大训练集？
+\item 化学相似性、缺失方式、稀有材料和重复香方会怎样改变结论？
+\end{enumerate}
+
+\section{最终产出不是一个神秘黑箱}
+
+论文的最终产出由四层组成：数据集、模型、评估基准和可复现代码。主模型类名是 \codepath{SourceStableGraphCompletion}。它可以切换 Frequency、Directed graph、SSCL、EASE、SLIM 和 PPR。论文的核心经验结果来自 Directed graph 与 \SSCL{}。这两个模型主要通过计数、平滑和矩阵运算训练，不是大型神经网络。
+
+\answercheck{能否在 30 秒内说清输入、三个主要输出和“来源偏移”的含义？}
+
+\chapter{一个四味香方的完整演练}
+
+\section{玩具数据}
+
+假设训练集中有以下四张已审校香方。数字为已经归一化的芳香材料质量比例。
+
+\begin{center}
+\begin{tabular}{lcccc}
+\toprule
+配方 & 沉香 A & 檀香 B & 丁香 C & 乳香 D\\
+\midrule
+甲 & 0.50 & 0.30 & 0.20 & 0\\
+乙 & 0.40 & 0.40 & 0 & 0.20\\
+丙 & 0 & 0.50 & 0.25 & 0.25\\
+丁 & 0.60 & 0 & 0.20 & 0.20\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+存在矩阵只关心“有没有”，因此第一行为 $(1,1,1,0)$。比例矩阵保留 $(0.50,0.30,0.20,0)$。
+
+\section{遮住一半材料}
+
+把配方甲中的 A、B 作为已知材料，C 作为隐藏目标。模型先计算候选 C 和 D 与 A、B 的条件共现程度。训练数据中 A 出现三次，A 与 C 同现两次，A 与 D 同现两次。B 出现三次，B 与 C 同现两次，B 与 D 同现两次。在这个对称玩具例子中，两者尚难区分；真实语料的 81 种香材和来源分块会产生更丰富的边结构。
+
+\section{预测数量与比例}
+
+假设数量模块预测完整香方为三味。已观察两味，所以只补一味。若 C 排在 D 前面，则选 C。已观察质量为 $0.50+0.30=0.80$，剩余质量为 0.20。只有一个隐藏材料时，C 获得全部 0.20，最后输出与甲相同。
+
+若数量模块预测四味，模型会选 C 和 D。假设相似配方给出的比值分数为 $R_C=3$、$R_D=1$，则剩余 0.20 按 $3:1$ 分配，得到 C 为 0.15、D 为 0.05。此时材料集合多选了一味，比例也发生误差。
+
+\section{怎样评分}
+
+真实隐藏集合为 $\{C\}$，预测隐藏集合为 $\{C,D\}$。精确率为 $1/2$，召回率为 1，F1 为 $2/3$。加权 Jaccard 同时比较全部比例，因此会惩罚 C 的少配和 D 的误加。这个例子说明：材料集合评分和比例评分回答不同问题。
+
+\begin{keybox}
+模型的顺序固定为：先给候选排序，再预测总数，再截取前若干候选，最后分配剩余质量。排序正确不保证数量正确，集合正确也不保证比例正确。
+\end{keybox}
+
+\chapter{论文的证据链}
+
+\section{主结论}
+
+在六个历史著作组的嵌套留一著作评估中，Frequency 的来源宏平均隐藏材料 F1 为 0.3782，Directed graph 为 0.4260，\SSCL{} 为 0.4263。条件共现结构相对总体频率提高约 0.048 F1。六个著作组中五个提高，一个持平；精确双侧符号翻转检验得到 $p=0.0625$。
+
+\section{辅助结论}
+
+\begin{itemize}
+\item EASE 的加权 Jaccard 最高，为 0.4730。
+\item 加入弱记录后，\SSCL{} 的隐藏材料 F1 从 0.4263 变为 0.4254，几乎不变；数量 MAE 从 1.1447 降到 1.0891。
+\item Logit calibration 把 Brier score 从 0.0427 降到 0.0340，把 ACE 从 0.0579 降到 0.0145。
+\item 训练中出现至少五次的材料召回率为 0.573；只出现一次时为 0.023；词表外材料召回率必为 0。
+\item 18 种香材的化学核没有改善配方补全，开发集 F1 从 0.3911 变为 0.3905。
+\end{itemize}
+
+\section{结论强度怎样排序}
+
+“条件共现优于总体频率”有主实验和更严格的双著作留出实验共同支持。“来源稳定惩罚优于直接条件图”没有得到支持，因为二者总 F1 几乎相同。“化学相似性提高配方补全”也没有得到支持。答辩时必须把这三句分开。
+
+\chapter{创新点、优势与短板的总览}
+
+\section{四个核心创新}
+
+\begin{enumerate}
+\item 把历史香方复原写成来源偏移下的加权集合补全，并同时输出材料、总数、比例和校准概率。
+\item 把历史著作作为评估单位，避免同一编纂传统中的相似香方同时落入训练和测试。
+\item 构造 \SSCL{}，先在每部训练著作内估计条件提升，再按暴露量汇总，并惩罚跨著作波动。
+\item 为自动抽取香方设计谱系预算式弱监督。一个家族有多少副本，都只分享一份权重预算。
+\end{enumerate}
+
+\section{显著优势}
+
+数据有稳定版本、修订链接、原文片段和哈希。模型比较覆盖频率、图、线性推荐、稀疏推荐、图扩散、近邻和低秩方法。调参与校准都放在外层测试之外。失败的化学核与中性的弱监督 F1 被保留。复现实验使用锁定环境和确定性种子。
+
+\section{主要短板}
+
+六个著作组仍少，最小组只有两张可评估香方。81 种材料中 30 种只出现一次，词表外材料无法命名恢复。两轮审校由同一分析者完成，没有独立双人标注。化学覆盖只有 18 种材料，而且材料级“相似”不足以表示燃烧时的互补作用。论文测试的是部分配方补全，不是仅凭香名或气味描述的完整失传香方生成。
+
+\answercheck{能否分别说出四项创新、四项优势和四项短板，并指出哪些结论为正、哪些为中性？}
+
+\part{零编程读者需要的基础}
+
+\chapter{Python 到底在做什么}
+
+\section{程序是严格的操作清单}
+
+Python 文件由数据、函数、类和主程序组成。函数接收输入并返回输出。类把一组数据和一组方法放在同一个对象里。循环让同一操作依次作用于六个著作、五个遮蔽种子或全部候选香材。条件语句决定某条记录是否进入下一步。
+
+\begin{lstlisting}[language=Python]
+for outer_work in works:
+    training = [r for r in records if r.work_id != outer_work]
+    test = [r for r in records if r.work_id == outer_work]
+\end{lstlisting}
+
+这三行表示：每次选一部著作作为测试集，其他著作作为训练集。方括号中的写法叫列表推导式。\codepath{r.work_id != outer_work} 是筛选条件。
+
+\section{四种常见数据结构}
+
+\begin{description}
+\item[列表 list] 有顺序的一组对象，例如五个随机种子。
+\item[字典 dict] 键和值的对应关系，例如“沉香”对应 0.25。
+\item[数组 array] 适合数值运算的规则矩阵，由 NumPy 提供。
+\item[数据类 dataclass] 有固定字段的记录，例如模型参数或一张香方。
+\end{description}
+
+\section{NumPy 矩阵运算}
+
+若 $X$ 是“配方乘香材”的 0/1 矩阵，则 \codepath{X.T @ X} 计算香材两两共现次数。\codepath{X.T} 是转置，\codepath{@} 是矩阵乘法。第 $a,b$ 个元素等于
+\[
+(X^{\mathsf T}X)_{ab}=\sum_i X_{ia}X_{ib}.
+\]
+只有当配方 $i$ 同时含有 $a$ 和 $b$ 时，乘积才为 1。因此求和就是共现次数。
+
+\section{JSON、CSV 与程序输出}
+
+JSON 保存嵌套结构，适合每条香方附带来源、材料、比例和审校信息。CSV 是二维表，适合绘图和人工检查。程序通常读取 JSON，计算后写入新的 JSON，再从中生成论文表格和图片。
+
+\codelocate{src/xiangji/models/source_stable_graph.py；src/xiangji/evaluation/v2_nested_cross_work.py}
+
+\chapter{集合、向量、矩阵与概率}
+
+\section{集合与指示变量}
+
+$S_i$ 是配方 $i$ 的完整香材集合，$O_i$ 是已观察集合，$H_i=S_i\mathbin{\backslash} O_i$ 是隐藏集合。指示变量 $\mathbf 1\{A\}$ 在事件 $A$ 成立时等于 1，否则等于 0。
+
+\section{向量与单纯形}
+
+比例向量 $\boldsymbol w_i=(w_{i1},\ldots,w_{iM})$ 的各项非负且总和为 1。所有这样的向量组成 $M-1$ 维单纯形 $\Delta^{M-1}$。三种材料的比例可以画在三角形里；四种材料需要四面体；81 种材料则存在于 80 维单纯形。
+
+\section{条件概率的方向}
+
+$P(b\mid a)$ 表示“已知配方含 $a$ 时，它也含 $b$ 的概率”。它一般不等于 $P(a\mid b)$。若每个含龙涎香的方都含沉香，但含沉香的方只有少数含龙涎香，则 $P(\text{沉香}\mid\text{龙涎香})$ 很高，而反向概率很低。这就是有向图的依据。
+
+\section{Odds、logit 与 sigmoid}
+
+概率 $p$ 的 odds 为 $p/(1-p)$，logit 为
+\[
+\operatorname{logit}(p)=\log\frac{p}{1-p}.
+\]
+其逆函数是 sigmoid：
+\[
+\sigma(x)=\frac{1}{1+e^{-x}}.
+\]
+当 $p=0.5$ 时 logit 为 0；$p=0.8$ 时 logit 约为 1.386。logit 把 $(0,1)$ 映射到整个实数轴，使“基线概率加条件影响”可以在线性尺度上相加。
+
+\section{Beta 分布与伪计数}
+
+Beta 分布适合表示未知概率。若先验为 $\operatorname{Beta}(a,b)$，观察到 $s$ 次成功和 $f$ 次失败后，后验为 $\operatorname{Beta}(a+s,b+f)$，后验均值为 $(a+s)/(a+b+s+f)$。论文的大部分平滑式都能读成“真实计数加伪计数”。
+
+\chapter{从 AP Statistics 走到论文统计}
+
+\section{实验单位不是遮蔽次数}
+
+每张配方使用五个确定性遮蔽种子，但五次遮蔽来自同一配方，不能当作五个独立历史样本。论文先在配方内平均，再在著作内平均，最后对六个著作平均。真正用于模型比较推断的单位是历史著作组。
+
+\section{宏平均与微平均}
+
+若直接把 38 张陈氏香谱和 2 张墨娥小录香谱混在一起平均，大组会决定结果。来源宏平均先算每部著作的平均分，再让六部著作各占 $1/6$。这对应研究问题：“模型能否迁移到一个新的著作来源？”
+
+\section{随机化检验}
+
+六部著作的模型差值记为 $\Delta_1,\ldots,\Delta_6$。零假设下，正负方向可交换。所有符号组合共有 $2^6=64$ 种。论文逐一枚举，统计其中有多少种组合的绝对平均差至少与观察值一样大。这是精确检验，不依赖正态近似。
+
+\section{概率校准}
+
+区分“排序好”和“概率准”。某模型可把正确材料排在前面，却把 0.60 的实际命中频率说成 0.84。Brier、NLL 和 ACE 衡量概率是否可信。校准器只在内层验证预测上学习，再应用于外层测试，避免偷看答案。
+
+\chapter{图模型与推荐系统基础}
+
+\section{把香材看成节点}
+
+每种香材是一个节点。若材料 $a$ 出现时材料 $b$ 经常也出现，就建立 $a\rightarrow b$ 的强边。给定已观察节点集合，模型汇总这些节点指向每个候选的边权，再对候选排序。
+
+\section{为何要比较推荐算法}
+
+“看过 A 和 B 的用户还会喜欢什么”与“已知 A 和 B 的香方还缺什么”有相同的矩阵结构。EASE、SLIM、PPR、kNN 和 SVD 因而成为合理基线。比较这些方法可判断增益来自一般的材料依赖结构，还是来自 \SSCL{} 的特定来源稳定设计。
+
+\section{超参数是什么}
+
+平滑强度 $\alpha$、异质性惩罚 $\gamma$、稳定图混合比例 $\lambda$、EASE 岭参数 $\rho$ 都是超参数。它们不是由一个闭式公式自动确定，而是在内层训练数据上比较多个候选值。外层测试著作从选择过程完全隔离。
+
+\chapter{化学信息学基础}
+
+\section{香材不是单一分子}
+
+沉香、檀香、乳香等天然香材含有多个挥发性和半挥发性化合物。其组成受物种、部位、产地、处理和分析方法影响。论文因此保存“样本加方法”层级的 profile，没有把不同论文的 GC-MS 表强行平均成一个所谓标准组成。
+
+\section{Morgan fingerprint}
+
+Morgan 指纹从分子图中枚举局部原子环境，并映射到 2048 个 bit。某 bit 为 1，表示对应局部结构出现。两个分子共享的 bit 越多，结构越相似。论文使用 radius 2，即从每个原子向外看两层键连接。
+
+\section{理化描述符}
+
+分子量、氢键供体数、氢键受体数、可旋转键数、拓扑极性表面积和 logP 描述分子的大小、极性、柔性与亲脂性。它们与挥发、溶解和吸附有关，但不能单独决定燃烧后气味。
+
+\section{相似不等于配伍}
+
+化学核比较两种香材是否相似。合香更可能依赖互补，例如低挥发木材承载挥发性树脂，辛香和清凉材料在感官上平衡。相似核没有编码载体作用、热解反应或释放曲线，因此无增益并不等于化学信息无用。
+
+\answercheck{能否说明 Morgan 指纹、理化描述符、气味标签分别描述什么，以及为什么材料相似性不等同于燃烧配伍？}
+
+\part{数据怎样从古籍走到矩阵}
+
+\chapter{固定来源：下载的不是网页截图}
+
+\section{官方转储与字节范围}
+
+历史文本来自 2026 年 9 月 1 日中文 Wikisource multistream dump。程序只下载包含目标页面的压缩字节范围，而不是每次访问可能变化的网页。三个集合是《香乘》卷 14 至 25、《香谱》卷上和卷下、《陈氏香谱》卷 1 至 4。
+
+每个集合配置中写明起止字节、压缩流 SHA-256、目标页面标题和版本日期。服务器必须返回 HTTP 206，表示确实按 Range 请求返回局部内容。下载后先核验哈希，再解压 XML，随后保存 page ID、revision ID、时间戳、Wikimedia SHA-1、原始 wikitext 与 stable revision URL。
+
+\begin{lstlisting}[language=Python]
+request = urllib.request.Request(
+    DUMP_URL,
+    headers={"Range": f"bytes={start}-{end}"}
+)
+\end{lstlisting}
+
+\section{为什么哈希重要}
+
+SHA-256 可视为文件的长指纹。只要字节改变，哈希几乎必然改变。它不能证明文字历史上正确，却能证明复现者使用的数字文件与研究时相同。
+
+\codelocate{src/xiangji/ingest/fetch_wikisource_dump.py}
+\answercheck{能否区分来源真实性、版本固定和哈希一致这三个概念？}
+
+\chapter{候选切分：怎样在古文中找到一张方}
+
+\section{高召回切分}
+
+程序以标题、数量表达式和制法结束语为线索。数量正则表达式识别“一两”“五钱”“各等分”等形式。制法行常以“右”或“为末”“印饼”等模式出现。每遇到一个可能的制法终点，程序向前寻找最近的合理标题，并要求区块中至少有两个数量表达式。
+
+这种阶段追求高召回：宁可留下需要人工排除的候选，也不希望漏掉大批香方。因此 592 不是金标准数量，而是来源已定位的机器候选数量。
+
+\section{稳定 candidate ID}
+
+候选 ID 由页面标题、revision ID、起止行和标题共同哈希生成。只要来源版本和切分位置不变，ID 就不变。审校决定、谱系边和最终 reference ID 都能回溯到它。
+
+\codelocate{src/xiangji/ingest/extract_candidates.py 中的 segment_page()}
+
+\chapter{材料、数量和角色的结构化}
+
+\section{材料本体与别名}
+
+\codepath{ontology/materials_v0.1.json} 为每个规范香材保存 ID、中文标签、别名、角色和身份状态。程序先按最长别名匹配，避免短词吞掉长词。历史等级如棧香与普通沉香在来源明确区分时保持为不同实体。
+
+\section{数量换算}
+
+程序把质量统一换算为“钱”的相对单位：一斤为 160 钱，一两为 10 钱，一钱为 1 钱，一分为 0.1 钱。“各等分”记为相对等量。枚、粒、升、合等计数或体积单位不强行换成质量；“少许”和“不拘多少”保留为定性数量。
+
+若一张方的全部芳香材料都有可比较的质量，程序将其标为 \codepath{ratio_ready_automatic}。若出现一个未知芳香材料数量，整张方不能进入精确比例金标准。
+
+\section{芳香材料与工艺材料分开}
+
+蜂蜜、黏结剂、溶剂、燃料、加工助剂和制备过程中被弃去的介质不进入芳香质量向量，但原文与角色标记仍保存。研究目标是芳香材料的相对干质量组成，而不是整张工艺配方的物料衡算。
+
+\codelocate{src/xiangji/normalization/recipes.py 中的 normalize_quantity()、find_materials()、assign_quantities() 和 structure_candidate()}
+
+\chapter{谱系去重与人工审校}
+
+\section{为什么普通随机切分会作弊}
+
+《香乘》收录或转抄了早期香谱。若同一方的两个见本分别进入训练和测试，模型只需认出近重复记录，分数就会虚高。论文先把可能同源的见本连成谱系，再让同一家族只保留一个金标准代表。
+
+\section{如何产生谱系候选}
+
+程序比较标题二元字符 Jaccard、正文三元字符 Jaccard、材料集合 Jaccard、比例向量余弦相似度以及是否跨见本。多条阈值规则产生候选边。Union-Find 将相连记录合成 connected component。多成员 component 仍需人工裁决，算法输出只叫候选谱系。
+
+\section{七道门}
+
+一条记录进入 91 条金标准前必须同时通过：方界、标题、材料、数量、角色、用途范围、谱系归属。120 条人工审查记录中 91 条纳入，29 条排除。两轮检查由同一分析者完成，因此不能表述为独立双人标注。
+
+\codelocate{src/xiangji/normalization/genealogy.py；src/xiangji/normalization/build_curated_reference.py}
+
+\chapter{数据规模与每个数字的含义}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.96\textwidth]{v3_fig1_data_scale_gray.png}
+\caption{V3 论文图 1 的灰度版。592、296、91、146 与 237 属于不同证据层，不能相互替代。}
+\end{figure}
+
+\begin{longtable}{p{0.17\textwidth}p{0.75\textwidth}}
+\toprule
+数字 & 含义\\
+\midrule
+\endfirsthead
+\toprule
+数字 & 含义\\
+\midrule
+\endhead
+592 & 三个公开转录集合中获得稳定来源定位的机器切分候选。它们跨 415 个暂定谱系。\\
+296 & 所有芳香材料都被赋予同一可比较质量基础的自动解析记录，称 ratio-ready。\\
+120 & 进入人工审校批次的家族去重候选。\\
+91 & 通过七道门的金标准香方，来自六个历史著作组，每个谱系只留一个代表。\\
+29 & 人工审校后排除的记录；失败原因可重叠。\\
+146 & 排除金标准记录及与金标准同谱系的 59 个见本后，可用于弱监督的 ratio-ready 记录。\\
+237 & 91 条金标准加 146 条弱记录，是弱监督实验中最大的 model-facing union。\\
+191 & 237 条 model-facing 记录代表的谱系总数，其中 91 个金标准谱系和 100 个弱谱系。\\
+81 & 金标准词表中的规范芳香材料数。\\
+90 & 实际参与主补全指标的金标准配方数。一条晦斋记录在对应外层训练词表中少于两个可用材料，被排除。\\
+6 & 历史著作组数量，也是主检验的独立来源单位数量。\\
+5 & 每张配方的确定性遮蔽次数，种子为 17、29、43、71、101。\\
+2 至 17 & 金标准香方的材料数量范围。\\
+6.85 与 6 & 每张金标准香方材料数的均值与中位数。\\
+30 & 81 种材料中只在一张金标准香方出现的材料数。\\
+18 & 具有来源支持化学 profile 的规范香材数。\\
+17 与 40 & 化学 profile 所依赖的分析文献数与 PubChem 化合物数。\\
+65.24\% & 18 种已覆盖香材在 296 条 ratio-ready 记录的芳香材料提及中所占比例。不是化学成分覆盖率。\\
+\bottomrule
+\end{longtable}
+
+\paperfigure{1}{4} 与 \papertable{2}{4} 给出证据层；\papertable{1}{3} 给出六个著作组的样本数。
+
+\chapter{化学数据从哪里来}
+
+\section{PubChem 与 RDKit}
+
+40 个化合物先通过 PubChem PUG REST 解析名称，保存 CID、SMILES、InChIKey、分子式、分子量、XlogP、TPSA、氢键数和可旋转键数。每次查询的原始 JSON、访问日期和 wrapper 哈希均保存。RDKit 2026.3.3 再从 SMILES 计算 2048 bit Morgan 指纹与一组描述符，并核对分子式、InChIKey、分子量和精确质量。
+
+\section{材料 profile}
+
+17 篇分析文献提供 18 种香材的样本级化合物证据。每个 profile 保留物种、部位、处理、分析方法、样本范围、文献定位和测量类型。峰面积百分比、浓度和仅检出证据不混用。数值 profile 用区间中点在该文献已报告化合物内归一化；仅检出 profile 对列出的化合物等权。
+
+\section{三种视图}
+
+每个 profile 转成三组向量：加权 Morgan bit、标准化理化描述符、受控气味标签。材料对的指纹相似度取两种材料所有 profile 配对中的最大值；理化和气味向量使用余弦相似度。三者按权重加成得到化学核。
+
+\codelocate{src/xiangji/ingest/fetch_pubchem.py；src/xiangji/representations/molecular.py；src/xiangji/representations/build_material_representations.py；src/xiangji/representations/kernels.py}
+
+\part{36 个公式逐式讲解}
+
+\chapter{配方表示与遮蔽：公式（1）至（3）}
+
+\begin{formulacard}{1}{质量闭合与单纯形}{5}
+\[
+\boldsymbol w_i\in\Delta^{M-1},\qquad
+w_{ij}=\frac{q_{ij}}{\sum_{k\in S_i}q_{ik}},\qquad
+S_i=\{j:w_{ij}>0\}.
+\tag{1}\label{eqg:1}
+\]
+
+$q_{ij}$ 是原始换算质量，$w_{ij}$ 是归一化比例，$S_i$ 是非零材料集合。分母把配方内全部芳香质量作为 100\%。由定义可得
+\[
+\sum_j w_{ij}=\frac{\sum_{j\in S_i}q_{ij}}{\sum_{k\in S_i}q_{ik}}=1,
+\]
+所以 $\boldsymbol w_i$ 落在单纯形中。若三味材料为 5 钱、3 钱、2 钱，则比例为 0.5、0.3、0.2。闭合会丢失绝对用量，只保留相对配比。
+
+\codelocate{normalization/build_curated_reference.py 中的 close_composition()；models/data.py 中的 composition_matrix()}
+\answercheck{为什么把所有用量同时乘 10 后，$\boldsymbol w_i$ 不变？}
+\end{formulacard}
+
+\begin{formulacard}{2}{任务映射}{5}
+\[
+\mathcal F:\bigl(O_i,\{w_{ij}:j\in O_i\}\bigr)
+\mapsto \left(\{p_{ij}:j\notin O_i\},\widehat S_i,\widehat{\boldsymbol w}_i\right),
+\qquad H_i=S_i\mathbin{\backslash} O_i.
+\tag{2}\label{eqg:2}
+\]
+
+这是一条任务定义，不是由前式推导出的定理。输入是已观察集合 $O_i$ 及其原始质量比例。输出是候选分数、预测完整集合和预测比例。真实隐藏集合 $H_i$ 只在评估时使用，预测时不可见。
+
+$p_{ij}$ 在未经校准时只是分数。经过公式（24）的校准后，才可作频率意义上的概率解释。$\widehat S_i$ 中包括已知和补入材料。
+
+\codelocate{models/source_stable_graph.py 中的 predict()}
+\answercheck{训练或预测阶段若读取 $H_i$，会造成什么类型的数据泄漏？}
+\end{formulacard}
+
+\begin{formulacard}{3}{观察材料数}{6}
+\[
+r(K_i,f)=\min\{K_i-1,\max[1,\operatorname{round}(fK_i)]\}.
+\tag{3}\label{eqg:3}
+\]
+
+$K_i$ 是真实材料总数，$f$ 是希望保留的比例。内部的 $\max$ 保证至少观察一味，外部的 $\min$ 保证至少隐藏一味。若 $K_i=6,f=0.5$，观察数为 3；若 $K_i=2,f=0.75$，四舍五入后为 2，但最终被限制为 1。
+
+该式制造可控的缺失任务。真实残缺古籍的缺失机制未必服从它，因此论文又测试均匀、丰度偏置、原文前缀和未知 $f$ 四种机制。
+
+\codelocate{evaluation/v2_benchmark.py 中的 observed_materials()；models/source_stable_graph.py 中的 \_mask\_count()}
+\end{formulacard}
+
+\chapter{从总体频率到来源稳定图：公式（4）至（14）}
+
+\begin{formulacard}{4}{平滑的总体出现率}{6}
+\[
+\pi_b=\frac{c_b+\tfrac12}{N+1}.
+\tag{4}\label{eqg:4}
+\]
+
+$c_b$ 是含材料 $b$ 的训练香方数，$N$ 是训练香方总数。若使用 $\operatorname{Beta}(1/2,1/2)$ 先验，观察 $c_b$ 次出现和 $N-c_b$ 次未出现后，后验为 $\operatorname{Beta}(c_b+1/2,N-c_b+1/2)$，后验均值正是公式（4）。
+
+加 $1/2$ 可避免零概率与一概率，后续 logit 才不会变成无穷。Frequency baseline 直接按 $\pi_b$ 排序。
+
+\codelocate{models/source_stable_graph.py 的 fit() 中 self.prevalence}
+\end{formulacard}
+
+\begin{formulacard}{5}{有向条件图}{6}
+\[
+G_{ab}=\frac{c_{ab}+\alpha\pi_b}{c_a+\alpha},\qquad G_{aa}=1.
+\tag{5}\label{eqg:5}
+\]
+
+$c_a$ 是含 $a$ 的香方数，$c_{ab}$ 是同时含 $a,b$ 的香方数。把 $P(b\mid a)$ 的先验写成 $\operatorname{Beta}(\alpha\pi_b,\alpha(1-\pi_b))$，观察 $c_{ab}$ 次成功和 $c_a-c_{ab}$ 次失败后，后验均值就是上式。
+
+$\alpha$ 相当于先验的伪样本量。$a$ 很少见时，$G_{ab}$ 被拉回总体出现率 $\pi_b$；$a$ 很常见时，$G_{ab}$ 接近 $c_{ab}/c_a$。由于 $c_a$ 与 $c_b$ 一般不同，$G_{ab}\ne G_{ba}$。
+
+\codelocate{models/source_stable_graph.py 的 fit() 中 self.directed\_graph}
+\answercheck{若 $a$ 只出现一次并与 $b$ 同现，为什么不能直接认定 $P(b\mid a)=1$？}
+\end{formulacard}
+
+\begin{formulacard}{6}{著作内出现率的层级收缩}{6}
+\[
+\pi_{bd}=\frac{c_{bd}+\kappa\pi_b}{N_d+\kappa}.
+\tag{6}\label{eqg:6}
+\]
+
+$d$ 表示著作，$N_d$ 是该著作训练香方数，$c_{bd}$ 是其中含 $b$ 的数量。该式把著作内频率与全局频率合并。$\kappa$ 是全局先验贡献的伪样本量，论文固定为 5。
+
+可以重写为加权平均：
+\[
+\pi_{bd}=\frac{N_d}{N_d+\kappa}\frac{c_{bd}}{N_d}
++\frac{\kappa}{N_d+\kappa}\pi_b.
+\]
+小著作更依赖全局先验，大著作更多相信自身数据。
+\end{formulacard}
+
+\begin{formulacard}{7}{著作内条件概率的 Beta 后验}{6}
+\[
+\theta_{abd}\mid\mathcal D\sim
+\operatorname{Beta}\bigl(c_{abd}+\alpha\pi_{bd},
+c_{ad}-c_{abd}+\alpha(1-\pi_{bd})\bigr).
+\tag{7}\label{eqg:7}
+\]
+
+$\theta_{abd}$ 是著作 $d$ 中 $P(b\mid a)$。先验成功伪计数为 $\alpha\pi_{bd}$，失败伪计数为 $\alpha(1-\pi_{bd})$。真实数据加入 $c_{abd}$ 次共现和 $c_{ad}-c_{abd}$ 次只见 $a$ 未见 $b$。这是 Beta 与 Bernoulli 共轭更新。
+
+后验不仅有均值，也有方差。当前主模型只使用均值；完整后验可用于未来的边不确定性传播。
+\end{formulacard}
+
+\begin{formulacard}{8}{著作内条件概率后验均值}{6}
+\[
+\bar\theta_{abd}=\mathbb E[\theta_{abd}\mid\mathcal D]
+=\frac{c_{abd}+\alpha\pi_{bd}}{c_{ad}+\alpha}.
+\tag{8}\label{eqg:8}
+\]
+
+Beta$(A,B)$ 的均值为 $A/(A+B)$。把公式（7）的两个参数相加，分母变为 $c_{ad}+\alpha$，于是得到公式（8）。它是公式（5）的分来源版本。
+\end{formulacard}
+
+\begin{formulacard}{9}{条件 log-odds 提升}{6}
+\[
+\ell_{abd}=\operatorname{logit}(\bar\theta_{abd})
+-\operatorname{logit}(\pi_{bd}).
+\tag{9}\label{eqg:9}
+\]
+
+若 $b$ 在某著作本来就很常见，$P(b\mid a)$ 高不一定说明 $a$ 有信息。公式（9）减去 $b$ 的著作内边际 log-odds。$\ell_{abd}>0$ 表示观察到 $a$ 后，$b$ 的 odds 上升；小于 0 表示下降。
+
+相减等价于 odds ratio 取对数：
+\[
+\ell_{abd}=\log\left[
+\frac{\bar\theta_{abd}/(1-\bar\theta_{abd})}
+{\pi_{bd}/(1-\pi_{bd})}\right].
+\]
+\end{formulacard}
+
+\begin{formulacard}{10}{边的暴露可靠性权重}{6}
+\[
+r_{ad}=\frac{c_{ad}}{c_{ad}+\alpha}.
+\tag{10}\label{eqg:10}
+\]
+
+若著作 $d$ 从未出现 $a$，权重为 0；出现次数远大于 $\alpha$ 时，权重接近 1。这个权重来自数据相对先验的份额：公式（8）中真实计数占总分母的比例正是 $c_{ad}/(c_{ad}+\alpha)$。它是可靠性启发式，不是独立估计出的概率。
+\end{formulacard}
+
+\begin{formulacard}{11}{跨著作加权平均提升}{6}
+\[
+\mu_{ab}=\frac{\sum_d r_{ad}\ell_{abd}}{\sum_d r_{ad}}.
+\tag{11}\label{eqg:11}
+\]
+
+各著作的条件提升按材料 $a$ 在该著作中的暴露量加权。若某著作几乎没有 $a$，它对 $a\rightarrow b$ 的经验贡献很小。分母把权重重新归一化。
+\end{formulacard}
+
+\begin{formulacard}{12}{跨著作加权方差}{6}
+\[
+\sigma_{ab}^{2}=\frac{\sum_d r_{ad}(\ell_{abd}-\mu_{ab})^2}{\sum_d r_{ad}}.
+\tag{12}\label{eqg:12}
+\]
+
+这是加权总体方差。若各著作都给出相近的提升，$\sigma_{ab}$ 小；若一部著作强正相关而另一部无关或负相关，$\sigma_{ab}$ 大。论文使用总体式而非无偏样本方差，因为目的不是估计一个独立同分布总体的方差，而是构造稳定性惩罚。
+\end{formulacard}
+
+\begin{formulacard}{13}{来源稳定边与直接图混合}{6}
+\[
+S^{\star}_{ab}=\sigma\bigl(\beta\operatorname{logit}(\pi_b)+\mu_{ab}-\gamma\sigma_{ab}\bigr),
+\qquad
+S_{ab}=(1-\lambda)G_{ab}+\lambda S^{\star}_{ab}.
+\tag{13}\label{eqg:13}
+\]
+
+括号内有三项：候选 $b$ 的全局基线，跨著作平均条件提升，跨著作波动惩罚。$\gamma$ 越大，来源不稳定的边被压得越低。sigmoid 把实数变回 0 至 1。随后 $\lambda$ 把稳定边与直接图混合。
+
+该式是研究者设计的评分函数，不是从唯一概率模型必然推导出的结论。它的合理性来自三条要求：保留总体频率、奖励跨来源重复出现的条件关系、惩罚来源专属关系。$\alpha,\gamma,\lambda$ 由内层著作验证选择，$\beta=1$。
+
+\codelocate{models/source_stable_graph.py 中的 \_fit\_source\_stable\_edges()}
+\answercheck{为什么 \SSCL{} 与 Directed graph 表现相同，并不否定条件图的价值？}
+\end{formulacard}
+
+\begin{formulacard}{14}{多个已知香材怎样合成一个候选分数}{7}
+\[
+p_{ib}=R\bigl(\{E_{ab}:a\in O_i\}\bigr),\qquad
+R\in\{\operatorname{mean},\operatorname{max},\operatorname{top2\ mean}\}.
+\tag{14}\label{eqg:14}
+\]
+
+每个已观察香材 $a$ 都给候选 $b$ 一条边分数。mean 要求候选与整体上下文相容；max 允许一条强线索决定候选；top2 mean 介于两者之间。内层验证决定用哪种 reducer。
+
+\codelocate{models/source_stable_graph.py 中的 \_reduce\_edges() 和 score()}
+\end{formulacard}
+
+\chapter{弱监督：公式（15）至（18）}
+
+\begin{formulacard}{15}{金标准与弱记录权重}{7}
+\[
+\omega_i(\eta)=
+\begin{cases}
+1,&z_i=\mathrm{gold},\\
+\eta/|F(i)|,&z_i=\mathrm{weak},
+\end{cases}
+\qquad \eta\in\{0,0.10,0.25,0.50,1.00\}.
+\tag{15}\label{eqg:15}
+\]
+
+$F(i)$ 是弱记录所属谱系，$|F(i)|$ 是该谱系的弱见本数。若一个弱谱系有四个见本且 $\eta=0.5$，每条记录权重为 0.125，总权重仍为 0.5。这样转抄较多的方不会伪装成多个独立证据。$\eta=0$ 精确恢复 gold-only 训练。
+
+\codelocate{evaluation/v2\_5\_weak\_supervision.py 中的 assemble\_training()}
+\end{formulacard}
+
+\begin{formulacard}{16}{加权充分统计量}{7}
+\[
+c_b^{(\omega)}=\sum_i\omega_iX_{ib},\qquad
+c_{ab}^{(\omega)}=\sum_i\omega_iX_{ia}X_{ib},\qquad
+N^{(\omega)}=\sum_i\omega_i.
+\tag{16}\label{eqg:16}
+\]
+
+普通计数中每张方贡献 1。加权计数中金标准贡献 1，弱记录贡献较小分数。由于图模型只需要出现数、共现数和有效总量，把普通和式换成加权和式即可让弱监督进入模型。
+\end{formulacard}
+
+\begin{formulacard}{17}{加权频率与加权有向边}{7}
+\[
+\pi_b^{(\omega)}=\frac{c_b^{(\omega)}+\tfrac12}{N^{(\omega)}+1},\qquad
+G_{ab}^{(\omega)}=\frac{c_{ab}^{(\omega)}+\alpha\pi_b^{(\omega)}}{c_a^{(\omega)}+\alpha}.
+\tag{17}\label{eqg:17}
+\]
+
+它们分别是公式（4）和公式（5）的加权版。平滑形式不变，只把整数计数替换为有效计数。公式大小直方图、EASE Gram 矩阵和比例近邻也使用同一权重。
+\end{formulacard}
+
+\begin{formulacard}{18}{外层目标对应的可用弱记录池}{7}
+\[
+\mathcal W_{d^\star}=\{i:z_i=\mathrm{weak},\ C(i)\ne C(d^\star),\ F(i)\notin\mathcal F_{\mathrm{test}}\}.
+\tag{18}\label{eqg:18}
+\]
+
+目标著作是 $d^\star$。条件一只取弱记录；条件二排除目标著作所在的整个转录集合；条件三排除测试谱系。集合级阻断比仅排除同名著作更严格，可阻止未注明归属的同一转录内容绕回训练集。内层验证时还要把内层验证著作的集合一并排除。
+
+\codelocate{evaluation/v2\_5\_weak\_supervision.py 中的 work\_collection\_map()、assemble\_training() 和 select\_inside\_outer\_fold()}
+\end{formulacard}
+
+\chapter{比较模型、数量、比例与校准：公式（19）至（24）}
+
+\begin{formulacard}{19}{EASE 的闭式解}{7}
+\[
+P=(X^{\mathsf T}X+\rho I)^{-1},\qquad
+B^{\mathrm{EASE}}_{ab}=
+\begin{cases}-P_{ab}/P_{bb},&a\ne b,\\0,&a=b.\end{cases}
+\tag{19}\label{eqg:19}
+\]
+
+EASE 用其他材料线性重建每个材料列，并加岭惩罚。$X^{\mathsf T}X$ 是材料共现 Gram 矩阵，$\rho I$ 改善可逆性并抑制过拟合。带“自己不能预测自己”的零对角约束后，拉格朗日乘子法给出 $-P_{ab}/P_{bb}$。输入的 0/1 已知向量右乘 $B$ 得到所有候选分数。
+
+\codelocate{models/source_stable_graph.py 中的 \_fit\_comparator()，method == "ease"}
+\end{formulacard}
+
+\begin{formulacard}{20}{SLIM 的稀疏非负回归}{7}
+\[
+\widehat B=\arg\min_{B\ge0,\operatorname{diag}(B)=0}
+\frac{1}{2N}\lVert X-XB\rVert_F^2+
+\tau\left[\eta\lVert B\rVert_1+\frac{1-\eta}{2}\lVert B\rVert_F^2\right].
+\tag{20}\label{eqg:20}
+\]
+
+第一项是重建误差。$L_1$ 项使多数边变为零，得到稀疏图；$L_2$ 项缩小边权并稳定共线特征。$B\ge0$ 禁止负推荐，零对角禁止直接复制。这里的 $\eta$ 是 elastic-net 比例，与弱监督的 $\eta$ 同字母但含义不同，答辩时应主动区分。
+
+\codelocate{models/source_stable_graph.py 中 ElasticNet 循环}
+\end{formulacard}
+
+\begin{formulacard}{21}{Personalized PageRank 扩散}{7}
+\[
+z_i^{(t+1)}=(1-\delta)u_i+\delta z_i^{(t)}T,
+\qquad z_i^{(0)}=u_i.
+\tag{21}\label{eqg:21}
+\]
+
+$u_i$ 把概率质量均分给已观察材料，$T$ 是行归一化有向图。每轮以 $1-\delta$ 的比例回到已知材料，以 $\delta$ 的比例沿图传播。若迭代收敛，固定点满足
+\[
+z_i=(1-\delta)u_i(I-\delta T)^{-1}.
+\]
+代码运行 50 轮，避免显式矩阵求逆。
+\end{formulacard}
+
+\begin{formulacard}{22}{总材料数后验}{8}
+\[
+p_0(K=k)=\frac{n_k+\tfrac12}{N+K_{\max}/2},\qquad
+p(K=k\mid o,f)\propto p_0(K=k)\mathbf1\{r(k,f)=o\}\mathbf1\{k\ge o+1\}.
+\tag{22}\label{eqg:22}
+\]
+
+$n_k$ 是训练集中恰有 $k$ 味材料的香方数。每个可能的 $k$ 加 $1/2$ 平滑，分母是 $N$ 加 $K_{\max}$ 个半计数。观察到 $o$ 味且知道遮蔽比例 $f$ 后，只保留满足公式（3）会产生 $o$ 的总数，同时要求至少还隐藏一味。符号 $\propto$ 表示最后必须重新归一化。
+
+点预测取后验中位数，而非均值。中位数使绝对误差的期望最小，这与 Count MAE 指标一致。
+
+\codelocate{models/source_stable_graph.py 中的 count\_distribution()}
+\end{formulacard}
+
+\begin{formulacard}{23}{保持已知质量的残余闭合}{8}
+\[
+\widehat w_{ib}=
+\begin{cases}
+w_{ib},&b\in O_i,\\
+m_iR_{ib}/\sum_{h\in\widehat H_i}R_{ih},&b\in\widehat H_i,\\
+0,&\text{其他},
+\end{cases}
+\quad m_i=1-\sum_{a\in O_i}w_{ia}.
+\tag{23}\label{eqg:23}
+\]
+
+已知比例不改。隐藏材料按近邻比例分数 $R_{ib}$ 分配剩余质量 $m_i$。求和验证：隐藏部分总和为 $m_i$，加上已知部分 $1-m_i$，总和正好为 1。
+
+$R_{ib}$ 来自十张最相似训练香方的比例加权平均。它不是图边概率，因此材料排名和比例分配是两个模块。
+
+\codelocate{models/source_stable_graph.py 中的 \_ratio\_scores() 和 predict()}
+\end{formulacard}
+
+\begin{formulacard}{24}{Temperature 与 logit 校准}{8}
+\[
+p^{(T)}=\sigma\left(\frac{\operatorname{logit}(p)}{T}\right),\qquad
+p^{(L)}=\sigma\left(a\operatorname{logit}(p)+b\right),\quad a>0.
+\tag{24}\label{eqg:24}
+\]
+
+Temperature scaling 只有一个参数 $T$。$T>1$ 把极端概率拉向 0.5，$T<1$ 使其更尖锐。Logit calibration 还允许截距 $b$ 调整整体基准率，斜率写成 $a=e^q$ 以自动保证 $a>0$，从而保持原排序单调。
+
+参数通过最小化内层候选的 NLL 求得。校准改变概率解释，通常不改变候选排序。
+
+\codelocate{evaluation/v2\_calibration.py 中的 fit\_temperature() 和 fit\_logit\_calibrator()}
+\end{formulacard}
+
+\chapter{评估、化学与压力测试：公式（25）至（36）}
+
+\begin{formulacard}{25}{有效弱样本量}{9}
+\[
+N_{\mathrm{weak}}^{\mathrm{eff}}(d)=
+\sum_{i\in\mathcal W_d}\frac{\eta_d}{|F(i)|}.
+\tag{25}\label{eqg:25}
+\]
+
+它把公式（15）中所有可用弱记录权重相加。它衡量弱证据对模型统计量贡献了多少“等价金标准单位”，不同于原始弱记录条数。论文各外层模型的有效弱质量在 0 至 98.67 之间。
+\end{formulacard}
+
+\begin{formulacard}{26}{隐藏集合的 Precision、Recall 与 F1}{9}
+\[
+P_i=\frac{|H_i\cap\widehat H_i|}{|\widehat H_i|},\qquad
+R_i=\frac{|H_i\cap\widehat H_i|}{|H_i|},\qquad
+F_{1i}=\frac{2P_iR_i}{P_i+R_i}.
+\tag{26}\label{eqg:26}
+\]
+
+Precision 问“补入的材料中多少正确”，Recall 问“真实缺失材料中找回多少”。F1 是调和平均，对一高一低的情况惩罚较强。公式只在隐藏集合上计算，已观察材料不会白送分数。
+
+若真实隐藏集合有 5 味，预测 5 味且命中 3 味，则 $P=R=F_1=0.6$，这正是论文“印香法”案例。
+\end{formulacard}
+
+\begin{formulacard}{27}{加权 Jaccard}{9}
+\[
+J_{wi}=\frac{\sum_j\min(w_{ij},\widehat w_{ij})}
+{\sum_j\max(w_{ij},\widehat w_{ij})}.
+\tag{27}\label{eqg:27}
+\]
+
+分子是每个材料上真实与预测质量的重叠，分母是并集质量。若两个闭合向量完全相同，值为 1；完全无重叠则为 0。它同时惩罚漏材、加错材料和比例错误。
+
+对总和都为 1 的两个非负向量，设 $L_1=\sum_j|w_j-\widehat w_j|$，则
+\[
+\sum_j\min(w_j,\widehat w_j)=1-\frac{L_1}{2},\quad
+\sum_j\max(w_j,\widehat w_j)=1+\frac{L_1}{2}.
+\]
+因此 $J_w=(2-L_1)/(2+L_1)$。加权 Jaccard 与 $L_1$ 距离单调对应。
+\end{formulacard}
+
+\begin{formulacard}{28}{来源配对平均差}{9}
+\[
+\widehat\Delta_m=\frac1D\sum_{d=1}^{D}
+(\overline F_{1,md}-\overline F_{1,\mathrm{freq},d}),\qquad D=6.
+\tag{28}\label{eqg:28}
+\]
+
+每部著作先计算模型 $m$ 与 Frequency 的差，再让六部著作等权平均。Directed graph 的六个差约为 0.0456、0.0894、0.0609、0.0284、0、0.0622，平均为 0.04777。
+\end{formulacard}
+
+\begin{formulacard}{29}{精确双侧符号翻转检验}{9}
+\[
+p_{\mathrm{flip}}=2^{-D}\sum_{\boldsymbol s\in\{-1,1\}^{D}}
+\mathbf1\left\{
+\left|D^{-1}\sum_ds_d\Delta_{md}\right|\ge|\widehat\Delta_m|
+\right\}.
+\tag{29}\label{eqg:29}
+\]
+
+零假设认为每部著作的差值方向可互换。六个差值有 64 种正负号分配。Directed graph 和 \SSCL{} 都有 4 种分配达到或超过观察到的绝对平均差，所以 $p=4/64=0.0625$。
+
+这不等于“有 93.75\% 概率模型更好”。它表示在符号可交换的零假设下，至少同样极端的结果占 6.25\%。六个独立块使 p 值分辨率很粗。
+
+\codelocate{evaluation/v2\_benchmark.py 中的 exact\_sign\_flip\_pvalue()}
+\end{formulacard}
+
+\begin{formulacard}{30}{Brier score}{10}
+\[
+\operatorname{Brier}=\frac1L\sum_{n=1}^{L}(p_n-y_n)^2.
+\tag{30}\label{eqg:30}
+\]
+
+$y_n$ 为 0 或 1。预测 0.9 且结果为 1，损失 0.01；预测 0.9 但结果为 0，损失 0.81。Brier 同时受区分能力与校准影响，越低越好。
+\end{formulacard}
+
+\begin{formulacard}{31}{负对数似然}{10}
+\[
+\operatorname{NLL}=-\frac1L\sum_{n=1}^{L}
+[y_n\log p_n+(1-y_n)\log(1-p_n)].
+\tag{31}\label{eqg:31}
+\]
+
+这是 Bernoulli 模型的平均负 log-likelihood。对错误而自信的预测惩罚很大，例如真实为 1 而预测 $p=0.01$，损失为 $-\log 0.01\approx4.605$。校准参数通过最小化 NLL 拟合。
+\end{formulacard}
+
+\begin{formulacard}{32}{Adaptive Calibration Error}{10}
+\[
+\operatorname{ACE}=\sum_{g=1}^{G}\frac{|I_g|}{L}
+\left|\frac1{|I_g|}\sum_{n\in I_g}(p_n-y_n)\right|.
+\tag{32}\label{eqg:32}
+\]
+
+先按预测概率排序并分成数量近似相等的组 $I_g$。每组比较平均预测概率与实际阳性率，再按组大小加权。等数量分组避免低概率候选过多时，固定宽度高概率箱几乎没有样本。
+\end{formulacard}
+
+\begin{formulacard}{33}{Morgan bit 的 Tanimoto 相似度}{10}
+\[
+T_{ab}=\max_{u\in\mathcal P_a,v\in\mathcal P_b}
+\frac{|B_u\cap B_v|}{|B_u\cup B_v|}.
+\tag{33}\label{eqg:33}
+\]
+
+$B_u$ 是化合物 $u$ 的 Morgan on-bit 集合，$\mathcal P_a$ 是材料 $a$ 的文献 profile 中记录的化合物集合。内层分数是集合 Jaccard。材料之间取所有有文献支持化合物配对的最大值，表示至少有一对代表性化合物结构相近。
+
+“取最大”对单个共享化合物敏感，也可能高估复杂天然材料的整体相似性。这是化学层的重要设计局限。
+\end{formulacard}
+
+\begin{formulacard}{34}{三视图化学核}{10}
+\[
+K^{\mathrm{chem}}_{ab}=\omega_fT_{ab}
++\omega_x\max(0,C^{\mathrm{phys}}_{ab})
++\omega_o\max(0,C^{\mathrm{odor}}_{ab}),\qquad \sum_r\omega_r=1.
+\tag{34}\label{eqg:34}
+\]
+
+三项分别为结构指纹、理化描述符和气味标签相似度。余弦相似度的负值被截为 0，权重和为 1。代码默认权重为 0.5、0.25、0.25。该核对材料相似性进行晚期融合，但没有表示方向性互补或燃烧反应。
+
+\codelocate{representations/kernels.py 中的 build\_chemical\_kernel()}
+\end{formulacard}
+
+\begin{formulacard}{35}{近重复材料集合 Jaccard}{11}
+\[
+J(S_i,S_r)=\frac{|S_i\cap S_r|}{|S_i\cup S_r|},\qquad
+\max_{r:d_r\ne d_i}J(S_i,S_r)\ge0.8.
+\tag{35}\label{eqg:35}
+\]
+
+若一张方与另一著作中的某张方材料集合 Jaccard 至少为 0.8，就在压力测试中移除。该规则标记了 9 张方。移除后 Directed graph 相对 Frequency 仍提高 0.0259 F1，说明结果不全由最相似跨著作副本驱动。
+\end{formulacard}
+
+\begin{formulacard}{36}{数量区间的不一致分数}{11}
+\[
+e_i=\max\{L_i-K_i,\ K_i-U_i,\ 0\}.
+\tag{36}\label{eqg:36}
+\]
+
+$[L_i,U_i]$ 是基础 80\% 数量区间。真实值在区间内时 $e_i=0$；低于下界时记录差多少，高于上界时也记录差多少。开发集的有限样本 0.8024 分位数为 1，因此测试区间左右各扩 1 味，并保持下界至少为观察数加 1。
+
+扩展前 1,660 个测试实例覆盖率为 0.642，平均宽度 1.24；扩展后覆盖率 0.825，平均宽度 2.86。提高覆盖率以区间变宽为代价。
+
+\codelocate{evaluation/cycle6\_stress\_tests.py 中的 recalibrated\_count\_intervals()}
+\end{formulacard}
+
+\chapter{公式之间的完整依赖关系}
+
+\begin{center}
+\begin{tabular}{c}
+公式（1）把原始质量变成闭合比例\\
+$\downarrow$\\
+公式（2）定义部分配方补全，公式（3）产生遮蔽输入\\
+$\downarrow$\\
+公式（4）至（14）给候选香材排序\\
+$\downarrow$\\
+公式（15）至（18）决定弱记录怎样进入训练\\
+$\downarrow$\\
+公式（19）至（21）提供比较模型\\
+$\downarrow$\\
+公式（22）选总材料数，公式（23）恢复比例，公式（24）校准概率\\
+$\downarrow$\\
+公式（25）至（36）评估规模、正确性、化学相似性与稳健性
+\end{tabular}
+\end{center}
+
+\begin{keybox}
+公式（4）至（18）构成论文最主要的方法创新。公式（19）至（21）用于比较。公式（22）至（24）把一个排序器变成可输出完整香方和概率的系统。公式（25）至（36）决定结论是否经得住检验。
+\end{keybox}
+
+\part{代码、训练与实验}
+
+\chapter{代码仓库地图}
+
+\section{顶层目录}
+
+\begin{longtable}{p{0.30\textwidth}p{0.62\textwidth}}
+\toprule
+路径 & 作用\\
+\midrule
+\endfirsthead
+\toprule
+路径 & 作用\\
+\midrule
+\endhead
+\codepath{data/sources/} & Wikisource 固定转储片段、页面 manifest、PubChem 原始响应和文献元数据。\\
+\codepath{data/interim/} & 机器切分候选、结构化候选、谱系候选和 PubChem 解析结果。\\
+\codepath{data/curated/} & 91 条金标准、审校 manifest、化学证据和固定 split。\\
+\codepath{data/processed/} & RDKit 分子特征和材料 profile 向量。\\
+\codepath{ontology/} & 香材实体、别名、角色与特殊字符解析。\\
+\codepath{src/xiangji/ingest/} & 下载、切分和外部数据获取程序。\\
+\codepath{src/xiangji/normalization/} & 数量换算、材料识别、谱系聚类和金标准生成。\\
+\codepath{src/xiangji/models/} & 图模型、比较模型、数量与比例预测。\\
+\codepath{src/xiangji/evaluation/} & 内外层评估、校准、缺失机制、压力测试与案例。\\
+\codepath{experiments/} & 每次实验的完整 JSON 结果。\\
+\codepath{manuscript/tables/} & 论文表格的 CSV 来源。\\
+\codepath{figures/v3/} & V3 图的 SVG、PDF、TIFF、PNG 和 manifest。\\
+\codepath{tests/} & 数据不变量、模型行为和复现测试。\\
+\bottomrule
+\end{longtable}
+
+\section{最核心的五个文件}
+
+\begin{enumerate}
+\item \codepath{models/source_stable_graph.py}：Frequency、Directed graph、\SSCL{}、EASE、SLIM、PPR、数量和比例模块。
+\item \codepath{evaluation/v2_nested_cross_work.py}：六著作嵌套评估。
+\item \codepath{evaluation/v2_5_weak_supervision.py}：集合阻断与谱系加权弱监督。
+\item \codepath{evaluation/v2_calibration.py}：内层概率校准。
+\item \codepath{evaluation/cycle6_stress_tests.py}：kNN、SVD、近重复、比例闭合和数量区间。
+\end{enumerate}
+
+\chapter{模型怎样训练，怎样预测}
+
+\section{训练 Directed graph 或 \SSCL{}}
+
+\begin{enumerate}
+\item 从训练香方生成词表，给每种香材一个列索引。
+\item 构造比例矩阵和 0/1 存在矩阵 $X$。
+\item 计算材料出现数、共现数和公式（4）的总体出现率。
+\item 用公式（5）建立直接有向图。
+\item 若方法为 \SSCL{}，按著作拆分 $X$，依次计算公式（6）至（13）。
+\item 若方法为 EASE、SLIM 或 PPR，再建立对应比较矩阵。
+\item 保存训练配方的材料数分布和比例矩阵，供公式（22）、（23）使用。
+\end{enumerate}
+
+这里没有 epoch，也没有 mini-batch。Directed graph 与 \SSCL{} 的“训练”主要是统计量估计。SLIM 需要重复拟合 ElasticNet，EASE 需要矩阵求逆，概率校准需要数值优化。
+
+\section{一次预测的精确执行顺序}
+
+\begin{lstlisting}[language=Python]
+model = SourceStableGraphCompletion(parameters).fit(training)
+probabilities = model.score(observed)
+support, count_probability = model.count_distribution(
+    observed_count=len(observed), observation_fraction=0.5
+)
+total = posterior_median(count_probability)
+selected = top_candidates_including_observed(total)
+composition = keep_observed_and_allocate_residual(selected)
+\end{lstlisting}
+
+实际 \codepath{predict()} 把已观察材料的 ranking 设为正无穷，使它们必定保留，然后按总数截取。未观察材料的比例来自十个最相似训练配方。所有比例最后再除以总和，消除浮点误差。
+
+\section{“模型”究竟保存在哪里}
+
+论文没有发布一个唯一的 \codepath{model.pkl}。研究对象是一套算法和每个外层 fold 内部选择出的配置。每轮测试必须只用训练著作重新拟合。各 fold 的所选配置保存在 \codepath{experiments/v2_nested_cross_work.json} 的 \codepath{outer_details} 中。
+
+如果需要面向网站部署，可在全部 91 条金标准或 237 条加权记录上拟合一次；那是部署模型，不再是论文中的外层无偏测试模型。两者用途不同。
+
+\chapter{嵌套评估为何必要}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.96\textwidth]{v3_fig3_design_gray.png}
+\caption{模型、嵌套评估和来源稳定边的整体关系。对应 \paperfigure{3}{8}。}
+\end{figure}
+
+\section{外层循环}
+
+六部著作依次充当外层测试集。目标著作不参与词表、频率、图边、超参数或校准器的构建。测试一次后换下一部，直到每部都被留出一次。
+
+\section{内层循环}
+
+对某个外层训练集，再轮流留出其中一部训练著作作为内层验证集。每组超参数在所有内层著作上评估。先按来源宏平均隐藏 F1 排序，若相同则看加权 Jaccard。胜出的配置才用全部外层训练著作重新拟合并测试外层著作。
+
+\section{弱监督又多一层限制}
+
+外层目标所在的整个 transcription collection 被排除。内层验证时，还要排除内层验证著作所在 collection。$\eta$ 与模型参数一起在内层选择。弱记录永远不进入测试标签。
+
+\section{遮蔽种子}
+
+种子不是普通随机数调用。程序把 reference ID、保留比例、seed 和机制拼接后做 SHA-256，再用哈希前 8 字节初始化随机数生成器。相同输入总会得到相同遮蔽，且不同程序运行之间不受循环顺序影响。
+
+\begin{keybox}
+嵌套评估的中心原则是：任何会影响模型选择的操作都必须在外层测试集之外完成。包括词表建立、超参数选择、弱标签权重选择和概率校准。
+\end{keybox}
+
+\chapter{八类模型到底在比较什么}
+
+\begin{longtable}{p{0.18\textwidth}p{0.28\textwidth}p{0.44\textwidth}}
+\toprule
+模型 & 使用的信息 & 它检验的问题\\
+\midrule
+\endfirsthead
+\toprule
+模型 & 使用的信息 & 它检验的问题\\
+\midrule
+\endhead
+Frequency & 每种材料总体出现率 & 只猜常见材料能达到什么水平？\\
+Directed graph & $P(b\mid a)$ 的平滑估计 & 条件共现是否比总体频率有用？\\
+\SSCL{} & 分著作条件提升、波动惩罚与直接图混合 & 跨来源稳定性惩罚是否进一步改善迁移？\\
+EASE & 稠密线性材料关系 & 简单闭式推荐模型能否捕捉更好的比例重叠？\\
+SLIM & 稀疏非负材料关系 & 少量强边是否胜过稠密关系？\\
+PPR & 有向图上的多步扩散 & 两跳及更远关系是否有用？\\
+Formula kNN & 与当前已知集合最相似的训练香方 & 直接借用近邻配方是否足够？\\
+PureSVD & 存在矩阵的低秩子空间 & 少数潜在风格因子能否解释配方？\\
+\bottomrule
+\end{longtable}
+
+比较结果显示 Directed graph、\SSCL{}、EASE 和 PPR 均超过 Frequency。SLIM 改善较小，PureSVD 在更严格实验中弱于 Frequency。有效信息主要存在于材料间的条件依赖，而不是一个很低维的整体风格空间。
+
+\chapter{全部实验结果怎样读}
+
+\section{图 1 与表 1 至表 3：先确认研究对象}
+
+\paperfigure{1}{4} 和 \papertable{2}{4} 说明 592、296、91、146、237 的层级关系。\papertable{1}{3} 表明组间严重不平衡：陈氏 38，香乘未定来源 29，晦斋 10，洪氏 6，猎香 6，墨娥 2。\papertable{3}{5} 是符号字典。
+
+图 1c 的金标准与弱监督点几乎重叠，说明新增记录没有提升材料 F1。它们仍改善了数量模块，因为公式大小直方图获得了更多观测。
+
+\section{图 2：长尾是困难的根源}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.96\textwidth]{v3_fig2_corpus_gray.png}
+\caption{91 条金标准的来源、材料数与材料频率。对应 \paperfigure{2}{5}。}
+\end{figure}
+
+图 2a 显示来源不平衡；图 2b 显示每方材料数中位数为 6，范围 2 至 17；图 2c 显示 30 种材料只出现一次。模型能学到常见木、树脂和修饰材料的边，却很难学到只有一次记录的材料关系。
+
+\section{表 4 与图 4：主结果}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.96\textwidth]{v3_fig4_performance_gray.png}
+\caption{六著作嵌套评估的总体、分著作和配对差值。对应 \paperfigure{4}{12}。}
+\end{figure}
+
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+模型 & Hidden F1 & Weighted Jaccard & 相对 Frequency 的要点\\
+\midrule
+Frequency & 0.3782 & 0.4514 & 基线\\
+Directed graph & 0.4260 & 0.4699 & F1 提高 0.0478\\
+\SSCL{} & 0.4263 & 0.4716 & F1 提高 0.0481\\
+EASE & 0.4229 & 0.4730 & 比例重叠最高\\
+SLIM & 0.3874 & 0.4545 & 小幅改善\\
+PPR & 0.4119 & 0.4594 & 多步图扩散有效但不领先\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+所有模型 Count MAE 都是 1.1447，因为它们共用公式（22）的数量模块。图 4a 比较来源宏平均，图 4b 展开六个著作，图 4c 显示每个著作相对 Frequency 的差值。
+
+\section{表 5：来源异质性}
+
+Hong 上 Frequency 为 0.4689，\SSCL{} 为 0.5850；Huizhai 上结构模型都低于 0.29；Xiaolu 只有两张方，Frequency、Directed graph 和 \SSCL{} 均为 0.4000。总平均不能替代逐来源结果。
+
+\section{表 6 与表 7：弱监督}
+
+Gold-only \SSCL{} F1 为 0.4263，Gold plus weak 为 0.4254，差为 $-0.0009$，$p=1.0$。Count MAE 从 1.1447 降至 1.0891。六个外层 fold 的选定 $\eta$ 分别为 0.50、1.00、0、0.10、1.00、1.00；对应有效弱质量为 31.58、98.67、0、3.82、38.17、38.17。
+
+这组结果表明自动记录提供了规模信息，但材料对边仍受解析噪声、材料身份和谱系错误影响。不能写成“弱监督提高了整体准确率”。
+
+\section{表 8：更严格的双著作留出}
+
+一次留出两部著作后，任务更难。Frequency F1 为 0.3386，Directed graph 为 0.3672，增益 0.0286。Formula kNN 为 0.3431，PureSVD 为 0.3343，\SSCL{} 为 0.3650，EASE 为 0.3625，PPR 为 0.3618。直接图仍领先，说明主增益在更强来源偏移下保留。
+
+\section{表 9 与图 5：缺失机制}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.96\textwidth]{v3_fig5_missingness_gray.png}
+\caption{四种观察机制与三个观察比例。对应 \paperfigure{5}{16}。}
+\end{figure}
+
+50\% 观察时，均匀机制由 \SSCL{} 领先 0.4263；丰度偏置由 Directed graph 领先 0.4295；原文前缀由 EASE 领先 0.4812；解码器不知道 $f$ 时由 \SSCL{} 领先 0.4038。75\% 丰度偏置时 Frequency 反而领先。观察更多不保证隐藏 F1 更高，因为剩余目标数量更少且更稀有。
+
+\section{表 10 与图 6：校准}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.96\textwidth]{v3_fig6_calibration_gray.png}
+\caption{可靠性曲线、三种校准误差与高概率预测。对应 \paperfigure{6}{17}。}
+\end{figure}
+
+未校准、Temperature、Logit 三者的 Brier 分别为 0.0427、0.0406、0.0340；NLL 为 0.1572、0.1456、0.1262；ACE 为 0.0579、0.0371、0.0145。未校准有 186 个 $p>0.8$ 候选，平均预测 0.839，但实际频率 0.608。Logit 校准只剩 2 个高分候选，样本过少，不能据此宣称高概率端已得到充分验证。
+
+\section{表 11：稀有度分层}
+
+双著作留出分析共有 6,450 次隐藏材料机会。词表外 1,445 次，召回 0；训练出现一次 342 次，找回 8 次，召回 0.023；出现二至四次 787 次，找回 44 次，召回 0.056；至少五次 3,876 次，找回 2,221 次，召回 0.573。稀有度梯度是最清楚的误差机制。
+
+\section{图 7：三个压力测试}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.96\textwidth]{v3_fig7_stress_tests_gray.png}
+\caption{竞争基线、近重复移除和数量区间校准。对应 \paperfigure{7}{18}。}
+\end{figure}
+
+移除 9 张近重复香方后留下 76 张开发香方。Frequency F1 为 0.3223，Directed graph 为 0.3482，增益 0.0259。预测隐藏集合在五个 mask 之间的平均 pairwise Jaccard 为 0.644。数量区间覆盖从 0.642 提高到 0.825，同时平均宽度从 1.24 增至 2.86。
+
+\section{表 12：印香法案例}
+
+11 味真实材料中观察 6 味。模型正确恢复棧香、龙脑、白檀，漏掉乳香、甘草，误加丁香、零陵香。隐藏 Precision、Recall、F1 都是 0.600。总数预测正确，Weighted Jaccard 为 0.483。棧香预测 0.117 而真实为 0.332，龙脑预测 0.099 而真实为 0.013，说明集合恢复强于精细比例恢复。
+
+\section{表 13：化学层的中性结果}
+
+无化学图解码器 F1 为 0.3911，化学核为 0.3905。44 张旧版 inverse odor 数据中，Odor kNN 的 Weighted Jaccard 为 0.2913，forward-consistent 为 0.2824，无化学消融为 0.2835，打乱化学 profile 为 0.2863。现有实验没有支持“材料相似核提高复原”的主张。
+
+\chapter{代码怎样把主结果算出来}
+
+\section{主循环的伪代码}
+
+\begin{lstlisting}[language=Python]
+for outer_work in six_works:
+    outer_train = all_records except outer_work
+    outer_test = records from outer_work
+
+    for model_family in model_families:
+        for hyperparameter_setting in grid:
+            inner_scores = []
+            for inner_work in works inside outer_train:
+                fit on outer_train except inner_work
+                score inner_work under five masks
+            macro_score = mean of inner-work means
+
+        choose best setting by F1, then weighted Jaccard
+        refit on all outer_train
+        score outer_test under five masks
+
+average masks within formula
+average formulas within work
+average six work means
+\end{lstlisting}
+
+\section{矩阵计算对应的代码}
+
+\begin{lstlisting}[language=Python]
+weighted_presence = presence * sample_weight[:, None]
+count = weighted_presence.sum(axis=0)
+cooccurrence = presence.T @ weighted_presence
+prevalence = (count + 0.5) / (effective_sample_size + 1.0)
+directed_graph = (
+    cooccurrence + alpha * prevalence[None, :]
+) / (count[:, None] + alpha)
+\end{lstlisting}
+
+\codepath{[:, None]} 把一维权重变成列向量，使每张配方的整行同时乘权重。\codepath{prevalence[None, :]} 把总体频率变成一行，复制到所有观察材料。NumPy broadcasting 完成这些自动扩展。
+
+\section{怎样证明程序没有悄悄改变数据}
+
+金标准生成器重新从材料 mention 和原始数量计算质量向量，并与存储的闭合比例逐项比较，容差为 $10^{-10}$。它还检查至少 80 条记录、谱系唯一、比例和为 1、七道门全部通过。release manifest 对关键输入、代码与输出记录 SHA-256。
+
+\part{复现、评价与答辩}
+
+\chapter{从零复现}
+
+\section{准备环境}
+
+需要 macOS、Linux 或 Windows 的终端，Python 3.11 以上和 uv。进入仓库的 \codepath{research} 目录：
+
+\begin{lstlisting}[language=bash]
+cd research
+uv sync --frozen --all-groups
+uv run pytest tests -q
+\end{lstlisting}
+
+\codepath{uv sync --frozen} 按 \codepath{uv.lock} 安装锁定依赖，不擅自升级版本。测试通过说明当前环境满足程序写下的行为不变量，但不能单独证明历史标注正确。
+
+\section{只复现论文模型和结果}
+
+固定数据已在仓库中时，按下列顺序运行：
+
+\begin{lstlisting}[language=bash]
+uv run python -m xiangji.evaluation.v2_nested_cross_work
+uv run python -m xiangji.evaluation.v2_5_weak_supervision
+uv run python -m xiangji.evaluation.v2_missingness
+uv run python -m xiangji.evaluation.v2_calibration
+uv run python -m xiangji.evaluation.cycle6_stress_tests
+uv run python -m xiangji.evaluation.case_study
+uv run pytest tests -q
+\end{lstlisting}
+
+主要输出依次写入 \codepath{experiments/v2_nested_cross_work.json}、\codepath{v2_5_weak_supervision.json}、\codepath{v2_missingness_stress.json}、\codepath{v2_calibration.json}、\codepath{cycle6_stress_tests.json} 和 \codepath{cycle6_case_study.json}。
+
+\section{从 Wikisource 固定转储重新开始}
+
+\begin{lstlisting}[language=bash]
+make wikisource-download
+make corpus
+make curation-preflight
+make curated-reference
+make source-splits
+\end{lstlisting}
+
+这会下载固定字节范围，切分候选，解析材料与数量，生成谱系候选，再按已有审校 manifest 重新物化 91 条金标准。它不会自动替代人工审校。
+
+PubChem 获取程序需要项目认可的 API wrapper：
+
+\begin{lstlisting}[language=bash]
+uv run python -m xiangji.ingest.fetch_pubchem --wrapper PATH_TO_WRAPPER
+make molecular
+\end{lstlisting}
+
+普通复现应优先使用仓库内固定的 PubChem 原始 JSON，因为外部数据库结果可能随时间变化。
+
+\section{复现成功的判据}
+
+Cycle 6 的干净环境复现曾执行 11 条命令，112 个当时的测试通过，14 个确定性产物逐字节哈希一致。当前 V3 工作区测试集扩展为 137 项。你自己的复现至少应记录环境版本、命令退出码、测试总数、关键 JSON 的 SHA-256 和主要指标。
+
+\chapter{论文最强之处与最容易被攻击之处}
+
+\section{最强之处}
+
+\begin{enumerate}
+\item 研究问题与评估单位一致。目标是迁移到未见著作，因此按著作分块。
+\item 数据从数字来源到配方比例全程可回溯，自动标签与金标准严格分层。
+\item 主模型简单、可解释，主要增益可以直接定位到条件共现。
+\item 内层调参、内层校准、谱系阻断和 collection 阻断共同控制泄漏。
+\item 结果包含更严格双著作留出、近重复移除、四种缺失机制、稀有度分层和失败化学核。
+\end{enumerate}
+
+\section{最容易被攻击之处}
+
+\begin{enumerate}
+\item 只有六个推断单位，符号翻转检验的 p 值分辨率很粗，0.0625 不能按传统 0.05 阈值称为显著。
+\item 来源组极不平衡，墨娥只有两张方。宏平均避免大组统治，但小组估计方差很大。
+\item 91 条金标准由同一人两轮审校，没有独立一致性数据。
+\item 长尾和词表外材料限制开放世界复原，模型不能命名训练中从未出现的实体。
+\item \SSCL{} 没有超过更简单的 Directed graph，稳定性惩罚的新增价值尚未实证。
+\item 化学核覆盖材料少、采用最大 profile 配对、只建模相似性，没有燃烧与互补边。
+\item 遮蔽任务仍是受控模拟。真实残页、抄漏和描述性气味输入需要新的观测模型。
+\end{enumerate}
+
+\section{回答弱点的正确方式}
+
+答辩时先承认事实，再说明设计如何减少问题，最后给可执行的下一步。例如：“六个来源使推断分辨率有限，所以论文报告完整著作级差值和精确 p 值，并增加双著作留出与去重复压力测试。下一版最直接的提升是扩展到至少十个著作组，而不是增加同一著作中的近重复方。”
+
+\chapter{创新性应怎样陈述}
+
+\section{计算机方向}
+
+最可靠的主张是“建立来源偏移下的历史配方加权集合补全基准，并提出谱系感知弱监督与来源稳定条件图”。算法创新属于面向小数据、强来源结构的组合设计，不是新的通用深度学习架构。
+
+\section{化学信息学方向}
+
+论文把天然香材的 specimen-level 分析 profile、Morgan 指纹、理化描述符和气味标签接入历史配方模型，并用消融与 shuffled control 检查其贡献。当前结论是中性结果。化学层的研究价值在于明确下一步需要从“相似性”转向“燃烧条件下的功能互补”。
+
+\section{数学方向}
+
+数学核心包括单纯形闭合、Beta-Bernoulli 平滑、log-odds 提升、加权跨来源矩、谱系预算权重、随机化推断、概率校准和 conformal-style 区间扩展。它们形成一致的概率与统计框架，但论文不是纯数学定理工作。
+
+\chapter{顶尖答辩问题与参考回答}
+
+\section{研究问题与定位}
+
+\begin{enumerate}
+\item \textbf{问：你真的复原了失传香方吗？}\quad 答：论文验证的是部分配方补全。输入必须包含一部分已知香材及比例。它建立了向完整复原推进的可检验环节，没有声称仅凭香名恢复唯一原方。
+\item \textbf{问：这更像推荐系统，创新在哪里？}\quad 答：矩阵结构与推荐相似，所以论文引入 EASE、SLIM、PPR、kNN 和 SVD 作为基线。创新在于历史来源分块、谱系隔离、来源稳定条件提升、加权配方输出和弱证据预算的整体问题设定与实现。
+\item \textbf{问：为什么不使用大语言模型？}\quad 答：本任务需要可复算的来源阻断、配方比例和小样本统计。计数图可解释每条材料边并稳定复现。大语言模型可用于候选检索，但仍需同一基准测试其泄漏与来源迁移。
+\item \textbf{问：模型最后输出什么？}\quad 答：候选材料分数或校准概率、完整材料总数后验、选定材料集合、闭合比例向量，以及可扩展的数量区间。
+\item \textbf{问：主贡献是化学还是计算机？}\quad 答：主贡献是计算机方法与基准。化学信息学提供材料表示和一项严格消融，并指出下一步的燃烧功能建模方向。
+\end{enumerate}
+
+\section{数据与标注}
+
+\begin{enumerate}[resume]
+\item \textbf{问：592 条为什么最后只有 91 条？}\quad 答：592 是高召回机器候选，296 条有完整自动比例，120 条进入家族去重人工批次，91 条通过七道审校门。不同数字对应不同证据等级。
+\item \textbf{问：296 与 237 有什么区别？}\quad 答：296 是全部 ratio-ready 自动记录。237 是实际模型面对的 91 金标准加 146 个排除金谱系后的弱记录。
+\item \textbf{问：为什么要保留原文和稳定 revision URL？}\quad 答：任何材料、数量或方界判断都能回到研究时使用的具体文本版本，不受网页后续编辑影响。
+\item \textbf{问：古代单位换算可靠吗？}\quad 答：模型只需要方内相对比例。代码按来源可比较的质量单位统一到钱；不能质量换算的体积、枚数或定性数量不会被强行转成金标准。
+\item \textbf{问：人工标注是否独立？}\quad 答：没有。当前是同一分析者两轮审校和程序不变量检查。独立第二标注者与分项一致性是下一版数据升级。
+\item \textbf{问：谱系规则会不会错？}\quad 答：自动规则只产生候选边。金标准中的家族归属属于七道人工审校门之一。压力测试还移除了跨著作材料 Jaccard 至少 0.8 的 9 张方。
+\item \textbf{问：为什么按 work 而不是 collection 分组？}\quad 答：work 是历史配方传统和推断单位。collection 是现代转录容器。主评估按 work，弱监督为防泄漏额外按 collection 阻断。
+\end{enumerate}
+
+\section{模型与数学}
+
+\begin{enumerate}[resume]
+\item \textbf{问：为什么图是有向的？}\quad 答：$P(b\mid a)$ 与 $P(a\mid b)$ 的分母不同。常见基础香与稀有修饰香之间往往有明显方向差异。
+\item \textbf{问：平滑参数 $\alpha$ 在做什么？}\quad 答：它把总体出现率当作 $\alpha$ 个伪观察。材料暴露少时防止条件概率变成 0 或 1，暴露多时让真实计数主导。
+\item \textbf{问：为何在 logit 空间减边际概率？}\quad 答：它计算条件 odds 相对著作内基线 odds 的倍数对数，去掉“候选本来就常见”的影响。
+\item \textbf{问：来源稳定惩罚有什么直观含义？}\quad 答：同一边在多个著作中方向一致且暴露充分时保留；只在单一著作很强或跨著作波动大时减分。
+\item \textbf{问：既然 \SSCL{} 没超过直接图，为什么保留？}\quad 答：它给出了可检验的跨来源稳定性假设。当前六个来源下惩罚项未带来总增益，说明条件化本身解释了主提升，也为扩大来源数后的再检验留下明确模型。
+\item \textbf{问：为什么数量模型取中位数？}\quad 答：后验中位数最小化绝对误差，正好对应 Count MAE。
+\item \textbf{问：为什么已观察比例必须固定？}\quad 答：它们是输入证据。改动已知比例会人为降低与真实配方的重叠。残余闭合只分配未知质量，并保证总和为 1。
+\item \textbf{问：EASE 为什么比例分数最好？}\quad 答：EASE 学习稠密线性材料关系，可能更好地组合多个共现线索。它的 Hidden F1 略低于 \SSCL{}，但经统一比例模块后的 Weighted Jaccard 最高。论文没有进一步证明因果机制。
+\end{enumerate}
+
+\section{统计与结果}
+
+\begin{enumerate}[resume]
+\item \textbf{问：五个 mask 能否当作五倍样本量？}\quad 答：不能。它们是同一配方的重复测量，先在配方内平均。推断单位是六个历史著作组。
+\item \textbf{问：为什么用来源宏平均？}\quad 答：研究目标是迁移到新来源。若按配方微平均，陈氏与香乘大组会淹没小来源。
+\item \textbf{问：$p=0.0625$ 是否显著？}\quad 答：按 0.05 阈值不显著。六个块只有 64 种符号组合，4 种至少同样极端，因此精确 p 值为 4/64。应同时报告五胜一平和平均增益 0.0478。
+\item \textbf{问：五胜一平为什么还不到 0.05？}\quad 答：双侧检验同时考虑全正和全负等对称极端情况，且有一个零差值。六个单位的最细可达网格很粗。
+\item \textbf{问：弱监督成功还是失败？}\quad 答：对材料 F1 是中性，对数量 MAE 有正收益。它证明自动记录含有规模信息，也显示材料边对标注噪声更敏感。
+\item \textbf{问：为什么观察 75\% 时 F1 反而下降？}\quad 答：隐藏集合发生变化。剩余材料更少且更偏向稀有尾部，F1 的分母也更小。任务并非同一目标上的单调加信息。
+\item \textbf{问：校准后只剩两个高概率点是不是过度压缩？}\quad 答：可能。Logit map 明显改善整体 Brier、NLL 和 ACE，但高概率端只有两个点，不能单独验证极端概率。校准结果应结合可靠性曲线和样本数读取。
+\item \textbf{问：0.825 覆盖率是否证明严格 conformal 保证？}\quad 答：论文称 conformal-style 开发集残差扩展。它使用来源分块开发残差和有限样本分位数，报告经验覆盖；在当前相关重复实例与小来源数下，不应宣称无条件分布自由保证。
+\end{enumerate}
+
+\section{化学与历史解释}
+
+\begin{enumerate}[resume]
+\item \textbf{问：为何 GC-MS 数据没有直接决定配方？}\quad 答：目标古方没有实体残留物。文献中的 GC-MS 来自现代样本，只能描述香材可能的化学 profile，不能反推出历史配方的唯一组成。
+\item \textbf{问：18 种材料覆盖 65.24\% 是不是覆盖很高？}\quad 答：它覆盖的是 296 条记录中的材料 mention，不是 81 种类型，也不是每种香材的全部化合物。类型覆盖率只有 22.2\%。
+\item \textbf{问：化学核无效是否说明化学没用？}\quad 答：只说明当前的材料相似核没有提升该补全任务。燃烧中的热解产物、挥发曲线、载体作用和互补配伍尚未进入模型。
+\item \textbf{问：为何取 profile 对的最大 Tanimoto？}\quad 答：它允许不同样本和分析法之间寻找最接近的有文献支持化合物对，但也可能被单个共享结构主导。未来可用分布间距离替代最大值。
+\item \textbf{问：配方比例等于闻到的气味强度吗？}\quad 答：不等于。质量比例、燃烧释放量、空气浓度、嗅阈和混合物感知是不同层次。论文预测的是芳香材料相对干质量。
+\end{enumerate}
+
+\section{复现与工程}
+
+\begin{enumerate}[resume]
+\item \textbf{问：如何保证每次 mask 相同？}\quad 答：用记录 ID、比例、种子和机制的 SHA-256 生成局部随机种子，不依赖程序运行顺序。
+\item \textbf{问：为什么保存 JSON 而不是只保存论文表？}\quad 答：JSON 保留每个 fold、配置、来源、记录和指标层次，可重新聚合并查错。论文表只是压缩视图。
+\item \textbf{问：哈希能证明模型正确吗？}\quad 答：不能。哈希证明文件字节一致。模型正确性还需要单元测试、统计审计、代码阅读和独立数据验证。
+\item \textbf{问：计算量多大？}\quad 答：81 个材料时矩阵很小。图构建可用 $O(N\bar K^2)$ 稀疏累计，单次候选评分约为 $O(|O_i|M)$，排序为 $O(M\log M)$。
+\item \textbf{问：为什么不用 GPU？}\quad 答：主要操作是小型计数矩阵、矩阵逆和线性模型。CPU 足够，GPU 传输开销可能更大。
+\end{enumerate}
+
+\chapter{十分钟答辩讲稿骨架}
+
+\begin{enumerate}
+\item \textbf{第 0 至 1 分钟：}说明任务。历史香方只剩部分材料时，预测隐藏材料、总数和比例；测试著作整体未见。
+\item \textbf{第 1 至 2 分钟：}说明数据。592 候选，296 自动比例，91 金标准，146 弱记录，六个著作组，81 种材料。
+\item \textbf{第 2 至 4 分钟：}说明模型。从 $\pi_b$ 到 $G_{ab}$，再到分著作 log-odds lift、加权汇总和异质性惩罚。
+\item \textbf{第 4 至 5 分钟：}说明完整输出。数量后验决定补几味，残余闭合决定比例，内层 logit map 校准概率。
+\item \textbf{第 5 至 6 分钟：}说明实验。六层外部留一著作，内部再留一著作调参，五个确定性 mask，来源宏平均和符号翻转检验。
+\item \textbf{第 6 至 7 分钟：}给主结果。Frequency 0.3782，Directed graph 0.4260，\SSCL{} 0.4263，EASE 的 Weighted Jaccard 0.4730。
+\item \textbf{第 7 至 8 分钟：}给压力测试。双著作留出仍有 0.0286 增益，移除近重复后仍有 0.0259 增益，稀有材料是主误差。
+\item \textbf{第 8 至 9 分钟：}给负结果。弱监督改善数量不改善材料 F1，化学相似核无增益，来源稳定惩罚没有超过直接图。
+\item \textbf{第 9 至 10 分钟：}给下一步。扩展到至少十个来源，独立双标注，真实残损模式，40 种核心材料的燃烧与热解特征，建模互补而非相似。
+\end{enumerate}
+
+\chapter{七天掌握计划}
+
+\begin{longtable}{p{0.12\textwidth}p{0.52\textwidth}p{0.28\textwidth}}
+\toprule
+天 & 任务 & 验收标准\\
+\midrule
+第 1 天 & 第 1 至 4 章，复述任务与四层证据。 & 不看书解释 592、296、91、146、237。\\
+第 2 天 & 第 5 至 9 章，手算玩具矩阵、logit 和 F1。 & 能解释 $X^{\mathsf T}X$ 和有向条件概率。\\
+第 3 天 & 第 10 至 15 章，打开 JSON 与源程序。 & 能沿 candidate ID 找到原文、比例和审校状态。\\
+第 4 天 & 公式（1）至（18）。 & 白板推导 Beta 平滑、lift、加权矩和弱权重。\\
+第 5 天 & 公式（19）至（36）。 & 能说明 EASE、PPR、数量后验、校准与符号翻转。\\
+第 6 天 & 第 21 至 28 章，运行复现实验。 & 得到相同主指标，指出三个正结果和三个中性结果。\\
+第 7 天 & 第 29 章问题随机抽答，完成十分钟讲稿。 & 连续回答 20 个问题，数字、单位和因果关系无误。\\
+\bottomrule
+\end{longtable}
+
+\appendix
+
+\chapter{36 个公式速查表}
+
+\begin{longtable}{cp{0.30\textwidth}p{0.47\textwidth}}
+\toprule
+公式 & 名称 & 一句话作用\\
+\midrule
+\endfirsthead
+\toprule
+公式 & 名称 & 一句话作用\\
+\midrule
+\endhead
+1 & 质量闭合 & 把原始芳香质量变成和为 1 的比例。\\
+2 & 任务映射 & 定义输入、候选分数、完整集合和比例输出。\\
+3 & 遮蔽数量 & 保证至少观察一味且至少隐藏一味。\\
+4 & 总体出现率 & 用半计数平滑材料频率。\\
+5 & 直接有向边 & 估计 $P(b\mid a)$ 并向总体频率收缩。\\
+6 & 来源出现率 & 把著作内频率向全局频率收缩。\\
+7 & Beta 后验 & 表示著作内条件概率的不确定性。\\
+8 & 后验均值 & 给出著作内平滑条件概率。\\
+9 & 条件提升 & 去掉候选在该著作本来的常见程度。\\
+10 & 暴露权重 & 让有更多 $a$ 观测的著作贡献更大。\\
+11 & 加权平均 & 汇总跨著作的条件提升。\\
+12 & 加权方差 & 衡量边在不同著作间的波动。\\
+13 & 稳定边 & 奖励平均提升并惩罚跨著作波动。\\
+14 & Reducer & 汇总多个已知材料给同一候选的边分数。\\
+15 & 弱记录权重 & 让同一谱系共享一份弱证据预算。\\
+16 & 加权计数 & 计算弱监督下的出现数、共现数与有效样本量。\\
+17 & 加权图 & 用有效计数重建频率和有向边。\\
+18 & 弱池阻断 & 排除目标 collection 和测试谱系。\\
+19 & EASE & 由正则化 Gram 逆矩阵得到稠密线性关系。\\
+20 & SLIM & 用非负 elastic net 学稀疏材料关系。\\
+21 & PPR & 从已知材料沿图反复扩散。\\
+22 & 数量后验 & 根据训练大小分布和观察数预测总材料数。\\
+23 & 比例闭合 & 固定已知质量并分配剩余质量。\\
+24 & 概率校准 & 把原始分数映射为更可信的概率。\\
+25 & 有效弱质量 & 将弱记录数换算为谱系预算后的等价质量。\\
+26 & P、R、F1 & 衡量隐藏材料集合恢复。\\
+27 & 加权 Jaccard & 衡量完整配方比例重叠。\\
+28 & 配对差 & 让每部著作等权比较模型与 Frequency。\\
+29 & 符号翻转 & 枚举著作级零假设下的全部正负号。\\
+30 & Brier & 平方误差式概率评分。\\
+31 & NLL & 强烈惩罚错误且自信的概率。\\
+32 & ACE & 比较等数量概率组的预测与实际频率。\\
+33 & Tanimoto & 比较有文献支持化合物的 Morgan bit。\\
+34 & 化学核 & 融合结构、理化和气味相似度。\\
+35 & 集合 Jaccard & 标记跨著作近重复配方。\\
+36 & 不一致分数 & 计算真实材料数落在区间外多远。\\
+\bottomrule
+\end{longtable}
+
+\chapter{关键文件与结果定位}
+
+\begin{longtable}{p{0.39\textwidth}p{0.53\textwidth}}
+\toprule
+文件 & 读者应查看的内容\\
+\midrule
+\endfirsthead
+\toprule
+文件 & 读者应查看的内容\\
+\midrule
+\endhead
+\codepath{data/curated/formula_reference_v0.1.json} & 91 条金标准的原文、来源、材料、质量、比例、谱系和审校信息。\\
+\codepath{data/interim/structured_formula_candidates_v0.1.json} & 592 条自动结构化候选与 296 条 ratio-ready 状态。\\
+\codepath{data/interim/formula_genealogy_candidates_v0.1.json} & 谱系候选边、阈值、connected components。\\
+\codepath{data/curated/formula_curation_manifest_v0.1.json} & 120 条人工批次中的排除决定。\\
+\codepath{ontology/materials_v0.1.json} & 规范香材、别名、角色和身份状态。\\
+\codepath{data/curated/material_compound_evidence_v0.1.json} & 18 种香材的 specimen-level 化学文献证据。\\
+\codepath{data/processed/molecular_features_v0.1.json} & 40 个化合物的 RDKit 描述符和 Morgan bits。\\
+\codepath{experiments/v2_nested_cross_work.json} & 六著作主评估、每个 fold 的选择配置和工作级指标。\\
+\codepath{experiments/v2_5_weak_supervision.json} & 弱监督权重、可用弱池、有效质量和结果。\\
+\codepath{experiments/v2_missingness_stress.json} & 四种缺失机制乘三个观察比例。\\
+\codepath{experiments/v2_calibration.json} & 每个外层 fold 的校准参数和三组校准指标。\\
+\codepath{experiments/cycle6_stress_tests.json} & kNN、SVD、去重复、数量区间和比例闭合。\\
+\codepath{experiments/cycle6_case_study.json} & “印香法”的逐材料预测。\\
+\codepath{reports/clean_reproduction_cycle6.md} & 干净环境命令、测试与哈希对照。\\
+\bottomrule
+\end{longtable}
+
+\chapter{Python 词汇表}
+
+\begin{description}
+\item[import] 引入外部模块。
+\item[def] 定义函数。
+\item[class] 定义含状态和方法的对象。
+\item[return] 把结果交还调用者。
+\item[tuple] 不打算修改的有序序列。
+\item[dict] 键值映射。
+\item[np.asarray] 把输入转成 NumPy 数组。
+\item[axis=0] 沿行方向汇总，得到每一列的结果。
+\item[:, None] 增加一个长度为 1 的维度，便于 broadcasting。
+\item[@] 矩阵乘法。
+\item[np.argsort] 返回排序后的索引。
+\item[np.clip] 把值限制在给定区间。
+\item[dataclass] 自动生成初始化和字段访问的数据容器。
+\item[frozen=True] 实例建立后字段不可修改。
+\item[json.loads] 把 JSON 文本读成 Python 对象。
+\item[json.dumps] 把 Python 对象写成 JSON 文本。
+\item[Path] 表示文件路径并提供读写方法。
+\item[raise ValueError] 数据违反预期条件时立即停止。
+\end{description}
+
+\chapter{进一步阅读}
+
+\begin{enumerate}
+\item J. Aitchison, \href{https://doi.org/10.1111/j.2517-6161.1982.tb01195.x}{The Statistical Analysis of Compositional Data}, 1982。理解单纯形与闭合数据。
+\item Harald Steck, \href{https://doi.org/10.1145/3308558.3313710}{Embarrassingly Shallow Autoencoders for Sparse Data}, 2019。理解 EASE。
+\item Xia Ning and George Karypis, \href{https://doi.org/10.1109/ICDM.2011.134}{SLIM: Sparse Linear Methods for Top-N Recommender Systems}, 2011。理解 SLIM。
+\item Chuan Guo et al., \href{https://proceedings.mlr.press/v70/guo17a.html}{On Calibration of Modern Neural Networks}, 2017。理解 temperature scaling。
+\item Jeremy Nixon et al., \href{https://doi.org/10.1109/CVPRW.2019.00018}{Measuring Calibration in Deep Learning}, 2019。理解 ACE 与校准评估。
+\item David Rogers and Mathew Hahn, \href{https://doi.org/10.1021/ci100050t}{Extended-Connectivity Fingerprints}, 2010。理解 Morgan fingerprint。
+\item Anastasios Angelopoulos and Stephen Bates, \href{https://doi.org/10.1561/2200000101}{Conformal Prediction: A Gentle Introduction}, 2023。理解区间校准。
+\item Alexander Ratner et al., \href{https://doi.org/10.14778/3157794.3157797}{Snorkel: Rapid Training Data Creation with Weak Supervision}, 2017。理解弱监督。
+\item Pang Wei Koh et al., \href{https://proceedings.mlr.press/v139/koh21a.html}{WILDS: A Benchmark of in-the-Wild Distribution Shifts}, 2021。理解分布偏移基准。
+\item 清华大学出版社，\href{https://www.tup.com.cn/booksCenter/bookpreface?id=05132301}{教材系统逻辑与循序渐进的公开编写说明}。
+\item 清华大学教育学院，\href{https://se.tsinghua.edu.cn/info/1175/1733.htm}{教材模块与理论实践结合要求}。
+\item 北京大学艺术学院，\href{https://art.pku.edu.cn/rcpyjxxm/bks/tzgg_bks/14e756b31dbe40eda4cc3cc2547ba73f.htm}{本科教学改革与教材建设材料}。
+\end{enumerate}
+
+\backmatter
+
+\chapter*{最后一页：判断自己是否真的懂了}
+\addcontentsline{toc}{chapter}{最后一页：判断自己是否真的懂了}
+
+合上书，完成以下任务：
+
+\begin{enumerate}
+\item 从 592 候选讲到 91 金标准和 146 弱记录，任何数字不得混层。
+\item 在白板上推导公式（4）、（5）、（8）、（9）、（13）、（23）和（29）。
+\item 解释为什么 Directed graph 的主增益可信，而 \SSCL{} 的额外稳定性优势尚未出现。
+\item 解释为什么弱监督对数量有用，对材料边没有带来净提升。
+\item 解释为什么化学核的负结果指向互补性与燃烧建模，而不是否定化学。
+\item 打开代码，沿 \codepath{run()}、\codepath{select_inside_outer_fold()}、\codepath{fit()}、\codepath{predict()} 走完一次外层预测。
+\item 用一句话说出论文证明的范围，再用一句话说出它没有测试的完整失传香方问题。
+\end{enumerate}
+
+若七项都能在没有提示的情况下完成，你已经掌握了这篇论文的研究逻辑、数学结构、程序实现和证据边界。
+
+\end{document}

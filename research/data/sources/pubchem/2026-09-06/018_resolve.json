@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        2345
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 2345,
+          "SMILES": "C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2",
+          "ConnectivitySMILES": "C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2",
+          "InChIKey": "SESFRYSPDFLNCH-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

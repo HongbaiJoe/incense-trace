@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        8842
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 8842,
+          "SMILES": "CC(CCC=C(C)C)CCO",
+          "ConnectivitySMILES": "CC(CCC=C(C)C)CCO",
+          "InChIKey": "QMVPMAAFGQKVCJ-UHFFFAOYSA-N"
+        }
+      ]
+    }
+  }
+}

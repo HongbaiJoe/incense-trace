@@ -1,0 +1,67 @@
+{
+  "candidate_count": 332,
+  "automatic_qc_clean_count": 322,
+  "automatic_qc_flagged_count": 10,
+  "page_counts": {
+    "香乘 (四庫全書本)/卷14": 39,
+    "香乘 (四庫全書本)/卷15": 35,
+    "香乘 (四庫全書本)/卷16": 29,
+    "香乘 (四庫全書本)/卷17": 32,
+    "香乘 (四庫全書本)/卷18": 50,
+    "香乘 (四庫全書本)/卷19": 42,
+    "香乘 (四庫全書本)/卷20": 21,
+    "香乘 (四庫全書本)/卷21": 12,
+    "香乘 (四庫全書本)/卷23": 24,
+    "香乘 (四庫全書本)/卷24": 17,
+    "香乘 (四庫全書本)/卷25": 31
+  },
+  "provisional_work_counts": {
+    "huizhai_xiangpu": 24,
+    "liexiang_xinpu": 31,
+    "moe_xiaolu_xiangpu": 17,
+    "xiangcheng_compilation_unresolved_source": 260
+  },
+  "provisional_scope_counts": {
+    "burned_incense": 201,
+    "likely_burned_incense": 12,
+    "other_aromatic_preparation": 11,
+    "scope_unresolved": 108
+  },
+  "flag_counts": {
+    "long_candidate_block": 1,
+    "non_unique_title": 9
+  },
+  "duplicate_title_count": 29,
+  "duplicate_titles": {
+    "假篤耨香": 3,
+    "出塵香": 2,
+    "又": 4,
+    "又方": 5,
+    "古龍涎香": 4,
+    "宫中香": 2,
+    "小龍涎香": 4,
+    "春消息": 2,
+    "木犀香": 2,
+    "杏花香": 2,
+    "梅花香": 5,
+    "梅英香": 2,
+    "梅蕊香": 2,
+    "清逺香": 3,
+    "玉蕊香": 2,
+    "瓊心香": 2,
+    "百花香": 2,
+    "笑梅香": 5,
+    "聞思香": 2,
+    "芬積香": 2,
+    "藏春香": 2,
+    "衙香": 8,
+    "輭香": 7,
+    "野花香": 3,
+    "雪中春信": 3,
+    "香煤": 3,
+    "香茶": 2,
+    "香餅": 4,
+    "龍涎香": 7
+  },
+  "interpretation": "These are high-recall machine candidates. Automatic QC is not historical validation, and unresolved Xiangcheng compilation records cannot be treated as independent works."
+}

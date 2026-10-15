@@ -1,0 +1,20 @@
+{
+  "candidate_count": 11,
+  "automatic_qc_clean_count": 11,
+  "automatic_qc_flagged_count": 0,
+  "page_counts": {
+    "遵生八箋/燕閒清賞箋中卷": 11
+  },
+  "provisional_work_counts": {
+    "zunsheng_bajian": 11
+  },
+  "provisional_scope_counts": {
+    "burned_incense": 6,
+    "likely_burned_incense": 2,
+    "scope_unresolved": 3
+  },
+  "flag_counts": {},
+  "duplicate_title_count": 0,
+  "duplicate_titles": {},
+  "interpretation": "These are high-recall machine candidates. Automatic QC is not historical validation, and unresolved Xiangcheng compilation records cannot be treated as independent works."
+}

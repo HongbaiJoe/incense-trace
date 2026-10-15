@@ -1,0 +1,2556 @@
+{
+  "comparisons_vs_frequency": {
+    "directed_graph": {
+      "exact_two_sided_sign_flip_pvalue": 0.125,
+      "mean_difference": 0.02858672990819088,
+      "per_work_difference": {
+        "chen_xiangpu_compilation": 0.047711798435482566,
+        "huizhai_xiangpu": 0.03479497354497357,
+        "liexiang_xinpu": 0.013621632996632993,
+        "moe_xiaolu_xiangpu": 0.0,
+        "xiangcheng_compilation_unresolved_source": 0.046805244563865256
+      },
+      "positive_work_count": 4,
+      "unit": "historical_work_group",
+      "work_count": 5
+    },
+    "ease": {
+      "exact_two_sided_sign_flip_pvalue": 0.0625,
+      "mean_difference": 0.02386065466260563,
+      "per_work_difference": {
+        "chen_xiangpu_compilation": 0.03535704792283734,
+        "huizhai_xiangpu": 0.011415343915343934,
+        "liexiang_xinpu": 0.01634469696969698,
+        "moe_xiaolu_xiangpu": 0.006249999999999978,
+        "xiangcheng_compilation_unresolved_source": 0.049936184505149916
+      },
+      "positive_work_count": 5,
+      "unit": "historical_work_group",
+      "work_count": 5
+    },
+    "ppr": {
+      "exact_two_sided_sign_flip_pvalue": 0.0625,
+      "mean_difference": 0.023211910610730906,
+      "per_work_difference": {
+        "chen_xiangpu_compilation": 0.03494674185463653,
+        "huizhai_xiangpu": 0.002744708994708994,
+        "liexiang_xinpu": 0.026477272727272683,
+        "moe_xiaolu_xiangpu": 0.016666666666666663,
+        "xiangcheng_compilation_unresolved_source": 0.035224162810369664
+      },
+      "positive_work_count": 5,
+      "unit": "historical_work_group",
+      "work_count": 5
+    },
+    "slim": {
+      "exact_two_sided_sign_flip_pvalue": 0.5,
+      "mean_difference": -0.011339490095842225,
+      "per_work_difference": {
+        "chen_xiangpu_compilation": 0.0028778385357330905,
+        "huizhai_xiangpu": -0.026256613756613728,
+        "liexiang_xinpu": -0.049671115921116005,
+        "moe_xiaolu_xiangpu": -0.024999999999999967,
+        "xiangcheng_compilation_unresolved_source": 0.041352440662785483
+      },
+      "positive_work_count": 2,
+      "unit": "historical_work_group",
+      "work_count": 5
+    },
+    "sscl": {
+      "exact_two_sided_sign_flip_pvalue": 0.25,
+      "mean_difference": 0.02641716545368995,
+      "per_work_difference": {
+        "chen_xiangpu_compilation": 0.043610256702361905,
+        "huizhai_xiangpu": 0.05038359788359792,
+        "liexiang_xinpu": -0.016912878787878838,
+        "moe_xiaolu_xiangpu": 5.551115123125783e-17,
+        "xiangcheng_compilation_unresolved_source": 0.05500485147036871
+      },
+      "positive_work_count": 4,
+      "unit": "historical_work_group",
+      "work_count": 5
+    }
+  },
+  "legacy_primary_comparators": {
+    "formula_knn": {
+      "count_absolute_error": 1.374601734220609,
+      "hidden_f1": 0.34311186392924137,
+      "hidden_precision": 0.4081571721449217,
+      "hidden_recall": 0.32332400107286674,
+      "weighted_jaccard": 0.4434976232018514
+    },
+    "pure_svd": {
+      "count_absolute_error": 1.374601734220609,
+      "hidden_f1": 0.33434939272598074,
+      "hidden_precision": 0.39476403172682667,
+      "hidden_recall": 0.3161240097369862,
+      "weighted_jaccard": 0.4199705870605026
+    }
+  },
+  "models": {
+    "directed_graph": {
+      "configuration": {
+        "diffusion": 0.2,
+        "ease_ridge": 100.0,
+        "heterogeneity_penalty": 0.25,
+        "method": "directed_graph",
+        "prior_weight": 1.0,
+        "ratio_neighbors": 10,
+        "reducer": "mean",
+        "slim_alpha": 0.01,
+        "slim_l1_ratio": 0.2,
+        "smoothing": 0.5,
+        "source_prior_strength": 5.0,
+        "stable_blend": 0.5
+      },
+      "decoder_fraction": 0.5,
+      "evaluated_formula_count": 84,
+      "fold_kind": "primary",
+      "fold_summaries": [
+        {
+          "fold_id": "primary_two_source_01",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0460526315789473,
+            "hidden_f1": 0.3234494379889117,
+            "hidden_precision": 0.3613706140350877,
+            "hidden_recall": 0.3029283435862383,
+            "hidden_reference_count": 3.6940789473684212,
+            "weighted_jaccard": 0.4301723143859056
+          },
+          "test_formula_count": 48,
+          "training_formula_count": 37,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.8421052631578947,
+              "hidden_f1": 0.4329703045492519,
+              "hidden_precision": 0.48149122807017536,
+              "hidden_recall": 0.4035839598997494,
+              "hidden_reference_count": 3.763157894736842,
+              "record_count": 38,
+              "weighted_jaccard": 0.4661959305590151
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.21392857142857144,
+              "hidden_precision": 0.24125,
+              "hidden_recall": 0.20227272727272727,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.3941486982127961
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_02",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.473684210526316,
+            "hidden_f1": 0.43075225943647,
+            "hidden_precision": 0.6112280701754387,
+            "hidden_recall": 0.36002392344497613,
+            "hidden_reference_count": 5.324561403508772,
+            "weighted_jaccard": 0.46989759789192315
+          },
+          "test_formula_count": 44,
+          "training_formula_count": 41,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.9473684210526315,
+              "hidden_f1": 0.4268724842409053,
+              "hidden_precision": 0.48912280701754385,
+              "hidden_recall": 0.39201754385964915,
+              "hidden_reference_count": 3.8157894736842106,
+              "record_count": 38,
+              "weighted_jaccard": 0.47523148250729774
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 4.0,
+              "hidden_f1": 0.43463203463203465,
+              "hidden_precision": 0.7333333333333334,
+              "hidden_recall": 0.32803030303030306,
+              "hidden_reference_count": 6.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.46456371327654855
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_03",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.39473684210526316,
+            "hidden_f1": 0.4174587985114301,
+            "hidden_precision": 0.44219298245614036,
+            "hidden_recall": 0.4023684210526316,
+            "hidden_reference_count": 3.6184210526315788,
+            "weighted_jaccard": 0.505912830233034
+          },
+          "test_formula_count": 40,
+          "training_formula_count": 45,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.4349175970228602,
+              "hidden_precision": 0.4843859649122807,
+              "hidden_recall": 0.4047368421052632,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.47457797807354385
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.5372476823925242
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_04",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.618421052631579,
+            "hidden_f1": 0.33718625568249627,
+            "hidden_precision": 0.42277568922305764,
+            "hidden_recall": 0.29977175080558544,
+            "hidden_reference_count": 4.095864661654136,
+            "weighted_jaccard": 0.37004658817814695
+          },
+          "test_formula_count": 67,
+          "training_formula_count": 18,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.736842105263158,
+              "hidden_f1": 0.31938900281005544,
+              "hidden_precision": 0.4074561403508772,
+              "hidden_recall": 0.27365914786967416,
+              "hidden_reference_count": 4.2631578947368425,
+              "record_count": 38,
+              "weighted_jaccard": 0.36353715010764975
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.5,
+              "hidden_f1": 0.35498350855493715,
+              "hidden_precision": 0.43809523809523804,
+              "hidden_recall": 0.3258843537414967,
+              "hidden_reference_count": 3.9285714285714284,
+              "record_count": 28,
+              "weighted_jaccard": 0.3765560262486442
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_05",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.425,
+            "hidden_f1": 0.32716964285714284,
+            "hidden_precision": 0.49320833333333336,
+            "hidden_recall": 0.2568831168831169,
+            "hidden_reference_count": 5.3125,
+            "weighted_jaccard": 0.4413069496233245
+          },
+          "test_formula_count": 16,
+          "training_formula_count": 69,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.14205357142857145,
+              "hidden_precision": 0.18375000000000002,
+              "hidden_recall": 0.12121212121212122,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.34982568621596133
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6,
+              "hidden_f1": 0.5122857142857142,
+              "hidden_precision": 0.8026666666666668,
+              "hidden_recall": 0.39255411255411254,
+              "hidden_reference_count": 7.0,
+              "record_count": 5,
+              "weighted_jaccard": 0.5327882130306877
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_06",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.6111111111111112,
+            "hidden_f1": 0.32563492063492067,
+            "hidden_precision": 0.34500000000000003,
+            "hidden_recall": 0.31599326599326605,
+            "hidden_reference_count": 3.4722222222222223,
+            "weighted_jaccard": 0.4254651638413968
+          },
+          "test_formula_count": 12,
+          "training_formula_count": 73,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.2512698412698413,
+              "hidden_precision": 0.29000000000000004,
+              "hidden_recall": 0.23198653198653205,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.37434336419695646
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4765869634858372
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_07",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.9559386973180077,
+            "hidden_f1": 0.3364608730988042,
+            "hidden_precision": 0.330727969348659,
+            "hidden_recall": 0.373092998955068,
+            "hidden_reference_count": 3.342911877394636,
+            "weighted_jaccard": 0.4479789277069442
+          },
+          "test_formula_count": 39,
+          "training_formula_count": 46,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.2820370370370371,
+              "hidden_precision": 0.27444444444444444,
+              "hidden_recall": 0.3151515151515151,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.39987990623855796
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.3908847091605713,
+              "hidden_precision": 0.3870114942528736,
+              "hidden_recall": 0.43103448275862083,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.49607794917533043
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_08",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.8333333333333333,
+            "hidden_f1": 0.4273160173160173,
+            "hidden_precision": 0.5555555555555556,
+            "hidden_recall": 0.37413419913419915,
+            "hidden_reference_count": 5.083333333333334,
+            "weighted_jaccard": 0.4778544752252825
+          },
+          "test_formula_count": 8,
+          "training_formula_count": 77,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.45463203463203467,
+              "hidden_precision": 0.7111111111111111,
+              "hidden_recall": 0.3482683982683983,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.47515129544394874
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4805576550066163
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_09",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.0632183908045976,
+            "hidden_f1": 0.4226241686155479,
+            "hidden_precision": 0.5131992337164751,
+            "hidden_recall": 0.3948639100363238,
+            "hidden_reference_count": 4.988505747126437,
+            "weighted_jaccard": 0.503942623385798
+          },
+          "test_formula_count": 35,
+          "training_formula_count": 50,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.3333333333333335,
+              "hidden_f1": 0.45186026936026935,
+              "hidden_precision": 0.6311111111111111,
+              "hidden_recall": 0.36018759018759017,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5103423974554878
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.7931034482758621,
+              "hidden_f1": 0.3933880678708265,
+              "hidden_precision": 0.3952873563218392,
+              "hidden_recall": 0.4295402298850574,
+              "hidden_reference_count": 3.310344827586207,
+              "record_count": 29,
+              "weighted_jaccard": 0.49754284931610826
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_10",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.3448275862068966,
+            "hidden_f1": 0.3927168234064786,
+            "hidden_precision": 0.3905172413793104,
+            "hidden_recall": 0.41316091954022993,
+            "hidden_reference_count": 3.3706896551724137,
+            "weighted_jaccard": 0.49159394553832986
+          },
+          "test_formula_count": 31,
+          "training_formula_count": 54,
+          "work_metrics": {
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4854264182286406
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.38543364681295716,
+              "hidden_precision": 0.38103448275862073,
+              "hidden_recall": 0.4263218390804598,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.49776147284801914
+            }
+          }
+        }
+      ],
+      "fraction": 0.5,
+      "mechanism": "uniform",
+      "records": [],
+      "source_macro_metrics": {
+        "count_absolute_error": 1.374601734220609,
+        "hidden_f1": 0.3672181530323545,
+        "hidden_precision": 0.43677223230490014,
+        "hidden_recall": 0.3436917930493248,
+        "hidden_reference_count": 4.1905374067352295,
+        "weighted_jaccard": 0.4494141730762669
+      },
+      "work_metrics": {
+        "chen_xiangpu_compilation": {
+          "count_absolute_error": 1.0789473684210527,
+          "hidden_f1": 0.4035373471557682,
+          "hidden_precision": 0.46561403508771926,
+          "hidden_recall": 0.36849937343358397,
+          "hidden_reference_count": 3.8947368421052633,
+          "record_count": 38,
+          "weighted_jaccard": 0.44488563531187664
+        },
+        "huizhai_xiangpu": {
+          "count_absolute_error": 1.2222222222222223,
+          "hidden_f1": 0.21243386243386245,
+          "hidden_precision": 0.23555555555555552,
+          "hidden_recall": 0.20867003367003367,
+          "hidden_reference_count": 3.4444444444444446,
+          "record_count": 9,
+          "weighted_jaccard": 0.36455941318541013
+        },
+        "liexiang_xinpu": {
+          "count_absolute_error": 3.6666666666666665,
+          "hidden_f1": 0.44200727513227517,
+          "hidden_precision": 0.6861111111111112,
+          "hidden_recall": 0.34090367965367957,
+          "hidden_reference_count": 6.708333333333333,
+          "record_count": 6,
+          "weighted_jaccard": 0.476174114659037
+        },
+        "moe_xiaolu_xiangpu": {
+          "count_absolute_error": 0.0,
+          "hidden_f1": 0.39999999999999997,
+          "hidden_precision": 0.39999999999999997,
+          "hidden_recall": 0.39999999999999997,
+          "hidden_reference_count": 3.5,
+          "record_count": 2,
+          "weighted_jaccard": 0.49495467977840446
+        },
+        "xiangcheng_compilation_unresolved_source": {
+          "count_absolute_error": 0.9051724137931034,
+          "hidden_f1": 0.37811228043986667,
+          "hidden_precision": 0.3965804597701149,
+          "hidden_recall": 0.4003858784893267,
+          "hidden_reference_count": 3.4051724137931036,
+          "record_count": 29,
+          "weighted_jaccard": 0.4664970224466062
+        }
+      }
+    },
+    "ease": {
+      "configuration": {
+        "diffusion": 0.2,
+        "ease_ridge": 100.0,
+        "heterogeneity_penalty": 0.25,
+        "method": "ease",
+        "prior_weight": 1.0,
+        "ratio_neighbors": 10,
+        "reducer": "max",
+        "slim_alpha": 0.01,
+        "slim_l1_ratio": 0.2,
+        "smoothing": 2.0,
+        "source_prior_strength": 5.0,
+        "stable_blend": 0.5
+      },
+      "decoder_fraction": 0.5,
+      "evaluated_formula_count": 84,
+      "fold_kind": "primary",
+      "fold_summaries": [
+        {
+          "fold_id": "primary_two_source_01",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0460526315789473,
+            "hidden_f1": 0.2744743962178173,
+            "hidden_precision": 0.30696271929824565,
+            "hidden_recall": 0.25828719526087945,
+            "hidden_reference_count": 3.6940789473684212,
+            "weighted_jaccard": 0.39473613027115734
+          },
+          "test_formula_count": 48,
+          "training_formula_count": 37,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.8421052631578947,
+              "hidden_f1": 0.40269879243563456,
+              "hidden_precision": 0.4451754385964913,
+              "hidden_recall": 0.3771804511278195,
+              "hidden_reference_count": 3.763157894736842,
+              "record_count": 38,
+              "weighted_jaccard": 0.4503508669224295
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.14625000000000002,
+              "hidden_precision": 0.16875,
+              "hidden_recall": 0.1393939393939394,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.3391213936198852
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_02",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.473684210526316,
+            "hidden_f1": 0.42796299460773146,
+            "hidden_precision": 0.6074122807017543,
+            "hidden_recall": 0.3577671451355662,
+            "hidden_reference_count": 5.324561403508772,
+            "weighted_jaccard": 0.4696236214880777
+          },
+          "test_formula_count": 44,
+          "training_formula_count": 41,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.9473684210526315,
+              "hidden_f1": 0.4171272879167616,
+              "hidden_precision": 0.47482456140350887,
+              "hidden_recall": 0.3844736842105263,
+              "hidden_reference_count": 3.8157894736842106,
+              "record_count": 38,
+              "weighted_jaccard": 0.469485812294811
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 4.0,
+              "hidden_f1": 0.43879870129870135,
+              "hidden_precision": 0.7399999999999999,
+              "hidden_recall": 0.33106060606060606,
+              "hidden_reference_count": 6.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.4697614306813443
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_03",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.39473684210526316,
+            "hidden_f1": 0.4208424470266576,
+            "hidden_precision": 0.4430263157894737,
+            "hidden_recall": 0.40734962406015035,
+            "hidden_reference_count": 3.6184210526315788,
+            "weighted_jaccard": 0.5037060640979379
+          },
+          "test_formula_count": 40,
+          "training_formula_count": 45,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.41668489405331516,
+              "hidden_precision": 0.46105263157894744,
+              "hidden_recall": 0.3896992481203007,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.46872463226681677
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.425,
+              "hidden_precision": 0.425,
+              "hidden_recall": 0.425,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.5386874959290592
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_04",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.618421052631579,
+            "hidden_f1": 0.348022043745728,
+            "hidden_precision": 0.43516604010025056,
+            "hidden_recall": 0.3107733619763695,
+            "hidden_reference_count": 4.095864661654136,
+            "weighted_jaccard": 0.3806713560500381
+          },
+          "test_formula_count": 67,
+          "training_formula_count": 18,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.736842105263158,
+              "hidden_f1": 0.3282194121667806,
+              "hidden_precision": 0.4197368421052631,
+              "hidden_recall": 0.2807644110275689,
+              "hidden_reference_count": 4.2631578947368425,
+              "record_count": 38,
+              "weighted_jaccard": 0.3770516727481682
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.5,
+              "hidden_f1": 0.36782467532467533,
+              "hidden_precision": 0.45059523809523805,
+              "hidden_recall": 0.3407823129251701,
+              "hidden_reference_count": 3.9285714285714284,
+              "record_count": 28,
+              "weighted_jaccard": 0.384291039351908
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_05",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.425,
+            "hidden_f1": 0.3351047077922078,
+            "hidden_precision": 0.5056666666666667,
+            "hidden_recall": 0.2634307359307359,
+            "hidden_reference_count": 5.3125,
+            "weighted_jaccard": 0.43485049347549154
+          },
+          "test_formula_count": 16,
+          "training_formula_count": 69,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.14919642857142862,
+              "hidden_precision": 0.19,
+              "hidden_recall": 0.12954545454545455,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.33887089025149725
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6,
+              "hidden_f1": 0.521012987012987,
+              "hidden_precision": 0.8213333333333335,
+              "hidden_recall": 0.3973160173160173,
+              "hidden_reference_count": 7.0,
+              "record_count": 5,
+              "weighted_jaccard": 0.5308300966994859
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_06",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.6111111111111112,
+            "hidden_f1": 0.3126587301587302,
+            "hidden_precision": 0.3288888888888889,
+            "hidden_recall": 0.30572390572390573,
+            "hidden_reference_count": 3.4722222222222223,
+            "weighted_jaccard": 0.4137181343081382
+          },
+          "test_formula_count": 12,
+          "training_formula_count": 73,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.22531746031746033,
+              "hidden_precision": 0.25777777777777783,
+              "hidden_recall": 0.21144781144781147,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.3509879095865156
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4764483590297608
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_07",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.9559386973180077,
+            "hidden_f1": 0.3313261100330066,
+            "hidden_precision": 0.32533844189016603,
+            "hidden_recall": 0.3683867409729479,
+            "hidden_reference_count": 3.342911877394636,
+            "weighted_jaccard": 0.44127389609098694
+          },
+          "test_formula_count": 39,
+          "training_formula_count": 46,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.26828042328042323,
+              "hidden_precision": 0.2614814814814815,
+              "hidden_recall": 0.3003367003367003,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.3867930219516451
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.3943717967855899,
+              "hidden_precision": 0.38919540229885063,
+              "hidden_recall": 0.43643678160919547,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.49575477023032877
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_08",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.8333333333333333,
+            "hidden_f1": 0.42333874458874465,
+            "hidden_precision": 0.5522222222222222,
+            "hidden_recall": 0.3700937950937951,
+            "hidden_reference_count": 5.083333333333334,
+            "weighted_jaccard": 0.48259026267776556
+          },
+          "test_formula_count": 8,
+          "training_formula_count": 77,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.44667748917748923,
+              "hidden_precision": 0.7044444444444444,
+              "hidden_recall": 0.34018759018759015,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.4846580279093112
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.48052249744621994
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_09",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.0632183908045976,
+            "hidden_f1": 0.4225917425486391,
+            "hidden_precision": 0.5144444444444445,
+            "hidden_recall": 0.3943083544807683,
+            "hidden_reference_count": 4.988505747126437,
+            "weighted_jaccard": 0.5026446854474728
+          },
+          "test_formula_count": 35,
+          "training_formula_count": 50,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.3333333333333335,
+              "hidden_f1": 0.4592676767676768,
+              "hidden_precision": 0.6422222222222222,
+              "hidden_recall": 0.3657431457431457,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5145027359836912
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.7931034482758621,
+              "hidden_f1": 0.38591580832960143,
+              "hidden_precision": 0.38666666666666666,
+              "hidden_recall": 0.4228735632183908,
+              "hidden_reference_count": 3.310344827586207,
+              "record_count": 29,
+              "weighted_jaccard": 0.4907866349112543
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_10",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.3448275862068966,
+            "hidden_f1": 0.3947721052893467,
+            "hidden_precision": 0.39189655172413795,
+            "hidden_recall": 0.4160919540229886,
+            "hidden_reference_count": 3.3706896551724137,
+            "weighted_jaccard": 0.49251615922370867
+          },
+          "test_formula_count": 31,
+          "training_formula_count": 54,
+          "work_metrics": {
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4854264182286406
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.38954421057869343,
+              "hidden_precision": 0.3837931034482759,
+              "hidden_recall": 0.4321839080459771,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.49960590021877677
+            }
+          }
+        }
+      ],
+      "fraction": 0.5,
+      "mechanism": "uniform",
+      "records": [],
+      "source_macro_metrics": {
+        "count_absolute_error": 1.374601734220609,
+        "hidden_f1": 0.36249207778676923,
+        "hidden_precision": 0.4314880688310815,
+        "hidden_recall": 0.33982865099879617,
+        "hidden_reference_count": 4.1905374067352295,
+        "weighted_jaccard": 0.4449996604202594
+      },
+      "work_metrics": {
+        "chen_xiangpu_compilation": {
+          "count_absolute_error": 1.0789473684210527,
+          "hidden_f1": 0.391182596643123,
+          "hidden_precision": 0.45019736842105257,
+          "hidden_recall": 0.35802944862155384,
+          "hidden_reference_count": 3.8947368421052633,
+          "record_count": 38,
+          "weighted_jaccard": 0.44140324605805625
+        },
+        "huizhai_xiangpu": {
+          "count_absolute_error": 1.2222222222222223,
+          "hidden_f1": 0.1890542328042328,
+          "hidden_precision": 0.209537037037037,
+          "hidden_recall": 0.18771043771043772,
+          "hidden_reference_count": 3.4444444444444446,
+          "record_count": 9,
+          "weighted_jaccard": 0.3407861394483217
+        },
+        "liexiang_xinpu": {
+          "count_absolute_error": 3.6666666666666665,
+          "hidden_f1": 0.44473033910533916,
+          "hidden_precision": 0.6927777777777778,
+          "hidden_recall": 0.34202200577200575,
+          "hidden_reference_count": 6.708333333333333,
+          "record_count": 6,
+          "weighted_jaccard": 0.48048237085629353
+        },
+        "moe_xiaolu_xiangpu": {
+          "count_absolute_error": 0.0,
+          "hidden_f1": 0.40624999999999994,
+          "hidden_precision": 0.40624999999999994,
+          "hidden_recall": 0.40624999999999994,
+          "hidden_reference_count": 3.5,
+          "record_count": 2,
+          "weighted_jaccard": 0.49527119265842
+        },
+        "xiangcheng_compilation_unresolved_source": {
+          "count_absolute_error": 0.9051724137931034,
+          "hidden_f1": 0.3812432203811513,
+          "hidden_precision": 0.39867816091954017,
+          "hidden_recall": 0.4051313628899836,
+          "hidden_reference_count": 3.4051724137931036,
+          "record_count": 29,
+          "weighted_jaccard": 0.4670553530802057
+        }
+      }
+    },
+    "frequency": {
+      "configuration": {
+        "diffusion": 0.2,
+        "ease_ridge": 100.0,
+        "heterogeneity_penalty": 0.25,
+        "method": "frequency",
+        "prior_weight": 1.0,
+        "ratio_neighbors": 10,
+        "reducer": "max",
+        "slim_alpha": 0.01,
+        "slim_l1_ratio": 0.2,
+        "smoothing": 2.0,
+        "source_prior_strength": 5.0,
+        "stable_blend": 0.5
+      },
+      "decoder_fraction": 0.5,
+      "evaluated_formula_count": 84,
+      "fold_kind": "primary",
+      "fold_summaries": [
+        {
+          "fold_id": "primary_two_source_01",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0460526315789473,
+            "hidden_f1": 0.27272354655578346,
+            "hidden_precision": 0.30950657894736844,
+            "hidden_recall": 0.25263300296195035,
+            "hidden_reference_count": 3.6940789473684212,
+            "weighted_jaccard": 0.3922193298135971
+          },
+          "test_formula_count": 48,
+          "training_formula_count": 37,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.8421052631578947,
+              "hidden_f1": 0.37089352168299544,
+              "hidden_precision": 0.4102631578947369,
+              "hidden_recall": 0.3465538847117795,
+              "hidden_reference_count": 3.763157894736842,
+              "record_count": 38,
+              "weighted_jaccard": 0.4347828892588256
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.17455357142857142,
+              "hidden_precision": 0.20875,
+              "hidden_recall": 0.1587121212121212,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.34965577036836853
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_02",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.473684210526316,
+            "hidden_f1": 0.3894422609554189,
+            "hidden_precision": 0.5514473684210526,
+            "hidden_recall": 0.32547913343965973,
+            "hidden_reference_count": 5.324561403508772,
+            "weighted_jaccard": 0.47745979095923613
+          },
+          "test_formula_count": 44,
+          "training_formula_count": 41,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.9473684210526315,
+              "hidden_f1": 0.38160097212728794,
+              "hidden_precision": 0.43289473684210533,
+              "hidden_recall": 0.35184210526315796,
+              "hidden_reference_count": 3.8157894736842106,
+              "record_count": 38,
+              "weighted_jaccard": 0.47168910436641837
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 4.0,
+              "hidden_f1": 0.39728354978354985,
+              "hidden_precision": 0.6699999999999999,
+              "hidden_recall": 0.29911616161616156,
+              "hidden_reference_count": 6.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.4832304775520539
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_03",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.39473684210526316,
+            "hidden_f1": 0.395161578187894,
+            "hidden_precision": 0.41500000000000004,
+            "hidden_recall": 0.38256892230576445,
+            "hidden_reference_count": 3.6184210526315788,
+            "weighted_jaccard": 0.49727654131160126
+          },
+          "test_formula_count": 40,
+          "training_formula_count": 45,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.390323156375788,
+              "hidden_precision": 0.4300000000000001,
+              "hidden_recall": 0.3651378446115288,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.46469512497277354
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.529857957650429
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_04",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.618421052631579,
+            "hidden_f1": 0.2829028062580694,
+            "hidden_precision": 0.35905388471177946,
+            "hidden_recall": 0.24810732187611886,
+            "hidden_reference_count": 4.095864661654136,
+            "weighted_jaccard": 0.37152344783947366
+          },
+          "test_formula_count": 67,
+          "training_formula_count": 18,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.736842105263158,
+              "hidden_f1": 0.28048454469507095,
+              "hidden_precision": 0.36096491228070177,
+              "hidden_recall": 0.23840852130325813,
+              "hidden_reference_count": 4.2631578947368425,
+              "record_count": 38,
+              "weighted_jaccard": 0.37277888626555244
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.5,
+              "hidden_f1": 0.28532106782106786,
+              "hidden_precision": 0.3571428571428571,
+              "hidden_recall": 0.2578061224489796,
+              "hidden_reference_count": 3.9285714285714284,
+              "record_count": 28,
+              "weighted_jaccard": 0.3702680094133949
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_05",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.425,
+            "hidden_f1": 0.3423003246753247,
+            "hidden_precision": 0.5135416666666666,
+            "hidden_recall": 0.271271645021645,
+            "hidden_reference_count": 5.3125,
+            "weighted_jaccard": 0.4308321826156143
+          },
+          "test_formula_count": 16,
+          "training_formula_count": 69,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.1776785714285714,
+              "hidden_precision": 0.21375,
+              "hidden_recall": 0.16098484848484848,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.3537473183012188
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6,
+              "hidden_f1": 0.506922077922078,
+              "hidden_precision": 0.8133333333333332,
+              "hidden_recall": 0.38155844155844154,
+              "hidden_reference_count": 7.0,
+              "record_count": 5,
+              "weighted_jaccard": 0.5079170469300098
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_06",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.6111111111111112,
+            "hidden_f1": 0.278968253968254,
+            "hidden_precision": 0.29500000000000004,
+            "hidden_recall": 0.27154882154882154,
+            "hidden_reference_count": 3.4722222222222223,
+            "weighted_jaccard": 0.40283344528798093
+          },
+          "test_formula_count": 12,
+          "training_formula_count": 73,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.15793650793650793,
+              "hidden_precision": 0.19000000000000003,
+              "hidden_recall": 0.1430976430976431,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.32907992709012474
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4765869634858372
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_07",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.9559386973180077,
+            "hidden_f1": 0.29393466686570136,
+            "hidden_precision": 0.2916602809706258,
+            "hidden_recall": 0.3262806223151051,
+            "hidden_reference_count": 3.342911877394636,
+            "weighted_jaccard": 0.4278143944615782
+          },
+          "test_formula_count": 39,
+          "training_formula_count": 46,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.23952380952380953,
+              "hidden_precision": 0.2381481481481481,
+              "hidden_recall": 0.2653198653198653,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.3774498904077291
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.3483455242075932,
+              "hidden_precision": 0.3451724137931035,
+              "hidden_recall": 0.38724137931034486,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.47817889851542733
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_08",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.8333333333333333,
+            "hidden_f1": 0.42333874458874465,
+            "hidden_precision": 0.5522222222222222,
+            "hidden_recall": 0.3700937950937951,
+            "hidden_reference_count": 5.083333333333334,
+            "weighted_jaccard": 0.48923250911813826
+          },
+          "test_formula_count": 8,
+          "training_formula_count": 77,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.44667748917748923,
+              "hidden_precision": 0.7044444444444444,
+              "hidden_recall": 0.34018759018759015,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.4979073632296602
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4805576550066163
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_09",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.0632183908045976,
+            "hidden_f1": 0.39749521072796934,
+            "hidden_precision": 0.48858237547892724,
+            "hidden_recall": 0.36944245409762655,
+            "hidden_reference_count": 4.988505747126437,
+            "weighted_jaccard": 0.49057019200152313
+          },
+          "test_formula_count": 35,
+          "training_formula_count": 50,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.3333333333333335,
+              "hidden_f1": 0.4471464646464647,
+              "hidden_precision": 0.6288888888888889,
+              "hidden_recall": 0.35463203463203463,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5011924371860609
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.7931034482758621,
+              "hidden_f1": 0.34784395680947405,
+              "hidden_precision": 0.34827586206896555,
+              "hidden_recall": 0.38425287356321847,
+              "hidden_reference_count": 3.310344827586207,
+              "record_count": 29,
+              "weighted_jaccard": 0.4799479468169854
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_10",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.3448275862068966,
+            "hidden_f1": 0.37677812608847094,
+            "hidden_precision": 0.37500000000000006,
+            "hidden_recall": 0.3963793103448276,
+            "hidden_reference_count": 3.3706896551724137,
+            "weighted_jaccard": 0.4860928958823616
+          },
+          "test_formula_count": 31,
+          "training_formula_count": 54,
+          "work_metrics": {
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.48532231463377745
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.35355625217694187,
+              "hidden_precision": 0.3500000000000001,
+              "hidden_recall": 0.39275862068965517,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.4868634771309458
+            }
+          }
+        }
+      ],
+      "fraction": 0.5,
+      "mechanism": "uniform",
+      "records": [],
+      "source_macro_metrics": {
+        "count_absolute_error": 1.374601734220609,
+        "hidden_f1": 0.3386314231241636,
+        "hidden_precision": 0.4053606741950662,
+        "hidden_recall": 0.3159802616302162,
+        "hidden_reference_count": 4.1905374067352295,
+        "weighted_jaccard": 0.44002600161776195
+      },
+      "work_metrics": {
+        "chen_xiangpu_compilation": {
+          "count_absolute_error": 1.0789473684210527,
+          "hidden_f1": 0.35582554872028566,
+          "hidden_precision": 0.40853070175438594,
+          "hidden_recall": 0.3254855889724311,
+          "hidden_reference_count": 3.8947368421052633,
+          "record_count": 38,
+          "weighted_jaccard": 0.4359865012158925
+        },
+        "huizhai_xiangpu": {
+          "count_absolute_error": 1.2222222222222223,
+          "hidden_f1": 0.17763888888888887,
+          "hidden_precision": 0.2009259259259259,
+          "hidden_recall": 0.17314814814814813,
+          "hidden_reference_count": 3.4444444444444446,
+          "record_count": 9,
+          "weighted_jaccard": 0.33862020644895724
+        },
+        "liexiang_xinpu": {
+          "count_absolute_error": 3.6666666666666665,
+          "hidden_f1": 0.4283856421356422,
+          "hidden_precision": 0.6702777777777778,
+          "hidden_recall": 0.3279752886002886,
+          "hidden_reference_count": 6.708333333333333,
+          "record_count": 6,
+          "weighted_jaccard": 0.47906083966934304
+        },
+        "moe_xiaolu_xiangpu": {
+          "count_absolute_error": 0.0,
+          "hidden_f1": 0.39999999999999997,
+          "hidden_precision": 0.39999999999999997,
+          "hidden_recall": 0.39999999999999997,
+          "hidden_reference_count": 3.5,
+          "record_count": 2,
+          "weighted_jaccard": 0.4930812226941649
+        },
+        "xiangcheng_compilation_unresolved_source": {
+          "count_absolute_error": 0.9051724137931034,
+          "hidden_f1": 0.3313070358760014,
+          "hidden_precision": 0.34706896551724137,
+          "hidden_recall": 0.3532922824302135,
+          "hidden_reference_count": 3.4051724137931036,
+          "record_count": 29,
+          "weighted_jaccard": 0.4533812380604522
+        }
+      }
+    },
+    "ppr": {
+      "configuration": {
+        "diffusion": 0.1,
+        "ease_ridge": 100.0,
+        "heterogeneity_penalty": 0.25,
+        "method": "ppr",
+        "prior_weight": 1.0,
+        "ratio_neighbors": 10,
+        "reducer": "max",
+        "slim_alpha": 0.01,
+        "slim_l1_ratio": 0.2,
+        "smoothing": 2.0,
+        "source_prior_strength": 5.0,
+        "stable_blend": 0.5
+      },
+      "decoder_fraction": 0.5,
+      "evaluated_formula_count": 84,
+      "fold_kind": "primary",
+      "fold_summaries": [
+        {
+          "fold_id": "primary_two_source_01",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0460526315789473,
+            "hidden_f1": 0.28147053239158504,
+            "hidden_precision": 0.31569078947368423,
+            "hidden_recall": 0.2634765892002734,
+            "hidden_reference_count": 3.6940789473684212,
+            "weighted_jaccard": 0.4120679366588367
+          },
+          "test_formula_count": 48,
+          "training_formula_count": 37,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.8421052631578947,
+              "hidden_f1": 0.40651249335459866,
+              "hidden_precision": 0.4526315789473685,
+              "hidden_recall": 0.3788471177944862,
+              "hidden_reference_count": 3.763157894736842,
+              "record_count": 38,
+              "weighted_jaccard": 0.4497846610134936
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.15642857142857142,
+              "hidden_precision": 0.17875000000000002,
+              "hidden_recall": 0.1481060606060606,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.37435121230417967
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_02",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.473684210526316,
+            "hidden_f1": 0.42747095010252906,
+            "hidden_precision": 0.6053070175438595,
+            "hidden_recall": 0.35780170122275384,
+            "hidden_reference_count": 5.324561403508772,
+            "weighted_jaccard": 0.46598337218381136
+          },
+          "test_formula_count": 44,
+          "training_formula_count": 41,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.9473684210526315,
+              "hidden_f1": 0.4142492595124175,
+              "hidden_precision": 0.47061403508771926,
+              "hidden_recall": 0.3820175438596491,
+              "hidden_reference_count": 3.8157894736842106,
+              "record_count": 38,
+              "weighted_jaccard": 0.4682555958483038
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 4.0,
+              "hidden_f1": 0.44069264069264064,
+              "hidden_precision": 0.7399999999999999,
+              "hidden_recall": 0.3335858585858586,
+              "hidden_reference_count": 6.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.4637111485193189
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_03",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.39473684210526316,
+            "hidden_f1": 0.4389040783777626,
+            "hidden_precision": 0.4603070175438597,
+            "hidden_recall": 0.42561403508771933,
+            "hidden_reference_count": 3.6184210526315788,
+            "weighted_jaccard": 0.5043964271619381
+          },
+          "test_formula_count": 40,
+          "training_formula_count": 45,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.41114149008885853,
+              "hidden_precision": 0.4539473684210527,
+              "hidden_recall": 0.38456140350877194,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.4682764856130259
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4666666666666667,
+              "hidden_precision": 0.4666666666666667,
+              "hidden_recall": 0.4666666666666667,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.5405163687108503
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_04",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.618421052631579,
+            "hidden_f1": 0.3429205725352342,
+            "hidden_precision": 0.431484962406015,
+            "hidden_recall": 0.3040131578947369,
+            "hidden_reference_count": 4.095864661654136,
+            "weighted_jaccard": 0.3782850940031893
+          },
+          "test_formula_count": 67,
+          "training_formula_count": 18,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.736842105263158,
+              "hidden_f1": 0.3311859193438141,
+              "hidden_precision": 0.42368421052631583,
+              "hidden_recall": 0.2831453634085213,
+              "hidden_reference_count": 4.2631578947368425,
+              "record_count": 38,
+              "weighted_jaccard": 0.37833870633888333
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.5,
+              "hidden_f1": 0.3546552257266543,
+              "hidden_precision": 0.4392857142857142,
+              "hidden_recall": 0.32488095238095244,
+              "hidden_reference_count": 3.9285714285714284,
+              "record_count": 28,
+              "weighted_jaccard": 0.3782314816674953
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_05",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.425,
+            "hidden_f1": 0.3403685064935065,
+            "hidden_precision": 0.5147916666666666,
+            "hidden_recall": 0.2665367965367965,
+            "hidden_reference_count": 5.3125,
+            "weighted_jaccard": 0.43877369992485893
+          },
+          "test_formula_count": 16,
+          "training_formula_count": 69,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.13517857142857143,
+              "hidden_precision": 0.17625000000000002,
+              "hidden_recall": 0.11515151515151516,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.3263933284586586
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6,
+              "hidden_f1": 0.5455584415584416,
+              "hidden_precision": 0.8533333333333333,
+              "hidden_recall": 0.4179220779220779,
+              "hidden_reference_count": 7.0,
+              "record_count": 5,
+              "weighted_jaccard": 0.5511540713910592
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_06",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.6111111111111112,
+            "hidden_f1": 0.29563492063492064,
+            "hidden_precision": 0.3116666666666667,
+            "hidden_recall": 0.28821548821548826,
+            "hidden_reference_count": 3.4722222222222223,
+            "weighted_jaccard": 0.4040265114810471
+          },
+          "test_formula_count": 12,
+          "training_formula_count": 73,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.19126984126984128,
+              "hidden_precision": 0.22333333333333336,
+              "hidden_recall": 0.17643097643097644,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.33146605947625707
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4765869634858372
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_07",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.9559386973180077,
+            "hidden_f1": 0.32353054353054356,
+            "hidden_precision": 0.3189399744572159,
+            "hidden_recall": 0.3591094856612098,
+            "hidden_reference_count": 3.342911877394636,
+            "weighted_jaccard": 0.4383976120615709
+          },
+          "test_formula_count": 39,
+          "training_formula_count": 46,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.271058201058201,
+              "hidden_precision": 0.26592592592592595,
+              "hidden_recall": 0.3023569023569024,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.3866961981390217
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.37600288600288606,
+              "hidden_precision": 0.37195402298850583,
+              "hidden_recall": 0.4158620689655173,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.4900990259841201
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_08",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.8333333333333333,
+            "hidden_f1": 0.4324296536796537,
+            "hidden_precision": 0.5622222222222222,
+            "hidden_recall": 0.37842712842712845,
+            "hidden_reference_count": 5.083333333333334,
+            "weighted_jaccard": 0.4791326350306332
+          },
+          "test_formula_count": 8,
+          "training_formula_count": 77,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.4648593073593074,
+              "hidden_precision": 0.7244444444444444,
+              "hidden_recall": 0.3568542568542568,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.47770761505465004
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4805576550066163
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_09",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.0632183908045976,
+            "hidden_f1": 0.41574868139523313,
+            "hidden_precision": 0.5073180076628353,
+            "hidden_recall": 0.3875842165497338,
+            "hidden_reference_count": 4.988505747126437,
+            "weighted_jaccard": 0.5027430141001129
+          },
+          "test_formula_count": 35,
+          "training_formula_count": 50,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.3333333333333335,
+              "hidden_f1": 0.4592676767676768,
+              "hidden_precision": 0.6422222222222222,
+              "hidden_recall": 0.3657431457431457,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.514514481729961
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.7931034482758621,
+              "hidden_f1": 0.3722296860227895,
+              "hidden_precision": 0.3724137931034483,
+              "hidden_recall": 0.4094252873563219,
+              "hidden_reference_count": 3.310344827586207,
+              "record_count": 29,
+              "weighted_jaccard": 0.4909715464702648
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_10",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.3448275862068966,
+            "hidden_f1": 0.38773324376772655,
+            "hidden_precision": 0.3852873563218391,
+            "hidden_recall": 0.40821839080459776,
+            "hidden_reference_count": 3.3706896551724137,
+            "weighted_jaccard": 0.4906036546266539
+          },
+          "test_formula_count": 31,
+          "training_formula_count": 54,
+          "work_metrics": {
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4854264182286406
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.3754664875354531,
+              "hidden_precision": 0.3705747126436782,
+              "hidden_recall": 0.41643678160919545,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.49578089102466716
+            }
+          }
+        }
+      ],
+      "fraction": 0.5,
+      "mechanism": "uniform",
+      "records": [],
+      "source_macro_metrics": {
+        "count_absolute_error": 1.374601734220609,
+        "hidden_f1": 0.36184333373489447,
+        "hidden_precision": 0.43146084560059156,
+        "hidden_recall": 0.33839433331674706,
+        "hidden_reference_count": 4.1905374067352295,
+        "weighted_jaccard": 0.4445222554607583
+      },
+      "work_metrics": {
+        "chen_xiangpu_compilation": {
+          "count_absolute_error": 1.0789473684210527,
+          "hidden_f1": 0.3907722905749222,
+          "hidden_precision": 0.45021929824561396,
+          "hidden_recall": 0.3571428571428571,
+          "hidden_reference_count": 3.8947368421052633,
+          "record_count": 38,
+          "weighted_jaccard": 0.44116386220342657
+        },
+        "huizhai_xiangpu": {
+          "count_absolute_error": 1.2222222222222223,
+          "hidden_f1": 0.18038359788359787,
+          "hidden_precision": 0.2012037037037037,
+          "hidden_recall": 0.1781986531986532,
+          "hidden_reference_count": 3.4444444444444446,
+          "record_count": 9,
+          "weighted_jaccard": 0.3409375280545914
+        },
+        "liexiang_xinpu": {
+          "count_absolute_error": 3.6666666666666665,
+          "hidden_f1": 0.45486291486291486,
+          "hidden_precision": 0.7044444444444444,
+          "hidden_recall": 0.35111291486291485,
+          "hidden_reference_count": 6.708333333333333,
+          "record_count": 6,
+          "weighted_jaccard": 0.4814692949327672
+        },
+        "moe_xiaolu_xiangpu": {
+          "count_absolute_error": 0.0,
+          "hidden_f1": 0.41666666666666663,
+          "hidden_precision": 0.41666666666666663,
+          "hidden_recall": 0.41666666666666663,
+          "hidden_reference_count": 3.5,
+          "record_count": 2,
+          "weighted_jaccard": 0.49577185135798607
+        },
+        "xiangcheng_compilation_unresolved_source": {
+          "count_absolute_error": 0.9051724137931034,
+          "hidden_f1": 0.3665311986863711,
+          "hidden_precision": 0.38477011494252866,
+          "hidden_recall": 0.3888505747126436,
+          "hidden_reference_count": 3.4051724137931036,
+          "record_count": 29,
+          "weighted_jaccard": 0.4632687407550205
+        }
+      }
+    },
+    "slim": {
+      "configuration": {
+        "diffusion": 0.2,
+        "ease_ridge": 100.0,
+        "heterogeneity_penalty": 0.25,
+        "method": "slim",
+        "prior_weight": 1.0,
+        "ratio_neighbors": 10,
+        "reducer": "max",
+        "slim_alpha": 0.1,
+        "slim_l1_ratio": 0.5,
+        "smoothing": 2.0,
+        "source_prior_strength": 5.0,
+        "stable_blend": 0.5
+      },
+      "decoder_fraction": 0.5,
+      "evaluated_formula_count": 84,
+      "fold_kind": "primary",
+      "fold_summaries": [
+        {
+          "fold_id": "primary_two_source_01",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0460526315789473,
+            "hidden_f1": 0.25511494171033644,
+            "hidden_precision": 0.2816228070175439,
+            "hidden_recall": 0.24306561859193437,
+            "hidden_reference_count": 3.6940789473684212,
+            "weighted_jaccard": 0.3951753482723998
+          },
+          "test_formula_count": 48,
+          "training_formula_count": 37,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.8421052631578947,
+              "hidden_f1": 0.3799620262778158,
+              "hidden_precision": 0.41824561403508775,
+              "hidden_recall": 0.35734335839598996,
+              "hidden_reference_count": 3.763157894736842,
+              "record_count": 38,
+              "weighted_jaccard": 0.45126003961941524
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.13026785714285716,
+              "hidden_precision": 0.14500000000000002,
+              "hidden_recall": 0.12878787878787878,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.33909065692538437
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_02",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.473684210526316,
+            "hidden_f1": 0.3882225449988608,
+            "hidden_precision": 0.5521929824561402,
+            "hidden_recall": 0.32419277360066834,
+            "hidden_reference_count": 5.324561403508772,
+            "weighted_jaccard": 0.47034293913283315
+          },
+          "test_formula_count": 44,
+          "training_formula_count": 41,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.9473684210526315,
+              "hidden_f1": 0.3864126224652541,
+              "hidden_precision": 0.43771929824561395,
+              "hidden_recall": 0.3564411027568923,
+              "hidden_reference_count": 3.8157894736842106,
+              "record_count": 38,
+              "weighted_jaccard": 0.4721844239552591
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 4.0,
+              "hidden_f1": 0.3900324675324675,
+              "hidden_precision": 0.6666666666666666,
+              "hidden_recall": 0.29194444444444445,
+              "hidden_reference_count": 6.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.4685014543104072
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_03",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.39473684210526316,
+            "hidden_f1": 0.34982076403129037,
+            "hidden_precision": 0.3717105263157895,
+            "hidden_recall": 0.33572055137844614,
+            "hidden_reference_count": 3.6184210526315788,
+            "weighted_jaccard": 0.5022227791639639
+          },
+          "test_formula_count": 40,
+          "training_formula_count": 45,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.3913081947292474,
+              "hidden_precision": 0.4350877192982456,
+              "hidden_recall": 0.3631077694235589,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.4668936985020029
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.30833333333333335,
+              "hidden_precision": 0.30833333333333335,
+              "hidden_recall": 0.30833333333333335,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.5375518598259248
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_04",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.618421052631579,
+            "hidden_f1": 0.2938464803784353,
+            "hidden_precision": 0.36123120300751876,
+            "hidden_recall": 0.2650250626566416,
+            "hidden_reference_count": 4.095864661654136,
+            "weighted_jaccard": 0.36237094369127654
+          },
+          "test_formula_count": 67,
+          "training_formula_count": 18,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.736842105263158,
+              "hidden_f1": 0.2771307055517582,
+              "hidden_precision": 0.350438596491228,
+              "hidden_recall": 0.23862155388471176,
+              "hidden_reference_count": 4.2631578947368425,
+              "record_count": 38,
+              "weighted_jaccard": 0.35664057075942834
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.5,
+              "hidden_f1": 0.3105622552051123,
+              "hidden_precision": 0.3720238095238096,
+              "hidden_recall": 0.2914285714285714,
+              "hidden_reference_count": 3.9285714285714284,
+              "record_count": 28,
+              "weighted_jaccard": 0.3681013166231248
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_05",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.425,
+            "hidden_f1": 0.29748782467532464,
+            "hidden_precision": 0.4341666666666667,
+            "hidden_recall": 0.24142748917748919,
+            "hidden_reference_count": 5.3125,
+            "weighted_jaccard": 0.41858990114309735
+          },
+          "test_formula_count": 16,
+          "training_formula_count": 69,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.16848214285714286,
+              "hidden_precision": 0.195,
+              "hidden_recall": 0.15795454545454546,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.36977075299438167
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6,
+              "hidden_f1": 0.4264935064935065,
+              "hidden_precision": 0.6733333333333333,
+              "hidden_recall": 0.3249004329004329,
+              "hidden_reference_count": 7.0,
+              "record_count": 5,
+              "weighted_jaccard": 0.467409049291813
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_06",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.6111111111111112,
+            "hidden_f1": 0.28400793650793654,
+            "hidden_precision": 0.2966666666666667,
+            "hidden_recall": 0.2796296296296297,
+            "hidden_reference_count": 3.4722222222222223,
+            "weighted_jaccard": 0.4224366177615372
+          },
+          "test_formula_count": 12,
+          "training_formula_count": 73,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.16801587301587306,
+              "hidden_precision": 0.19333333333333336,
+              "hidden_recall": 0.1592592592592593,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.349260769947511
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4956124655755634
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_07",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.9559386973180077,
+            "hidden_f1": 0.28448259275845483,
+            "hidden_precision": 0.27600255427841636,
+            "hidden_recall": 0.32272785324509456,
+            "hidden_reference_count": 3.342911877394636,
+            "weighted_jaccard": 0.4186105633388363
+          },
+          "test_formula_count": 39,
+          "training_formula_count": 46,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.17195767195767198,
+              "hidden_precision": 0.17740740740740737,
+              "hidden_recall": 0.1835016835016835,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.3369876967391927
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.3970075135592377,
+              "hidden_precision": 0.3745977011494253,
+              "hidden_recall": 0.4619540229885057,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.5002334299384799
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_08",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.8333333333333333,
+            "hidden_f1": 0.3815800865800866,
+            "hidden_precision": 0.4877777777777778,
+            "hidden_recall": 0.33770562770562773,
+            "hidden_reference_count": 5.083333333333334,
+            "weighted_jaccard": 0.4794451092440566
+          },
+          "test_formula_count": 8,
+          "training_formula_count": 77,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.3631601731601732,
+              "hidden_precision": 0.5755555555555556,
+              "hidden_recall": 0.27541125541125544,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.45297023945515913
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.505919979032954
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_09",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.0632183908045976,
+            "hidden_f1": 0.399825616592858,
+            "hidden_precision": 0.46664750957854406,
+            "hidden_recall": 0.39123700054734534,
+            "hidden_reference_count": 4.988505747126437,
+            "weighted_jaccard": 0.5002241924279658
+          },
+          "test_formula_count": 35,
+          "training_formula_count": 50,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.3333333333333335,
+              "hidden_f1": 0.40625420875420876,
+              "hidden_precision": 0.5577777777777777,
+              "hidden_recall": 0.32730158730158726,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.5036598464932318
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.7931034482758621,
+              "hidden_f1": 0.3933970244315072,
+              "hidden_precision": 0.37551724137931036,
+              "hidden_recall": 0.4551724137931034,
+              "hidden_reference_count": 3.310344827586207,
+              "record_count": 29,
+              "weighted_jaccard": 0.49678853836269965
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_10",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.3448275862068966,
+            "hidden_f1": 0.3960234114544459,
+            "hidden_precision": 0.3843965517241379,
+            "hidden_recall": 0.4289367816091954,
+            "hidden_reference_count": 3.3706896551724137,
+            "weighted_jaccard": 0.5011438195816743
+          },
+          "test_formula_count": 31,
+          "training_formula_count": 54,
+          "work_metrics": {
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.39166666666666666,
+              "hidden_precision": 0.39166666666666666,
+              "hidden_recall": 0.39166666666666666,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4936640699823355
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.40038015624222517,
+              "hidden_precision": 0.3771264367816092,
+              "hidden_recall": 0.46620689655172415,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.5086235691810131
+            }
+          }
+        }
+      ],
+      "fraction": 0.5,
+      "mechanism": "uniform",
+      "records": [],
+      "source_macro_metrics": {
+        "count_absolute_error": 1.374601734220609,
+        "hidden_f1": 0.3272919330283214,
+        "hidden_precision": 0.3831001041876722,
+        "hidden_recall": 0.3121638586845029,
+        "hidden_reference_count": 4.1905374067352295,
+        "weighted_jaccard": 0.4408077283816797
+      },
+      "work_metrics": {
+        "chen_xiangpu_compilation": {
+          "count_absolute_error": 1.0789473684210527,
+          "hidden_f1": 0.35870338725601875,
+          "hidden_precision": 0.4103728070175439,
+          "hidden_recall": 0.3288784461152882,
+          "hidden_reference_count": 3.8947368421052633,
+          "record_count": 38,
+          "weighted_jaccard": 0.43674468320902643
+        },
+        "huizhai_xiangpu": {
+          "count_absolute_error": 1.2222222222222223,
+          "hidden_f1": 0.15138227513227515,
+          "hidden_precision": 0.16824074074074075,
+          "hidden_recall": 0.14941077441077438,
+          "hidden_reference_count": 3.4444444444444446,
+          "record_count": 9,
+          "weighted_jaccard": 0.3347628290239872
+        },
+        "liexiang_xinpu": {
+          "count_absolute_error": 3.6666666666666665,
+          "hidden_f1": 0.37871452621452617,
+          "hidden_precision": 0.5902777777777777,
+          "hidden_recall": 0.29135191197691196,
+          "hidden_reference_count": 6.708333333333333,
+          "record_count": 6,
+          "weighted_jaccard": 0.45632198906747456
+        },
+        "moe_xiaolu_xiangpu": {
+          "count_absolute_error": 0.0,
+          "hidden_f1": 0.375,
+          "hidden_precision": 0.375,
+          "hidden_recall": 0.375,
+          "hidden_reference_count": 3.5,
+          "record_count": 2,
+          "weighted_jaccard": 0.5081870936041943
+        },
+        "xiangcheng_compilation_unresolved_source": {
+          "count_absolute_error": 0.9051724137931034,
+          "hidden_f1": 0.3726594765387869,
+          "hidden_precision": 0.37160919540229875,
+          "hidden_recall": 0.4161781609195401,
+          "hidden_reference_count": 3.4051724137931036,
+          "record_count": 29,
+          "weighted_jaccard": 0.4680220470037163
+        }
+      }
+    },
+    "sscl": {
+      "configuration": {
+        "diffusion": 0.2,
+        "ease_ridge": 100.0,
+        "heterogeneity_penalty": 1.0,
+        "method": "sscl",
+        "prior_weight": 1.0,
+        "ratio_neighbors": 10,
+        "reducer": "max",
+        "slim_alpha": 0.01,
+        "slim_l1_ratio": 0.2,
+        "smoothing": 1.0,
+        "source_prior_strength": 5.0,
+        "stable_blend": 0.5
+      },
+      "decoder_fraction": 0.5,
+      "evaluated_formula_count": 84,
+      "fold_kind": "primary",
+      "fold_summaries": [
+        {
+          "fold_id": "primary_two_source_01",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.0460526315789473,
+            "hidden_f1": 0.34893346054530266,
+            "hidden_precision": 0.3884978070175439,
+            "hidden_recall": 0.3279801777170198,
+            "hidden_reference_count": 3.6940789473684212,
+            "weighted_jaccard": 0.43047505740173103
+          },
+          "test_formula_count": 48,
+          "training_formula_count": 37,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.8421052631578947,
+              "hidden_f1": 0.4366169210906053,
+              "hidden_precision": 0.4832456140350877,
+              "hidden_recall": 0.4082330827067669,
+              "hidden_reference_count": 3.763157894736842,
+              "record_count": 38,
+              "weighted_jaccard": 0.45804488706757523
+            },
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.26125000000000004,
+              "hidden_precision": 0.29375,
+              "hidden_recall": 0.24772727272727274,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.40290522773588683
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_02",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.473684210526316,
+            "hidden_f1": 0.4202269879243563,
+            "hidden_precision": 0.5996491228070175,
+            "hidden_recall": 0.34964912280701754,
+            "hidden_reference_count": 5.324561403508772,
+            "weighted_jaccard": 0.4644316477833205
+          },
+          "test_formula_count": 44,
+          "training_formula_count": 41,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.9473684210526315,
+              "hidden_f1": 0.4099886078833447,
+              "hidden_precision": 0.47263157894736846,
+              "hidden_recall": 0.374298245614035,
+              "hidden_reference_count": 3.8157894736842106,
+              "record_count": 38,
+              "weighted_jaccard": 0.46999797048003206
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 4.0,
+              "hidden_f1": 0.430465367965368,
+              "hidden_precision": 0.7266666666666666,
+              "hidden_recall": 0.325,
+              "hidden_reference_count": 6.833333333333333,
+              "record_count": 6,
+              "weighted_jaccard": 0.458865325086609
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_03",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.39473684210526316,
+            "hidden_f1": 0.396615212273107,
+            "hidden_precision": 0.4195175438596492,
+            "hidden_recall": 0.38208646616541353,
+            "hidden_reference_count": 3.6184210526315788,
+            "weighted_jaccard": 0.5085730776744104
+          },
+          "test_formula_count": 40,
+          "training_formula_count": 45,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 0.7894736842105263,
+              "hidden_f1": 0.42656375787954726,
+              "hidden_precision": 0.47236842105263166,
+              "hidden_recall": 0.39750626566416036,
+              "hidden_reference_count": 3.736842105263158,
+              "record_count": 38,
+              "weighted_jaccard": 0.4829144461845761
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.3666666666666667,
+              "hidden_precision": 0.3666666666666667,
+              "hidden_recall": 0.3666666666666667,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.5342317091642447
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_04",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.618421052631579,
+            "hidden_f1": 0.34231402369560265,
+            "hidden_precision": 0.42800751879699245,
+            "hidden_recall": 0.3047851772287863,
+            "hidden_reference_count": 4.095864661654136,
+            "weighted_jaccard": 0.3741366202569463
+          },
+          "test_formula_count": 67,
+          "training_formula_count": 18,
+          "work_metrics": {
+            "chen_xiangpu_compilation": {
+              "count_absolute_error": 1.736842105263158,
+              "hidden_f1": 0.32457393483709274,
+              "hidden_precision": 0.4131578947368421,
+              "hidden_recall": 0.27810776942355886,
+              "hidden_reference_count": 4.2631578947368425,
+              "record_count": 38,
+              "weighted_jaccard": 0.36496780963382675
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 1.5,
+              "hidden_f1": 0.36005411255411257,
+              "hidden_precision": 0.4428571428571428,
+              "hidden_recall": 0.33146258503401366,
+              "hidden_reference_count": 3.9285714285714284,
+              "record_count": 28,
+              "weighted_jaccard": 0.38330543088006586
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_05",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.425,
+            "hidden_f1": 0.324463474025974,
+            "hidden_precision": 0.47633333333333333,
+            "hidden_recall": 0.26213744588744586,
+            "hidden_reference_count": 5.3125,
+            "weighted_jaccard": 0.3875969026939189
+          },
+          "test_formula_count": 16,
+          "training_formula_count": 69,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.25,
+              "hidden_f1": 0.19473214285714285,
+              "hidden_precision": 0.23,
+              "hidden_recall": 0.17916666666666667,
+              "hidden_reference_count": 3.625,
+              "record_count": 8,
+              "weighted_jaccard": 0.37095515463362494
+            },
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6,
+              "hidden_f1": 0.45419480519480515,
+              "hidden_precision": 0.7226666666666667,
+              "hidden_recall": 0.34510822510822503,
+              "hidden_reference_count": 7.0,
+              "record_count": 5,
+              "weighted_jaccard": 0.4042386507542129
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_06",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.6111111111111112,
+            "hidden_f1": 0.3209920634920635,
+            "hidden_precision": 0.3355555555555556,
+            "hidden_recall": 0.3148148148148148,
+            "hidden_reference_count": 3.4722222222222223,
+            "weighted_jaccard": 0.4245019158326143
+          },
+          "test_formula_count": 12,
+          "training_formula_count": 73,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.241984126984127,
+              "hidden_precision": 0.27111111111111114,
+              "hidden_recall": 0.22962962962962966,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.3725203150750714
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4,
+              "hidden_precision": 0.4,
+              "hidden_recall": 0.4,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4764835165901572
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_07",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.9559386973180077,
+            "hidden_f1": 0.33347966529001005,
+            "hidden_precision": 0.32199233716475095,
+            "hidden_recall": 0.3787396958086613,
+            "hidden_reference_count": 3.342911877394636,
+            "weighted_jaccard": 0.44741053031976485
+          },
+          "test_formula_count": 39,
+          "training_formula_count": 46,
+          "work_metrics": {
+            "huizhai_xiangpu": {
+              "count_absolute_error": 1.2222222222222223,
+              "hidden_f1": 0.2647883597883598,
+              "hidden_precision": 0.2511111111111111,
+              "hidden_recall": 0.29966329966329963,
+              "hidden_reference_count": 3.4444444444444446,
+              "record_count": 9,
+              "weighted_jaccard": 0.39637976291784793
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.40217097079166036,
+              "hidden_precision": 0.39287356321839073,
+              "hidden_recall": 0.45781609195402295,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.4984412977216817
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_08",
+          "source_macro_metrics": {
+            "count_absolute_error": 1.8333333333333333,
+            "hidden_f1": 0.4423917748917749,
+            "hidden_precision": 0.5633333333333334,
+            "hidden_recall": 0.3926406926406926,
+            "hidden_reference_count": 5.083333333333334,
+            "weighted_jaccard": 0.4697863030660897
+          },
+          "test_formula_count": 8,
+          "training_formula_count": 77,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.6666666666666665,
+              "hidden_f1": 0.4181168831168831,
+              "hidden_precision": 0.66,
+              "hidden_recall": 0.3186147186147186,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.45758395726980194
+            },
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.4666666666666667,
+              "hidden_precision": 0.4666666666666667,
+              "hidden_recall": 0.4666666666666667,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.48198864886237747
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_09",
+          "source_macro_metrics": {
+            "count_absolute_error": 2.0632183908045976,
+            "hidden_f1": 0.40536690799621833,
+            "hidden_precision": 0.4872030651340996,
+            "hidden_recall": 0.38334975369458124,
+            "hidden_reference_count": 4.988505747126437,
+            "weighted_jaccard": 0.48328788453910676
+          },
+          "test_formula_count": 35,
+          "training_formula_count": 50,
+          "work_metrics": {
+            "liexiang_xinpu": {
+              "count_absolute_error": 3.3333333333333335,
+              "hidden_f1": 0.4188131313131313,
+              "hidden_precision": 0.5822222222222222,
+              "hidden_recall": 0.3342857142857143,
+              "hidden_reference_count": 6.666666666666667,
+              "record_count": 6,
+              "weighted_jaccard": 0.472239850162446
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.7931034482758621,
+              "hidden_f1": 0.3919206846793054,
+              "hidden_precision": 0.3921839080459771,
+              "hidden_recall": 0.4324137931034482,
+              "hidden_reference_count": 3.310344827586207,
+              "record_count": 29,
+              "weighted_jaccard": 0.49433591891576745
+            }
+          }
+        },
+        {
+          "fold_id": "primary_two_source_10",
+          "source_macro_metrics": {
+            "count_absolute_error": 0.3448275862068966,
+            "hidden_f1": 0.3850920535403294,
+            "hidden_precision": 0.3801724137931035,
+            "hidden_recall": 0.41321839080459766,
+            "hidden_reference_count": 3.3706896551724137,
+            "weighted_jaccard": 0.49347729985349653
+          },
+          "test_formula_count": 31,
+          "training_formula_count": 54,
+          "work_metrics": {
+            "moe_xiaolu_xiangpu": {
+              "count_absolute_error": 0.0,
+              "hidden_f1": 0.3666666666666667,
+              "hidden_precision": 0.3666666666666667,
+              "hidden_recall": 0.3666666666666667,
+              "hidden_reference_count": 3.5,
+              "record_count": 2,
+              "weighted_jaccard": 0.4769370101090881
+            },
+            "xiangcheng_compilation_unresolved_source": {
+              "count_absolute_error": 0.6896551724137931,
+              "hidden_f1": 0.4035174404139921,
+              "hidden_precision": 0.3936781609195403,
+              "hidden_recall": 0.4597701149425287,
+              "hidden_reference_count": 3.2413793103448274,
+              "record_count": 29,
+              "weighted_jaccard": 0.510017589597905
+            }
+          }
+        }
+      ],
+      "fraction": 0.5,
+      "mechanism": "uniform",
+      "records": [],
+      "source_macro_metrics": {
+        "count_absolute_error": 1.374601734220609,
+        "hidden_f1": 0.36504858857785355,
+        "hidden_precision": 0.4303307118370639,
+        "hidden_recall": 0.3451211516687923,
+        "hidden_reference_count": 4.1905374067352295,
+        "weighted_jaccard": 0.4422583315432722
+      },
+      "work_metrics": {
+        "chen_xiangpu_compilation": {
+          "count_absolute_error": 1.0789473684210527,
+          "hidden_f1": 0.39943580542264756,
+          "hidden_precision": 0.46035087719298246,
+          "hidden_recall": 0.3645363408521303,
+          "hidden_reference_count": 3.8947368421052633,
+          "record_count": 38,
+          "weighted_jaccard": 0.44398127834150247
+        },
+        "huizhai_xiangpu": {
+          "count_absolute_error": 1.2222222222222223,
+          "hidden_f1": 0.2280224867724868,
+          "hidden_precision": 0.2469444444444444,
+          "hidden_recall": 0.22718855218855216,
+          "hidden_reference_count": 3.4444444444444446,
+          "record_count": 9,
+          "weighted_jaccard": 0.36986994795048456
+        },
+        "liexiang_xinpu": {
+          "count_absolute_error": 3.6666666666666665,
+          "hidden_f1": 0.41147276334776334,
+          "hidden_precision": 0.6427777777777778,
+          "hidden_recall": 0.3163726551226551,
+          "hidden_reference_count": 6.708333333333333,
+          "record_count": 6,
+          "weighted_jaccard": 0.434050887437156
+        },
+        "moe_xiaolu_xiangpu": {
+          "count_absolute_error": 0.0,
+          "hidden_f1": 0.4,
+          "hidden_precision": 0.4,
+          "hidden_recall": 0.4,
+          "hidden_reference_count": 3.5,
+          "record_count": 2,
+          "weighted_jaccard": 0.4924102211814668
+        },
+        "xiangcheng_compilation_unresolved_source": {
+          "count_absolute_error": 0.9051724137931034,
+          "hidden_f1": 0.3863118873463701,
+          "hidden_precision": 0.4015804597701149,
+          "hidden_recall": 0.41750821018062395,
+          "hidden_reference_count": 3.4051724137931036,
+          "record_count": 29,
+          "weighted_jaccard": 0.4709793228057511
+        }
+      }
+    }
+  },
+  "primary_unit": "historical_work_group",
+  "strongest_v2_metrics": {
+    "count_absolute_error": 1.374601734220609,
+    "hidden_f1": 0.3672181530323545,
+    "hidden_precision": 0.43677223230490014,
+    "hidden_recall": 0.3436917930493248,
+    "hidden_reference_count": 4.1905374067352295,
+    "weighted_jaccard": 0.4494141730762669
+  },
+  "strongest_v2_model": "directed_graph"
+}

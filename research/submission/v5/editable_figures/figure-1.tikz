@@ -1,0 +1,51 @@
+\begin{tikzpicture}
+% ---------- panel a: evidence hierarchy ----------
+\begin{scope}[box/.style={draw=cgray,rounded corners=2pt,fill=cpaper,font=\sffamily\sansmath\scriptsize,align=center,inner sep=2.5pt,line width=0.5pt},
+              arr/.style={-{Stealth[length=4pt]},cgray,line width=0.5pt}]
+\node[anchor=south west,font=\sffamily\sansmath\scriptsize] at (0,4.45) {\textbf{a}\enspace\textbf{Evidence hierarchy}};
+\node[box,minimum width=4.3cm] (n1) at (2.25,3.95) {\textbf{592}\enspace source-linked candidates};
+\node[box,minimum width=4.3cm] (n2) at (2.25,3.05) {\textbf{296}\enspace ratio-ready records};
+\node[box,fill=cochre!15,draw=cochre,text width=1.15cm] (g) at (0.62,1.75) {\textbf{91}\\reviewed\\(gold)};
+\node[box,fill=black!5,draw=clgray,text width=1.25cm,text=cgray] (x) at (2.25,1.75) {\textbf{59}\\same-family\\witnesses};
+\node[box,fill=cteal!12,draw=cteal,text width=1.15cm] (w) at (3.88,1.75) {\textbf{146}\\weak\\(eligible)};
+\node[font=\sffamily\sansmath\tiny\itshape,text=cgray] at (2.25,0.98) {excluded};
+\node[box,fill=cteal!12,draw=cteal,minimum width=4.3cm] (m) at (2.25,0.3) {\textbf{237} model-facing records (191 families)};
+\draw[arr] (n1) -- (n2);
+\draw[arr] (n2.south) -- (g.north); \draw[arr] (n2.south) -- (x.north); \draw[arr] (n2.south) -- (w.north);
+\draw[arr] (g.south) -- (m.north -| g.south); \draw[arr] (w.south) -- (m.north -| w.south);
+\end{scope}
+% ---------- panel b: composition by collection ----------
+\begin{axis}[paper, at={(6.55cm,0.35cm)}, scale only axis, width=4.0cm, height=3.75cm,
+  xbar stacked, bar width=9pt, xmin=0, xmax=680, ymin=0.4, ymax=4.6,
+  ytick={1,2,3,4}, yticklabels={Weak eligible,Gold,Ratio-ready,Candidates},
+  xtick={0,200,400,600}, xlabel={Records}, xmajorgrids,
+  title={\textbf{b}\enspace\textbf{Composition by transcription collection}},
+  legend style={at={(0.99,0.03)},anchor=south east,cells={anchor=west}}, legend cell align=left, reverse legend=false]
+\addplot[fill=cdark,draw=white,line width=0.4pt] coordinates {(84,1) (47,2) (168,3) (332,4)};
+\addplot[fill=cmid,draw=white,line width=0.4pt] coordinates {(58,1) (38,2) (118,3) (244,4)};
+\addplot[fill=cochre,draw=white,line width=0.4pt] coordinates {(4,1) (6,2) (10,3) (16,4)};
+\legend{Xiangcheng,Chen shi xiangpu,Hong shi xiangpu}
+\node[font=\sffamily\sansmath\tiny,text=white] at (axis cs:166,4) {332};
+\node[font=\sffamily\sansmath\tiny,text=white] at (axis cs:454,4) {244};
+\node[font=\sffamily\sansmath\tiny,text=white] at (axis cs:84,3) {168};
+\node[font=\sffamily\sansmath\tiny,text=white] at (axis cs:227,3) {118};
+\node[font=\sffamily\sansmath\tiny,text=white] at (axis cs:42,1) {84};
+\node[font=\sffamily\sansmath\tiny,text=white] at (axis cs:113,1) {58};
+\node[font=\sffamily\sansmath\tiny,anchor=west] at (axis cs:596,4) {592};
+\node[font=\sffamily\sansmath\tiny,anchor=west] at (axis cs:300,3) {296};
+\node[font=\sffamily\sansmath\tiny,anchor=west] at (axis cs:95,2) {91};
+\node[font=\sffamily\sansmath\tiny,anchor=west] at (axis cs:150,1) {146};
+\end{axis}
+% ---------- panel c: weak supervision per work ----------
+\begin{axis}[paper, at={(13.2cm,0.35cm)}, scale only axis, width=3.3cm, height=3.75cm,
+  xmin=0.15, xmax=0.62, ymin=0.5, ymax=6.5, ytick={1,...,6},
+  yticklabels={Xiangcheng,Xiaolu,Liexiang,Huizhai,Hong,Chen},
+  xtick={0.3,0.4,0.5,0.6}, xticklabel style={/pgf/number format/fixed}, xlabel={Hidden-ingredient F1}, xmajorgrids,
+  title={\textbf{c}\enspace\textbf{Weak records, per work}},
+  legend style={at={(0.4,-0.27)},anchor=north,legend columns=2,/tikz/every even column/.append style={column sep=6pt}}]
+\draw[clgray,line width=1pt] (axis cs:0.41985456,6)--(axis cs:0.42447862,6) (axis cs:0.58500000,5)--(axis cs:0.55833333,5) (axis cs:0.28772487,4)--(axis cs:0.18642857,4) (axis cs:0.44902597,3)--(axis cs:0.44902597,3) (axis cs:0.40000000,2)--(axis cs:0.40000000,2) (axis cs:0.41591481,1)--(axis cs:0.42082351,1);
+\addplot[only marks,mark=o,mark size=2.2pt,draw=cochre,line width=0.9pt] coordinates {(0.41985456,6) (0.58500000,5) (0.28772487,4) (0.44902597,3) (0.40000000,2) (0.41591481,1)};
+\addplot[only marks,mark=*,mark size=1.5pt,color=cteal] coordinates {(0.42447862,6) (0.55833333,5) (0.18642857,4) (0.44902597,3) (0.40000000,2) (0.42082351,1)};
+\legend{Gold only,Gold + weak}
+\end{axis}
+\end{tikzpicture}

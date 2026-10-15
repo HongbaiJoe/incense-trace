@@ -1,0 +1,47 @@
+{
+  "design": "locked-configuration replay; common gold-training-vocabulary masks; no new tuning",
+  "legacy_mask_changes": {
+    "directed_graph_gold": 0,
+    "directed_graph_weak": 152,
+    "sscl_gold": 0,
+    "sscl_weak": 152
+  },
+  "count_comparison": {
+    "queries": 450,
+    "same_weak_count": 450
+  },
+  "models": {
+    "directed_graph_gold": {
+      "hidden_precision": 0.48082700365217,
+      "hidden_recall": 0.41337125104064,
+      "hidden_f1": 0.4259512239177998,
+      "weighted_jaccard": 0.4699024226472817,
+      "count_absolute_error": 1.1446696242522014,
+      "hidden_reference_count": 4.153777643342072
+    },
+    "directed_graph_weak": {
+      "hidden_precision": 0.4750691223588985,
+      "hidden_recall": 0.41314138125995353,
+      "hidden_f1": 0.4240081391072014,
+      "weighted_jaccard": 0.4649474226644863,
+      "count_absolute_error": 1.1446696242522014,
+      "hidden_reference_count": 4.153777643342072
+    },
+    "sscl_gold": {
+      "hidden_precision": 0.48021548923394053,
+      "hidden_recall": 0.4137852933739201,
+      "hidden_f1": 0.4262533692585115,
+      "weighted_jaccard": 0.47158259830933225,
+      "count_absolute_error": 1.1446696242522014,
+      "hidden_reference_count": 4.153777643342072
+    },
+    "sscl_weak": {
+      "hidden_precision": 0.47944954179830157,
+      "hidden_recall": 0.4135076356280228,
+      "hidden_f1": 0.4256199392013064,
+      "weighted_jaccard": 0.46340604158769766,
+      "count_absolute_error": 1.1446696242522014,
+      "hidden_reference_count": 4.153777643342072
+    }
+  }
+}

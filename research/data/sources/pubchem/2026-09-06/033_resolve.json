@@ -1,0 +1,21 @@
+{
+  "identifiers": {
+    "IdentifierList": {
+      "CID": [
+        21675005
+      ]
+    }
+  },
+  "properties": {
+    "PropertyTable": {
+      "Properties": [
+        {
+          "CID": 21675005,
+          "SMILES": "C[C@@H]1CCC=C([C@@]12CC[C@H](C2)C(C)(C)O)C",
+          "ConnectivitySMILES": "CC1CCC=C(C12CCC(C2)C(C)(C)O)C",
+          "InChIKey": "ICWHTQRTTHCUHW-NFAWXSAZSA-N"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1786461993468,
+      "tag": "0000_motionless_corsair",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790667435665,
+      "tag": "0001_bitter_wolfsbane",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790683519806,
+      "tag": "0002_loud_loki",
+      "breakpoints": true
+    }
+  ]
+}

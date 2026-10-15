@@ -1,0 +1,1036 @@
+{
+  "schema_version": "0.1",
+  "source": "PubChem PUG REST via pubchem_database skill wrapper",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/",
+  "access_date": "2026-09-07",
+  "wrapper_sha256": "6936a39131c473aa2bd845f0dfc76fed78c69ca982c5184a3e0b80930a184454",
+  "seed_sha256": "1a76778e1dfcbb065b3eaed6ffcb101440006ae90ee3980de9633db81602a96f",
+  "record_count": 40,
+  "scope_note": "Tags are vocabulary seeds, not material abundance evidence.",
+  "records": [
+    {
+      "query_name": "eugenol",
+      "tags": [
+        "clove",
+        "cinnamon_leaf",
+        "spicy"
+      ],
+      "cid": 3314,
+      "canonical_smiles": "COC1=C(C=CC(=C1)CC=C)O",
+      "connectivity_smiles": "COC1=C(C=CC(=C1)CC=C)O",
+      "inchikey": "RRAFCDWBNXTKKO-UHFFFAOYSA-N",
+      "molecular_formula": "C10H12O2",
+      "molecular_weight": "164.20",
+      "xlogp": 2,
+      "exact_mass": "164.083729621",
+      "tpsa": 29.5,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 2,
+      "rotatable_bond_count": 3,
+      "synonym_match": true,
+      "raw_files": [
+        "001_resolve.json",
+        "001_properties.json",
+        "001_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "isoeugenol",
+      "tags": [
+        "clove_like",
+        "spicy"
+      ],
+      "cid": 853433,
+      "canonical_smiles": "C/C=C/C1=CC(=C(C=C1)O)OC",
+      "connectivity_smiles": "CC=CC1=CC(=C(C=C1)O)OC",
+      "inchikey": "BJIOGJUNALELMI-ONEGZZNKSA-N",
+      "molecular_formula": "C10H12O2",
+      "molecular_weight": "164.20",
+      "xlogp": 2.6,
+      "exact_mass": "164.083729621",
+      "tpsa": 29.5,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 2,
+      "rotatable_bond_count": 2,
+      "synonym_match": true,
+      "raw_files": [
+        "002_resolve.json",
+        "002_properties.json",
+        "002_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "beta-caryophyllene",
+      "tags": [
+        "clove",
+        "woody",
+        "terpene"
+      ],
+      "cid": 5281515,
+      "canonical_smiles": "C/C/1=C\\CCC(=C)[C@H]2CC([C@@H]2CC1)(C)C",
+      "connectivity_smiles": "CC1=CCCC(=C)C2CC(C2CC1)(C)C",
+      "inchikey": "NPNUFJAVOOONJE-GFUGXAQUSA-N",
+      "molecular_formula": "C15H24",
+      "molecular_weight": "204.35",
+      "xlogp": 4.4,
+      "exact_mass": "204.187800766",
+      "tpsa": 0,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 0,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "003_resolve.json",
+        "003_properties.json",
+        "003_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "trans-cinnamaldehyde",
+      "tags": [
+        "cinnamon_bark",
+        "warm_spicy"
+      ],
+      "cid": 637511,
+      "canonical_smiles": "C1=CC=C(C=C1)/C=C/C=O",
+      "connectivity_smiles": "C1=CC=C(C=C1)C=CC=O",
+      "inchikey": "KJPRLNWUNMBNBZ-QPJJXVBHSA-N",
+      "molecular_formula": "C9H8O",
+      "molecular_weight": "132.16",
+      "xlogp": 1.9,
+      "exact_mass": "132.057514874",
+      "tpsa": 17.1,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 2,
+      "synonym_match": true,
+      "raw_files": [
+        "004_resolve.json",
+        "004_properties.json",
+        "004_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "coumarin",
+      "tags": [
+        "sweet",
+        "hay",
+        "tonka_like"
+      ],
+      "cid": 323,
+      "canonical_smiles": "C1=CC=C2C(=C1)C=CC(=O)O2",
+      "connectivity_smiles": "C1=CC=C2C(=C1)C=CC(=O)O2",
+      "inchikey": "ZYGHJZDHTFUPRJ-UHFFFAOYSA-N",
+      "molecular_formula": "C9H6O2",
+      "molecular_weight": "146.14",
+      "xlogp": 1.4,
+      "exact_mass": "146.036779430",
+      "tpsa": 26.3,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 2,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "005_resolve.json",
+        "005_properties.json",
+        "005_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "alpha-pinene",
+      "tags": [
+        "frankincense",
+        "pine",
+        "terpene"
+      ],
+      "cid": 6654,
+      "canonical_smiles": "CC1=CCC2CC1C2(C)C",
+      "connectivity_smiles": "CC1=CCC2CC1C2(C)C",
+      "inchikey": "GRWFGVWFFZKLTI-UHFFFAOYSA-N",
+      "molecular_formula": "C10H16",
+      "molecular_weight": "136.23",
+      "xlogp": 2.8,
+      "exact_mass": "136.125200510",
+      "tpsa": 0,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 0,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "006_resolve.json",
+        "006_properties.json",
+        "006_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "beta-pinene",
+      "tags": [
+        "frankincense",
+        "pine",
+        "terpene"
+      ],
+      "cid": 14896,
+      "canonical_smiles": "CC1(C2CCC(=C)C1C2)C",
+      "connectivity_smiles": "CC1(C2CCC(=C)C1C2)C",
+      "inchikey": "WTARULDDTDQWMU-UHFFFAOYSA-N",
+      "molecular_formula": "C10H16",
+      "molecular_weight": "136.23",
+      "xlogp": 3.1,
+      "exact_mass": "136.125200510",
+      "tpsa": 0,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 0,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "007_resolve.json",
+        "007_properties.json",
+        "007_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "limonene",
+      "tags": [
+        "citrus",
+        "terpene"
+      ],
+      "cid": 22311,
+      "canonical_smiles": "CC1=CCC(CC1)C(=C)C",
+      "connectivity_smiles": "CC1=CCC(CC1)C(=C)C",
+      "inchikey": "XMGQYMWWDOXHJM-UHFFFAOYSA-N",
+      "molecular_formula": "C10H16",
+      "molecular_weight": "136.23",
+      "xlogp": 3.4,
+      "exact_mass": "136.125200510",
+      "tpsa": 0,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 0,
+      "rotatable_bond_count": 1,
+      "synonym_match": true,
+      "raw_files": [
+        "008_resolve.json",
+        "008_properties.json",
+        "008_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "linalool",
+      "tags": [
+        "floral",
+        "woody",
+        "terpene_alcohol"
+      ],
+      "cid": 6549,
+      "canonical_smiles": "CC(=CCCC(C)(C=C)O)C",
+      "connectivity_smiles": "CC(=CCCC(C)(C=C)O)C",
+      "inchikey": "CDOSHBSSFJOMGT-UHFFFAOYSA-N",
+      "molecular_formula": "C10H18O",
+      "molecular_weight": "154.25",
+      "xlogp": 2.7,
+      "exact_mass": "154.135765193",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 4,
+      "synonym_match": true,
+      "raw_files": [
+        "009_resolve.json",
+        "009_properties.json",
+        "009_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "borneol",
+      "tags": [
+        "borneol",
+        "camphoraceous"
+      ],
+      "cid": 64685,
+      "canonical_smiles": "CC1(C2CCC1(C(C2)O)C)C",
+      "connectivity_smiles": "CC1(C2CCC1(C(C2)O)C)C",
+      "inchikey": "DTGKSKDOIYIVQL-UHFFFAOYSA-N",
+      "molecular_formula": "C10H18O",
+      "molecular_weight": "154.25",
+      "xlogp": 2.7,
+      "exact_mass": "154.135765193",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "010_resolve.json",
+        "010_properties.json",
+        "010_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "camphor",
+      "tags": [
+        "camphor",
+        "camphoraceous"
+      ],
+      "cid": 2537,
+      "canonical_smiles": "CC1(C2CCC1(C(=O)C2)C)C",
+      "connectivity_smiles": "CC1(C2CCC1(C(=O)C2)C)C",
+      "inchikey": "DSSYKIVIOFKYAU-UHFFFAOYSA-N",
+      "molecular_formula": "C10H16O",
+      "molecular_weight": "152.23",
+      "xlogp": 2.2,
+      "exact_mass": "152.120115130",
+      "tpsa": 17.1,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "011_resolve.json",
+        "011_properties.json",
+        "011_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "1,8-cineole",
+      "tags": [
+        "eucalyptus",
+        "camphoraceous"
+      ],
+      "cid": 2758,
+      "canonical_smiles": "CC1(C2CCC(O1)(CC2)C)C",
+      "connectivity_smiles": "CC1(C2CCC(O1)(CC2)C)C",
+      "inchikey": "WEEGYLXZBRQIMU-UHFFFAOYSA-N",
+      "molecular_formula": "C10H18O",
+      "molecular_weight": "154.25",
+      "xlogp": 2.5,
+      "exact_mass": "154.135765193",
+      "tpsa": 9.2,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "012_resolve.json",
+        "012_properties.json",
+        "012_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "alpha-santalol",
+      "tags": [
+        "sandalwood",
+        "woody"
+      ],
+      "cid": 11085337,
+      "canonical_smiles": "C/C(=C/CC[C@@]1(C2C[C@H]3C1([C@H]3C2)C)C)/CO",
+      "connectivity_smiles": "CC(=CCCC1(C2CC3C1(C3C2)C)C)CO",
+      "inchikey": "PDEQKAVEYSOLJX-RQGDDBKYSA-N",
+      "molecular_formula": "C15H24O",
+      "molecular_weight": "220.35",
+      "xlogp": 4,
+      "exact_mass": "220.182715385",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 4,
+      "synonym_match": true,
+      "raw_files": [
+        "013_resolve.json",
+        "013_properties.json",
+        "013_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "beta-santalol",
+      "tags": [
+        "sandalwood",
+        "woody"
+      ],
+      "cid": 6857681,
+      "canonical_smiles": "C/C(=C/CC[C@@]1([C@H]2CC[C@H](C2)C1=C)C)/CO",
+      "connectivity_smiles": "CC(=CCCC1(C2CCC(C2)C1=C)C)CO",
+      "inchikey": "OJYKYCDSGQGTRJ-GQYWAMEOSA-N",
+      "molecular_formula": "C15H24O",
+      "molecular_weight": "220.35",
+      "xlogp": 4,
+      "exact_mass": "220.182715385",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 4,
+      "synonym_match": true,
+      "raw_files": [
+        "014_resolve.json",
+        "014_properties.json",
+        "014_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "patchoulol",
+      "tags": [
+        "patchouli",
+        "earthy",
+        "woody"
+      ],
+      "cid": 10955174,
+      "canonical_smiles": "C[C@H]1CC[C@@]2([C@@]3([C@H]1C[C@H](C2(C)C)CC3)C)O",
+      "connectivity_smiles": "CC1CCC2(C(C3CCC2(C1C3)C)(C)C)O",
+      "inchikey": "GGHMUJBZYLPWFD-CUZKYEQNSA-N",
+      "molecular_formula": "C15H26O",
+      "molecular_weight": "222.37",
+      "xlogp": 4.1,
+      "exact_mass": "222.198365449",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "015_resolve.json",
+        "015_properties.json",
+        "015_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "muscone",
+      "tags": [
+        "musk",
+        "animalic"
+      ],
+      "cid": 7160826,
+      "canonical_smiles": "C[C@@H]1CCCCCCCCCCCCC(=O)C1",
+      "connectivity_smiles": "CC1CCCCCCCCCCCCC(=O)C1",
+      "inchikey": "ALHUZKCOMYUFRB-OAHLLOKOSA-N",
+      "molecular_formula": "C16H30O",
+      "molecular_weight": "238.41",
+      "xlogp": 6.2,
+      "exact_mass": "238.229665576",
+      "tpsa": 17.1,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "016_resolve.json",
+        "016_properties.json",
+        "016_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "benzyl acetate",
+      "tags": [
+        "floral",
+        "fruity"
+      ],
+      "cid": 8785,
+      "canonical_smiles": "CC(=O)OCC1=CC=CC=C1",
+      "connectivity_smiles": "CC(=O)OCC1=CC=CC=C1",
+      "inchikey": "QUKGYYKBILRGFE-UHFFFAOYSA-N",
+      "molecular_formula": "C9H10O2",
+      "molecular_weight": "150.17",
+      "xlogp": 2,
+      "exact_mass": "150.068079557",
+      "tpsa": 26.3,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 2,
+      "rotatable_bond_count": 3,
+      "synonym_match": true,
+      "raw_files": [
+        "017_resolve.json",
+        "017_properties.json",
+        "017_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "benzyl benzoate",
+      "tags": [
+        "benzoin_like",
+        "balsamic",
+        "fixative"
+      ],
+      "cid": 2345,
+      "canonical_smiles": "C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2",
+      "connectivity_smiles": "C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2",
+      "inchikey": "SESFRYSPDFLNCH-UHFFFAOYSA-N",
+      "molecular_formula": "C14H12O2",
+      "molecular_weight": "212.24",
+      "xlogp": 4,
+      "exact_mass": "212.083729621",
+      "tpsa": 26.3,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 2,
+      "rotatable_bond_count": 4,
+      "synonym_match": true,
+      "raw_files": [
+        "018_resolve.json",
+        "018_properties.json",
+        "018_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "benzaldehyde",
+      "tags": [
+        "almond",
+        "sweet"
+      ],
+      "cid": 240,
+      "canonical_smiles": "C1=CC=C(C=C1)C=O",
+      "connectivity_smiles": "C1=CC=C(C=C1)C=O",
+      "inchikey": "HUMNYLRZRPPJDN-UHFFFAOYSA-N",
+      "molecular_formula": "C7H6O",
+      "molecular_weight": "106.12",
+      "xlogp": 1.5,
+      "exact_mass": "106.041864811",
+      "tpsa": 17.1,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 1,
+      "synonym_match": true,
+      "raw_files": [
+        "019_resolve.json",
+        "019_properties.json",
+        "019_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "benzoic acid",
+      "tags": [
+        "benzoin",
+        "balsamic"
+      ],
+      "cid": 243,
+      "canonical_smiles": "C1=CC=C(C=C1)C(=O)O",
+      "connectivity_smiles": "C1=CC=C(C=C1)C(=O)O",
+      "inchikey": "WPYMKLBDIGXBTP-UHFFFAOYSA-N",
+      "molecular_formula": "C7H6O2",
+      "molecular_weight": "122.12",
+      "xlogp": 1.9,
+      "exact_mass": "122.036779430",
+      "tpsa": 37.3,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 2,
+      "rotatable_bond_count": 1,
+      "synonym_match": true,
+      "raw_files": [
+        "020_resolve.json",
+        "020_properties.json",
+        "020_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "trans-cinnamic acid",
+      "tags": [
+        "benzoin",
+        "balsamic"
+      ],
+      "cid": 444539,
+      "canonical_smiles": "C1=CC=C(C=C1)/C=C/C(=O)O",
+      "connectivity_smiles": "C1=CC=C(C=C1)C=CC(=O)O",
+      "inchikey": "WBYWAXJHAXSJNI-VOTSOKGWSA-N",
+      "molecular_formula": "C9H8O2",
+      "molecular_weight": "148.16",
+      "xlogp": 2.1,
+      "exact_mass": "148.052429494",
+      "tpsa": 37.3,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 2,
+      "rotatable_bond_count": 2,
+      "synonym_match": true,
+      "raw_files": [
+        "021_resolve.json",
+        "021_properties.json",
+        "021_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "vanillin",
+      "tags": [
+        "vanilla",
+        "sweet",
+        "balsamic"
+      ],
+      "cid": 1183,
+      "canonical_smiles": "COC1=C(C=CC(=C1)C=O)O",
+      "connectivity_smiles": "COC1=C(C=CC(=C1)C=O)O",
+      "inchikey": "MWOOGOJBHIARFG-UHFFFAOYSA-N",
+      "molecular_formula": "C8H8O3",
+      "molecular_weight": "152.15",
+      "xlogp": 1.2,
+      "exact_mass": "152.047344113",
+      "tpsa": 46.5,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 3,
+      "rotatable_bond_count": 2,
+      "synonym_match": true,
+      "raw_files": [
+        "022_resolve.json",
+        "022_properties.json",
+        "022_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "p-anisaldehyde",
+      "tags": [
+        "anise",
+        "sweet",
+        "floral"
+      ],
+      "cid": 31244,
+      "canonical_smiles": "COC1=CC=C(C=C1)C=O",
+      "connectivity_smiles": "COC1=CC=C(C=C1)C=O",
+      "inchikey": "ZRSNZINYAWTAHE-UHFFFAOYSA-N",
+      "molecular_formula": "C8H8O2",
+      "molecular_weight": "136.15",
+      "xlogp": 1.8,
+      "exact_mass": "136.052429494",
+      "tpsa": 26.3,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 2,
+      "rotatable_bond_count": 2,
+      "synonym_match": true,
+      "raw_files": [
+        "023_resolve.json",
+        "023_properties.json",
+        "023_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "trans-anethole",
+      "tags": [
+        "fennel",
+        "anise",
+        "sweet"
+      ],
+      "cid": 637563,
+      "canonical_smiles": "C/C=C/C1=CC=C(C=C1)OC",
+      "connectivity_smiles": "CC=CC1=CC=C(C=C1)OC",
+      "inchikey": "RUVINXPYWBROJD-ONEGZZNKSA-N",
+      "molecular_formula": "C10H12O",
+      "molecular_weight": "148.20",
+      "xlogp": 3.3,
+      "exact_mass": "148.088815002",
+      "tpsa": 9.2,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 2,
+      "synonym_match": true,
+      "raw_files": [
+        "024_resolve.json",
+        "024_properties.json",
+        "024_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "methyl salicylate",
+      "tags": [
+        "wintergreen",
+        "sweet"
+      ],
+      "cid": 4133,
+      "canonical_smiles": "COC(=O)C1=CC=CC=C1O",
+      "connectivity_smiles": "COC(=O)C1=CC=CC=C1O",
+      "inchikey": "OSWPMRLSEDHDFF-UHFFFAOYSA-N",
+      "molecular_formula": "C8H8O3",
+      "molecular_weight": "152.15",
+      "xlogp": 2.3,
+      "exact_mass": "152.047344113",
+      "tpsa": 46.5,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 3,
+      "rotatable_bond_count": 2,
+      "synonym_match": true,
+      "raw_files": [
+        "025_resolve.json",
+        "025_properties.json",
+        "025_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "indole",
+      "tags": [
+        "floral",
+        "animalic"
+      ],
+      "cid": 798,
+      "canonical_smiles": "C1=CC=C2C(=C1)C=CN2",
+      "connectivity_smiles": "C1=CC=C2C(=C1)C=CN2",
+      "inchikey": "SIKJAQJRHWYJAI-UHFFFAOYSA-N",
+      "molecular_formula": "C8H7N",
+      "molecular_weight": "117.15",
+      "xlogp": 2.1,
+      "exact_mass": "117.057849228",
+      "tpsa": 15.8,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 0,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "026_resolve.json",
+        "026_properties.json",
+        "026_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "2-phenylethanol",
+      "tags": [
+        "rose",
+        "floral"
+      ],
+      "cid": 6054,
+      "canonical_smiles": "C1=CC=C(C=C1)CCO",
+      "connectivity_smiles": "C1=CC=C(C=C1)CCO",
+      "inchikey": "WRMNZCZEMHIOCP-UHFFFAOYSA-N",
+      "molecular_formula": "C8H10O",
+      "molecular_weight": "122.16",
+      "xlogp": 1.4,
+      "exact_mass": "122.073164938",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 2,
+      "synonym_match": true,
+      "raw_files": [
+        "027_resolve.json",
+        "027_properties.json",
+        "027_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "geraniol",
+      "tags": [
+        "rose",
+        "floral",
+        "terpene_alcohol"
+      ],
+      "cid": 637566,
+      "canonical_smiles": "CC(=CCC/C(=C/CO)/C)C",
+      "connectivity_smiles": "CC(=CCCC(=CCO)C)C",
+      "inchikey": "GLZPCOQZEFWAFX-JXMROGBWSA-N",
+      "molecular_formula": "C10H18O",
+      "molecular_weight": "154.25",
+      "xlogp": 2.9,
+      "exact_mass": "154.135765193",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 4,
+      "synonym_match": true,
+      "raw_files": [
+        "028_resolve.json",
+        "028_properties.json",
+        "028_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "citronellol",
+      "tags": [
+        "rose",
+        "citrus",
+        "floral"
+      ],
+      "cid": 8842,
+      "canonical_smiles": "CC(CCC=C(C)C)CCO",
+      "connectivity_smiles": "CC(CCC=C(C)C)CCO",
+      "inchikey": "QMVPMAAFGQKVCJ-UHFFFAOYSA-N",
+      "molecular_formula": "C10H20O",
+      "molecular_weight": "156.26",
+      "xlogp": 3.2,
+      "exact_mass": "156.151415257",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 5,
+      "synonym_match": true,
+      "raw_files": [
+        "029_resolve.json",
+        "029_properties.json",
+        "029_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "nerolidol",
+      "tags": [
+        "woody",
+        "floral",
+        "sesquiterpene"
+      ],
+      "cid": 5284507,
+      "canonical_smiles": "CC(=CCC/C(=C/CCC(C)(C=C)O)/C)C",
+      "connectivity_smiles": "CC(=CCCC(=CCCC(C)(C=C)O)C)C",
+      "inchikey": "FQTLCLSUCSAZDY-SDNWHVSQSA-N",
+      "molecular_formula": "C15H26O",
+      "molecular_weight": "222.37",
+      "xlogp": 4.6,
+      "exact_mass": "222.198365449",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 7,
+      "synonym_match": true,
+      "raw_files": [
+        "030_resolve.json",
+        "030_properties.json",
+        "030_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "farnesol",
+      "tags": [
+        "floral",
+        "waxy",
+        "sesquiterpene"
+      ],
+      "cid": 445070,
+      "canonical_smiles": "CC(=CCC/C(=C/CC/C(=C/CO)/C)/C)C",
+      "connectivity_smiles": "CC(=CCCC(=CCCC(=CCO)C)C)C",
+      "inchikey": "CRDAMVZIKSXKFV-YFVJMOTDSA-N",
+      "molecular_formula": "C15H26O",
+      "molecular_weight": "222.37",
+      "xlogp": 4.8,
+      "exact_mass": "222.198365449",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 7,
+      "synonym_match": true,
+      "raw_files": [
+        "031_resolve.json",
+        "031_properties.json",
+        "031_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "guaiol",
+      "tags": [
+        "guaiacwood",
+        "woody",
+        "sesquiterpene"
+      ],
+      "cid": 227829,
+      "canonical_smiles": "C[C@H]1CC[C@H](CC2=C1CC[C@@H]2C)C(C)(C)O",
+      "connectivity_smiles": "CC1CCC(CC2=C1CCC2C)C(C)(C)O",
+      "inchikey": "TWVJWDMOZJXUID-SDDRHHMPSA-N",
+      "molecular_formula": "C15H26O",
+      "molecular_weight": "222.37",
+      "xlogp": 3.1,
+      "exact_mass": "222.198365449",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 1,
+      "synonym_match": true,
+      "raw_files": [
+        "032_resolve.json",
+        "032_properties.json",
+        "032_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "agarospirol",
+      "tags": [
+        "agarwood",
+        "woody",
+        "sesquiterpene"
+      ],
+      "cid": 21675005,
+      "canonical_smiles": "C[C@@H]1CCC=C([C@@]12CC[C@H](C2)C(C)(C)O)C",
+      "connectivity_smiles": "CC1CCC=C(C12CCC(C2)C(C)(C)O)C",
+      "inchikey": "ICWHTQRTTHCUHW-NFAWXSAZSA-N",
+      "molecular_formula": "C15H26O",
+      "molecular_weight": "222.37",
+      "xlogp": 3.7,
+      "exact_mass": "222.198365449",
+      "tpsa": 20.2,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 1,
+      "synonym_match": true,
+      "raw_files": [
+        "033_resolve.json",
+        "033_properties.json",
+        "033_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "benzylacetone",
+      "tags": [
+        "agarwood",
+        "floral",
+        "sweet"
+      ],
+      "cid": 17355,
+      "canonical_smiles": "CC(=O)CCC1=CC=CC=C1",
+      "connectivity_smiles": "CC(=O)CCC1=CC=CC=C1",
+      "inchikey": "AKGGYBADQZYZPD-UHFFFAOYSA-N",
+      "molecular_formula": "C10H12O",
+      "molecular_weight": "148.20",
+      "xlogp": 1.8,
+      "exact_mass": "148.088815002",
+      "tpsa": 17.1,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 3,
+      "synonym_match": true,
+      "raw_files": [
+        "034_resolve.json",
+        "034_properties.json",
+        "034_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "costunolide",
+      "tags": [
+        "costus",
+        "woody",
+        "sesquiterpene_lactone"
+      ],
+      "cid": 5281437,
+      "canonical_smiles": "C/C/1=C\\CC/C(=C/[C@@H]2[C@@H](CC1)C(=C)C(=O)O2)/C",
+      "connectivity_smiles": "CC1=CCCC(=CC2C(CC1)C(=C)C(=O)O2)C",
+      "inchikey": "HRYLQFBHBWLLLL-AHNJNIBGSA-N",
+      "molecular_formula": "C15H20O2",
+      "molecular_weight": "232.32",
+      "xlogp": 2.1,
+      "exact_mass": "232.146329876",
+      "tpsa": 26.3,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 2,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "035_resolve.json",
+        "035_properties.json",
+        "035_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "dehydrocostus lactone",
+      "tags": [
+        "costus",
+        "woody",
+        "sesquiterpene_lactone"
+      ],
+      "cid": 73174,
+      "canonical_smiles": "C=C1CC[C@@H]2[C@@H]([C@@H]3[C@H]1CCC3=C)OC(=O)C2=C",
+      "connectivity_smiles": "C=C1CCC2C(C3C1CCC3=C)OC(=O)C2=C",
+      "inchikey": "NETSQGRTUNRXEO-XUXIUFHCSA-N",
+      "molecular_formula": "C15H18O2",
+      "molecular_weight": "230.30",
+      "xlogp": 2.6,
+      "exact_mass": "230.130679813",
+      "tpsa": 26.3,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 2,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "036_resolve.json",
+        "036_properties.json",
+        "036_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "styrene",
+      "tags": [
+        "storax",
+        "balsamic",
+        "aromatic_hydrocarbon"
+      ],
+      "cid": 7501,
+      "canonical_smiles": "C=CC1=CC=CC=C1",
+      "connectivity_smiles": "C=CC1=CC=CC=C1",
+      "inchikey": "PPBRXRYQALVLMV-UHFFFAOYSA-N",
+      "molecular_formula": "C8H8",
+      "molecular_weight": "104.15",
+      "xlogp": 2.9,
+      "exact_mass": "104.062600255",
+      "tpsa": 0,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 0,
+      "rotatable_bond_count": 1,
+      "synonym_match": true,
+      "raw_files": [
+        "037_resolve.json",
+        "037_properties.json",
+        "037_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "methyl eugenol",
+      "tags": [
+        "clove_like",
+        "spicy",
+        "phenylpropene"
+      ],
+      "cid": 7127,
+      "canonical_smiles": "COC1=C(C=C(C=C1)CC=C)OC",
+      "connectivity_smiles": "COC1=C(C=C(C=C1)CC=C)OC",
+      "inchikey": "ZYEMGPIYFIJGTP-UHFFFAOYSA-N",
+      "molecular_formula": "C11H14O2",
+      "molecular_weight": "178.23",
+      "xlogp": 2.5,
+      "exact_mass": "178.099379685",
+      "tpsa": 18.5,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 2,
+      "rotatable_bond_count": 4,
+      "synonym_match": true,
+      "raw_files": [
+        "038_resolve.json",
+        "038_properties.json",
+        "038_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "fenchone",
+      "tags": [
+        "fennel",
+        "camphoraceous",
+        "monoterpene_ketone"
+      ],
+      "cid": 14525,
+      "canonical_smiles": "CC1(C2CCC(C2)(C1=O)C)C",
+      "connectivity_smiles": "CC1(C2CCC(C2)(C1=O)C)C",
+      "inchikey": "LHXDLQBQYFFVNW-UHFFFAOYSA-N",
+      "molecular_formula": "C10H16O",
+      "molecular_weight": "152.23",
+      "xlogp": 2.3,
+      "exact_mass": "152.120115130",
+      "tpsa": 17.1,
+      "hbond_donor_count": 0,
+      "hbond_acceptor_count": 1,
+      "rotatable_bond_count": 0,
+      "synonym_match": true,
+      "raw_files": [
+        "039_resolve.json",
+        "039_properties.json",
+        "039_synonyms.json"
+      ]
+    },
+    {
+      "query_name": "paeonol",
+      "tags": [
+        "rhubarb",
+        "phenolic",
+        "sweet"
+      ],
+      "cid": 11092,
+      "canonical_smiles": "CC(=O)C1=C(C=C(C=C1)OC)O",
+      "connectivity_smiles": "CC(=O)C1=C(C=C(C=C1)OC)O",
+      "inchikey": "UILPJVPSNHJFIK-UHFFFAOYSA-N",
+      "molecular_formula": "C9H10O3",
+      "molecular_weight": "166.17",
+      "xlogp": 2,
+      "exact_mass": "166.062994177",
+      "tpsa": 46.5,
+      "hbond_donor_count": 1,
+      "hbond_acceptor_count": 3,
+      "rotatable_bond_count": 2,
+      "synonym_match": true,
+      "raw_files": [
+        "040_resolve.json",
+        "040_properties.json",
+        "040_synonyms.json"
+      ]
+    }
+  ]
+}

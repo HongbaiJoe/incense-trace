@@ -1,0 +1,54 @@
+{
+  "candidate_count": 244,
+  "automatic_qc_clean_count": 239,
+  "automatic_qc_flagged_count": 5,
+  "page_counts": {
+    "陳氏香譜 (四庫全書本)/卷2": 118,
+    "陳氏香譜 (四庫全書本)/卷3": 119,
+    "陳氏香譜 (四庫全書本)/卷4": 7
+  },
+  "provisional_work_counts": {
+    "chen_xiangpu_compilation": 244
+  },
+  "provisional_scope_counts": {
+    "burned_incense": 138,
+    "likely_burned_incense": 6,
+    "other_aromatic_preparation": 6,
+    "scope_unresolved": 94
+  },
+  "flag_counts": {
+    "non_unique_title": 4,
+    "section_or_preface": 1
+  },
+  "duplicate_title_count": 27,
+  "duplicate_titles": {
+    "假篤耨香": 2,
+    "出塵香": 2,
+    "又方": 4,
+    "古龍涎香": 3,
+    "宫中香": 2,
+    "小龍涎香": 4,
+    "春消息": 3,
+    "木犀香": 2,
+    "梅花香": 5,
+    "江梅香": 2,
+    "清逺香": 2,
+    "玉蕋香": 2,
+    "百花香": 2,
+    "笑梅香": 4,
+    "笑蘭香": 3,
+    "芬積香": 3,
+    "藏春香": 2,
+    "衙香": 8,
+    "裛衣香": 2,
+    "輭香": 9,
+    "野花香": 3,
+    "金粟衙香": 2,
+    "雪中春信": 3,
+    "香煤": 3,
+    "香茶": 2,
+    "香餅": 2,
+    "龍涎香": 9
+  },
+  "interpretation": "These are high-recall machine candidates. Automatic QC is not historical validation, and unresolved Xiangcheng compilation records cannot be treated as independent works."
+}

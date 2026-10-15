@@ -1,0 +1,8 @@
+source_id,verified_primary_source,proposition_used,locator,metadata_status
+steck2019_ease,https://arxiv.org/abs/1905.03375,"EASE learns a zero-diagonal item-item weight matrix for sparse implicit data and has a closed-form ridge solution","abstract; Sections 2 and 3.1; Eq. 7; Algorithm 1",verified
+ning2011_slim,https://doi.org/10.1109/ICDM.2011.134,"SLIM learns a sparse item-item aggregation matrix with L1 and L2 regularization for top-N recommendation","title; abstract; bibliographic record",verified
+wu2015_mlmg,https://openaccess.thecvf.com/content_iccv_2015/papers/Wu_ML-MG_Multi-Label_Learning_ICCV_2015_paper.pdf,"Missing-label learning can propagate information through class-dependency graphs and instance similarity","abstract; Section 1",verified
+guo2017_calibration,https://proceedings.mlr.press/v70/guo17a.html,"Temperature scaling is a one-parameter post-processing calibration method","abstract; paper metadata",verified
+nixon2019_calibration,https://openaccess.thecvf.com/content_CVPRW_2019/papers/Uncertainty%20and%20Robustness%20in%20Deep%20Visual%20Learning/Nixon_Measuring_Calibration_in_Deep_Learning_CVPRW_2019_paper.pdf,"Adaptive calibration error uses adaptive probability ranges and evaluates non-maximum class probabilities","abstract; Sections 1 and 2",verified
+wu2023_noniid_graph,https://doi.org/10.1609/aaai.v37i9.26231,"Cross-network transfer performance depends on source-target graph discrepancy","abstract; official AAAI metadata",verified
+
